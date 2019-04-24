@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Primeraa on DATO FUTBOL</title>
+    <link>/tags/primeraa/index.xml</link>
+    <description>Recent content in Primeraa on DATO FUTBOL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>Todos los derechos reservados 2017-2018</copyright>
+    <atom:link href="/tags/primeraa/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>LA TABLA de la Primera A Chile- Clausura 2017 Fecha 15</title>
+      <link>/la-tabla-1a-f15/</link>
+      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/la-tabla-1a-f15/</guid>
+      <description>&lt;p&gt;Y se acabó el Clausura 2017! &lt;a href=&#34;https://twitter.com/jufacomic%5D&#34;&gt;JUFA&lt;/a&gt; nos trae LA TABLA final luego de la Fecha 15:&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/images/fecha15_1A_22.05.2017.jpg&#34; /&gt;
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Las edades de los planteles chilenos - Primera A Clausura 2017</title>
+      <link>/edades-planteles-chile/</link>
+      <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/edades-planteles-chile/</guid>
+      <description>&lt;p&gt;Para este post quisimos darle un vistazo a la base de datos del &lt;a href=&#34;http://www.sifup.cl/planteles/&#34;&gt;SIFUP&lt;/a&gt; asociada a los planteles de Primera A para el Clausura 2017 del fútbol chileno. Los atributos que se encuentran para cada jugador de cada equipo son: Número, Nombre, Apellido, Nacionalidad, Fecha y Lugar de nacimiento, además de Posición.&lt;/p&gt;
+&lt;p&gt;A continuación los distintos análisis realizados:&lt;/p&gt;
+&lt;div id=&#34;histograma-de-edades&#34; class=&#34;section level6&#34;&gt;
+&lt;h6&gt;1) Histograma de edades&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&#34;/post/edad-planteles-chile_files/figure-html/c6-1.png&#34; width=&#34;672&#34; /&gt; Se puede ver que la edades más frecuentes al considerar todos los planteles de la Primera A para el Clausura 2017 del fútbol chileno, son 18 y 19 años. Es muy probable que esto sea debido principalmente a la regla de minutos con juveniles en cancha que impone la &lt;a href=&#34;http://www.anfp.cl/documentos/1469568519-bases-primera-division.pdf&#34;&gt;ANFP&lt;/a&gt; (Artículo 34, punto 4). De otro modo, esperaríamos tener menos jugadores de dichas edades.&lt;/p&gt;
+&lt;p&gt;Por otro lado, era esperable ver que a medida que aumenta la edad, disminuye la frecuencia.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;edad-promedio-por-equipo&#34; class=&#34;section level6&#34;&gt;
+&lt;h6&gt;2) Edad promedio por equipo&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&#34;/post/edad-planteles-chile_files/figure-html/c7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Los promedios de edad fluctúan entre 22.0 (Huachipato) y 27.5 (Universidad Católica) años. En el caso de #LosAcereros su bajo promedio se debe a la presencia de 26 jugadores menores de 26 años, equivalente al 93% del total, mientras que para #LosCruzados el hecho de tener 8 jugadores mayores de 30 (un 31% de su plantel) lo hace ser el plantel más longevo.&lt;/p&gt;
+&lt;p&gt;En rojo se tiene la media de todos los jugadores de todos los equipos, igual a 24.6 años. Hay 7 equipos sobre esta media y 9 bajo la misma.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;caja-y-bigotes-de-edad-vs-equipo&#34; class=&#34;section level6&#34;&gt;
+&lt;h6&gt;3) Caja y bigotes de Edad v/s Equipo&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&#34;/post/edad-planteles-chile_files/figure-html/c8-1.png&#34; width=&#34;672&#34; /&gt; La imagen corresponde a un gráfico de cajas y bigotes para analizar la dispersión de las edades por equipo, incluyendo la media con un punto rojo (la línea horizontal azul es la mediana).&lt;/p&gt;
+&lt;p&gt;Se puede observar que Colo-Colo tiene la mayor dispersión, con edades entre 16 (Sebastián valencia) y 39 (Justo Villar) años. La menor dispersión la comparten Huachipato, con jugadores entre 18 (Antonio Ramírez + Ignacio tapia) y 30 (Carlos Lampe) años; y Unión Española, con jugadores entre 19 (Walter Limenza + José Luis Sierra Jr.) y 31 (Fernando Meneses) años.&lt;/p&gt;
+&lt;p&gt;El jugador más jóven del torneo es César Huanca de Deportes Iquique (15 años). El estandarte de jugador más longevo recae en dos nombres: Justo Villar de Colo-Colo y Cristián Muñóz de Universidad de Concepción, ambos arqueros de 39 años.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;edades-vs-posicion&#34; class=&#34;section level6&#34;&gt;
+&lt;h6&gt;4) Edades v/s Posición&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&#34;/post/edad-planteles-chile_files/figure-html/c9-1.png&#34; width=&#34;672&#34; /&gt; La visualización muestra un gráfico de cajas y bigotes para las edades v/s posición, considerando Arquero, Defensa (Laterales + Centrales), Mediocampista (Volantes + Enganche) y Delantero (Centro + Punteros). El punto blanco indica la media (línea horizontal negra: la mediana).&lt;/p&gt;
+&lt;p&gt;No se aprecian grandes diferencias en los indicadores de tendencia central y dispersión entre defensas, mediocampistas y delanteros. Los arqueros tienen un comportamiento algo diferente: mayor dispersión, con las edades más altas, y la mediana más alejada de la media.&lt;/p&gt;
+&lt;p&gt;De todas maneras, no hay mucho más que decir en este caso.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;chilenos-vs-extranjeros&#34; class=&#34;section level6&#34;&gt;
+&lt;h6&gt;5) Chilenos v/s Extranjeros&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&#34;/post/edad-planteles-chile_files/figure-html/c10-1.png&#34; width=&#34;672&#34; /&gt; Ahora vemos un gráfico de caja y bigotes que compara edades entre jugadores chilenos y jugadores extranjeros. Se observa que los extranjeros tienen mayor edad en promedio y sus mínimas edades son más altas, lo que era esperable dado que éstos llegan a Chile cuando sus carreras están “avanzadas”. Salvo algunas excepciones como en el caso del mediocampista argentino Valentín Castellanos de Universidad de Chile y el defensa mexicano Francisco Venegas de Everton (ambos de 18 años); y los arqueros Walter Limenza (Paraguay) de Unión Española y Gabriel Carabalí (Ecuador) de Colo-Colo, el mediocampista venezolano Yeferson Soteldo de Huachipato y el delantero mexicano Nahum Gómez de Everton, todos con 19 años.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;chilenos-vs-extranjeros-por-posicion&#34; class=&#34;section level6&#34;&gt;
+&lt;h6&gt;6) Chilenos v/s Extranjeros por posición&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&#34;/post/edad-planteles-chile_files/figure-html/c11-1.png&#34; width=&#34;672&#34; /&gt; Acá se pueden apreciar diferencias más claras al comparar edades de chilenos con edades de extranjeros por posición. Los arqueros extranjeros presentan la diferencia más notoria, con una mediana de 30 años frente a una de 22 de los arqueros chilenos. Siguen con una diferencia entre extranjeros y chilenos similar entre ellos los defensas, mediocampistas y delanteros.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Ahora para terminar, elige tu equipo favorito y revisa las edades de su plantel!!&lt;/p&gt;
+&lt;iframe src=&#34; https://bustami.shinyapps.io/planteles/?showcase=0&#34; width=&#34;672&#34; height=&#34;650px&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

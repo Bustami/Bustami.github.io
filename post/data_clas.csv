@@ -1,0 +1,225 @@
+Key2,Pos,Club,PJ,PG,PE,PP,GFC,Dif,PTS,Group,Year,Key,Club2,Pais,Fecha_value,value_raw,Value,clas,Mean,Sd,Value2,Value_centered,clas_factor
+2011 1,1,libertad,6,4,2,0,13:05,8,14,1,2011,libertad 2011,libertad,Paraguay,01-02-2011,18.3,18.3,1,16.325,6.149051417,0.321187752,1.975,SI
+2011 1,2,once caldas,6,1,4,1,7:08,-1,7,1,2011,once caldas 2011,once caldas,Colombia,01-02-2011,"16,45 Mill. €",16.45,1,16.325,6.149051417,0.020328339,0.125,SI
+2011 1,3,usm porres,6,2,0,4,7:11,-4,6,1,2011,usm porres 2011,san martin porres,Peru,01-02-2011,7.95,7.95,0,16.325,6.149051417,-1.361998694,-8.375,NO
+2011 1,4,san luis,6,1,2,3,6:09,-3,5,1,2011,san luis 2011,san luis,Mexico,01-02-2011,22.6,22.6,0,16.325,6.149051417,1.020482604,6.275,NO
+2011 2,1,junior fc,6,4,1,1,9:07,2,13,2,2011,junior fc 2011,junior fc,Colombia,01-02-2011,"37,20 Mill. €",37.2,1,21.225,20.38490046,0.783668286,15.975,SI
+2011 2,2,gremio,6,3,1,2,9:06,3,10,2,2011,gremio 2011,gremio ,Brasil,01-02-2011,"40,45 Mill. €",40.45,1,21.225,20.38490046,0.943100019,19.225,SI
+2011 2,3,oriente p.,6,2,0,4,7:08,-1,6,2,2011,oriente p. 2011,oriente petrolero,Bolivia,01-02-2011,2.55,2.55,0,21.225,20.38490046,-0.916119264,-18.675,NO
+2011 2,4,leon fc de huanuco,6,1,2,3,4:08,-4,5,2,2011,leon fc de huanuco 2011,leon de huanuco,Peru,01-02-2011,4.7,4.7,0,21.225,20.38490046,-0.810649041,-16.525,NO
+2011 3,1,america,6,3,1,2,8:07,1,10,3,2011,america 2011,america,Mexico,01-02-2011,44.8,44.8,1,39.95,8.623031176,0.56244723,4.85,SI
+2011 3,2,fluminense,6,2,2,2,9:09,0,8,3,2011,fluminense 2011,fluminense ,Brasil,01-02-2011,"45,60 Mill. €",45.6,1,39.95,8.623031176,0.655222031,5.65,SI
+2011 3,3,nacional,6,2,2,2,3:03,0,8,3,2011,nacional 2011, nacional,Uruguay,01-02-2011,"27,20 Mill. €",27.2,0,39.95,8.623031176,-1.478598388,-12.75,NO
+2011 3,4,argentinos,6,2,1,3,9:10,-1,7,3,2011,argentinos 2011,argentinos juniors,Argentina,01-02-2011,"42,20 Mill. €",42.2,0,39.95,8.623031176,0.260929127,2.25,NO
+2011 4,1,universidad catolica,6,3,2,1,11:09,2,11,4,2011,universidad catolica 2011,universidad catolica,Chile,01-02-2011,"16,33 Mill. €",16.33,1,25.02,28.23573268,-0.307766053,-8.69,SI
+2011 4,2,velez sarsfield,6,3,1,2,12:07,5,10,4,2011,velez sarsfield 2011, velez sarsfield,Argentina,01-02-2011,"66,70 Mill. €",66.7,1,25.02,28.23573268,1.476143739,41.68,SI
+2011 4,3,caracas fc,6,3,0,3,7:10,-3,9,4,2011,caracas fc 2011,caracas fc,Venezuela,01-02-2011,"4,35 Mill. €",4.35,0,25.02,28.23573268,-0.732051129,-20.67,NO
+2011 4,4,union espanola,6,1,1,4,7:11,-4,4,4,2011,union espanola 2011,union espanola,Chile,01-02-2011,"12,70 Mill. €",12.7,0,25.02,28.23573268,-0.436326556,-12.32,NO
+2011 5,1,cerro porteno,6,3,2,1,13:08,5,11,5,2011,cerro porteno 2011,cerro porteno,Paraguay,01-02-2011,11.28,11.28,1,26.2525,28.32100678,-0.528671177,-14.9725,SI
+2011 5,2,santos fc,6,3,2,1,11:08,3,11,5,2011,santos fc 2011,santos fc,Brasil,01-02-2011,"68,20 Mill. €",68.2,1,26.2525,28.32100678,1.481144379,41.9475,SI
+2011 5,3,colo colo,6,3,0,3,15:16,-1,9,5,2011,colo colo 2011,colo colo,Chile,01-02-2011,"18,18 Mill. €",18.18,0,26.2525,28.32100678,-0.285035771,-8.0725,NO
+2011 5,4,deportivo tachira,6,0,2,4,5:12,-7,2,5,2011,deportivo tachira 2011,deportivo tachira,Venezuela,01-02-2011,"7,35 Mill. €",7.35,0,26.2525,28.32100678,-0.667437431,-18.9025,NO
+2011 6,1,sport internacional,6,4,1,1,14:03,11,13,6,2011,sport internacional 2011,sport  internacional,Brasil,01-02-2011,"38,05 Mill. €",38.05,1,11.095,17.99415924,1.497986077,26.955,SI
+2011 6,2,jaguares,6,3,0,3,6:08,-2,9,6,2011,jaguares 2011,jaguares de chiapas,Mexico,01-02-2011,1.7,1.7,1,11.095,17.99415924,-0.522113864,-9.395,SI
+2011 6,3,cs emelec,6,2,2,2,4:05,-1,8,6,2011,cs emelec 2011,cs emelec,Ecuador,01-02-2011,"3,40 Mill. €",3.4,0,11.095,17.99415924,-0.427638763,-7.695,NO
+2011 6,4,wilstermann,6,1,1,4,3:11,-8,4,6,2011,wilstermann 2011,wilstermann,Bolivia,01-02-2011,1.23,1.23,0,11.095,17.99415924,-0.54823345,-9.865,NO
+2011 7,1,cruzeiro,6,5,1,0,20:01,19,16,7,2011,cruzeiro 2011,cruzeiro esporte e,Brasil,01-02-2011,"42,00 Mill. €",42,1,38.42,27.02380309,0.132475802,3.58,SI
+2011 7,2,estudiantes de la planta,6,3,1,2,9:11,-2,10,7,2011,estudiantes de la planta 2011,estudiantes de la plata,Argentina,01-02-2011,"72,40 Mill. €",72.4,1,38.42,27.02380309,1.257409991,33.98,SI
+2011 7,3,deportes tolima,6,2,2,2,5:08,-3,8,7,2011,deportes tolima 2011,deportes tolima,Colombia,01-02-2011,"32,25 Mill. €",32.25,0,38.42,27.02380309,-0.228317235,-6.17,NO
+2011 7,4,guarani,6,0,0,6,2:16,-14,0,7,2011,guarani 2011,guarani,Paraguay,01-02-2011,7.03,7.03,0,38.42,27.02380309,-1.161568559,-31.39,NO
+2011 8,1,ldu quito,6,3,1,2,12:04,8,10,8,2011,ldu quito 2011,ldu quito,Ecuador,01-02-2011,"11,70 Mill. €",11.7,1,35.5,18.69135272,-1.273316081,-23.8,SI
+2011 8,2,penarol,6,3,0,3,6:11,-5,9,8,2011,penarol 2011,penarol,Uruguay,01-02-2011,"31,40 Mill. €",31.4,1,35.5,18.69135272,-0.21935277,-4.1,SI
+2011 8,3,independiente de avellaneda,6,2,2,2,7:08,-1,8,8,2011,independiente de avellaneda 2011,independiente de avellaneda,Argentina,01-02-2011,"55,60 Mill. €",55.6,0,35.5,18.69135272,1.075363581,20.1,NO
+2011 8,4,godoy cruz,6,2,1,3,8:10,-2,7,8,2011,godoy cruz 2011, godoy cruz,Argentina,01-02-2011,"43,30 Mill. €",43.3,0,35.5,18.69135272,0.41730527,7.8,NO
+2012 1,1,santos fc,6,4,1,1,12:05,7,13,1,2012,santos fc 2012,santos fc,Brasil,01-02-2012,"87,80 Mill. €",87.8,1,37.57,40.49618418,1.240363778,50.23,SI
+2012 1,2,sport internacional,6,2,2,2,10:06,4,8,1,2012,sport internacional 2012,sport  internacional,Brasil,01-02-2012,"52,80 Mill. €",52.8,1,37.57,40.49618418,0.376084817,15.23,SI
+2012 1,3,the strongest,6,2,1,3,5:11,-6,7,1,2012,the strongest 2012,the strongest,Bolivia,01-02-2012,1.5,1.5,0,37.57,40.49618418,-0.890701204,-36.07,NO
+2012 1,4,juan aurich,6,2,0,4,4:09,-5,6,1,2012,juan aurich 2012,juan aurich,Peru,01-02-2012,8.18,8.18,0,37.57,40.49618418,-0.725747391,-29.39,NO
+2012 2,1,lanus,6,3,1,2,11:06,5,10,2,2012,lanus 2012, lanus,Argentina,01-02-2012,"32,30 Mill. €",32.3,1,25.07,20.08744052,0.359926392,7.23,SI
+2012 2,2,cs emelec,6,3,0,3,7:08,-1,9,2,2012,cs emelec 2012,cs emelec,Ecuador,01-02-2012,"2,65 Mill. €",2.65,1,25.07,20.08744052,-1.116120293,-22.42,SI
+2012 2,3,flamengo,6,2,2,2,12:10,2,8,2,2012,flamengo 2012,flamengo,Brasil,01-02-2012,"49,10 Mill. €",49.1,0,25.07,20.08744052,1.196269877,24.03,NO
+2012 2,4,olimpia,6,2,1,3,10:16,-6,7,2,2012,olimpia 2012,olimpia,Paraguay,01-02-2012,16.23,16.23,0,25.07,20.08744052,-0.440075976,-8.84,NO
+2012 3,1,union espanola,6,3,1,2,10:07,3,10,3,2012,union espanola 2012,union espanola,Chile,01-02-2012,"9,88 Mill. €",9.88,1,11.6325,6.085410832,-0.287983843,-1.7525,SI
+2012 3,2,bolivar,6,3,1,2,9:07,2,10,3,2012,bolivar 2012,bolivar,Bolivia,01-02-2012,3.9,3.9,1,11.6325,6.085410832,-1.270661951,-7.7325,SI
+2012 3,3,junior fc,6,2,1,3,8:08,0,7,3,2012,junior fc 2012,junior fc,Colombia,01-02-2012,"15,10 Mill. €",15.1,0,11.6325,6.085410832,0.569805408,3.4675,NO
+2012 3,4,universidad catolica,6,1,3,2,6:11,-5,6,3,2012,universidad catolica 2012,universidad catolica,Chile,01-02-2012,"17,65 Mill. €",17.65,0,11.6325,6.085410832,0.988840387,6.0175,NO
+2012 4,1,fluminense,6,5,0,1,7:04,3,15,4,2012,fluminense 2012,fluminense ,Brasil,01-02-2012,"43,90 Mill. €",43.9,1,26.245,18.81716681,0.938239012,17.655,SI
+2012 4,2,boca juniors,6,4,1,1,9:03,6,13,4,2012,boca juniors 2012, boca juniors,Argentina,01-02-2012,"36,45 Mill. €",36.45,1,26.245,18.81716681,0.542323938,10.205,SI
+2012 4,3,arsenal de sarandi,6,2,0,4,6:07,-1,6,4,2012,arsenal de sarandi 2012,arsenal de sarandi fc,Argentina,01-02-2012,"23,68 Mill. €",23.68,0,26.245,18.81716681,-0.1363117,-2.565,NO
+2012 4,4,zamora,6,0,1,5,0:08,-8,1,4,2012,zamora 2012,zamora fc,Venezuela,01-02-2012,950 Th. €,0.95,0,26.245,18.81716681,-1.34425125,-25.295,NO
+2012 5,1,libertad,6,4,1,1,11:07,4,13,5,2012,libertad 2012,libertad,Paraguay,01-02-2012,12.3,12.3,1,16.015,10.3081505,-0.360394428,-3.715,SI
+2012 5,2,vasco da gama,6,4,1,1,10:06,4,13,5,2012,vasco da gama 2012, vasco da gama,Brasil,01-02-2012,"31,40 Mill. €",31.4,1,16.015,10.3081505,1.492508283,15.385,SI
+2012 5,3,nacional,6,2,0,4,5:07,-2,6,5,2012,nacional 2012, nacional,Uruguay,01-02-2012,"10,48 Mill. €",10.48,0,16.015,10.3081505,-0.536953744,-5.535,NO
+2012 5,4,alianza lima,6,1,0,5,6:12,-6,3,5,2012,alianza lima 2012,alianza lima,Peru,01-02-2012,9.88,9.88,0,16.015,10.3081505,-0.595160112,-6.135,NO
+2012 6,1,corinthians,6,4,2,0,13:02,11,14,6,2012,corinthians 2012,corinthians,Brasil,01-02-2012,"43,65 Mill. €",43.65,1,22.1375,19.30226131,1.114506723,21.5125,SI
+2012 6,2,cruz azul,6,3,2,1,11:04,7,11,6,2012,cruz azul 2012,cruz azul,Mexico,01-02-2012,"33,20 Mill. €",33.2,1,22.1375,19.30226131,0.573119378,11.0625,SI
+2012 6,3,nacional paraguay,6,1,1,4,6:13,-7,4,6,2012,nacional paraguay 2012,nacional,Paraguay,01-02-2012,6.85,6.85,0,22.1375,19.30226131,-0.792005649,-15.2875,NO
+2012 6,4,deportivo tachira,6,0,3,3,4:15,-11,3,6,2012,deportivo tachira 2012,deportivo tachira,Venezuela,01-02-2012,"4,85 Mill. €",4.85,0,22.1375,19.30226131,-0.895620452,-17.2875,NO
+2012 7,1,velez sarsfield,6,4,0,2,10:06,4,12,7,2012,velez sarsfield 2012, velez sarsfield,Argentina,01-02-2012,"28,60 Mill. €",28.6,1,19.6325,13.25027893,0.676778206,8.9675,SI
+2012 7,2,deportivo quito,6,3,1,2,11:04,7,10,7,2012,deportivo quito 2012,deportivo quito,Ecuador,01-02-2012,7.65,7.65,1,19.6325,13.25027893,-0.904320586,-11.9825,SI
+2012 7,3,defensor,6,3,0,3,6:07,-1,9,7,2012,defensor 2012,defensor sporting ,Uruguay,01-02-2012,"8,93 Mill. €",8.93,0,19.6325,13.25027893,-0.807718846,-10.7025,NO
+2012 7,4,guadalajara,6,1,1,4,2:12,-10,4,7,2012,guadalajara 2012,guadalajara,Mexico,01-02-2012,"33,35 Mill. €",33.35,0,19.6325,13.25027893,1.035261225,13.7175,NO
+2012 8,1,universidad de chile,6,4,1,1,11:06,5,13,8,2012,universidad de chile 2012, universidad de chile,Chile,01-02-2012,"22,25 Mill. €",22.25,1,19.8375,3.786901768,0.63706432,2.4125,SI
+2012 8,2,atletico nacional,6,3,2,1,16:08,8,11,8,2012,atletico nacional 2012,atletico nacional,Colombia,01-02-2012,"22,95 Mill. €",22.95,1,19.8375,3.786901768,0.821911998,3.1125,SI
+2012 8,3,godoy cruz,6,1,2,3,10:16,-6,5,8,2012,godoy cruz 2012, godoy cruz,Argentina,01-02-2012,"19,55 Mill. €",19.55,0,19.8375,3.786901768,-0.075919582,-0.2875,NO
+2012 8,4,penarol,6,1,1,4,6:13,-7,4,8,2012,penarol 2012,penarol,Uruguay,01-02-2012,"14,60 Mill. €",14.6,0,19.8375,3.786901768,-1.383056736,-5.2375,NO
+2013 1,1,nacional,6,3,1,2,10:06,4,10,1,2013,nacional 2013, nacional,Uruguay,01-02-2013,"11,25 Mill. €",11.25,1,21.9375,11.28216698,-0.947291422,-10.6875,SI
+2013 1,2,boca juniors,6,3,0,3,7:07,0,9,1,2013,boca juniors 2013, boca juniors,Argentina,01-02-2013,"33,95 Mill. €",33.95,1,21.9375,11.28216698,1.0647334,12.0125,SI
+2013 1,3,toluca,6,2,2,2,8:11,-3,8,1,2013,toluca 2013,toluca,Mexico,01-02-2013,"29,10 Mill. €",29.1,0,21.9375,11.28216698,0.634851444,7.1625,NO
+2013 1,4,barcelona sc,6,1,3,2,5:06,-1,6,1,2013,barcelona sc 2013,barcelona sc guayaquil,Ecuador,01-02-2013,"13,45 Mill. €",13.45,0,21.9375,11.28216698,-0.752293422,-8.4875,NO
+2013 2,1,palmeiras,6,3,0,3,5:05,0,9,2,2013,palmeiras 2013,palmeiras,Brasil,01-02-2013,"22,00 Mill. €",22,1,19.7,15.09856505,0.152332357,2.3,SI
+2013 2,2,tigres,6,3,0,3,9:10,-1,9,2,2013,tigres 2013,tigres,Mexico,01-02-2013,"40,10 Mill. €",40.1,1,19.7,15.09856505,1.351121774,20.4,SI
+2013 2,3,libertad,6,2,2,2,10:09,1,8,2,2013,libertad 2013,libertad,Paraguay,01-02-2013,9.9,9.9,0,19.7,15.09856505,-0.649068303,-9.8,NO
+2013 2,4,sport. cristal,6,2,2,2,8:08,0,8,2,2013,sport. cristal 2013,sporting cristal,Peru,01-02-2013,6.8,6.8,0,19.7,15.09856505,-0.854385828,-12.9,NO
+2013 3,1,atletico mineiro,6,5,0,1,16:09,7,15,3,2013,atletico mineiro 2013,atletico mineiro,Brasil,01-02-2013,"42,50 Mill. €",42.5,1,34.515,29.58935563,0.269860557,7.985,SI
+2013 3,2,sao paulo,6,2,1,3,8:08,0,7,3,2013,sao paulo 2013,sao paulo futebol e,Brasil,01-02-2013,"71,10 Mill. €",71.1,1,34.515,29.58935563,1.236424357,36.585,SI
+2013 3,3,arsenal de sarandi,6,2,1,3,10:15,-5,7,3,2013,arsenal de sarandi 2013,arsenal de sarandi fc,Argentina,01-02-2013,"22,98 Mill. €",22.98,0,34.515,29.58935563,-0.389836134,-11.535,NO
+2013 3,4,the strongest,6,2,0,4,8:10,-2,6,3,2013,the strongest 2013,the strongest,Bolivia,01-02-2013,1.48,1.48,0,34.515,29.58935563,-1.11644878,-33.035,NO
+2013 4,1,velez sarsfield,6,4,1,1,10:03,7,13,4,2013,velez sarsfield 2013, velez sarsfield,Argentina,01-02-2013,"35,80 Mill. €",35.8,1,14.8575,14.6497517,1.429546413,20.9425,SI
+2013 4,2,cs emelec,6,3,1,2,5:04,1,10,4,2013,cs emelec 2013,cs emelec,Ecuador,01-02-2013,"4,30 Mill. €",4.3,1,14.8575,14.6497517,-0.720660678,-10.5575,SI
+2013 4,3,penarol,6,3,0,3,7:07,0,9,4,2013,penarol 2013,penarol,Uruguay,01-02-2013,"14,13 Mill. €",14.13,0,14.8575,14.6497517,-0.049659545,-0.7275,NO
+2013 4,4,deportes iquique,6,1,0,5,5:13,-8,3,4,2013,deportes iquique 2013, deportes iquique,Chile,01-02-2013,"5,20 Mill. €",5.2,0,14.8575,14.6497517,-0.65922619,-9.6575,NO
+2013 5,1,corinthians,6,4,1,1,10:02,8,13,5,2013,corinthians 2013,corinthians,Brasil,01-02-2013,"69,90 Mill. €",69.9,1,29.3575,29.01849798,1.397126069,40.5425,SI
+2013 5,2,club tijuana,6,4,1,1,8:04,4,13,5,2013,club tijuana 2013, tijuana,Mexico,01-02-2013,"28,00 Mill. €",28,1,29.3575,29.01849798,-0.046780505,-1.3575,SI
+2013 5,3,club san jose,6,1,2,3,5:11,-6,5,5,2013,club san jose 2013,club san jose,Bolivia,01-02-2013,2.25,2.25,0,29.3575,29.01849798,-0.934145524,-27.1075,NO
+2013 5,4,millonarios,6,1,0,5,2:08,-6,3,5,2013,millonarios 2013,millonarios fc,Colombia,01-02-2013,"17,28 Mill. €",17.28,0,29.3575,29.01849798,-0.416200039,-12.0775,NO
+2013 6,1,independiente santa fe,6,4,2,0,9:04,5,14,6,2013,independiente santa fe 2013,independiente santa fe,Colombia,01-02-2013,"17,30 Mill. €",17.3,1,11.8025,6.357286502,0.864755741,5.4975,SI
+2013 6,2,garcilaso,6,3,1,2,8:07,1,10,6,2013,garcilaso 2013,garcilaso,Peru,01-02-2013,2.68,2.68,1,11.8025,6.357286502,-1.434967576,-9.1225,SI
+2013 6,3,deportes tolima,6,2,2,2,7:05,2,8,6,2013,deportes tolima 2013,deportes tolima,Colombia,01-02-2013,"12,83 Mill. €",12.83,0,11.8025,6.357286502,0.161625561,1.0275,NO
+2013 6,4,cerro porteno,6,0,1,5,3:11,-8,1,6,2013,cerro porteno 2013,cerro porteno,Paraguay,01-02-2013,14.4,14.4,0,11.8025,6.357286502,0.408586273,2.5975,NO
+2013 7,1,olimpia,6,4,1,1,16:07,9,13,7,2013,olimpia 2013,olimpia,Paraguay,01-02-2013,15.33,15.33,1,13.9025,8.018775364,0.178019702,1.4275,SI
+2013 7,2,newell's old boys,6,3,0,3,11:10,1,9,7,2013,newell's old boys 2013,newell's old boys,Argentina,01-02-2013,"20,20 Mill. €",20.2,1,13.9025,8.018775364,0.785344359,6.2975,SI
+2013 7,3,universidad de chile,6,3,0,3,7:09,-2,9,7,2013,universidad de chile 2013, universidad de chile,Chile,01-02-2013,"17,83 Mill. €",17.83,0,13.9025,8.018775364,0.489788007,3.9275,NO
+2013 7,4,deportivo lara,6,1,1,4,8:16,-8,4,7,2013,deportivo lara 2013,deportivo lara,Venezuela,01-02-2013,"2,25 Mill. €",2.25,0,13.9025,8.018775364,-1.453152068,-11.6525,NO
+2013 8,1,fluminense,6,3,2,1,5:05,0,11,8,2013,fluminense 2013,fluminense ,Brasil,01-02-2013,"64,40 Mill. €",64.4,1,28.1525,28.76010127,1.26033979,36.2475,SI
+2013 8,2,gremio,6,2,2,2,10:06,4,8,8,2013,gremio 2013,gremio ,Brasil,01-02-2013,"38,00 Mill. €",38,1,28.1525,28.76010127,0.342401437,9.8475,SI
+2013 8,3,huachipato fc,6,2,2,2,10:08,2,8,8,2013,huachipato fc 2013,huachipato fc,Chile,01-02-2013,"7,13 Mill. €",7.13,0,28.1525,28.76010127,-0.730960569,-21.0225,NO
+2013 8,4,caracas fc,6,2,0,4,6:12,-6,6,8,2013,caracas fc 2013,caracas fc,Venezuela,01-02-2013,"3,08 Mill. €",3.08,0,28.1525,28.76010127,-0.871780658,-25.0725,NO
+2014 1,1,velez sarsfield,6,5,0,1,9:03,6,15,1,2014,velez sarsfield 2014, velez sarsfield,Argentina,01-02-2014,"25,58 Mill. €",25.58,1,10.3275,10.84100664,1.406926543,15.2525,SI
+2014 1,2,the strongest,6,3,1,2,8:07,1,10,1,2014,the strongest 2014,the strongest,Bolivia,01-02-2014,1.1,1.1,1,10.3275,10.84100664,-0.851166345,-9.2275,SI
+2014 1,3,atletico paranaense,6,3,0,3,7:07,0,9,1,2014,atletico paranaense 2014,atletico paranaense,Brasil,01-02-2014,"10,20 Mill. €",10.2,0,10.3275,10.84100664,-0.0117609,-0.1275,NO
+2014 1,4,universitario,6,0,1,5,3:10,-7,1,1,2014,universitario 2014,universitario,Peru,01-02-2014,4.43,4.43,0,10.3275,10.84100664,-0.543999298,-5.8975,NO
+2014 2,1,union espanola,6,2,3,1,10:09,1,9,2,2014,union espanola 2014,union espanola,Chile,01-02-2014,"5,83 Mill. €",5.83,1,21.2525,12.30971534,-1.252872189,-15.4225,SI
+2014 2,2,san lorenzo,6,2,2,2,6:05,1,8,2,2014,san lorenzo 2014,san lorenzo,Argentina,01-02-2014,"35,03 Mill. €",35.03,1,21.2525,12.30971534,1.119237905,13.7775,SI
+2014 2,3,independiente del valle,6,2,2,2,10:10,0,8,2,2014,independiente del valle 2014,independiente del valle,Ecuador,01-02-2014,"18,50 Mill. €",18.5,0,21.2525,12.30971534,-0.223603871,-2.7525,NO
+2014 2,4,botafogo,6,2,1,3,5:07,-2,7,2,2014,botafogo 2014,botafogo,Brasil,01-02-2014,"25,65 Mill. €",25.65,0,21.2525,12.30971534,0.357238155,4.3975,NO
+2014 3,1,cerro porteno,6,3,1,2,10:09,1,10,3,2014,cerro porteno 2014,cerro porteno,Paraguay,01-02-2014,10.7,10.7,1,12.275,3.873951471,-0.406561624,-1.575,SI
+2014 3,2,lanus,6,2,2,2,6:05,1,8,3,2014,lanus 2014, lanus,Argentina,01-02-2014,"17,75 Mill. €",17.75,1,12.275,3.873951471,1.413285644,5.475,SI
+2014 3,3,o'higgins,6,1,4,1,5:05,0,7,3,2014,o'higgins 2014,o'higgins,Chile,01-02-2014,"8,75 Mill. €",8.75,0,12.275,3.873951471,-0.909923634,-3.525,NO
+2014 3,4,deportivo cali,6,2,1,3,6:08,-2,7,3,2014,deportivo cali 2014,deportivo cali,Colombia,01-02-2014,"11,90 Mill. €",11.9,0,12.275,3.873951471,-0.096800387,-0.375,NO
+2014 4,1,atletico mineiro,6,3,3,0,8:05,3,12,4,2014,atletico mineiro 2014,atletico mineiro,Brasil,01-02-2014,"38,40 Mill. €",38.4,1,15.0125,16.99707695,1.375971884,23.3875,SI
+2014 4,2,nacional paraguay,6,2,2,2,8:10,-2,8,4,2014,nacional paraguay 2014,nacional,Paraguay,01-02-2014,3.9,3.9,1,15.0125,16.99707695,-0.653788886,-11.1125,SI
+2014 4,3,zamora,6,2,1,3,6:06,0,7,4,2014,zamora 2014,zamora fc,Venezuela,01-02-2014,"1,10 Mill. €",1.1,0,15.0125,16.99707695,-0.818523093,-13.9125,NO
+2014 4,4,independiente santa fe,6,1,2,3,10:11,-1,5,4,2014,independiente santa fe 2014,independiente santa fe,Colombia,01-02-2014,"16,65 Mill. €",16.65,0,15.0125,16.99707695,0.096340094,1.6375,NO
+2014 5,1,defensor,6,3,2,1,11:05,6,11,5,2014,defensor 2014,defensor sporting ,Uruguay,01-02-2014,"12,08 Mill. €",12.08,1,21.1525,19.56137585,-0.46379662,-9.0725,SI
+2014 5,2,cruzeiro,6,3,1,2,13:07,6,10,5,2014,cruzeiro 2014,cruzeiro esporte e,Brasil,01-02-2014,"48,65 Mill. €",48.65,1,21.1525,19.56137585,1.405703782,27.4975,SI
+2014 5,3,universidad de chile,6,3,1,2,6:09,-3,10,5,2014,universidad de chile 2014, universidad de chile,Chile,01-02-2014,"20,30 Mill. €",20.3,0,21.1525,19.56137585,-0.043580779,-0.8525,NO
+2014 5,4,garcilaso,6,1,0,5,4:13,-9,3,5,2014,garcilaso 2014,garcilaso,Peru,01-02-2014,3.58,3.58,0,21.1525,19.56137585,-0.898326382,-17.5725,NO
+2014 6,1,gremio,6,4,2,0,8:01,7,14,6,2014,gremio 2014,gremio ,Brasil,01-02-2014,"33,90 Mill. €",33.9,1,20.0775,9.354469075,1.477635972,13.8225,SI
+2014 6,2,atletico nacional,6,3,1,2,7:08,-1,10,6,2014,atletico nacional 2014,atletico nacional,Colombia,01-02-2014,"17,55 Mill. €",17.55,1,20.0775,9.354469075,-0.27019171,-2.5275,SI
+2014 6,3,newell's old boys,6,2,2,2,10:07,3,8,6,2014,newell's old boys 2014,newell's old boys,Argentina,01-02-2014,"15,23 Mill. €",15.23,0,20.0775,9.354469075,-0.51820151,-4.8475,NO
+2014 6,4,nacional,6,0,1,5,4:13,-9,1,6,2014,nacional 2014, nacional,Uruguay,01-02-2014,"13,63 Mill. €",13.63,0,20.0775,9.354469075,-0.689242751,-6.4475,NO
+2014 7,1,bolivar,6,3,2,1,8:06,2,11,7,2014,bolivar 2014,bolivar,Bolivia,01-02-2014,7.85,7.85,1,20.645,9.240550128,-1.38465782,-12.795,SI
+2014 7,2,leon fc,6,3,1,2,10:07,3,10,7,2014,leon fc 2014, leon fc,Mexico,01-02-2014,"29,90 Mill. €",29.9,1,20.645,9.240550128,1.001563746,9.255,SI
+2014 7,3,flamengo,6,2,1,3,10:10,0,7,7,2014,flamengo 2014,flamengo,Brasil,01-02-2014,"21,90 Mill. €",21.9,0,20.645,9.240550128,0.135814425,1.255,NO
+2014 7,4,cs emelec,6,2,0,4,7:12,-5,6,7,2014,cs emelec 2014,cs emelec,Ecuador,01-02-2014,"22,93 Mill. €",22.93,0,20.645,9.240550128,0.24727965,2.285,NO
+2014 8,1,santos laguna,6,4,1,1,11:05,6,13,8,2014,santos laguna 2014,santos laguna,Mexico,01-02-2014,"30,05 Mill. €",30.05,1,16.715,11.68447546,1.141257907,13.335,SI
+2014 8,2,arsenal de sarandi,6,4,0,2,11:04,7,12,8,2014,arsenal de sarandi 2014,arsenal de sarandi fc,Argentina,01-02-2014,"18,53 Mill. €",18.53,1,16.715,11.68447546,0.155334316,1.815,SI
+2014 8,3,penarol,6,1,2,3,5:10,-5,5,8,2014,penarol 2014,penarol,Uruguay,01-02-2014,"16,68 Mill. €",16.68,0,16.715,11.68447546,-0.002995428,-0.035,NO
+2014 8,4,deportivo anzoategui,6,0,3,3,4:12,-8,3,8,2014,deportivo anzoategui 2014,deportivo anzoategui sc,Venezuela,01-02-2014,"1,60 Mill. €",1.6,0,16.715,11.68447546,-1.293596795,-15.115,NO
+2015 1,1,independiente santa fe,6,4,0,2,10:05,5,12,1,2015,independiente santa fe 2015,independiente santa fe,Colombia,15-02-2015,"12,78 Mill. €",12.78,1,27.32,20.42607647,-0.711835189,-14.54,SI
+2015 1,2,atletico mineiro,6,3,0,3,5:04,1,9,1,2015,atletico mineiro 2015,atletico mineiro,Brasil,15-02-2015,"56,75 Mill. €",56.75,1,27.32,20.42607647,1.440805337,29.43,SI
+2015 1,3,colo colo,6,3,0,3,8:09,-1,9,1,2015,colo colo 2015,colo colo,Chile,15-02-2015,"14,25 Mill. €",14.25,0,27.32,20.42607647,-0.639868357,-13.07,NO
+2015 1,4,atlas,6,2,0,4,4:09,-5,6,1,2015,atlas 2015,atlas,Mexico,15-02-2015,"25,50 Mill. €",25.5,0,27.32,20.42607647,-0.089101791,-1.82,NO
+2015 2,1,corinthians,6,4,1,1,9:03,6,13,2,2015,corinthians 2015,corinthians,Brasil,15-02-2015,"75,55 Mill. €",75.55,1,54.0575,38.78047049,0.554209367,21.4925,SI
+2015 2,2,sao paulo,6,4,0,2,9:04,5,12,2,2015,sao paulo 2015,sao paulo futebol e,Brasil,15-02-2015,"94,85 Mill. €",94.85,1,54.0575,38.78047049,1.051882545,40.7925,SI
+2015 2,3,san lorenzo,6,2,1,3,3:04,-1,7,2,2015,san lorenzo 2015,san lorenzo,Argentina,15-02-2015,"37,85 Mill. €",37.85,0,54.0575,38.78047049,-0.417929432,-16.2075,NO
+2015 2,4,danubio fc,6,1,0,5,4:14,-10,3,2,2015,danubio fc 2015,danubio fc,Uruguay,15-02-2015,"7,98 Mill. €",7.98,0,54.0575,38.78047049,-1.18816248,-46.0775,NO
+2015 3,1,cruzeiro,6,3,2,1,8:03,5,11,3,2015,cruzeiro 2015,cruzeiro esporte e,Brasil,15-02-2015,"87,05 Mill. €",87.05,1,26.72,40.40552272,1.493112722,60.33,SI
+2015 3,2,universitario de sucre,6,2,3,1,4:03,1,9,3,2015,universitario de sucre 2015,universitario de sucre,Bolivia,15-02-2015,5.05,5.05,1,26.72,40.40552272,-0.536312824,-21.67,SI
+2015 3,3,huracan,6,1,4,1,6:07,-1,7,3,2015,huracan 2015,huracan,Argentina,15-02-2015,"11,93 Mill. €",11.93,0,26.72,40.40552272,-0.366039071,-14.79,NO
+2015 3,4,mineros de guayana,6,1,1,4,5:10,-5,4,3,2015,mineros de guayana 2015,mineros de guayana,Venezuela,15-02-2015,"2,85 Mill. €",2.85,0,26.72,40.40552272,-0.590760826,-23.87,NO
+2015 4,1,sport internacional,6,4,1,1,13:07,6,13,4,2015,sport internacional 2015,sport  internacional,Brasil,15-02-2015,"59,15 Mill. €",59.15,1,26.1325,24.01525678,1.374855172,33.0175,SI
+2015 4,2,cs emelec,6,3,1,2,9:05,4,10,4,2015,cs emelec 2015,cs emelec,Ecuador,15-02-2015,"24,65 Mill. €",24.65,1,26.1325,24.01525678,-0.061731591,-1.4825,SI
+2015 4,3,the strongest,6,3,0,3,10:11,-1,9,4,2015,the strongest 2015,the strongest,Bolivia,15-02-2015,1.98,1.98,0,26.1325,24.01525678,-1.005714834,-24.1525,NO
+2015 4,4,universidad de chile,6,1,0,5,7:16,-9,3,4,2015,universidad de chile 2015, universidad de chile,Chile,15-02-2015,"18,75 Mill. €",18.75,0,26.1325,24.01525678,-0.307408747,-7.3825,NO
+2015 5,1,boca juniors,6,6,0,0,19:02,17,18,5,2015,boca juniors 2015, boca juniors,Argentina,15-02-2015,"51,33 Mill. €",51.33,1,16.5525,23.55973454,1.47614142,34.7775,SI
+2015 5,2,montevideo wanderers,6,3,1,2,9:08,1,10,5,2015,montevideo wanderers 2015,montevideo wanderers,Uruguay,15-02-2015,"10,48 Mill. €",10.48,1,16.5525,23.55973454,-0.257749084,-6.0725,SI
+2015 5,3,palestino,6,2,1,3,6:06,0,7,5,2015,palestino 2015,palestino,Chile,15-02-2015,"4,05 Mill. €",4.05,0,16.5525,23.55973454,-0.530672363,-12.5025,NO
+2015 5,4,zamora,6,0,0,6,3:21,-18,0,5,2015,zamora 2015,zamora fc,Venezuela,15-02-2015,350 Th. €,0.35,0,16.5525,23.55973454,-0.687719973,-16.2025,NO
+2015 6,1,tigres,6,4,2,0,16:07,9,14,6,2015,tigres 2015,tigres,Mexico,15-02-2015,"39,40 Mill. €",39.4,1,22.5525,21.80158461,0.77276493,16.8475,SI
+2015 6,2,river plate,6,1,4,1,8:07,1,7,6,2015,river plate 2015,river plate,Argentina,15-02-2015,"43,35 Mill. €",43.35,1,22.5525,21.80158461,0.95394442,20.7975,SI
+2015 6,3,juan aurich,6,1,3,2,9:11,-2,6,6,2015,juan aurich 2015,juan aurich,Peru,15-02-2015,4.43,4.43,0,22.5525,21.80158461,-0.831246917,-18.1225,NO
+2015 6,4,club san jose,6,1,1,4,3:11,-8,4,6,2015,club san jose 2015,club san jose,Bolivia,15-02-2015,3.03,3.03,0,22.5525,21.80158461,-0.895462433,-19.5225,NO
+2015 7,1,atletico nacional,6,3,2,1,12:07,5,11,7,2015,atletico nacional 2015,atletico nacional,Colombia,15-02-2015,"17,70 Mill. €",17.7,1,19.52,9.03778734,-0.201376723,-1.82,SI
+2015 7,2,estudiantes de la planta,6,3,1,2,7:03,4,10,7,2015,estudiantes de la planta 2015,estudiantes de la plata,Argentina,15-02-2015,"24,90 Mill. €",24.9,1,19.52,9.03778734,0.595278446,5.38,SI
+2015 7,3,libertad,6,2,2,2,5:08,-3,8,7,2015,libertad 2015,libertad,Paraguay,15-02-2015,7.58,7.58,0,19.52,9.03778734,-1.321119822,-11.94,NO
+2015 7,4,barcelona sc,6,1,1,4,5:11,-6,4,7,2015,barcelona sc 2015,barcelona sc guayaquil,Ecuador,15-02-2015,"27,90 Mill. €",27.9,0,19.52,9.03778734,0.927218099,8.38,NO
+2015 8,1,racing de avellaneda,6,4,0,2,15:07,8,12,8,2015,racing de avellaneda 2015,racing  de avellaneda,Argentina,15-02-2015,"20,38 Mill. €",20.38,1,8.98,7.880355322,1.446635276,11.4,SI
+2015 8,2,guarani,6,2,3,1,12:10,2,9,8,2015,guarani 2015,guarani,Paraguay,15-02-2015,5.28,5.28,1,8.98,7.880355322,-0.469521976,-3.7,SI
+2015 8,3,sport. cristal,6,1,4,1,6:07,-1,7,8,2015,sport. cristal 2015,sporting cristal,Peru,15-02-2015,7.68,7.68,0,8.98,7.880355322,-0.164967181,-1.3,NO
+2015 8,4,deportivo tachira,6,0,3,3,6:15,-9,3,8,2015,deportivo tachira 2015,deportivo tachira,Venezuela,15-02-2015,"2,58 Mill. €",2.58,0,8.98,7.880355322,-0.81214612,-6.4,NO
+2016 1,1,river plate,6,3,2,1,17:07,10,11,1,2016,river plate 2016,river plate,Argentina,15-02-2016,"80,13 Mill. €",80.13,1,38.44,42.52706354,0.980316921,41.69,SI
+2016 1,2,sao paulo,6,2,3,1,11:05,6,9,1,2016,sao paulo 2016,sao paulo futebol e,Brasil,15-02-2016,"70,05 Mill. €",70.05,1,38.44,42.52706354,0.743291386,31.61,SI
+2016 1,3,the strongest,6,2,2,2,6:11,-5,8,1,2016,the strongest 2016,the strongest,Bolivia,15-02-2016,2.78,2.78,0,38.44,42.52706354,-0.83852486,-35.66,NO
+2016 1,4,trujillanos,6,1,1,4,7:18,-11,4,1,2016,trujillanos 2016,trujillanos fc,Venezuela,15-02-2016,800 Th. €,0.8,0,38.44,42.52706354,-0.885083447,-37.64,NO
+2016 2,1,rosario central,6,3,2,1,13:08,5,11,2,2016,rosario central 2016,rosario central,Argentina,15-02-2016,"34,48 Mill. €",34.48,1,35.165,28.7254237,-0.023846472,-0.685,SI
+2016 2,2,nacional,6,2,3,1,6:06,0,9,2,2016,nacional 2016, nacional,Uruguay,15-02-2016,"18,78 Mill. €",18.78,1,35.165,28.7254237,-0.570400638,-16.385,SI
+2016 2,3,palmeiras,6,2,2,2,12:08,4,8,2,2016,palmeiras 2016,palmeiras,Brasil,15-02-2016,"75,80 Mill. €",75.8,0,35.165,28.7254237,1.414600544,40.635,NO
+2016 2,4,river plate uruguay,6,0,3,3,6:15,-9,3,2,2016,river plate uruguay 2016,river plate,Uruguay,15-02-2016,11.6,11.6,0,35.165,28.7254237,-0.820353435,-23.565,NO
+2016 3,1,boca juniors,6,3,3,0,11:04,7,12,3,2016,boca juniors 2016, boca juniors,Argentina,15-02-2016,"84,90 Mill. €",84.9,1,34.3075,37.282975,1.356986667,50.5925,SI
+2016 3,2,racing de avellaneda,6,2,3,1,11:07,4,9,3,2016,racing de avellaneda 2016,racing  de avellaneda,Argentina,15-02-2016,"39,90 Mill. €",39.9,1,34.3075,37.282975,0.150001442,5.5925,SI
+2016 3,3,bolivar,6,1,3,2,10:10,0,6,3,2016,bolivar 2016,bolivar,Bolivia,15-02-2016,6.85,6.85,0,34.3075,37.282975,-0.736462152,-27.4575,NO
+2016 3,4,deportivo cali,6,0,3,3,7:18,-11,3,3,2016,deportivo cali 2016,deportivo cali,Colombia,15-02-2016,"5,58 Mill. €",5.58,0,34.3075,37.282975,-0.770525957,-28.7275,NO
+2016 4,1,atletico nacional,6,5,1,0,12:00,12,16,4,2016,atletico nacional 2016,atletico nacional,Colombia,15-02-2016,"20,30 Mill. €",20.3,1,16.995,5.787322351,0.571075845,3.305,SI
+2016 4,2,huracan,6,2,2,2,7:07,0,8,4,2016,huracan 2016,huracan,Argentina,15-02-2016,"21,63 Mill. €",21.63,1,16.995,5.787322351,0.800888514,4.635,SI
+2016 4,3,penarol,6,1,2,3,5:11,-6,5,4,2016,penarol 2016,penarol,Uruguay,15-02-2016,"17,30 Mill. €",17.3,0,16.995,5.787322351,0.052701402,0.305,NO
+2016 4,4,sport. cristal,6,1,1,4,9:15,-6,4,4,2016,sport. cristal 2016,sporting cristal,Peru,15-02-2016,8.75,8.75,0,16.995,5.787322351,-1.424665761,-8.245,NO
+2016 5,1,atletico mineiro,6,4,1,1,12:04,8,13,5,2016,atletico mineiro 2016,atletico mineiro,Brasil,15-02-2016,"60,15 Mill. €",60.15,1,25.69,23.11030362,1.491109791,34.46,SI
+2016 5,2,independiente del valle,6,3,2,1,7:04,3,11,5,2016,independiente del valle 2016,independiente del valle,Ecuador,15-02-2016,"17,45 Mill. €",17.45,1,25.69,23.11030362,-0.356550919,-8.24,SI
+2016 5,3,colo colo,6,2,3,1,4:05,-1,9,5,2016,colo colo 2016,colo colo,Chile,15-02-2016,"13,83 Mill. €",13.83,0,25.69,23.11030362,-0.513191008,-11.86,NO
+2016 5,4,fbc melgar,6,0,0,6,2:12,-10,0,5,2016,fbc melgar 2016,melgar,Peru,15-02-2016,11.33,11.33,0,25.69,23.11030362,-0.621367864,-14.36,NO
+2016 6,1,toluca,6,4,1,1,9:05,4,13,6,2016,toluca 2016,toluca,Mexico,15-02-2016,"31,90 Mill. €",31.9,1,40.345,17.76885196,-0.475269872,-8.445,SI
+2016 6,2,gremio,6,3,2,1,10:06,4,11,6,2016,gremio 2016,gremio ,Brasil,15-02-2016,"63,68 Mill. €",63.68,1,40.345,17.76885196,1.313253104,23.335,SI
+2016 6,3,san lorenzo,6,0,4,2,5:08,-3,4,6,2016,san lorenzo 2016,san lorenzo,Argentina,15-02-2016,"43,40 Mill. €",43.4,0,40.345,17.76885196,0.171930072,3.055,NO
+2016 6,4,ldu quito,6,1,1,4,7:12,-5,4,6,2016,ldu quito 2016,ldu quito,Ecuador,15-02-2016,"22,40 Mill. €",22.4,0,40.345,17.76885196,-1.009913304,-17.945,NO
+2016 7,1,pumas,6,5,0,1,17:08,9,15,7,2016,pumas 2016,pumas,Mexico,15-02-2016,"32,60 Mill. €",32.6,1,17.695,12.92407701,1.153273846,14.905,SI
+2016 7,2,deportivo tachira,6,3,0,3,6:11,-5,9,7,2016,deportivo tachira 2016,deportivo tachira,Venezuela,15-02-2016,"1,93 Mill. €",1.93,1,17.695,12.92407701,-1.219816315,-15.765,SI
+2016 7,3,olimpia,6,2,1,3,12:12,0,7,7,2016,olimpia 2016,olimpia,Paraguay,15-02-2016,14.25,14.25,0,17.695,12.92407701,-0.266556753,-3.445,NO
+2016 7,4,cs emelec,6,1,1,4,10:14,-4,4,7,2016,cs emelec 2016,cs emelec,Ecuador,15-02-2016,"22,00 Mill. €",22,0,17.695,12.92407701,0.333099222,4.305,NO
+2016 8,1,corinthians,6,4,1,1,13:04,9,13,8,2016,corinthians 2016,corinthians,Brasil,15-02-2016,"62,70 Mill. €",62.7,1,23.595,26.67345309,1.4660644,39.105,SI
+2016 8,2,cerro porteno,6,3,1,2,6:07,-1,10,8,2016,cerro porteno 2016,cerro porteno,Paraguay,15-02-2016,17.25,17.25,1,23.595,26.67345309,-0.237876962,-6.345,SI
+2016 8,3,independiente santa fe,6,2,2,2,6:04,2,8,8,2016,independiente santa fe 2016,independiente santa fe,Colombia,15-02-2016,"10,98 Mill. €",10.98,0,23.595,26.67345309,-0.47294214,-12.615,NO
+2016 8,4,cobresal,6,1,0,5,4:14,-10,3,8,2016,cobresal 2016,cobresal,Chile,15-02-2016,3.45,3.45,0,23.595,26.67345309,-0.755245297,-20.145,NO
+2017 1,1,botafogo,6,3,1,2,6:05,1,10,1,2017,botafogo 2017,botafogo,Brasil,01-03-2017,"29,40 Mill. €",29.4,1,28.37,4.895092781,0.210414806,1.03,SI
+2017 1,2,barcelona sc,6,3,1,2,8:08,0,10,1,2017,barcelona sc 2017,barcelona sc guayaquil,Ecuador,01-03-2017,"22,03 Mill. €",22.03,1,28.37,4.895092781,-1.295174634,-6.34,SI
+2017 1,3,estudiantes de la planta,6,3,0,3,7:08,-1,9,1,2017,estudiantes de la planta 2017,estudiantes de la plata,Argentina,01-03-2017,"33,90 Mill. €",33.9,0,28.37,4.895092781,1.129702796,5.53,NO
+2017 1,4,atletico nacional,6,2,0,4,8:08,0,6,1,2017,atletico nacional 2017,atletico nacional,Colombia,01-03-2017,"28,15 Mill. €",28.15,0,28.37,4.895092781,-0.044942968,-0.22,NO
+2017 2,1,santos fc,6,3,3,0,11:04,7,12,2,2017,santos fc 2017,santos fc,Brasil,01-03-2017,"47,13 Mill. €",47.13,1,21.04,19.29704122,1.352020742,26.09,SI
+2017 2,2,the strongest,6,2,3,1,9:05,4,9,2,2017,the strongest 2017,the strongest,Bolivia,01-03-2017,4.35,4.35,1,21.04,19.29704122,-0.864899432,-16.69,SI
+2017 2,3,independiente santa fe,6,2,2,2,8:06,2,8,2,2017,independiente santa fe 2017,independiente santa fe,Colombia,01-03-2017,"23,88 Mill. €",23.88,0,21.04,19.29704122,0.147172821,2.84,NO
+2017 2,4,sport. cristal,6,0,2,4,2:15,-13,2,2,2017,sport. cristal 2017,sporting cristal,Peru,01-03-2017,8.8,8.8,0,21.04,19.29704122,-0.634294131,-12.24,NO
+2017 3,1,river plate,6,4,1,1,14:09,5,13,3,2017,river plate 2017,river plate,Argentina,01-03-2017,"71,25 Mill. €",71.25,1,31.42,27.19568471,1.46457059,39.83,SI
+2017 3,2,cs emelec,6,3,1,2,8:05,3,10,3,2017,cs emelec 2017,cs emelec,Ecuador,01-03-2017,"19,60 Mill. €",19.6,1,31.42,27.19568471,-0.434627777,-11.82,SI
+2017 3,3,independiente medellin,6,3,0,3,8:08,0,9,3,2017,independiente medellin 2017,independiente medellin,Colombia,01-03-2017,"24,50 Mill. €",24.5,0,31.42,27.19568471,-0.254452134,-6.92,NO
+2017 3,4,fbc melgar,6,1,0,5,6:14,-8,3,3,2017,fbc melgar 2017,melgar,Peru,01-03-2017,10.33,10.33,0,31.42,27.19568471,-0.775490679,-21.09,NO
+2017 4,1,san lorenzo,6,3,1,2,8:08,0,10,4,2017,san lorenzo 2017,san lorenzo,Argentina,01-03-2017,"33,55 Mill. €",33.55,1,36.5475,17.49153772,-0.171368581,-2.9975,SI
+2017 4,2,atletico paranaense,6,3,1,2,9:10,-1,10,4,2017,atletico paranaense 2017,atletico paranaense,Brasil,01-03-2017,"40,53 Mill. €",40.53,1,36.5475,17.49153772,0.227681526,3.9825,SI
+2017 4,3,flamengo,6,3,0,3,11:07,4,9,4,2017,flamengo 2017,flamengo,Brasil,01-03-2017,"57,18 Mill. €",57.18,0,36.5475,17.49153772,1.179570392,20.6325,NO
+2017 4,4,universidad catolica,6,1,2,3,8:11,-3,5,4,2017,universidad catolica 2017,universidad catolica,Chile,01-03-2017,"14,93 Mill. €",14.93,0,36.5475,17.49153772,-1.235883337,-21.6175,NO
+2017 5,1,palmeiras,6,4,1,1,13:09,4,13,5,2017,palmeiras 2017,palmeiras,Brasil,01-03-2017,"63,28 Mill. €",63.28,1,25.79,25.88003349,1.44860709,37.49,SI
+2017 5,2,wilstermann,6,3,0,3,12:10,2,9,5,2017,wilstermann 2017,wilstermann,Bolivia,01-03-2017,4.5,4.5,1,25.79,25.88003349,-0.822641903,-21.29,SI
+2017 5,3,atletico tucuman,6,2,1,3,8:10,-2,7,5,2017,atletico tucuman 2017, atletico tucuman,Argentina,01-03-2017,"14,58 Mill. €",14.58,0,25.79,25.88003349,-0.433152453,-11.21,NO
+2017 5,4,penarol,6,2,0,4,11:15,-4,6,5,2017,penarol 2017,penarol,Uruguay,01-03-2017,"20,80 Mill. €",20.8,0,25.79,25.88003349,-0.192812734,-4.99,NO
+2017 6,1,atletico mineiro,6,4,1,1,17:06,11,13,6,2017,atletico mineiro 2017,atletico mineiro,Brasil,01-03-2017,"68,50 Mill. €",68.5,1,25.92,28.93913037,1.471364186,42.58,SI
+2017 6,2,godoy cruz,6,3,2,1,10:08,2,11,6,2017,godoy cruz 2017, godoy cruz,Argentina,01-03-2017,"17,73 Mill. €",17.73,1,25.92,28.93913037,-0.283007813,-8.19,SI
+2017 6,3,libertad,6,1,3,2,7:09,-2,6,6,2017,libertad 2017,libertad,Paraguay,01-03-2017,13.25,13.25,0,25.92,28.93913037,-0.437815506,-12.67,NO
+2017 6,4,sport boys,6,0,2,4,8:19,-11,2,6,2017,sport boys 2017,sport boys,Bolivia,01-03-2017,4.2,4.2,0,25.92,28.93913037,-0.750540867,-21.72,NO
+2017 7,1,lanus,6,4,1,1,13:03,10,13,7,2017,lanus 2017, lanus,Argentina,01-03-2017,"31,38 Mill. €",31.38,1,20.4025,10.18813485,1.077478868,10.9775,SI
+2017 7,2,nacional,6,2,2,2,5:03,2,8,7,2017,nacional 2017, nacional,Uruguay,01-03-2017,"21,35 Mill. €",21.35,1,20.4025,10.18813485,0.09300034,0.9475,SI
+2017 7,3,chapecoense,6,2,1,3,6:12,-6,7,7,2017,chapecoense 2017,chapecoense,Brasil,01-03-2017,"22,15 Mill. €",22.15,0,20.4025,10.18813485,0.171523054,1.7475,NO
+2017 7,4,zulia fc,6,1,2,3,4:10,-6,5,7,2017,zulia fc 2017,zulia fc,Venezuela,01-03-2017,"6,73 Mill. €",6.73,0,20.4025,10.18813485,-1.342002261,-13.6725,NO
+2017 8,1,gremio,6,4,1,1,15:06,9,13,8,2017,gremio 2017,gremio ,Brasil,01-03-2017,"54,18 Mill. €",54.18,1,18.91,23.53501505,1.49861812,35.27,SI
+2017 8,2,guarani,6,3,2,1,9:07,2,11,8,2017,guarani 2017,guarani,Paraguay,01-03-2017,8.18,8.18,1,18.91,23.53501505,-0.455916428,-10.73,SI
+2017 8,3,deportes iquique,6,3,1,2,12:09,3,10,8,2017,deportes iquique 2017, deportes iquique,Chile,01-03-2017,"5,78 Mill. €",5.78,0,18.91,23.53501505,-0.557892144,-13.13,NO
+2017 8,4,zamora,6,0,0,6,6:20,-14,0,8,2017,zamora 2017,zamora fc,Venezuela,01-03-2017,"7,50 Mill. €",7.5,0,18.91,23.53501505,-0.484809548,-11.41,NO

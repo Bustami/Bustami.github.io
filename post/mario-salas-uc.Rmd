@@ -1,0 +1,156 @@
+---
+title: "Los números de Mario Salas en la UC"
+author: "Ismael Gómez"
+date: '2017-09-28'
+output:
+  html_document: default
+  pdf_document: default
+draft: no
+image: no
+lang: es
+menu: ''
+description: ''
+share: yes
+slug: mario-salas-uc
+tags:
+- Universidad Católica
+- UC
+- MarioSalas
+- Transicion2017
+- TorneoNacional
+- Chile
+categories: Chile
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.width=8, fig.height=5, echo=F, warning=FALSE, message=FALSE)
+library(ggjoy)
+library(ggplot2)
+library(data.table)
+library(knitr)
+```
+
+La mala racha de la actual Católica de Mario Salas es innegable. Con casi la mitad de este Transición 2017 jugado se tiene un escenario que está dentro de [**los 7 peores inicios de campaña en la historia del cuadro cruzado**](https://twitter.com/LokoJean_UC/status/912081421577211909), igualando el pobre 33.3% de rendimiento alcanzado por el vilipendiado paso de Falcioni el año 2014. En ambos casos alcanzando solo 7 puntos de los 21 en disputa.
+
+El comandante está en la cuerda floja ya no solo por sus detractores en la hinchada, sino que también corre la versión de negociar su salida por parte de la directiva si no tiene una buena presentación este domingo a las 12:00 horas contra Colo-Colo en San Carlos de Apoquindo por la 8va fecha ([**ver noticia**](https://www.publimetro.cl/cl/grafico-chile/2017/09/26/catolica-espera-renuncia-salas-pierde-colo-colo.html)). 
+
+El bajo rendimiento del actual torneo se suma este semestre a la eliminación de Copa Chile y la derrota en la Supercopa, además de la eliminación en fase de grupos de Libertadores (sin clasificar a Sudamericana como consuelo) y la no obtención del tricampeonato en el Clausura 2017, en el semestre anterior. 
+
+Las principales causas de la falta de resultados apuntan no solo al trabajo semanal de entrenamiento y a las cuestionadas decisiones técnicas y tácticas de Salas durante los partidos, sino que también a la planificación y conformación del plantel (responsabilizando también a la directiva), además de los bajos rendimientos individuales de varios jugadores. 
+
+Dentro de estos últimos argumentos destacan la mención a las partidas de elementos claves, como por ejemplo la partida del pájaro Gutiérrez a Palestino (goleador de la UC el torneo anterior con 4 tantos), dejando pocas opciones en delantera ante la lesión de Llanos y el bajo rendimiento de Silva. Otro ejemplo es el préstamo de Carreño a Everton, quien ha tenido un desempeño destacado siendo titular en el elenco de Vitamina Sánchez. 
+
+Por otro lado, los refuerzos en general "no han dado el ancho". Al indesmentible fracaso de Silva como reemplazante de Castillo, se suma el bajo aporte de Vallejos (por Noir o Bravo) y Voboril (por Parot), además de Jeisson Vargas y Vidal quienes por lesiones prácticamente no han jugado. En este grupo solo son rescatables los aportes de Ampuero y Aued.
+
+No podemos asegurar cuánto de cierto hay en esos argumentos o cuál es el peso de cada uno de ellos en los resultados. No obstante, en #DatoFútbol quisimos darle un vistazo a algunos datos disponibles en internet para repasar las campañas de Salas en la UC en el torneo nacional, aportando un contexto adicional en cuanto al rendimiento del DT y el comporatmiento de los goles a lo largo de los torneos.
+
+*** 
+
+### Análisis y visualización de datos
+
+A continuación la tabla general con partidos jugados, ganados, empatados y perdidos, con su respectiva cantidad de goles a favor y en contra, además del rendimiento y puesto obtenido en la tabla para cada torneo de Salas en la UC en orden cronológico: 
+
+```{r metallica, cache=T}
+e <- 'UTF-8'
+C2015 <- read.csv('datos_clausura_2015.csv', stringsAsFactors=F, encoding=e)
+A2015 <- read.csv('datos_apertura_2015.csv', stringsAsFactors=F, encoding=e)
+C2016 <- read.csv('datos_clausura_2016.csv', stringsAsFactors=F, encoding=e)
+A2016 <- read.csv('datos_apertura_2016.csv', stringsAsFactors=F, encoding=e)
+C2017 <- read.csv('datos_clausura_2017.csv', stringsAsFactors=F, encoding='latin')
+T2017 <- read.csv('datos_transicion_2017.csv', stringsAsFactors=F, encoding=e) ## FALTA ÚLTIMA FECHA
+
+names(C2015)[1] <- 'fecha_hora'
+C2015$torneo <- '2015- C'
+names(A2015)[1] <- 'fecha_hora'
+A2015$torneo <- '2015-A'
+names(C2016)[1] <- 'fecha_hora'
+C2016$torneo <- '2016- C'
+names(A2016)[1] <- 'fecha_hora'
+A2016$torneo <- '2016-A'
+names(C2017)[1] <- 'fecha_hora'
+C2017$torneo <- '2017- C'
+names(T2017)[1] <- 'fecha_hora'
+T2017$torneo <- '2017-T'
+
+data <- rbind(C2015, A2015, C2016, A2016, C2017, T2017)
+data <- data[which(data$resultado!='vs.'),]
+
+data$goles <- gsub(" [(].*", "", data$resultado)
+data$goles <- gsub("[ [].*", "", data$goles)
+data$golesL <- gsub("[:].*", "", data$goles)
+data$golesV <- gsub(".*[:]", "", data$goles)
+data$sumagoles <- as.numeric((as.numeric(unlist(data$golesL)) + as.numeric(unlist(data$golesV))))
+#hist(data$sumagoles, breaks = seq(0,10,1))
+
+dataUC <- data[which(data$local=='Universidad Católica' | data$visita=='Universidad Católica'),]
+dataUC$LV <- ifelse(dataUC$local=='Universidad Católica', 'L', 'V')
+dataUC$goles_UC <- ifelse(dataUC$LV=='L', dataUC$golesL, dataUC$golesV)
+dataUC$goles_rival <- ifelse(dataUC$LV=='L', dataUC$golesV, dataUC$golesL)
+
+#tabla
+dataUC$dif <- as.numeric(unlist(dataUC$goles_UC)) - as.numeric(unlist(dataUC$goles_rival))
+dataUC$puntos <- ifelse(dataUC$dif>0, 3, ifelse(dataUC$dif==0, 1, 0))
+puntos <- aggregate(puntos ~ torneo, dataUC, sum)
+jugados <- aggregate(local ~ torneo, dataUC, length)
+#jugados
+#puntos
+
+dataUC$Result_code <- ifelse(dataUC$dif>0, 'G', ifelse(dataUC$dif==0, 'E', 'P'))
+result <- as.data.frame(as.matrix(aggregate(Result_code ~ torneo, dataUC, table)))
+#result
+
+GF <- aggregate(as.numeric(goles_UC) ~ torneo, dataUC, sum)
+GC <- aggregate(as.numeric(goles_rival) ~ torneo, dataUC, sum)
+
+tabla <- cbind(jugados, result[, c(3, 2, 4)], GF[, 2], GC[, 2], GF[, 2] - GC[, 2] , puntos[, 2])
+tabla$rendimiento <- round(puntos$puntos/(jugados$local * 3) *100, 1)
+names(tabla) <- c('Torneo', 'PJ', 'PG', 'PE', 'PP', 'GF', 'GC', 'Dif_G' , 'Puntos', 'Rendimiento')
+tabla$Lugar <-  c('4', '2', '1', '1', '4', '11')
+
+kable(tabla, align='c')
+```
+
+Mario Salas está cumpliendo su tercer año al mando de la UC, disputando con este su sexto torneo nacional. Considerando el bicampenato obtenido el 2016 y asumiendo que este año ya no logró campeonar, su tasa de campeonatos ganados versus jugados es de 0.33 (solo torneo nacional, sin Copa Chile ni competencias internacionales), lo que es alto en relación al mismo índice histórico de la UC (0.13) que revisamos en un [**post anterior**](http://datofutbol.cl/campeones_chile/) para todos los campeones de primera división del fútbol chileno. Desde esta perspectiva, Mario Salas ha tenido un paso muy exitoso por La Franja.
+
+Revisando la tabla, se puede apreciar que en los 5 torneos previos su peor lugar fue 4to, con rendimientos que variaron entre 51.1% y 71.1%. Se destaca que el torneo que obtuvo mayor rendimiento no logró ser campeón. También que el rendimiento más bajo fue justamente el torneo anterior (Clausura 2017), con lo que sumado al actual torneo, este 2017 representa el peor año de Salas en la UC. 
+
+Desde la arista de los partidos ganados, empatados y perdidos, y por lo tanto de los puntos obtenidos, se observa cierta regularidad entre los torneos previos (Clausura 2017 con el peor registro en todos los indicadores). Sin embargo, con lo que se lleva de este Transición 2017 llama la atención la cantidad de empates (4) y falta de victorias (1). ¿La razón principal? **Sequía goleadora**. 
+
+Cuando nos pregunten "¿Qué hacemos para ganar?", no podemos olvidar la frase para el bronce: "para ganar en el fútbol hay que hacer más goles que el rival". Y esto cabe como anillo al dedo a la situación de la UC actual:
+
+- En el Transcición 2017 la UC ha tenido un comportamiento muy diferente en cuanto a goles a favor: solo 5 goles en 7 partidos. Si se mantiene esta tendencia podrían alcanzarse únicamente 11 goles al final del torneo, lo que está muy por debajo de todos los torneos previos. 
+
+- En la siguiente visualización se puede observar la distribución de goles a favor y goles del equipo rival paara los partidos de cada torneo de Salas en la UC:
+
+```{r dream_theater, cache=T}
+# ggjoy con factor goles_UC y goles_rival
+dataUC_long <- melt(setDT(dataUC), measure.vars =c("goles_rival","goles_UC"), 
+                    variable.name="factor")
+
+ggplot(dataUC_long, aes(x = as.numeric(value), y = as.factor(torneo), 
+                   fill=as.factor(factor), height = ..density..)) + 
+        geom_joy(stat = "density", scale = 1, alpha=0.4) +
+        theme_minimal(base_size = 14) + theme(axis.text.y = element_text(vjust = 0)) +
+        scale_x_continuous(expand = c(0.01, 0), breaks=c(0:5)) +
+        scale_y_discrete(expand = c(0.01, 0)) +
+        labs(x="Distribución de goles por partido", y="Torneo") + 
+        guides(fill=guide_legend(title="")) +
+        scale_fill_brewer(palette="Set1")
+```
+
+Se puede observar que:
+
+* La cantidad de goles a favor por partido ha disminuido sostenidamente en el tiempo (torneos 2015-2016 con varios partidos con 2 a 5 goles a favor; en contraste la mayoría del 2017 con 2 o menos que 2 goles a favor).
+
+* Si bien la cantidad de goles en contra por partido también ha disminuido, los goles a favor lo han hecho en mayor medida, por lo tanto la distribución de goles por partido de los equipos rivales supera ("se come") a la distribución de goles a favor en este Transición 2017.
+
+*** 
+
+### ¿Que siga o se vaya?
+
+Por supuesto que la decisión la tomará la directiva cruzada, sin duda teniendo en cuenta el alto monto de la indemnización del comandante (cercano a los 600 millones de pesos chilenos), seguramente tratando de negociar su salida por un valor menor a fin de año gracias a una claúsula que lo permite.
+
+En cuánto a si terminar el proceso de Salas es la decisión correcta o no dependerá de las expectativas con que se mire su desempeño en la UC, donde ya vimos que respecto a la misma historia del club a nivel local tiene un rendimiento muy exitoso (único bicampeonato y un buen índice de torneos ganados/jugados, incluso mejor que el que tiene el club). 
+
+En el caso de apostar alto, como por ejemplo un mejor rendimiento internacional sin dejar de lado el éxito local, podría tener sentido reemplazarlo, aunque se debe tener en cuenta quién lo reemplazaría, porque sin duda para que el cambio se justifique quien llegue deberá tener un igual o mejor rendimiento para estar a la altura del comandante, y eso también dependerá, como en todos lados en el fútbol, de los rendimientos individuales de los jugadores, lesiones, desempeño de los rivales, inversión de la directiva, etc.
+

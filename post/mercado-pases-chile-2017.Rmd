@@ -1,0 +1,224 @@
+---
+title: "Red interactiva de transferencias del fútbol chileno 2017"
+description: ''
+author: "Ismael Gómez"
+lang: es
+date: '2017-08-15'
+output:
+  html_document: default
+  pdf_document: default
+draft: false
+image: false
+menu: ''
+share: yes
+slug: mercado-pases-chile-2017
+tags:
+- Transferencias
+- MercadoDePases
+- Chile
+- Transicion2017
+categories: ["Chile"]
+---
+
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.width=8, fig.height=5, echo=F, warning=FALSE, message=FALSE)
+library(rvest)
+library(plyr)
+```
+
+```{r read_process}
+url <- 'https://es.wikipedia.org/wiki/Anexo:Transferencias_del_Torneo_Transición_2017_(Chile)'
+rawdata <- read_html(url)
+nodes <- html_nodes(rawdata, css="table")
+table <- html_table(nodes, fil=T)
+
+equipos <- c('Audax Italiano', 'Colo-Colo', 'Curicó Unido', 'Deportes Antofagasta',
+             'Deportes Iquique', 'Deportes Temuco', 'Everton', 'Huachipato', 'Ohiggins',
+              'Palestino', 'San Luis', 'Santiago Wanderers', 'Unión Española',
+             'Universidad Católica', 'Universidad de Chile', 'Universidad de Concepción')
+
+equiposB <- c('Deportes La Serena', 'San Marcos', 'San Marcos de Arica', 'Puerto Montt', 'Coquimbo Unido',
+              'Cobreloa', 'Deportes Iberia', 'Coquimbo', 'Magallanes', 'Unión San Felipe', 'Ñublense', 
+              'Rangers', 'Iberia', 'Unión La Calera', 'Deportes Puerto Montt', 'Club de Deportes La Serena',
+              'Deportes Valdivia', 'Rangers de Talca', 'Cobresal', 'La Serena')
+
+otros <- c('Deportes Melipilla', 'Fernández Vial', 'Sin Club', 'Libre', 'Sin definir', 'Deportes Recoleta',
+           'San Antonio Unido', 'NA', 'Santa Cruz', 'Barnechea', 'Independiente de Cauquenes')
+
+salida <- as.data.frame(0)
+j <- 0
+for (i in seq(1, length(table)-1, by=2))
+{
+        j <- j + 1
+        data <- table[[i]]
+        aux <- as.data.frame(data[2:nrow(data), ])
+        names(aux) <- data[1,]
+        aux$caso <- names(data)[1]
+        names(aux)[3] <- 'from'
+        aux$to <- equipos[j]
+        
+        data2 <- table[[i+1]]
+        aux2 <- as.data.frame(data2[2:nrow(data2), ])
+        names(aux2) <- data2[1,]
+        aux2$caso <- names(data2)[1]
+        names(aux2)[3] <- 'to'
+        aux2$from <- equipos[j]
+        
+        w <- rbind.fill(aux, aux2)
+        w$equipo <- equipos[j]
+        w$id <- j
+        salida <- rbind.fill(salida, w)
+}
+
+salida <- salida[-1, c(-1, -ncol(salida))]
+salida$Jugador <- gsub('[[].*', '', salida$Jugador)
+
+salida$from[which(salida$from=='')] <- 'NA'
+salida$to[which(salida$to=='')] <- 'NA'
+
+salida$from <- gsub('O[\']Higgins', 'Ohiggins', salida$from)
+salida$to <- gsub('O[\']Higgins', 'Ohiggins', salida$to)
+
+salida$from <- gsub('U[.] Católica', 'Universidad Católica', salida$from)
+salida$to <- gsub('Universidad Catolica', 'Universidad Católica', salida$to)
+salida$from <- gsub('U[.] de Chile', 'Universidad de Chile', salida$from)
+salida$to <- gsub('^Iquique', 'Deportes Iquique', salida$to)
+
+salida$ex_from <- !salida$from %in% equipos & !salida$from %in% equiposB & !salida$from %in% otros
+salida$ex_to <- !salida$to %in% equipos & !salida$to %in% equiposB & !salida$to %in% otros
+ 
+salida$B_from <- !salida$from %in% equipos & salida$from %in% equiposB & !salida$from %in% otros
+salida$B_to <- !salida$to %in% equipos & salida$to %in% equiposB & !salida$to %in% otros
+
+salida$O_from <- !salida$from %in% equipos & !salida$from %in% equiposB & salida$from %in% otros
+salida$O_to <- !salida$to %in% equipos & !salida$to %in% equiposB & salida$to %in% otros
+
+xx <- salida
+xx$from2 <- 'NA'
+xx$from2[which(xx$caso=='Altas' & xx$B_from=='TRUE')] <- 'Primera B'
+xx$from2[which(xx$caso=='Altas' & xx$O_from=='TRUE')] <- 'Otros'
+xx$from2[which(xx$caso=='Altas' & xx$ex_from=='TRUE')] <- 'Extranjero'
+
+xx$to2 <- 'NA'
+xx$to2[which(xx$caso=='Bajas' & xx$B_to=='TRUE')] <- 'Primera B'
+xx$to2[which(xx$caso=='Bajas' & xx$O_to=='TRUE')] <- 'Otros'
+xx$to2[which(xx$caso=='Bajas' & xx$ex_to=='TRUE')] <- 'Extranjero'
+
+xx$from2[which(xx$from2=='NA')] <- xx$from[which(xx$from2=='NA')]
+xx$to2[which(xx$to2=='NA')] <- xx$to[which(xx$to2=='NA')]
+names(xx)[2] <- 'Posicion'
+xx <- xx[which(xx$Posicion != 'Entrenador'),]
+xx <- xx[which(xx$Posicion != 'Entrenador Juveniles'),]
+
+#write.csv(xx, 'data.csv', row.names=F, fileEncoding='ISO8859-1')
+```
+
+Con la fecha N°3 del torneo de Transición 2017 de la Primera A del fútbol chileno casi finalizada, y con su libro de pases cerrado el pasado jueves 03 de agosto, ya podemos dar un vistazo a las transferencias que realizó cada uno de los 16 equipos en pos de su preparación.
+
+La información utilizada fue descargada directamente desde el anexo [Transferencias del Torneo de Transición 2017 Chile](https://es.wikipedia.org/wiki/Anexo:Transferencias_del_Torneo_Transición_2017_(Chile)) contenido en Wikipedia.
+
+Dicha información contiene para cada equipo y cada transferencia el siguiente detalle: Nombre del jugador, Posición del jugador, Equipo de Procedencia o de Destino (dependiendo si es una Alta o una Baja) y Tipo de operación (Traspaso, Retorno de préstamo, Fin de contrato, Jugador Libre, etc.).
+
+El enfoque de este análisis y visualización no se centrará en nombres propios, pasando por alto quizás los más llamativos como lo son por ejemplo Jorge Valdivia, Mauricio Pinilla o Jeisson Vargas, sino que más bien en las tendencias generales y en remarcar las relaciones entre equipos o grupos de éstos.
+
+***
+
+#### Tendencias generales
+
+```{r c2, cache=T}
+names(salida)[2] <- 'Posicion'
+salida <- salida[which(salida$Posicion != 'Entrenador'),]
+salida <- salida[which(salida$Posicion != 'Entrenador Juveniles'),]
+salida[, c(2,4,5)] <- apply(salida[, c(2,4,5)], 2, toupper)
+
+#cantidad de traspasos
+traspasos <- aggregate(Jugador ~ equipo, salida, length)
+#head(traspasos[order(traspasos$Jugador, decreasing=T),], 5)
+#summary(traspasos$Jugador)
+#mención de mayorías en el texto
+
+traspasos_AB <- aggregate(Jugador ~ equipo + caso, salida, length)
+traspasos_A <- traspasos_AB[which(traspasos_AB$caso=='ALTAS'),]
+#head(traspasos_A[order(traspasos_A$Jugador, decreasing=T),], 5)
+
+traspasos_B <- traspasos_AB[which(traspasos_AB$caso=='BAJAS'),]
+#head(traspasos_B[order(traspasos_B$Jugador, decreasing=T),], 5)
+
+posicion <- aggregate(Jugador ~ Posicion, salida, length)
+#head(posicion[order(posicion$Jugador, decreasing=T),], 20)
+
+tipo <- aggregate(Jugador ~ Tipo, salida, length)
+#head(tipo[order(tipo$Jugador, decreasing=T),], 10)
+
+```
+
+Hubo un total de 314 traspasos para este Transición 2017, de los cuales 138 corresponden a Altas y 176 a Bajas. 
+La media de traspasos por equipo fue de 20, siendo Universidad de Chile el equipo con mayor número:
+
+1) Universidad de chile: 30
+2) Palestino :29
+3) Unión Española: 26
+4) Santiago Wanderers: 25
+5) Huachipato:24
+
+Los equipos con más Altas fueron Palestino (15), Huachipato (12) y Unión Española (12), mientras que los equipos con más Bajas fueron Universidad de Chile (23), Santiago Wanderers (15) y Palestino con Unión Española (14).
+
+La posición más recurrente fue Mediocapista o Volante (104), pero seguido muy de cerca por Delantero (95). Más abajo siguen Defensa o Lateral (83) y Arquero (19).
+
+Respecto al tipo de operación, lo más cómun fue Fin de contrato (89), Jugador libre (61), Préstamo (50), Traspaso (41) y Fin de préstamo (17).
+
+***
+
+#### Red interactiva de trasferencias
+
+Ahora te invitamos a revisar nuestra red interactiva de transferencias, donde podrás ver las relaciones entre los equipos según las transferencias que se realizaron. 
+
+Te ofrecemos dos vistas: 
+
+1) Todos los equipos de la Primera A + una categoría para equipos extranjeros + otra categoría para equipos de la Primera B. Aquí se dejaron solo las relaciones entre equipos o categorías que tienen al menos 4 Altas o 4 Bajas.
+ 
+2) Una vista solo para los equipos de Primera A. Acá se dejaron todas las relaciones entre equipos.
+
+Considera que al pasar el cursor sobre un equipo particular se remarcan sus relaciones más directas. Además, puedes cambiar la ubicación de los nodos (escudos de equipos) según te acomode, solo clickeando sobre el ícono y trasladándolo sin soltar el click.
+
+```{r c3, cache=T}
+knitr::include_app("https://bustami.shinyapps.io/transferencias/", height = "550px")
+```
+
+Algunos sugerencias de visualización que puedes comprobar:
+
+A) La mitad de los equipos de Primera A tuvo más de 3 transferencias desde o hacia el extranjero. A continuación los equipos que presentan más relación con la categoría "Extranjero".
+
+Incorporaciones desde el extranjero:
+
+- Palestino y Unión Española (7) 
+- Huachipato y O'higgins (4)
+
+Salidas hacia el extranjero:
+
+- Universidad de Chile (5)
+- Everton, Palestino, Santiago Wandereres, Unión Española y Universidad Católica (4)
+
+B) La relación de los equipos de Primera A con la categoría "Primera B" es levemente menor en comparación a la categoría "Extranjero". Por ejemplo, son 7 los equipos que tienen al menos 4 transferencias desde o hacia la Primera B. Los equipos con más transferencias a continuación:
+
+Incorporaciones desde Primera B:
+
+- Audax Italiano y Curicó Unido (5) 
+- Huachipato y Palestino (4)
+
+Salidas hacia Primera B: 
+
+- Universidad de Chile y Huachipato (6)
+- Everton y San Luis (5)
+
+C) Finalmente, utilizando la segunda vista, es posible apreciar las relaciones entre los equipos de la Primera A. La mayoría de ellos tiene 1 transferencia, excepto los siguientes que destacan con 2:
+
+- Palestino -> San Luis
+- O'higgins -> San Luis
+- Palestino -> Santiago Wandereres
+- Deportes Antofagasta -> Universidad Católica
+- Universidad de Chile -> Deportes Temuco
+- Universidad de Chile -> San Luis
+
+Nota: Para la visualización fueron imitidos los traspasos que incluían equipos de segunda división profesional, valores NA o en blanco, entre otros.

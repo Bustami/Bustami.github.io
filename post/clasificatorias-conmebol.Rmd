@@ -1,0 +1,133 @@
+---
+title: "¿Cuál es la probabilidad de que Chile clasifique a Rusia 2018?"
+description: ''
+author: "Ismael Gómez"
+lang: es
+date: '2017-08-29'
+output:
+  html_document: default
+  pdf_document: default
+draft: false
+image: false
+menu: ''
+share: yes
+slug: clasificatorias-conmebol
+tags:
+- Clasificatorias
+- Conmebol
+- Chile
+- Rusia2018
+categories: ["Chile"]
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.width=7, fig.height=5, echo=F, warning=FALSE, message=FALSE)
+library(cowplot)
+library(ggjoy)
+library(tidyverse)
+```
+
+```{r read_process}
+data <- read.csv('clasif.csv', stringsAsFactors=F)
+data$Equipo <- gsub('.*[ ]', '', data$Equipo)
+data$X <- data$Pts/(data$PJ*3)*100
+data$factor <- ifelse(data$Pos.<=5, 'SI', 'NO')
+data$factor[which(data$Clasif=='1998' & data$Pos.==5)] <- 'NO'
+```
+
+Este jueves 31 de agosto se inicia una nueva fecha doble de las clasificatorias Conmebol camino al mundial de Rusia 2018. Tal y como adelantamos en un [post previo](http://datofutbol.cl/ranking_fifa_historico/) acá en datofutbol, en primer lugar Chile enfrentará a Paraguay en condición local y luego viajará a la altura de La Paz para "medirse con su similar" de Bolivia el martes 05 de septiembre.
+
+Teniendo presente que hoy La Roja tiene 23 puntos y que queda un máximo de 12 puntos en disputa (4 fechas faltantes), cabe preguntarse ¿qué posibilidades tiene La Roja de clasificar?, lo que analizaremos en este post.
+
+***
+
+#### Los datos
+
+Para el análisis tomaremos en cuenta todas las versiones previas de clasificatorias que se llevaron a cabo con el actual formato, es decir, todos los equipos enfrentándose entre sí en partidos de ida y vuelta. Así es como se consideran las clasificatorias a los mundiales de Francia 98, Corea-Japón 2002, Alemania 2006, Sudáfrica 2010 y Brasil 2014, completando un total de 48 ejemplos de participaciones de alguna selección en alguna clasificatoria.
+
+Debido a que entre algunas versiones la cantidad de selecciones participantes difiere, y por lo tanto la cantidad de partidos y puntos en disputa también, como son los casos de Francia 98 y Brasil 2014 en las cuales no participó Brasil, para efectos de comparación entre versiones de clasificatorias no utilizaremos los puntos obtenidos sino que el rendimiento de los equipos, el cual se calcula según la siguiente fórmula:
+
+- Rendimiento = ( Puntos obtenidos / (Partidos jugados x3) ) x100 [%]
+
+Los datos de partidos jugados y puntos obtenidos por cada selección para cada clasificatoria fueron recogidos desde [Wikipedia](https://es.wikipedia.org/wiki/Clasificación_de_Conmebol_para_la_Copa_Mundial_de_Fútbol_de_1998). Además de aplicar la fórmula del rendimiento, las selecciones fueron catalogadas según su condición de clasificación: SÍ y NO. Los 5tos lugares (excepto Francia 98), que otorgaron medio cupo al mundial respectivo, se consideraron por defecto en la categoría SÍ.
+
+***
+
+#### Visualizaciones y análisis
+
+El siguiente gráfico describe las categorías de clasificación según el rendimiento obtenido por las selecciones, considerando una visualización de cajas y bigotes en la parte inferior y la distribución de probabilidad continua en la parte superior.
+
+```{r c2, cache=T}
+pmain <- ggplot(data=data, aes(x=as.factor(factor), y=X)) + 
+        geom_boxplot(aes(fill=as.factor(factor)), col='black', width = 0.3,
+                     position=position_dodge()) +
+        theme_bw() +
+        labs(x="Clasificado", y="Rendimiento obtenido [%]") + 
+        guides(fill=guide_legend(title="Clasificado")) +
+        scale_fill_brewer(palette="Set1") + coord_flip(ylim = c(0, 100), expand=0.1) +
+        theme(legend.position = "top")
+
+data %>% group_by(factor) %>%
+         do(ggplot2:::compute_density(.$X, NULL)) -> X_densities
+X_densities$x[X_densities$x<0] <- 0
+xdens <- ggplot(X_densities, aes(x = x, y = as.factor(factor), height = density)) + 
+        geom_joy(stat = "identity", scale = 1000,
+                  aes(fill=as.factor(factor)),  alpha=0.6) +
+        theme_minimal(base_size = 14) + theme(axis.text.y = element_text(vjust = 0)) +
+        coord_cartesian(xlim = c(0, 100), expand=0.1) +
+        labs(x="Rendimiento obtenido [%]", y="Clasificado") + 
+        guides(fill=guide_legend(title="Clasificado")) +
+        theme(legend.position = "top", axis.text.y=element_blank()) +
+        scale_fill_brewer(palette="Set1")
+p1 <- insert_xaxis_grob(pmain, xdens, grid::unit(.2, 'null'), position='top')
+ggdraw(p1)
+```
+
+Se observa claramente la diferencia de rendimiento entre los equipos que clasificaron y los que no, con un traslape máximo de la función de probabilidad continua en aproximadamente un 47% de rendimiento. También se aprecia que la distribución de los equipos clasificados es menos dispersa que la distribución de los equipos eliminados.
+
+La mediana de rendimiento para equipos clasificados es del 58%, mientras que para equipos eliminados la mediana es de 33%. Destaca el outlier del sector derecho correspondiente a la gran campaña de Argentina en las clasificatorias a Corea-Japón 2002, donde obtuvo un rendimiento del 80% ganando 13 partidos, empatando 4 y perdiendo solo 1. En contraste, la peor campaña la tiene Venezuela con un rendimiento del 6% camino a Francia 98, donde obtuvo solo 3 puntos producto de empates.
+
+A continuación se incluye un histograma con la misma información anterior a modo de complemento para facilitar el conteo de casos de equipos clasificados y no clasificados, según intervalos de rendimiento de 5%. Posteriormente se presenta una "curva S"" con la probabilidad de clasificar según el rendimiento, construida a partir de un modelo bayesiano que considera por simplificación una probabilidad inicial de clasificar igual al 0.5.
+
+```{r c3, cache=T}
+ggplot(data=data, aes(X)) + 
+        geom_histogram(aes(fill=factor), col='black', breaks=seq(0, 90, by = 5)) +
+        facet_wrap(~ factor, ncol = 1) + theme_bw() +
+        labs(x="Rendimiento obtenido [%]", y="Cantidad de equipos") + 
+        scale_x_discrete(limits=seq(0,90,5)) +
+        guides(fill=guide_legend(title="Clasificado")) +
+        theme(legend.position = "top", panel.border = element_blank()) +
+        scale_fill_brewer(palette="Set1")
+
+p <- NULL
+v <- seq(20, 80, 0.1)
+for (i in 1:601)
+{
+        PA <- 0.5      
+        PBA <- nrow(data[which(data$X<= v[i] & data$factor=='SI'), ]) / 24
+        PBnoA <- nrow(data[which(data$X >= v[i] & data$factor=='NO'), ]) / 24
+        PAB <- PA * PBA / (PA * PBA + (1-PA)*PBnoA)
+        p <- c(p,PAB)
+        #if(v[i]<48.3 & v[i]>48.0) {z<-i}
+}
+
+plot(seq(20, 80, 0.1), p, xlab='Rendimiento [%]', ylab='Probabilidad de clasificar', 
+     col='blue', pch=16)
+axis(side=1, at=seq(20, 80, by=5))
+box()
+
+```
+
+Observando la curva de probabilidad, es posible ponerse en distintos casos hipotéticos según los nuevos puntos que obtenga Chile en las siguientes 4 fechas. A continuación el detalle de los más relevantes:
+
+- Según el modelo la clasificación se asegura (P=1) con un 52.1% de rendimiento, el cual se obtiene con 29 puntos. Es decir, si Chile gana sus dos partidos de local y el fallo del TAS no le quita los dos puntos que ganó por secretaría, clasificaría a Rusia 2018.
+
+- Si Chile gana 1 partido y empata otro, o bien gana 2 partidos pero el fallo del TAS es desfavorable, es decir tendría 4 puntos nuevos, completando 27 en total, obtendría un rendimiento del 50%. Con este rendimiento la probabilidad de clasificar es del 91.7% (Solo 2 equipos NO han clasificado con un rendimiento igual o mejor que este: Perú camino a Francia 98 y Colombia rumbo a Corea-Japón 2002).
+
+- Si Chile obtiene 3 nuevos puntos adicionales, su rendimiento sería del 48.1%. En ese caso la probabilidad de clasificar es del 50%. Esto corresponde a la probabilidad por defecto definida para todos los equipos solo por participar, por lo que representa una baja probabilidad (solo dos equipos han clasificado con un rendimiento igual o menor a este: 5to lugar de Uruguay para Alemania 2006 y Sudáfrica 2010).
+
+- Si Chile obtiene solo 1 punto adicional alcanza un rendimiento del 44.4%, entrando en la zona de descenso brusco de probabilidad de clasificar: según el modelo ese caso tiene solo 33.3% de probabilidad de clasificar, lo que es menor a la probabilidad por defecto, y se tiene solo un equipo que logró clasificar con ese rendimiento (5to lugar de Uruguay en Sudáfrica 2010).
+
+En resumen, según los datos, con 6 puntos ya aseguramos clasificación, con 4 tenemos altas probabilidades de clasificar, pero de ahí hacia abajo se ve muy complicado. Por eso ganar los dos partidos de local son claves para las aspiraciones de la selección chilena, pudiendo alcanzarle en caso de que el fallo del TAS sea desfavorable.
+
+Vamos La Roja!

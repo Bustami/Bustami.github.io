@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mercado De Pases on DATO FUTBOL</title>
+    <link>/tags/mercado-de-pases/index.xml</link>
+    <description>Recent content in Mercado De Pases on DATO FUTBOL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>Todos los derechos reservados - 2017</copyright>
+    <atom:link href="/tags/mercado-de-pases/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Red interactiva de transferencias del fútbol chileno 2017</title>
+      <link>/mercado_pases_chile_2017/</link>
+      <pubDate>Tue, 15 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/mercado_pases_chile_2017/</guid>
+      <description>&lt;p&gt;Con la fecha N°3 del torneo de Transición 2017 de la Primera A del fútbol chileno casi finalizada, y con su libro de pases cerrado el pasado jueves 03 de agosto, ya podemos dar un vistazo a las transferencias que realizó cada uno de los 16 equipos en pos de su preparación.&lt;/p&gt;
+&lt;p&gt;La información utilizada fue descargada directamente desde el anexo &lt;a href=&#34;https://es.wikipedia.org/wiki/Anexo:Transferencias_del_Torneo_Transición_2017_(Chile)&#34;&gt;Transferencias del Torneo de Transición 2017 Chile&lt;/a&gt; contenido en Wikipedia.&lt;/p&gt;
+&lt;p&gt;Dicha información contiene para cada equipo y cada transferencia el siguiente detalle: Nombre del jugador, Posición del jugador, Equipo de Procedencia o de Destino (dependiendo si es una Alta o una Baja) y Tipo de operación (Traspaso, Retorno de préstamo, Fin de contrato, Jugador Libre, etc.).&lt;/p&gt;
+&lt;p&gt;El enfoque de este análisis y visualización no se centrará en nombres propios, pasando por alto quizás los más llamativos como lo son por ejemplo Jorge Valdivia, Mauricio Pinilla o Jeisson Vargas, sino que más bien en las tendencias generales y en remarcar las relaciones entre equipos o grupos de éstos.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;div id=&#34;tendencias-generales&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Tendencias generales&lt;/h4&gt;
+&lt;p&gt;Hubo un total de 314 traspasos para este Transición 2017, de los cuales 138 corresponden a Altas y 176 a Bajas. La media de traspasos por equipo fue de 20, siendo Universidad de Chile el equipo con mayor número:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Universidad de chile: 30&lt;/li&gt;
+&lt;li&gt;Palestino :29&lt;/li&gt;
+&lt;li&gt;Unión Española: 26&lt;/li&gt;
+&lt;li&gt;Santiago Wanderers: 25&lt;/li&gt;
+&lt;li&gt;Huachipato:24&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Los equipos con más Altas fueron Palestino (15), Huachipato (12) y Unión Española (12), mientras que los equipos con más Bajas fueron Universidad de Chile (23), Santiago Wanderers (15) y Palestino con Unión Española (14).&lt;/p&gt;
+&lt;p&gt;La posición más recurrente fue Mediocapista o Volante (104), pero seguido muy de cerca por Delantero (95). Más abajo siguen Defensa o Lateral (83) y Arquero (19).&lt;/p&gt;
+&lt;p&gt;Respecto al tipo de operación, lo más cómun fue Fin de contrato (89), Jugador libre (61), Préstamo (50), Traspaso (41) y Fin de préstamo (17).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;red-interactiva-de-trasferencias&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Red interactiva de trasferencias&lt;/h4&gt;
+&lt;p&gt;Ahora te invitamos a revisar nuestra red interactiva de transferencias, donde podrás ver las relaciones entre los equipos según las transferencias que se realizaron.&lt;/p&gt;
+&lt;p&gt;Te ofrecemos dos vistas:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Todos los equipos de la Primera A + una categoría para equipos extranjeros + otra categoría para equipos de la Primera B. Aquí se dejaron solo las relaciones entre equipos o categorías que tienen al menos 4 Altas o 4 Bajas.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Una vista solo para los equipos de Primera A. Acá se dejaron todas las relaciones entre equipos.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Considera que al pasar el cursor sobre un equipo particular se remarcan sus relaciones más directas. Además, puedes cambiar la ubicación de los nodos (escudos de equipos) según te acomode, solo clickeando sobre el ícono y trasladándolo sin soltar el click.&lt;/p&gt;
+&lt;iframe src=&#34;https://bustami.shinyapps.io/transferencias/?showcase=0&#34; width=&#34;768&#34; height=&#34;550px&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;Algunos sugerencias de visualización que puedes comprobar:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: upper-alpha&#34;&gt;
+&lt;li&gt;La mitad de los equipos de Primera A tuvo más de 3 transferencias desde o hacia el extranjero. A continuación los equipos que presentan más relación con la categoría “Extranjero”.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Incorporaciones desde el extranjero:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Palestino y Unión Española (7)&lt;/li&gt;
+&lt;li&gt;Huachipato y O’higgins (4)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Salidas hacia el extranjero:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Universidad de Chile (5)&lt;/li&gt;
+&lt;li&gt;Everton, Palestino, Santiago Wandereres, Unión Española y Universidad Católica (4)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: upper-alpha&#34;&gt;
+&lt;li&gt;La relación de los equipos de Primera A con la categoría “Primera B” es levemente menor en comparación a la categoría “Extranjero”. Por ejemplo, son 7 los equipos que tienen al menos 4 transferencias desde o hacia la Primera B. Los equipos con más transferencias a continuación:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Incorporaciones desde Primera B:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Audax Italiano y Curicó Unido (5)&lt;/li&gt;
+&lt;li&gt;Huachipato y Palestino (4)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Salidas hacia Primera B:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Universidad de Chile y Huachipato (6)&lt;/li&gt;
+&lt;li&gt;Everton y San Luis (5)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: upper-alpha&#34;&gt;
+&lt;li&gt;Finalmente, utilizando la segunda vista, es posible apreciar las relaciones entre los equipos de la Primera A. La mayoría de ellos tiene 1 transferencia, excepto los siguientes que destacan con 2:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Palestino -&amp;gt; San Luis&lt;/li&gt;
+&lt;li&gt;O’higgins -&amp;gt; San Luis&lt;/li&gt;
+&lt;li&gt;Palestino -&amp;gt; Santiago Wandereres&lt;/li&gt;
+&lt;li&gt;Deportes Antofagasta -&amp;gt; Universidad Católica&lt;/li&gt;
+&lt;li&gt;Universidad de Chile -&amp;gt; Deportes Temuco&lt;/li&gt;
+&lt;li&gt;Universidad de Chile -&amp;gt; San Luis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nota: Para la visualización fueron imitidos los traspasos que incluían equipos de segunda división profesional, valores NA o en blanco, entre otros.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Red interactiva de transferencias del fútbol chileno 2017</title>
+      <link>/mercado_pases_chile_2017/</link>
+      <pubDate>Tue, 15 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/mercado_pases_chile_2017/</guid>
+      <description>&lt;!-- BLOGDOWN-HEAD --&gt;
+&lt;!-- /BLOGDOWN-HEAD --&gt;
+
+&lt;!-- BLOGDOWN-BODY-BEFORE --&gt;
+&lt;!-- /BLOGDOWN-BODY-BEFORE --&gt;
+&lt;p&gt;Con la fecha N°3 del torneo de Transición 2017 de la Primera A del fútbol chileno casi finalizada, y con su libro de pases cerrado el pasado jueves 03 de agosto, ya podemos dar un vistazo a las transferencias que realizó cada uno de los 16 equipos en pos de su preparación.&lt;/p&gt;
+&lt;p&gt;La información utilizada fue descargada directamente desde el anexo &lt;a href=&#34;https://es.wikipedia.org/wiki/Anexo:Transferencias_del_Torneo_Transición_2017_(Chile)&#34;&gt;Transferencias del Torneo de Transición 2017 Chile&lt;/a&gt; contenido en Wikipedia.&lt;/p&gt;
+&lt;p&gt;Dicha información contiene para cada equipo y cada transferencia el siguiente detalle: Nombre del jugador, Posición del jugador, Equipo de Procedencia o de Destino (dependiendo si es una Alta o una Baja) y Tipo de operación (Traspaso, Retorno de préstamo, Fin de contrato, Jugador Libre, etc.).&lt;/p&gt;
+&lt;p&gt;El enfoque de este análisis y visualización no se centrará en nombres propios, pasando por alto quizás los más llamativos como lo son por ejemplo Jorge Valdivia, Mauricio Pinilla o Jeisson Vargas, sino que más bien en las tendencias generales y en remarcar las relaciones entre equipos o grupos de éstos.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;div id=&#34;tendencias-generales&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Tendencias generales&lt;/h4&gt;
+&lt;p&gt;Hubo un total de 314 traspasos para este Transición 2017, de los cuales 138 corresponden a Altas y 176 a Bajas. La media de traspasos por equipo fue de 20, siendo Universidad de Chile el equipo con mayor número:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Universidad de chile: 30&lt;/li&gt;
+&lt;li&gt;Palestino :29&lt;/li&gt;
+&lt;li&gt;Unión Española: 26&lt;/li&gt;
+&lt;li&gt;Santiago Wanderers: 25&lt;/li&gt;
+&lt;li&gt;Huachipato:24&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Los equipos con más Altas fueron Palestino (15), Huachipato (12) y Unión Española (12), mientras que los equipos con más Bajas fueron Universidad de Chile (23), Santiago Wanderers (15) y Palestino con Unión Española (14).&lt;/p&gt;
+&lt;p&gt;La posición más recurrente fue Mediocapista o Volante (104), pero seguido muy de cerca por Delantero (95). Más abajo siguen Defensa o Lateral (83) y Arquero (19).&lt;/p&gt;
+&lt;p&gt;Respecto al tipo de operación, lo más cómun fue Fin de contrato (89), Jugador libre (61), Préstamo (50), Traspaso (41) y Fin de préstamo (17).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;red-interactiva-de-trasferencias&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Red interactiva de trasferencias&lt;/h4&gt;
+&lt;p&gt;Ahora te invitamos a revisar nuestra red interactiva de transferencias, donde podrás ver las relaciones entre los equipos según las transferencias que se realizaron.&lt;/p&gt;
+&lt;p&gt;Te ofrecemos dos vistas:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Todos los equipos de la Primera A + una categoría para equipos extranjeros + otra categoría para equipos de la Primera B. Aquí se dejaron solo las relaciones entre equipos o categorías que tienen al menos 4 Altas o 4 Bajas.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Una vista solo para los equipos de Primera A. Acá se dejaron todas las relaciones entre equipos.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Considera que al pasar el cursor sobre un equipo particular se remarcan sus relaciones más directas. Además, puedes cambiar la ubicación de los nodos (escudos de equipos) según te acomode, solo clickeando sobre el ícono y trasladándolo sin soltar el click.&lt;/p&gt;
+&lt;iframe src=&#34;https://bustami.shinyapps.io/transferencias/?showcase=0&#34; width=&#34;768&#34; height=&#34;550px&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;Algunos sugerencias de visualización que puedes comprobar:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: upper-alpha&#34;&gt;
+&lt;li&gt;La mitad de los equipos de Primera A tuvo más de 3 transferencias desde o hacia el extranjero. A continuación los equipos que presentan más relación con la categoría “Extranjero”.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Incorporaciones desde el extranjero:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Palestino y Unión Española (7)&lt;/li&gt;
+&lt;li&gt;Huachipato y O’higgins (4)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Salidas hacia el extranjero:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Universidad de Chile (5)&lt;/li&gt;
+&lt;li&gt;Everton, Palestino, Santiago Wandereres, Unión Española y Universidad Católica (4)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: upper-alpha&#34;&gt;
+&lt;li&gt;La relación de los equipos de Primera A con la categoría “Primera B” es levemente menor en comparación a la categoría “Extranjero”. Por ejemplo, son 7 los equipos que tienen al menos 4 transferencias desde o hacia la Primera B. Los equipos con más transferencias a continuación:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Incorporaciones desde Primera B:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Audax Italiano y Curicó Unido (5)&lt;/li&gt;
+&lt;li&gt;Huachipato y Palestino (4)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Salidas hacia Primera B:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Universidad de Chile y Huachipato (6)&lt;/li&gt;
+&lt;li&gt;Everton y San Luis (5)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: upper-alpha&#34;&gt;
+&lt;li&gt;Finalmente, utilizando la segunda vista, es posible apreciar las relaciones entre los equipos de la Primera A. La mayoría de ellos tiene 1 transferencia, excepto los siguientes que destacan con 2:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Palestino -&amp;gt; San Luis&lt;/li&gt;
+&lt;li&gt;O’higgins -&amp;gt; San Luis&lt;/li&gt;
+&lt;li&gt;Palestino -&amp;gt; Santiago Wandereres&lt;/li&gt;
+&lt;li&gt;Deportes Antofagasta -&amp;gt; Universidad Católica&lt;/li&gt;
+&lt;li&gt;Universidad de Chile -&amp;gt; Deportes Temuco&lt;/li&gt;
+&lt;li&gt;Universidad de Chile -&amp;gt; San Luis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nota: Para la visualización fueron imitidos los traspasos que incluían equipos de segunda división profesional, valores NA o en blanco, entre otros.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

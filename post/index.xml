@@ -1,0 +1,2096 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on DATO FUTBOL</title>
+    <link>/post/index.xml</link>
+    <description>Recent content in Posts on DATO FUTBOL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>Todos los derechos reservados 2017-2018</copyright>
+    <lastBuildDate>Wed, 05 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ranking de Campeones Primera División Fútbol Profesional Chile [actualizado Dic 2018]</title>
+      <link>/campeones-chile-3rd/</link>
+      <pubDate>Wed, 05 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/campeones-chile-3rd/</guid>
+      <description>&lt;p&gt;Felicitamos al Club Deportivo Universidad Católica y a todos #LosCruzados por ser los campeones de la versión N° 102 del torneo de primera división del fútbol profesional chileno, alcanzando su estrella número 13!&lt;/p&gt;
+&lt;p&gt;A continuación presentamos la actualización &lt;a href=&#34;http://datofutbol.cl/campeones-chile-2nd/&#34;&gt;&lt;strong&gt;de nuestro ranking publicado previamente&lt;/strong&gt;&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/campeones-chile3rd_files/figure-html/plot1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Colo-Colo tiene un claro liderato con sus 32 estrellas, con lo que casi le alcanza para duplicar y triplicar a sus más cercanos perseguidores (Universidad de Chile con 18 y Universidad Católica con 13), respectivamente. Cabe destacar que los 3 llamados “equipos grandes” de Chile juntos se han llevado el 62% de las copas jugadas.&lt;/p&gt;
+&lt;p&gt;Se observa que la mayoría de los campeones son equipos de la Región Metropolitana (Colo-Colo, Universidad de Chile, Universidad Católica, Unión Española, Audax Italiano, Magallanes, Palestino, Santiago Morning y Green Cross), correspondiente al 56% de los 16 equipos que han campeonado al menos una vez, y al 80% de los 102 campeonatos jugados.&lt;/p&gt;
+&lt;p&gt;Los campeones de otras regiones son:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cobreloa (Región de Antofagasta) con 8 campeonatos&lt;/li&gt;
+&lt;li&gt;Everton, Santiago Wandereres y Unión San Felipe (Región de Valparaíso) con 4, 3 y 1 campeonato respectivamente&lt;/li&gt;
+&lt;li&gt;Huachipato (Región del Bío-Bío) con 2&lt;/li&gt;
+&lt;li&gt;O’higgins (Región de Bernardo O’higgins) y Cobresal (Región de Atacama) con 1 estrella cada uno.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El título obtenido por Green Cross en 1945 se consideró para Deportes Temuco (Región de la Araucanía) dada su fusión en 1965.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Ahora bien, también podemos considerar un índice que represente la efectividad para ganar campeonatos en función de los torneos jugados. Así podemos ver cómo cambia el ranking con la razón “campeonatos ganados/jugados” en la siguiente visualización:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/campeones-chile3rd_files/figure-html/plot2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Además de la razón campeonatos ganados/jugados que se muestra arriba de cada barra, abajo y entre paréntesis se presenta el número de torneos jugados por cada equipo en Primera División, lo que aporta a la interpretación, puesto que quienes avanzan en este ranking en comparación con al anterior lo hacen debido a que han aprovechado mejor sus participaciones en Primera División para campeonar. Cabe destacar que Colo-Colo es el único que ha jugado los 102 torneos dada su antigüedad en el fútbol criollo y porque no ha descendido nunca a Primera B o Segunda División.&lt;/p&gt;
+&lt;p&gt;Se puede apreciar que Colo-Colo y Universidad de Chile mantienen sus puestos, con índices de 0.31 y 0.19 respectivamente. Esto puede llevarse a otra palabras como por ejemplo que Colo-Colo tiende a ganar aproximadamente 1 de cada 3 torneos de los que juega, y la U. de Chile lo hace 1 vez cada 5.&lt;/p&gt;
+&lt;p&gt;Por otro lado, Cobreloa en este ranking supera a la Universidad Católica, quitándole el 3er lugar, así como lo hace Magallanes con Unión Española y Unión San Felipe con Palestino. Premio a la efectividad.&lt;/p&gt;
+&lt;p&gt;Sin embargo, si bien estos avances en el ranking se deben a mayor efectividad, no hay que dejar de tener presente los números absolutos de los torneos jugados en cada caso, ya que para estos casos justamente se tienen menos participaciones, lo que es debido principalmente a equipos “nuevos” y/o a varios torneos fuera de Primera División.&lt;/p&gt;
+&lt;p&gt;Lo anterior llevado a un caso extremo: si un equipo sube por primera vez a Primera División y sale campeón inmediatamente, pero al año siguiente desciende, tendría un índice de 0.5 (1 campeonato y 2 torneos jugados) y sería el primero del ranking. Por supuesto que no tendría mucho sentido premiar o alabar eso.&lt;/p&gt;
+&lt;p&gt;Esperamos mantener este ranking actualizado torneo a torneo e ir agregando estadísticas más detalladas al respecto. Los escudos de los equipos fueron descargados del sitio oficial de la &lt;a href=&#34;http://anfp.cl&#34;&gt;ANFP&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Predicciones Copa del mundo Rusia 2018</title>
+      <link>/pred-rusia2018/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/pred-rusia2018/</guid>
+      <description>&lt;script src=&#34;/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;No me aguanté las ganas de hacer algo con datos para esta nueva edición de la Copa del mundo, Rusia 2018. Luego de navegar por internet un rato y recolectar algunos datos decidí enfocarme en el ajuste de un modelo de predicción para “goles esperados por cada equipo en cada partido”, lo que permite estimar las probabilidades de ganar que tiene cada equipo o bien que haya un empate para cada partido. Así, podremos pronosticar todos los partidos del torneo.&lt;/p&gt;
+&lt;p&gt;A continuación los detalles sobre los datos utilizados, el ajuste del modelo y los resultados.&lt;/p&gt;
+&lt;div id=&#34;datos-considerados&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Datos considerados&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Resultados de todos los partidos en mundiales desde USA 1994 a Brasil 2014&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Último Ranking FIFA registrado para las selecciones al momento de jugar cada mundial&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Porcentaje de jugadores que juegan en las 5 principales ligas europeas (Inglaterra, España, Italia, Alemania y Francia) al momento de jugar cada mundial respecto al total de la plantilla.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Promedio de edad de la plantilla al momento de jugar cada mundial&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Confederación de cada selección (UEFA, CONMEBOL, CONCACAF, etc.)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;exploracion-basica&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Exploración básica&lt;/h2&gt;
+&lt;p&gt;Es así como se consideraron 372 partidos, en cuyos resultados puede apreciarse que el Empate es uno de los menos frecuentes (24%):&lt;/p&gt;
+&lt;table class=&#34;table&#34; style=&#34;width: auto !important; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Resultado
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Cantidad
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Porcentaje
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Equipo 1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+168
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+45.2
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Equipo 2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+114
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+30.6
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Empate
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+90
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+24.2
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;También es posible observar la distribución de goles de un equipo por partido, cuyo promedio es de 1.3. A continuación el histograma asociado a esa información.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/pred-rusia2018_files/figure-html/hist-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;div id=&#34;modelo-de-prediccion-con-distribucion-de-poisson&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Modelo de predicción con distribución de Poisson&lt;/h4&gt;
+&lt;p&gt;Si bien se aplican diversos métodos para este tipo de predicciones, uno de los más utilizados es la de “goles esperados para un equipo por partido”, basado en un modelo de regresión con distribución de &lt;a href=&#34;https://es.wikipedia.org/wiki/Distribución_de_Poisson&#34;&gt;&lt;strong&gt;Poisson&lt;/strong&gt;&lt;/a&gt;, dado que la cantidad de goles por partido se aproxima a esta distribución.&lt;/p&gt;
+&lt;p&gt;Para esto utilicé la fución &lt;code&gt;glm&lt;/code&gt; de R ingresando todos los datos mencionados anteriormente, usando específicamente la diferencia de cada atributo entre los dos equipos que se enfrentan en cada partido.&lt;/p&gt;
+&lt;p&gt;El atributo más relevante que arrojó el modelo fue el porcentaje de jugadores en las grandes ligas de europa, así como una ventaja general para las selecciones de Conmebol. Los atributos Edad promedio y Ranking FIFA si bien tienen significancia estadística no tienen un gran impacto.&lt;/p&gt;
+&lt;p&gt;Cabe meniconar que se descartó la influencia de atributos como la localía del equipo anfitrión del mundial, la dispersión de las edades de jugadores y el resto de las confederaciones aparte de Conmebol.&lt;/p&gt;
+&lt;p&gt;Entonces, el modelo nos permite predecir la probabilidad que tiene cada equipo de hacer X goles en un determinado partido, por supuesto dependiendo del rival, y con eso estimar la matriz de probabilidades de resultados como se aprecia a modo de ejemplo en la siguiente visualización para el primer partido de Perú luego de 36 años sin asistir a un mundial:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/pred-rusia2018_files/figure-html/modelo-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Luego, considerando la suma de probabilidades según cada caso de resultado global podemos obtener las probabilidades para:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Triunfo del Equipo 1&lt;/li&gt;
+&lt;li&gt;Empate&lt;/li&gt;
+&lt;li&gt;Triunfo del Equipo 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Paradójicamente, si bien el resultado exacto más probable es un 1-1 con 12% de probabilidad, representando Empate, si miramos las probabilidades de resultados globales lo más probable es que gane Dinamarca, con 50% de probabilidades, mientras que el empate o el triunfo de Perú arroja un 25% cada uno.&lt;/p&gt;
+&lt;p&gt;En la siguiente visualización se aprecian dichas probabilidades en relación al Empate:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/pred-rusia2018_files/figure-html/prob-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Para tener una idea de la efectividad del modelo, particioné el conjunto de datos históricos para evaluarlo con datos aparte de los considerados en el ajuste, obteniendo un 54% de accuracy. De ese 46% de error, el 27% se explica por la presencia de empates que el modelo nunca predice, dado que como criterio básico nos quedamos con el resultado global más probable.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;prediccion-2018&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Predicción 2018&lt;/h4&gt;
+&lt;p&gt;Finalmente, utilizando el modelo y considerando como ganador al equipo con mayor probailidad de ganar cada partido, es posible estimar la tabla de posiciones del torneo, desde el campeón hasta el último lugar:&lt;/p&gt;
+&lt;div style=&#34;border: 1px solid #ddd; padding: 5px; overflow-y: scroll; height:600px; overflow-x: scroll; width:450px; &#34;&gt;
+&lt;table class=&#34;table&#34; style=&#34;margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Resultado
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Equipo
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Campeón
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+FRANCIA
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Subcampeón
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+ALEMANIA
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+3ero
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+BRASIL
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+4to
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+ESPAÑA
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Cuartos de final
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+PORTUGAL
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Cuartos de final
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+ARGENTINA
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Cuartos de final
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+BÉLGICA
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Cuartos de final
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+INGLATERRA
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Octavos de final
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+POLONIA
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Octavos de final
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+URUGUAY
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Octavos de final
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+SUECIA
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Octavos de final
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+EGIPTO
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Octavos de final
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+DINAMARCA
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Octavos de final
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+CROACIA
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Octavos de final
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+SUIZA
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Octavos de final
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+SENEGAL
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Fase de grupos
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+MARRUECOS
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Fase de grupos
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+PERÚ
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Fase de grupos
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+ISLANDIA
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Fase de grupos
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+SERBIA
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Fase de grupos
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+MÉXICO
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Fase de grupos
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+TÚNEZ
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Fase de grupos
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+COLOMBIA
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Fase de grupos
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+ARABIA SAUDI
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Fase de grupos
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+NIGERIA
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Fase de grupos
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+COSTA RICA
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Fase de grupos
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+JAPÓN
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Fase de grupos
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+RUSIA
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Fase de grupos
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+IRÁN
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Fase de grupos
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+AUSTRALIA
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Fase de grupos
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+COREA DEL SUR
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Fase de grupos
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+PANAMÁ
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;En comparación a las diversas predicciones que están dando vueltas en estos últimos días previo al inicio del mundial (&lt;a href=&#34;https://www.technologyreview.com/s/611397/machine-learning-predicts-world-cup-winner/amp/&#34;&gt;MIT&lt;/a&gt;, &lt;a href=&#34;https://eightyfivepoints.blogspot.com/2018/05/what-can-we-expect-from-21st-fifa-world.html&#34;&gt;EightyFivePoints&lt;/a&gt;, &lt;a href=&#34;https://www.ubs.com/content/dam/assets/wm/global/cio/doc/investing-in-emerging-markets-en.pdf&#34;&gt;UBS&lt;/a&gt;, &lt;a href=&#34;https://eeecon.uibk.ac.at/~zeileis/news/fifa2018/&#34;&gt;Achim Zeileis&lt;/a&gt;), la novedad de nuestros resultados está principalmente en el hecho de dar a Francia como ganador, dado que Alemania, Brasil y España aparecen en los primeros lugares en la gran mayoría de dichas predicciones.&lt;/p&gt;
+&lt;p&gt;Otras diferencias pueden estar en que este modelo arroja que Rusia, Perú, Colombia y México no pasan de la fase de grupos, lo que sí sucede en algunas otras predicciones.&lt;/p&gt;
+&lt;p&gt;Veremos qué pasa. De todos modos se debe tener presente que siempre en las predicciones de resultados globales de fútbol se tienen márgenes de error relativamente altos dada la naturaleza del mismo juego, con componentes azarosos, circunstaciales, psicológicos, emotivos, etc. los cuales son muy complejos de incluir en un modelo de predicción.&lt;/p&gt;
+&lt;p&gt;Durante el mundial estaremos publicando las estimaciones más detalladas de cada partido junto con otros datos históricos. Síguenos en &lt;a href=&#34;https://twitter.com/DatoFutbol_cl&#34;&gt;&lt;strong&gt;Twitter&lt;/strong&gt;&lt;/a&gt; y/o &lt;a href=&#34;https://www.facebook.com/pg/datofutbolCL/posts/?ref=page_internal&#34;&gt;&lt;strong&gt;Facebook&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mi primer shotmap va para Alexis Sánchez</title>
+      <link>/shotmap1-alexis/</link>
+      <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/shotmap1-alexis/</guid>
+      <description>&lt;p&gt;Jugando con los datos proporcionados por &lt;strong&gt;StrataBet&lt;/strong&gt; junto con la librería &lt;strong&gt;ggsoccer&lt;/strong&gt; de Ben &lt;a href=&#34;https://twitter.com/Torvaney&#34;&gt;&lt;strong&gt;Torvaney&lt;/strong&gt;&lt;/a&gt; para R, armé mi primer Shotmap (!!) dedicado a Alexis Sánchez&lt;/p&gt;
+&lt;div id=&#34;datos&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Datos&lt;/h3&gt;
+&lt;p&gt;En total consideré 24 partidos de Premier League con el fin de comparar los 12 que Alexis ha jugado a la fecha en Manchester United con los 12 últimos que jugó en Arsenal. Así es como se tienen cantidades de minutos jugados muy similares para cada caso.&lt;/p&gt;
+&lt;p&gt;En relación a los tiros, se consideraron todos los efectuados desde “juego abierto”, despreciando pelotas paradas.&lt;/p&gt;
+&lt;p&gt;Gracias a la librería ggsoccer es posible dibujar la cancha para ubicar los tiros, sin embargo es necesario hacer una conversión de las coordenadas re escalando los valores tanto para el eje X como Y ya que los datos no vienen en el mismo sistema que la herramienta utilizada.&lt;/p&gt;
+&lt;p&gt;Por otro lado, además de la ubicación de los tiros, el mapeo de datos para la visualización contempla el color para los equipos y la forma para el resultado del tiro: Gol o No gol (atajado, desviado, bloqueado).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/shotmap1_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;observaciones&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Observaciones&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;En Arsenal en general Alexis disparaba más: 25 de 43 chances: 58%&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;En Arsenal también resalta la cantidad de remates desde el sector izquierdo del ataque, incluso fuera del área, además de una mayor cantidad de goles (5).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;En Manchester United se observa un juego ofensivo más centralizado, con menos remates desde fuera del área y menos goles, hasta ahora.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;¿Esto es debido a la influencia del juego más defensivo de Mou? ¿El periodo de adaptación?&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;This article was written with the aid of StrataData, which is property of &lt;a href=&#34;http://www.stratagem.co/&#34;&gt;&lt;strong&gt;Stratagem Technologies&lt;/strong&gt;&lt;/a&gt;. StrataData powers the &lt;a href=&#34;http://www.stratabet.com/&#34;&gt;&lt;strong&gt;StrataBet&lt;/strong&gt;&lt;/a&gt; Sports Trading Platform, in addition to &lt;a href=&#34;https://stratatips.co/&#34;&gt;&lt;strong&gt;StrataBet Premium Recommendations&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Predicciones Copa Libertadores 2018</title>
+      <link>/clasificador-copa-libertadores/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/clasificador-copa-libertadores/</guid>
+      <description>&lt;script src=&#34;/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;El primer post #DatoFútbol del 2018 se lo dedicaré a la Copa Libertadores [La Copa], cuya fase de grupos comienza este martes 27 de febrero. Se trata de la continuación del trabajo de &lt;a href=&#34;http://datofutbol.cl/libertadores_valor_planteles_2017/&#34;&gt;&lt;strong&gt;una publicación anterior&lt;/strong&gt;&lt;/a&gt; en la cual se analizó la correlación entre el valor monetario de los planteles en el mercado y su respectivo rendimiento en la fase de grupos de la edición 2017 de La Copa, además de la cantidad de puntos necesarios para clasificar.&lt;/p&gt;
+&lt;p&gt;Esta vez aumentaré la cantidad de datos, incluyendo datos históricos de ediciones previas, con el objetivo de alimentar de mejor manera un modelo que permita predecir qué equipos pasarán la fase de grupos de la presente edición.&lt;/p&gt;
+&lt;div id=&#34;recoleccion-y-proceso-de-datos&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Recolección y proceso de datos&lt;/h2&gt;
+&lt;p&gt;Aplicando scraping con la librería &lt;a href=&#34;https://cran.r-project.org/web/packages/rvest/rvest.pdf&#34;&gt;&lt;strong&gt;rvest&lt;/strong&gt;&lt;/a&gt; de R descargué los datos de valores en el mercado, en millones de euros, y las tablas de posiciones disponibles en el sitio &lt;a href=&#34;https://www.transfermarkt.com/copa-libertadores/teilnehmer/pokalwettbewerb/CLI/&#34;&gt;Transfermarkt.com&lt;/a&gt; para todos los planteles que participaron en la fase de grupos de las ediciones desarrolladas entre los años 2011 y 2017. La información de tablas de posiciones fue validada contrastando con el contenido de los sitios web de &lt;a href=&#34;http://www.conmebol.com/es/copa-libertadores-2018/posiciones&#34;&gt;Conmebol&lt;/a&gt; y &lt;a href=&#34;https://es.wikipedia.org/wiki/Copa_Libertadores_2011&#34;&gt;Wikipedia&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Es así como se trabajó con 224 registros de algún equipo participante en fase de grupos de La Copa (32 equipos en 7 ediciones). De este modo inicialmente se contó con los siguientes atributos para cada registro: Año de edición, N° de Grupo, Nombre Club, País del Club, Puntos obtenidos en fase de grupos, Clasificación (SI/NO) y Valor en el mercado.&lt;/p&gt;
+&lt;p&gt;En esta muestra de datos se tienen 97 equipos participantes diferentes, dentro de los cuales destacan Emelec de Ecuador con 7 participaciones, luego The Strongest de Bolivia, Peñarol y Nacional de Uruguay con 6 participaciones, además de Atlético Nacional e Independiente de Santa Fe de Colombia, Atlético Mineiro y Gremio de Brasil y Libertad de Paraguay con 5 participaciones. A continuación la tabla con el ranking de participaciones para casos con más de 3.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Club
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Pais
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Participaciones
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+cs emelec
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Ecuador
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+7
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+nacional
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Uruguay
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+6
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+penarol
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Uruguay
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+6
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+the strongest
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Bolivia
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+6
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+atletico mineiro
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Brasil
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+5
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+atletico nacional
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Colombia
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+5
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+gremio
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Brasil
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+5
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+independiente santa fe
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Colombia
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+5
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+libertad
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Paraguay
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+5
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+boca juniors
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Argentina
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+4
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+cerro porteno
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Paraguay
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+4
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+corinthians
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Brasil
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+4
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+deportivo tachira
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Venezuela
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+4
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+san lorenzo
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Argentina
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+4
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+sport. cristal
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Peru
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+4
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+universidad de chile
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Chile
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+4
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+velez sarsfield
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Argentina
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+4
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+zamora
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+Venezuela
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+4
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Por otro lado, cabe destacar que el valor en el mercado considerado para el análisis corresponde al valor de la fecha previa más cercana al inicio de cada edición de La Copa, de modo que se considera la valoración inicial del plantel como posible referencia de la inversión realizada para la misma y al mismo tiempo evitamos incluir el propio impacto que un equipo tendría en su valor debido a su rendimiento durante el desarrollo de los partidos.&lt;/p&gt;
+&lt;p&gt;Otro aspecto relacionado con el valor en el mercado es la variación del valor del dinero con el tiempo. Si bien existe la opción de corregir todos los valores a algún punto temporal arbitrario para que sean comparable entre sí, opté por convertir los valores a métricas que, además de corregir lo anterior, incorporen información útil respecto a cómo se relacionan los valores de &lt;strong&gt;los equipos de un mismo grupo&lt;/strong&gt;, puesto que finalmente éstos serán los rivales a evaluar y sus respectivas relaciones de valores monetarios en el mercado.&lt;/p&gt;
+&lt;p&gt;En este contexto, consideré la creación de nuevos atributos para cada registro:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Valor centrado respecto a la media del grupo&lt;/li&gt;
+&lt;li&gt;Valor estandarizado respecto al grupo (el centrado dividido por la desviación estándar)&lt;/li&gt;
+&lt;li&gt;Valor numérico de 1 a 4 asociado al ranking del equipo dentro de un grupo según su Valor centrado.&lt;/li&gt;
+&lt;li&gt;Variable nominal según el ranking anterior. A: lugares 1 y 2, B: lugares 3 y 4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mi apuesta fue que alguno de estos dos últimos nuevos parámetros ayuden a corregir los casos en que 3 equipos con valores monetarios relativamente altos o bajos (para el conjunto total de datos) estén en un mismo grupo, lo cual según las reglas de clasificación (solo lo hacen 2 por grupo) fuerza a que al menos uno de los valores “altos” no haya clasificado o uno de los “bajos” sí lo haya hecho, lo que podría ensuciar el modelo.&lt;/p&gt;
+&lt;p&gt;A modo descriptivo, en el siguiente gráfico se puede observar un gráfico de dispersión del Valor centrado v/s la Cantidad de puntos obtenidos en la fase de grupos, mapeando con colores el status de Clasificación SI/NO.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/clasificador-copa-libertadores_files/figure-html/plot1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Con esta visualización podemos comprobar que al incorporar datos históricos sigue existiendo la correlación encontrada para la edición 2017 entre valor monetario de planteles (en este caso centrado respecto al promedio de su grupo) y su rendimiento en fase de grupos (puntos obtenidos). Dicha correlación tiene un R^2 igual a 0.3.&lt;/p&gt;
+&lt;p&gt;También se vuelve a observar que con 10 puntos la gran mayoría ha clasificado (excepto U. de Chile el 2014 y Deportes Iquique el 2017), pero que con 9 puntos no se asegura la clasificación (se reparte más o menos homogéneamente entré SI y NO), aún cuando han habido algunos casos puntuales de clasificación con 8 e incluso 7 puntos (Once caldas 2011, Sao Paulo 2013 y River Plate 2015).&lt;/p&gt;
+&lt;p&gt;Respecto al valor monetario, se puede apreciar que la gran mayoría de los planteles con un valor de 10 millones de EUR sobre el promedio de su grupo han clasificado. Los que no cumplen esta regla son 4 casos: Independiente de Avellaneda 2011, Guadalajara 2012 y Flamengo 2012 y 2017.&lt;/p&gt;
+&lt;p&gt;En contraste, la mayoría de planteles con 18 millones de EU menor al promedio de su grupo no lo han hecho. Las excepciones y “sorpresas” han sido: LDU de Quito 2011, Emelec 2012, U. de Sucre 2015 y Wilstermann 2017). ¿Factor común? Equipos Ecuatorianos y Bolivianos que juegan sus partidos de local en altura.&lt;/p&gt;
+&lt;p&gt;Bien, a continuación la presentación del modelo de clasifcación que desarrollé a partir de esta base de datos junto con sus resultados de predicción para la edición 2018 de La Copa.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;div id=&#34;modelo-de-regresion-logistica&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Modelo de regresión logística&lt;/h4&gt;
+&lt;p&gt;Como punto de partida ajusté un modelo de regresión para comprender, y eventualmente predecir, el status de clasificación SI/NO. Dado que esta variable tiene una &lt;a href=&#34;https://es.wikipedia.org/wiki/Distribución_binomial&#34;&gt;&lt;strong&gt;distribución binomial o Bernoulli&lt;/strong&gt;&lt;/a&gt;, con posibles salidas SI y NO, trabajé con un regresión logística, la cual a su vez también permite obtener las probabilidades asociadas a cada caso.&lt;/p&gt;
+&lt;p&gt;Luego de algunas pruebas con los distintos atributos, el predictor más útil fue el Valor centrado. Se descartó la influencia estadísticamente significativa de parámetros como el Nombre y el País del Club, el Año, el Valor estandarizado y el ranking numérico y nominal del valor centrado.&lt;/p&gt;
+&lt;p&gt;En la siguiente gráfica se puede apreciar la típica Curva S de probabilidades que resultan del ajuste del modelo en función del Valor centrado. El color mapea el status de clasificación.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/clasificador-copa-libertadores_files/figure-html/plot2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Entonces, con este modelo podemos obtener la probabilidad de que un equipo pase la fase de grupos de La Copa conociendo su valor en el mercado y su diferencia respecto al promedio del grupo que le tocó. Sin embargo, estas son probabilidades “independientes” que deben ser ponderadas para cada caso para así obtener la probabilidad final de cada uno con tal de que la suma de los integrantes del grupo sumen 100%.&lt;/p&gt;
+&lt;p&gt;Por otro lado, si establecemos como criterio que los 2 equipos con mayor probabilidad dentro de un grupo serán los que clasifiquen, el modelo es capaz de predecir con una precisión del 71.4% cualquiera de las dos salidas (SI o NO), es decir se clasificacn correctamente 80 de los 112 ejemplos de cada categoría.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;prediccion-2018&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Predicción 2018&lt;/h4&gt;
+&lt;p&gt;Finalmente, tomé la información de la versión 2018 de La Copa y la ingresé al modelo para obtener las probabilidades de clasificar para cada equipo y luego las ponderé para cada grupo.&lt;/p&gt;
+&lt;p&gt;En la siguiente tabla se pueden observar dichas probabilidades ponderadas de clasificación para cada equipo marcando con color azul los 2 más altos que clasificarían tomando a los mayores como criterio para clasificar:&lt;/p&gt;
+&lt;div style=&#34;border: 1px solid #ddd; padding: 5px; overflow-y: scroll; height:500px; overflow-x: scroll; width:900px; &#34;&gt;
+&lt;table class=&#34;table&#34; style=&#34;margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Grupo
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Club
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Valor_Mill_EU
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Promedio_grupo
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Valor_centrado
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Prob
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Porcentaje
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;&#34;&gt;
+Grêmio
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+79.55
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+26.8650
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+52.6850
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+0.5902863
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;&#34;&gt;
+59.0
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;&#34;&gt;
+Defensor Sporting
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+10.78
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+26.8650
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+-16.0850
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+0.1479059
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;&#34;&gt;
+14.8
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+Cerro Porteño
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+10.68
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+26.8650
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+-16.1850
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+0.1470716
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+14.7
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+Monagas
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+6.45
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+26.8650
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+-20.4150
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+0.1147363
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+11.5
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;&#34;&gt;
+At. Nacional
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+25.63
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+14.8525
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+10.7775
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+0.3419911
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;&#34;&gt;
+34.2
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;&#34;&gt;
+Colo Colo
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+15.13
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+14.8525
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+0.2775
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+0.2538379
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;&#34;&gt;
+25.4
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+Delfín
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+11.70
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+14.8525
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+-3.1525
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+0.2229144
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+22.3
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+Bolívar
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+6.95
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+14.8525
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+-7.9025
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+0.1812566
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+18.1
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+3
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;&#34;&gt;
+Atlético Tucumán
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+16.43
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+10.5225
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+5.9075
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+0.3020696
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;&#34;&gt;
+30.2
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+3
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;&#34;&gt;
+Peñarol
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+15.98
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+10.5225
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+5.4575
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+0.2982773
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;&#34;&gt;
+29.8
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+3
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+Libertad
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+6.60
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+10.5225
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+-3.9225
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+0.2151902
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+21.5
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+3
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+The Strongest
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+3.08
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+10.5225
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+-7.4425
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+0.1844629
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+18.4
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+4
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;&#34;&gt;
+Flamengo
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+87.50
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+51.8750
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+35.6250
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+0.4662670
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;&#34;&gt;
+46.6
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+4
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;&#34;&gt;
+River Plate
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+75.15
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+51.8750
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+23.2750
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+0.4274163
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;&#34;&gt;
+42.7
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+4
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+Independiente santa fe
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+23.20
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+51.8750
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+-28.6750
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+0.0559138
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+5.6
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+4
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+Emelec
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+21.65
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+51.8750
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+-30.2250
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+0.0504030
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+5.0
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+5
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;&#34;&gt;
+Cruzeiro
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+56.70
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+41.3000
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+15.4000
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+0.3636518
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;&#34;&gt;
+36.4
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+5
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;&#34;&gt;
+Racing Club
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+49.20
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+41.3000
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+7.9000
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+0.3110358
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;&#34;&gt;
+31.1
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+5
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+Vasco da gama
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+42.70
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+41.3000
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+1.4000
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+0.2567897
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+25.7
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+5
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+Universidad de Chile
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+16.60
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+41.3000
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+-24.7000
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+0.0685228
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+6.9
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+6
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;&#34;&gt;
+Santos
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+59.80
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+28.9325
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+30.8675
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+0.4666411
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;&#34;&gt;
+46.7
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+6
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;&#34;&gt;
+Estudiantes
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+27.45
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+28.9325
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+-1.4825
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+0.2513967
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;&#34;&gt;
+25.1
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+6
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+Nacional
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+20.85
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+28.9325
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+-8.0825
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+0.1898826
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+19.0
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+6
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+Real Garcilaso
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+7.63
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+28.9325
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+-21.3025
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+0.0920795
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+9.2
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+7
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;&#34;&gt;
+Corinthians
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+59.45
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+30.9075
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+28.5425
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+0.4453615
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;&#34;&gt;
+44.5
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+7
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;&#34;&gt;
+Independiente
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+43.00
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+30.9075
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+12.0925
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: black;&#34;&gt;
+0.3600875
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;&#34;&gt;
+36.0
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+7
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+Millonarios
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+14.93
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+30.9075
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+-15.9775
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+0.1222233
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+12.2
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+7
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+Deportivo Lara
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+6.25
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+30.9075
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+-24.6575
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;color: darkred;color: black;&#34;&gt;
+0.0723277
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: white;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+7.2
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+8
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;&#34;&gt;
+Palmeiras
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+89.05
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+52.5525
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+36.4975
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+0.4606338
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;&#34;&gt;
+46.1
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+8
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;&#34;&gt;
+Boca Juniors
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+87.75
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+52.5525
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+35.1975
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: black;&#34;&gt;
+0.4580047
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;&#34;&gt;
+45.8
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+8
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+Junior FC
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+26.23
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+52.5525
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+-26.3225
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+0.0642466
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+6.4
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+8
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+Alianza Lima
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+7.18
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+52.5525
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+-45.3725
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;color: darkred;color: black;&#34;&gt;
+0.0171148
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;background-color: #f0f0f0;font-weight: bold;color: darkblue;color: darkred;&#34;&gt;
+1.7
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;Según los resultados hay 3 tipos de grupos:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: upper-alpha&#34;&gt;
+&lt;li&gt;&lt;p&gt;Grupos donde los 2 equipos de mayor probabilidad se escapan sobre los demás: &lt;strong&gt;Grupo 4&lt;/strong&gt; con Flamengo y River Plate, &lt;strong&gt;Grupo 7&lt;/strong&gt; con Corinthians e Independiente de Avellaneda, y &lt;strong&gt;Grupo 8&lt;/strong&gt; con Palmeiras y Boca Juniors.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Grupos donde el 1ero del ranking de probabilidades se escapa y el 2do y 3ero están muy cerca: &lt;strong&gt;Grupo 1&lt;/strong&gt; con Defensor Sporting y Cerro Porteño, y &lt;strong&gt;Grupo 6&lt;/strong&gt; con Santos y Estudiantes de la Plata.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Grupos donde los 4 equipos no se diferencia notablemente: &lt;strong&gt;Grupos 2 y 3&lt;/strong&gt; donde el 1ero y el último se diferencian por aprox. solo 12%,&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;El &lt;strong&gt;Grupo 5&lt;/strong&gt; es la excepción ya que los 3 primeros equipos están muy cerca (aprox. 10%), pero el 4to equipo está muy abajo. Este es justamente &lt;strong&gt;el caso de la Universidad de Chile, que tiene solo un 7% de probabilidades de clasificar&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;Por su parte &lt;strong&gt;Colo-Colo&lt;/strong&gt;, el otro equipo chileno participante, según el modelo debería clasificar ya que &lt;strong&gt;cuenta con un 27% de probabilidades, estando en el segundo lugar de su grupo&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Al final de la fase de grupos veremos cómo nos va con la predicción y calcular una efectividad para la muestra nueva de datos. Es sabido que es posible refinar el modelo con variables como la edad y altura promedio de los planteles, rendimiento en ligas locales previas a La Copa, cantidad de extranjeros y sus nacionalidades, entre otras posibles, pero por ahora creo que un 70% de efectividad con los datos de entrenamiento es un muy buen punto de partida.&lt;/p&gt;
+&lt;p&gt;Agradecemos la difusión, nos vemos!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ranking de Campeones Primera División Fútbol Profesional Chile [actualizado Dic 2017]</title>
+      <link>/campeones-chile-2nd/</link>
+      <pubDate>Sat, 09 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/campeones-chile-2nd/</guid>
+      <description>&lt;p&gt;Felicitaciones a Colo-Colo por ser el campeón de la versión N° 101 del torneo de primera división del fútbol profesional chileno (Transición 2017), alcanzando su estrella número 32.&lt;/p&gt;
+&lt;p&gt;A continuación presentamos la actualización &lt;a href=&#34;http://datofutbol.cl/campeones_chile/&#34;&gt;&lt;strong&gt;del ranking que publicamos al finalizar el torneo anterior&lt;/strong&gt;&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/campeones-chile2nd_files/figure-html/plot1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Colo-Colo tiene un claro liderato con sus 32 estrellas, con lo que casi le alcanza para duplicar y triplicar a sus más cercanos perseguidores (Universidad de Chile con 18 y Universidad Católica con 12), respectivamente. Cabe destacar que los 3 llamados “equipos grandes” de Chile juntos se han llevado el 61% de las copas jugadas.&lt;/p&gt;
+&lt;p&gt;Se observa que la mayoría de los campeones son equipos de la Región Metropolitana (Colo-Colo, Universidad de Chile, Universidad Católica, Unión Española, Audax Italiano, Magallanes, Palestino, Santiago Morning y Green Cross), correspondiente al 56% de los 16 equipos que han campeonado al menos una vez, y al 80% de los 101 campeonatos jugados.&lt;/p&gt;
+&lt;p&gt;Los campeones de otras regiones son:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cobreloa (Región de Antofagasta) con 8 campeonatos&lt;/li&gt;
+&lt;li&gt;Everton, Santiago Wandereres y Unión San Felipe (Región de Valparaíso) con 4, 3 y 1 campeonato respectivamente&lt;/li&gt;
+&lt;li&gt;Huachipato (Región del Bío-Bío) con 2&lt;/li&gt;
+&lt;li&gt;O’higgins (Región de Bernardo O’higgins) y Cobresal (Región de Atacama) con 1 estrella cada uno.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El título obtenido por Green Cross en 1945 se consideró para Deportes Temuco (Región de la Araucanía) dada su fusión en 1965.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Ahora bien, también podemos considerar un índice que represente la efectividad para ganar campeonatos en función de los torneos jugados. Así podemos ver cómo cambia el ranking con la razón “campeonatos ganados/jugados” en la siguiente visualización:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/campeones-chile2nd_files/figure-html/plot2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Además de la razón campeonatos ganados/jugados que se muestra arriba de cada barra, abajo y entre paréntesis se presenta el número de torneos jugados por cada equipo en Primera División, lo que aporta a la interpretación, puesto que quienes avanzan en este ranking en comparación con al anterior lo hacen debido a que han aprovechado mejor sus participaciones en Primera División para campeonar. Cabe destacar que Colo-Colo es el único que ha jugado los 101 torneos dada su antigüedad en el fútbol criollo y porque no ha descendido nunca a Primera B o Segunda División.&lt;/p&gt;
+&lt;p&gt;Se puede apreciar que Colo-Colo y Universidad de Chile mantienen sus puestos, con índices de 0.32 y 0.19 respectivamente. Esto puede llevarse a otra palabras como por ejemplo que Colo-Colo tiende a ganar aproximadamente 1 de cada 3 torneos de los que juega, y la U. de Chile lo hace 1 vez cada 5.&lt;/p&gt;
+&lt;p&gt;Por otro lado, Cobreloa en este ranking supera a la Universidad Católica, quitándole el 3er lugar, así como lo hace Magallanes con Unión Española y Unión San Felipe con Palestino. Premio a la efectividad.&lt;/p&gt;
+&lt;p&gt;Sin embargo, si bien estos avances en el ranking se deben a mayor efectividad, no hay que dejar de tener presente los números absolutos de los torneos jugados en cada caso, ya que para estos casos justamente se tienen menos participaciones, lo que es debido principalmente a equipos “nuevos” y/o a varios torneos fuera de Primera División.&lt;/p&gt;
+&lt;p&gt;Lo anterior llevado a un caso extremo: si un equipo sube por primera vez a Primera División y sale campeón inmediatamente, pero al año siguiente desciende, tendría un índice de 0.5 (1 campeonato y 2 torneos jugados) y sería el primero del ranking. Por supuesto que no tendría mucho sentido premiar o alabar eso.&lt;/p&gt;
+&lt;p&gt;Esperamos mantener este ranking actualizado torneo a torneo e ir agregando estadísticas más detalladas al respecto. Los escudos de los equipos fueron descargados del sitio oficial de la &lt;a href=&#34;http://anfp.cl&#34;&gt;ANFP&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Los números de Mario Salas en la UC</title>
+      <link>/mario-salas-uc/</link>
+      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/mario-salas-uc/</guid>
+      <description>&lt;p&gt;La mala racha de la actual Católica de Mario Salas es innegable. Con casi la mitad de este Transición 2017 jugado se tiene un escenario que está dentro de &lt;a href=&#34;https://twitter.com/LokoJean_UC/status/912081421577211909&#34;&gt;&lt;strong&gt;los 7 peores inicios de campaña en la historia del cuadro cruzado&lt;/strong&gt;&lt;/a&gt;, igualando el pobre 33.3% de rendimiento alcanzado por el vilipendiado paso de Falcioni el año 2014. En ambos casos alcanzando solo 7 puntos de los 21 en disputa.&lt;/p&gt;
+&lt;p&gt;El comandante está en la cuerda floja ya no solo por sus detractores en la hinchada, sino que también corre la versión de negociar su salida por parte de la directiva si no tiene una buena presentación este domingo a las 12:00 horas contra Colo-Colo en San Carlos de Apoquindo por la 8va fecha (&lt;a href=&#34;https://www.publimetro.cl/cl/grafico-chile/2017/09/26/catolica-espera-renuncia-salas-pierde-colo-colo.html&#34;&gt;&lt;strong&gt;ver noticia&lt;/strong&gt;&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;El bajo rendimiento del actual torneo se suma este semestre a la eliminación de Copa Chile y la derrota en la Supercopa, además de la eliminación en fase de grupos de Libertadores (sin clasificar a Sudamericana como consuelo) y la no obtención del tricampeonato en el Clausura 2017, en el semestre anterior.&lt;/p&gt;
+&lt;p&gt;Las principales causas de la falta de resultados apuntan no solo al trabajo semanal de entrenamiento y a las cuestionadas decisiones técnicas y tácticas de Salas durante los partidos, sino que también a la planificación y conformación del plantel (responsabilizando también a la directiva), además de los bajos rendimientos individuales de varios jugadores.&lt;/p&gt;
+&lt;p&gt;Dentro de estos últimos argumentos destacan la mención a las partidas de elementos claves, como por ejemplo la partida del pájaro Gutiérrez a Palestino (goleador de la UC el torneo anterior con 4 tantos), dejando pocas opciones en delantera ante la lesión de Llanos y el bajo rendimiento de Silva. Otro ejemplo es el préstamo de Carreño a Everton, quien ha tenido un desempeño destacado siendo titular en el elenco de Vitamina Sánchez.&lt;/p&gt;
+&lt;p&gt;Por otro lado, los refuerzos en general “no han dado el ancho”. Al indesmentible fracaso de Silva como reemplazante de Castillo, se suma el bajo aporte de Vallejos (por Noir o Bravo) y Voboril (por Parot), además de Jeisson Vargas y Vidal quienes por lesiones prácticamente no han jugado. En este grupo solo son rescatables los aportes de Ampuero y Aued.&lt;/p&gt;
+&lt;p&gt;No podemos asegurar cuánto de cierto hay en esos argumentos o cuál es el peso de cada uno de ellos en los resultados. No obstante, en #DatoFútbol quisimos darle un vistazo a algunos datos disponibles en internet para repasar las campañas de Salas en la UC en el torneo nacional, aportando un contexto adicional en cuanto al rendimiento del DT y el comporatmiento de los goles a lo largo de los torneos.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;div id=&#34;analisis-y-visualizacion-de-datos&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Análisis y visualización de datos&lt;/h3&gt;
+&lt;p&gt;A continuación la tabla general con partidos jugados, ganados, empatados y perdidos, con su respectiva cantidad de goles a favor y en contra, además del rendimiento y puesto obtenido en la tabla para cada torneo de Salas en la UC en orden cronológico:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th align=&#34;center&#34;&gt;Torneo&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;PJ&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;PG&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;PE&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;PP&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;GF&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;GC&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Dif_G&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Puntos&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Rendimiento&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Lugar&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;center&#34;&gt;2015- C&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;17&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;8&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;40&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;31&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;9&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;29&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;56.9&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;center&#34;&gt;2015-A&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;15&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;10&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;33&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;15&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;18&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;32&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;71.1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;center&#34;&gt;2016- C&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;15&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;9&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;33&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;25&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;8&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;29&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;64.4&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;center&#34;&gt;2016-A&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;15&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;9&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;37&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;18&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;19&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;31&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;68.9&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;center&#34;&gt;2017- C&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;15&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;7&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;6&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;25&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;23&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;23&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;51.1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;center&#34;&gt;2017-T&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;7&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;6&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;-1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;7&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;33.3&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Mario Salas está cumpliendo su tercer año al mando de la UC, disputando con este su sexto torneo nacional. Considerando el bicampenato obtenido el 2016 y asumiendo que este año ya no logró campeonar, su tasa de campeonatos ganados versus jugados es de 0.33 (solo torneo nacional, sin Copa Chile ni competencias internacionales), lo que es alto en relación al mismo índice histórico de la UC (0.13) que revisamos en un &lt;a href=&#34;http://datofutbol.cl/campeones_chile/&#34;&gt;&lt;strong&gt;post anterior&lt;/strong&gt;&lt;/a&gt; para todos los campeones de primera división del fútbol chileno. Desde esta perspectiva, Mario Salas ha tenido un paso muy exitoso por La Franja.&lt;/p&gt;
+&lt;p&gt;Revisando la tabla, se puede apreciar que en los 5 torneos previos su peor lugar fue 4to, con rendimientos que variaron entre 51.1% y 71.1%. Se destaca que el torneo que obtuvo mayor rendimiento no logró ser campeón. También que el rendimiento más bajo fue justamente el torneo anterior (Clausura 2017), con lo que sumado al actual torneo, este 2017 representa el peor año de Salas en la UC.&lt;/p&gt;
+&lt;p&gt;Desde la arista de los partidos ganados, empatados y perdidos, y por lo tanto de los puntos obtenidos, se observa cierta regularidad entre los torneos previos (Clausura 2017 con el peor registro en todos los indicadores). Sin embargo, con lo que se lleva de este Transición 2017 llama la atención la cantidad de empates (4) y falta de victorias (1). ¿La razón principal? &lt;strong&gt;Sequía goleadora&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Cuando nos pregunten “¿Qué hacemos para ganar?”, no podemos olvidar la frase para el bronce: “para ganar en el fútbol hay que hacer más goles que el rival”. Y esto cabe como anillo al dedo a la situación de la UC actual:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;En el Transcición 2017 la UC ha tenido un comportamiento muy diferente en cuanto a goles a favor: solo 5 goles en 7 partidos. Si se mantiene esta tendencia podrían alcanzarse únicamente 11 goles al final del torneo, lo que está muy por debajo de todos los torneos previos.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;En la siguiente visualización se puede observar la distribución de goles a favor y goles del equipo rival paara los partidos de cada torneo de Salas en la UC:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/post/mario-salas-uc_files/figure-html/dream_theater-1.png&#34; width=&#34;768&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Se puede observar que:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;La cantidad de goles a favor por partido ha disminuido sostenidamente en el tiempo (torneos 2015-2016 con varios partidos con 2 a 5 goles a favor; en contraste la mayoría del 2017 con 2 o menos que 2 goles a favor).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Si bien la cantidad de goles en contra por partido también ha disminuido, los goles a favor lo han hecho en mayor medida, por lo tanto la distribución de goles por partido de los equipos rivales supera (“se come”) a la distribución de goles a favor en este Transición 2017.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;que-siga-o-se-vaya&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;¿Que siga o se vaya?&lt;/h3&gt;
+&lt;p&gt;Por supuesto que la decisión la tomará la directiva cruzada, sin duda teniendo en cuenta el alto monto de la indemnización del comandante (cercano a los 600 millones de pesos chilenos), seguramente tratando de negociar su salida por un valor menor a fin de año gracias a una claúsula que lo permite.&lt;/p&gt;
+&lt;p&gt;En cuánto a si terminar el proceso de Salas es la decisión correcta o no dependerá de las expectativas con que se mire su desempeño en la UC, donde ya vimos que respecto a la misma historia del club a nivel local tiene un rendimiento muy exitoso (único bicampeonato y un buen índice de torneos ganados/jugados, incluso mejor que el que tiene el club).&lt;/p&gt;
+&lt;p&gt;En el caso de apostar alto, como por ejemplo un mejor rendimiento internacional sin dejar de lado el éxito local, podría tener sentido reemplazarlo, aunque se debe tener en cuenta quién lo reemplazaría, porque sin duda para que el cambio se justifique quien llegue deberá tener un igual o mejor rendimiento para estar a la altura del comandante, y eso también dependerá, como en todos lados en el fútbol, de los rendimientos individuales de los jugadores, lesiones, desempeño de los rivales, inversión de la directiva, etc.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ranking FIFA histórico [Actualizado 09-2017]</title>
+      <link>/ranking-fifa-historico-last/</link>
+      <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/ranking-fifa-historico-last/</guid>
+      <description>&lt;p&gt;Actualizamos nuestra aplicación para visualizar el ranking FIFA histórico (&lt;a href=&#34;http://datofutbol.cl/ranking_fifa_historico/&#34;&gt;post inicial&lt;/a&gt;), ahora incluyendo los datos hasta su última publicación oficial que data de septiembre de 2017.&lt;/p&gt;
+&lt;p&gt;Top 10 Ranking FIFA Septiembre 2017:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Alemania&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Brasil&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Portugal&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Argentina&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;5&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Bélgica&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;6&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Polonia&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;7&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Suiza&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;8&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Francia&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;9&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Chile&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;10&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Colombia&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Principales cambios:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Perú alcanza el mejor ranking en su historia: lugar N°12&lt;/li&gt;
+&lt;li&gt;Chile baja al puesto N°9, quedando fuera de la zona de cabezas de serie, representando su peor posición de la era Pizzi&lt;/li&gt;
+&lt;li&gt;Argentina baja al 4to puesto, después de más de 2 años manteniéndose en el podio del ranking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;iframe src=&#34;https://bustami.shinyapps.io/ranking_fifa/?showcase=0&#34; width=&#34;768&#34; height=&#34;750px&#34;&gt;
+&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¿Cuál es la probabilidad de que Chile clasifique a Rusia 2018?</title>
+      <link>/clasificatorias-conmebol/</link>
+      <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/clasificatorias-conmebol/</guid>
+      <description>&lt;p&gt;Este jueves 31 de agosto se inicia una nueva fecha doble de las clasificatorias Conmebol camino al mundial de Rusia 2018. Tal y como adelantamos en un &lt;a href=&#34;http://datofutbol.cl/ranking_fifa_historico/&#34;&gt;post previo&lt;/a&gt; acá en datofutbol, en primer lugar Chile enfrentará a Paraguay en condición local y luego viajará a la altura de La Paz para “medirse con su similar” de Bolivia el martes 05 de septiembre.&lt;/p&gt;
+&lt;p&gt;Teniendo presente que hoy La Roja tiene 23 puntos y que queda un máximo de 12 puntos en disputa (4 fechas faltantes), cabe preguntarse ¿qué posibilidades tiene La Roja de clasificar?, lo que analizaremos en este post.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;div id=&#34;los-datos&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Los datos&lt;/h4&gt;
+&lt;p&gt;Para el análisis tomaremos en cuenta todas las versiones previas de clasificatorias que se llevaron a cabo con el actual formato, es decir, todos los equipos enfrentándose entre sí en partidos de ida y vuelta. Así es como se consideran las clasificatorias a los mundiales de Francia 98, Corea-Japón 2002, Alemania 2006, Sudáfrica 2010 y Brasil 2014, completando un total de 48 ejemplos de participaciones de alguna selección en alguna clasificatoria.&lt;/p&gt;
+&lt;p&gt;Debido a que entre algunas versiones la cantidad de selecciones participantes difiere, y por lo tanto la cantidad de partidos y puntos en disputa también, como son los casos de Francia 98 y Brasil 2014 en las cuales no participó Brasil, para efectos de comparación entre versiones de clasificatorias no utilizaremos los puntos obtenidos sino que el rendimiento de los equipos, el cual se calcula según la siguiente fórmula:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rendimiento = ( Puntos obtenidos / (Partidos jugados x3) ) x100 [%]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Los datos de partidos jugados y puntos obtenidos por cada selección para cada clasificatoria fueron recogidos desde &lt;a href=&#34;https://es.wikipedia.org/wiki/Clasificación_de_Conmebol_para_la_Copa_Mundial_de_Fútbol_de_1998&#34;&gt;Wikipedia&lt;/a&gt;. Además de aplicar la fórmula del rendimiento, las selecciones fueron catalogadas según su condición de clasificación: SÍ y NO. Los 5tos lugares (excepto Francia 98), que otorgaron medio cupo al mundial respectivo, se consideraron por defecto en la categoría SÍ.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;visualizaciones-y-analisis&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Visualizaciones y análisis&lt;/h4&gt;
+&lt;p&gt;El siguiente gráfico describe las categorías de clasificación según el rendimiento obtenido por las selecciones, considerando una visualización de cajas y bigotes en la parte inferior y la distribución de probabilidad continua en la parte superior.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/clasificatorias-conmebol_files/figure-html/c2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Se observa claramente la diferencia de rendimiento entre los equipos que clasificaron y los que no, con un traslape máximo de la función de probabilidad continua en aproximadamente un 47% de rendimiento. También se aprecia que la distribución de los equipos clasificados es menos dispersa que la distribución de los equipos eliminados.&lt;/p&gt;
+&lt;p&gt;La mediana de rendimiento para equipos clasificados es del 58%, mientras que para equipos eliminados la mediana es de 33%. Destaca el outlier del sector derecho correspondiente a la gran campaña de Argentina en las clasificatorias a Corea-Japón 2002, donde obtuvo un rendimiento del 80% ganando 13 partidos, empatando 4 y perdiendo solo 1. En contraste, la peor campaña la tiene Venezuela con un rendimiento del 6% camino a Francia 98, donde obtuvo solo 3 puntos producto de empates.&lt;/p&gt;
+&lt;p&gt;A continuación se incluye un histograma con la misma información anterior a modo de complemento para facilitar el conteo de casos de equipos clasificados y no clasificados, según intervalos de rendimiento de 5%. Posteriormente se presenta una “curva S”&amp;quot; con la probabilidad de clasificar según el rendimiento, construida a partir de un modelo bayesiano que considera por simplificación una probabilidad inicial de clasificar igual al 0.5.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/clasificatorias-conmebol_files/figure-html/c3-1.png&#34; width=&#34;672&#34; /&gt;&lt;img src=&#34;/post/clasificatorias-conmebol_files/figure-html/c3-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Observando la curva de probabilidad, es posible ponerse en distintos casos hipotéticos según los nuevos puntos que obtenga Chile en las siguientes 4 fechas. A continuación el detalle de los más relevantes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Según el modelo la clasificación se asegura (P=1) con un 52.1% de rendimiento, el cual se obtiene con 29 puntos. Es decir, si Chile gana sus dos partidos de local y el fallo del TAS no le quita los dos puntos que ganó por secretaría, clasificaría a Rusia 2018.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Si Chile gana 1 partido y empata otro, o bien gana 2 partidos pero el fallo del TAS es desfavorable, es decir tendría 4 puntos nuevos, completando 27 en total, obtendría un rendimiento del 50%. Con este rendimiento la probabilidad de clasificar es del 91.7% (Solo 2 equipos NO han clasificado con un rendimiento igual o mejor que este: Perú camino a Francia 98 y Colombia rumbo a Corea-Japón 2002).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Si Chile obtiene 3 nuevos puntos adicionales, su rendimiento sería del 48.1%. En ese caso la probabilidad de clasificar es del 50%. Esto corresponde a la probabilidad por defecto definida para todos los equipos solo por participar, por lo que representa una baja probabilidad (solo dos equipos han clasificado con un rendimiento igual o menor a este: 5to lugar de Uruguay para Alemania 2006 y Sudáfrica 2010).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Si Chile obtiene solo 1 punto adicional alcanza un rendimiento del 44.4%, entrando en la zona de descenso brusco de probabilidad de clasificar: según el modelo ese caso tiene solo 33.3% de probabilidad de clasificar, lo que es menor a la probabilidad por defecto, y se tiene solo un equipo que logró clasificar con ese rendimiento (5to lugar de Uruguay en Sudáfrica 2010).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En resumen, según los datos, con 6 puntos ya aseguramos clasificación, con 4 tenemos altas probabilidades de clasificar, pero de ahí hacia abajo se ve muy complicado. Por eso ganar los dos partidos de local son claves para las aspiraciones de la selección chilena, pudiendo alcanzarle en caso de que el fallo del TAS sea desfavorable.&lt;/p&gt;
+&lt;p&gt;Vamos La Roja!&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Red interactiva de transferencias del fútbol chileno 2017</title>
+      <link>/mercado-pases-chile-2017/</link>
+      <pubDate>Tue, 15 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/mercado-pases-chile-2017/</guid>
+      <description>&lt;p&gt;Con la fecha N°3 del torneo de Transición 2017 de la Primera A del fútbol chileno casi finalizada, y con su libro de pases cerrado el pasado jueves 03 de agosto, ya podemos dar un vistazo a las transferencias que realizó cada uno de los 16 equipos en pos de su preparación.&lt;/p&gt;
+&lt;p&gt;La información utilizada fue descargada directamente desde el anexo &lt;a href=&#34;https://es.wikipedia.org/wiki/Anexo:Transferencias_del_Torneo_Transición_2017_(Chile)&#34;&gt;Transferencias del Torneo de Transición 2017 Chile&lt;/a&gt; contenido en Wikipedia.&lt;/p&gt;
+&lt;p&gt;Dicha información contiene para cada equipo y cada transferencia el siguiente detalle: Nombre del jugador, Posición del jugador, Equipo de Procedencia o de Destino (dependiendo si es una Alta o una Baja) y Tipo de operación (Traspaso, Retorno de préstamo, Fin de contrato, Jugador Libre, etc.).&lt;/p&gt;
+&lt;p&gt;El enfoque de este análisis y visualización no se centrará en nombres propios, pasando por alto quizás los más llamativos como lo son por ejemplo Jorge Valdivia, Mauricio Pinilla o Jeisson Vargas, sino que más bien en las tendencias generales y en remarcar las relaciones entre equipos o grupos de éstos.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;div id=&#34;tendencias-generales&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Tendencias generales&lt;/h4&gt;
+&lt;p&gt;Hubo un total de 314 traspasos para este Transición 2017, de los cuales 138 corresponden a Altas y 176 a Bajas. La media de traspasos por equipo fue de 20, siendo Universidad de Chile el equipo con mayor número:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Universidad de chile: 30&lt;/li&gt;
+&lt;li&gt;Palestino :29&lt;/li&gt;
+&lt;li&gt;Unión Española: 26&lt;/li&gt;
+&lt;li&gt;Santiago Wanderers: 25&lt;/li&gt;
+&lt;li&gt;Huachipato:24&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Los equipos con más Altas fueron Palestino (15), Huachipato (12) y Unión Española (12), mientras que los equipos con más Bajas fueron Universidad de Chile (23), Santiago Wanderers (15) y Palestino con Unión Española (14).&lt;/p&gt;
+&lt;p&gt;La posición más recurrente fue Mediocapista o Volante (104), pero seguido muy de cerca por Delantero (95). Más abajo siguen Defensa o Lateral (83) y Arquero (19).&lt;/p&gt;
+&lt;p&gt;Respecto al tipo de operación, lo más cómun fue Fin de contrato (89), Jugador libre (61), Préstamo (50), Traspaso (41) y Fin de préstamo (17).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;red-interactiva-de-trasferencias&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Red interactiva de trasferencias&lt;/h4&gt;
+&lt;p&gt;Ahora te invitamos a revisar nuestra red interactiva de transferencias, donde podrás ver las relaciones entre los equipos según las transferencias que se realizaron.&lt;/p&gt;
+&lt;p&gt;Te ofrecemos dos vistas:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Todos los equipos de la Primera A + una categoría para equipos extranjeros + otra categoría para equipos de la Primera B. Aquí se dejaron solo las relaciones entre equipos o categorías que tienen al menos 4 Altas o 4 Bajas.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Una vista solo para los equipos de Primera A. Acá se dejaron todas las relaciones entre equipos.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Considera que al pasar el cursor sobre un equipo particular se remarcan sus relaciones más directas. Además, puedes cambiar la ubicación de los nodos (escudos de equipos) según te acomode, solo clickeando sobre el ícono y trasladándolo sin soltar el click.&lt;/p&gt;
+&lt;iframe src=&#34;https://bustami.shinyapps.io/transferencias/?showcase=0&#34; width=&#34;768&#34; height=&#34;550px&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;Algunos sugerencias de visualización que puedes comprobar:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: upper-alpha&#34;&gt;
+&lt;li&gt;La mitad de los equipos de Primera A tuvo más de 3 transferencias desde o hacia el extranjero. A continuación los equipos que presentan más relación con la categoría “Extranjero”.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Incorporaciones desde el extranjero:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Palestino y Unión Española (7)&lt;/li&gt;
+&lt;li&gt;Huachipato y O’higgins (4)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Salidas hacia el extranjero:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Universidad de Chile (5)&lt;/li&gt;
+&lt;li&gt;Everton, Palestino, Santiago Wandereres, Unión Española y Universidad Católica (4)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: upper-alpha&#34;&gt;
+&lt;li&gt;La relación de los equipos de Primera A con la categoría “Primera B” es levemente menor en comparación a la categoría “Extranjero”. Por ejemplo, son 7 los equipos que tienen al menos 4 transferencias desde o hacia la Primera B. Los equipos con más transferencias a continuación:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Incorporaciones desde Primera B:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Audax Italiano y Curicó Unido (5)&lt;/li&gt;
+&lt;li&gt;Huachipato y Palestino (4)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Salidas hacia Primera B:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Universidad de Chile y Huachipato (6)&lt;/li&gt;
+&lt;li&gt;Everton y San Luis (5)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: upper-alpha&#34;&gt;
+&lt;li&gt;Finalmente, utilizando la segunda vista, es posible apreciar las relaciones entre los equipos de la Primera A. La mayoría de ellos tiene 1 transferencia, excepto los siguientes que destacan con 2:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Palestino -&amp;gt; San Luis&lt;/li&gt;
+&lt;li&gt;O’higgins -&amp;gt; San Luis&lt;/li&gt;
+&lt;li&gt;Palestino -&amp;gt; Santiago Wandereres&lt;/li&gt;
+&lt;li&gt;Deportes Antofagasta -&amp;gt; Universidad Católica&lt;/li&gt;
+&lt;li&gt;Universidad de Chile -&amp;gt; Deportes Temuco&lt;/li&gt;
+&lt;li&gt;Universidad de Chile -&amp;gt; San Luis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nota: Para la visualización fueron imitidos los traspasos que incluían equipos de segunda división profesional, valores NA o en blanco, entre otros.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ranking FIFA histórico</title>
+      <link>/ranking-fifa-historico/</link>
+      <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/ranking-fifa-historico/</guid>
+      <description>&lt;p&gt;Dejando atrás la gran participación de La Roja en la reciente Copa Confederaciones 2017, ya debemos empezar a pensar en el próximo objetivo de esta selección: la Copa del Mundo Rusia 2018. Faltan menos de dos meses para el próximo duelo por clasificatorias ante Paraguay en Santiago (31 de agosto), y no hay tiempo para lamentarse por la final perdida con Alemania. En la carrera por la clasificación Chile está ubicado en la cuarta posición tras Brasil, Colombia y Uruguay, seguido muy de cerca por Argentina y Ecuador, quedando tan solo 4 fechas por jugarse (&lt;a href=&#34;http://www.fifa.com/worldcup/preliminaries/southamerica/index.html&#34;&gt;Tabla de posiciones y Programación&lt;/a&gt;), y aun a la espera de la decisión final del TAS respecto a los puntos reasignados a los rivales de Bolivia cuando disputó, contra el reglamento, encuentros con el jugador &lt;a href=&#34;http://www.elespectador.com/deportes/futbol-internacional/bolivia-apelara-ante-el-tas-y-espera-que-la-fifa-le-devuelva-los-puntos-articulo-701313&#34;&gt;Nélson Cabrera en cancha&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Mientras esperamos, con la confianza al máximo, que Chile clasifique y disfrutamos del inicio del fútbol local, podemos mirar algo que será relevante para elegir a los cabezas de serie de cada grupo participante en el próximo mundial: el ranking FIFA. A continuación podemos ver los primeros 10 lugares de la última actualización del ranking, publicada recién hoy 06 de julio de 2017, correspondiente a su versión N° 276, dado que se publica desde agosto de 1993 sagradamente casi todos los meses.&lt;/p&gt;
+&lt;p&gt;Top 10 Ranking FIFA Julio 2017:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Alemania&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Brasil&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Argentina&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Portugal&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;5&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Suiza&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;6&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Polonia&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;7&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Chile&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;8&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Colombia&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;9&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Francia&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;10&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Bélgica&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Respecto a la versión anterior (junio de 2017), Chile bajó desde el 4to al 7mo puesto, principalmente por no haber ganado en la mayoría de los partidos amistosos previos a la Copa Confederaciones y en sus partidos oficiales de este torneo, quedando así como último de los 8 cabeza de serie hasta el momento (Rusia como anfitrión es un cabeza de serie fijo independiente de su lugar en el ranking). Pese al numeroso cuestionamiento público del método de cálculo y ponderación del ranking, el que permite por ejemplo que hasta ahora Suiza y Polonia sean cabezas de serie (!), este seguirá siendo el criterio oficial de decisión. En el siguiente hipervínculo se puede ver la tabla completa para &lt;a href=&#34;http://es.fifa.com/fifa-world-ranking/ranking-table/men/index.html&#34;&gt;julio 2017&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Son numerosos los records y las hazañas que esta generación ha logrado inmortalizar en la historia del fútbol chileno. Uno de dichos hitos está asociado al ranking FIFA. Esta generación superó el record de la selección de la dupla Sa-Za, Francia ’98 y de Don Nelsón Bonifacio Acosta, la cual había alcanzado el 6to lugar en abril de 1998. La Roja de esta generación dorada batió este record alcanzando por primera vez el 3er lugar, y manteniéndose 2 meses allí (abril y mayo de 2016).&lt;/p&gt;
+&lt;p&gt;Para visualizar el ranking histórico de La Roja y de todas las selecciones asociadas a la FIFA, a continuación te dejamos esta aplicación interactiva con la que puedes observar el comportamiento histórico del ranking por mes y año. Puedes visualizar hasta 3 selecciones simultáneamente y elegir el año de inicio. Dejamos por defecto además de Chile a las selecciones de Paraguay y Ecuador, próximos rivales de La Roja en clasificatorias en calidad de local.&lt;/p&gt;
+&lt;p&gt;(Última actualización: 14 septiembre 2017) &lt;iframe src=&#34;https://bustami.shinyapps.io/ranking_fifa/?showcase=0&#34; width=&#34;768&#34; height=&#34;750px&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;Si bajas el año de inicio hasta 1993, se aprecian claramente los aproximadamente 5-6 años (entre 2001 y 2006) más malos de las últimas décadas de Chile a nivel de selección, donde no logramos clasificar a dos mundiales, no tuvimos grandes participaciones en Copa América y pasaron varios entrenadores por Juan Pinto Durán, antes de la llegada de Marcelo Bielsa, quien fue uno de los protagonistas del despegue de esta “generación dorada”.&lt;/p&gt;
+&lt;p&gt;Como ya nos acostumbramos a romper la historia, pensamos que esta selección puede dar aun más. Solo por mencionar un par de logros pendientes:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Clasificar a un tercer mundial consecutivo; y&lt;/li&gt;
+&lt;li&gt;Ser cabeza de serie en un mundial donde no es anfitrión.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Vamos x más! Viva Chile!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¿Qué tanto importa la plata para rendir en Copa Libertadores?</title>
+      <link>/libertadores-valor-planteles-2017/</link>
+      <pubDate>Fri, 26 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/libertadores-valor-planteles-2017/</guid>
+      <description>&lt;p&gt;Deportes Iquique quedó fuera de la fase de grupos de la Copa Libertadores 2017, lo que sumado a la eliminación de Universidad Católica días atrás, agotó las opciones de seguir avanzando para los equipos chilenos.&lt;/p&gt;
+&lt;p&gt;En el último tiempo en distintos medios de comunicación y redes sociales se ha hablado bastante sobre las posibles causas del “pobre rendimiento internacional de los equipo chilenos”, aludiendo al negativo impacto que tendría, entre varias otras cosas más, el formato de torneo corto, el límite de contrataciones, el límite de extranjeros por equipo, la falta de experiencia y/o jerarquía, etc.&lt;/p&gt;
+&lt;p&gt;En #DatoFútbol quisimos darle una mirada a otra variable que posiblemente también afecta, y a la que pareciera que pocas veces se le considerara importante: La plata. A continuación la descripción de los datos utilizados.&lt;/p&gt;
+&lt;div id=&#34;los-datos&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Los datos&lt;/h4&gt;
+&lt;p&gt;Descargamos los “Valores en el mercado”, en millones de euros, para la plantilla de cada uno de los 32 planteles que jugaron la fase de grupos de esta edición de la Copa Libertadores, desde el sitio &lt;a href=&#34;https://www.transfermarkt.com/copa-libertadores/teilnehmer/pokalwettbewerb/CLI/saison_id/2016#subnavi&#34;&gt;Transfermarkt.com&lt;/a&gt; (consultado el viernes 26 de mayo de 2017). Si bien el sitio &lt;a href=&#34;http://peloteroschile.cl/cuanto-valen-los-planteles-la-conmebol-libertadores-2017/&#34;&gt;Peloteros&lt;/a&gt; había publicado un listado en enero de este año, creemos correcto trabajar con los valores más actualizados.&lt;/p&gt;
+&lt;p&gt;Por otro lado, tomamos las tablas de posiciones finales de cada grupo desde el sitio de la &lt;a href=&#34;http://www.conmebol.com/es/copa-libertadores-2017/posiciones&#34;&gt;Conmebol&lt;/a&gt;, considerando principalmente los puntos obtenidos, la diferencia de gol y su posición en la tabla para saber si un equipo clasificó o no.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;por-que-solo-la-fase-de-grupos&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;¿Por qué solo la fase de grupos?&lt;/h4&gt;
+&lt;p&gt;Por supuesto que por ser la etapa actual de la copa, pero también porque es lo más cercano, guardando las proporciones, a una liga: cada equipo tiene 6 partidos, 3 de local y 3 de visita, nos permite usar la variable Puntos obtenidos, y además, citando a Jonathan Wilson desde su excelente y super recomendable libro &lt;a href=&#34;https://www.buscalibre.cl/libro-la-piramide-invertida-historia-de-la-tactica-en-el-fubtol/9789873752001/p/46243904&#34;&gt;La pirámide invertida&lt;/a&gt; “En el curso de una temporada de liga, la suerte, las rachas, las lesiones, los errores de los jugadores y los errores de los árbitros, tienden a promediarse; si no de modo perfecto, sí mucho, mucho más que… [en una llave de dos partidos ida y vuelta]”. (lo del cochete cuadrado en nuestro, pero sirve!).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;tendencia-lineal&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Tendencia lineal&lt;/h4&gt;
+&lt;p&gt;Bien, veamos qué sale de todo esto. Primero veremos la tendencia lineal entre el valor en el mercado y los puntos obtenidos:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/libertadores-valor-planteles-2017_files/figure-html/plot1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Se tiene una tendencia lineal con R^2 de 0.44, con residuales que fluctúan entre -6.2 y 4.8. Se observa que el modelo de regresión lineal se ajusta muy bien para valores de mercado altos (mayores a 30 millones de euros), donde el 80% de los datos está dentro del área del intervalo de confianza del 95%. En contraste, a medida que disminuyen los valores del mercado, la aproximación es menos certera debido a la variabilidad de rendimiento para equipos “baratos”. Por ejemplo, el modelo asume que independientemente de tu valor en el mercado ya tienes 5.43 puntos!! De todas maneras, a simple vista, la plata y la cantidad de puntos obtenidos tienen una correlación, al menos desde cierto valor en el mercado hacia arriba.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;valor-en-el-mercado-vs-puntos-obtenidos-en-fase-de-grupos&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Valor en el mercado v/s Puntos obtenidos en fase de grupos&lt;/h4&gt;
+&lt;p&gt;La gráfica a continuación es un scatterplot “Valor en el mercado v/s Puntos obtenidos”. El tamaño de los círculos indica la diferencia de gol, es decir, mientras más grande el círculo mejor diferencia de gol. Y por su parte, el color mapea si el equipo clasificó o no. En rojo los eliminados y en azul los clasificados.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/libertadores-valor-planteles-2017_files/figure-html/plot2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Se pueden distinguir al menos 3 conjuntos de equipos con tendencias diferentes. En primer lugar los equipos con un valor entre 0 y 15 millones de euros (12 equipos), de los cuales clasificaron solo 3, equivalente a un 25%. Cabe mencionar que en esos 3 clasificados están los equipos bolivianos The Strongest y Wilstermann, ambos con 9 puntos, los que ganan sus puntos preferentemente de local con la renombrada “ventaja por jugar en altura”. El otro caso es Guaraní, quien compartió grupo con Deportes Iquique (el único equipo que aun obteniendo 10 puntos no clasificó), Gremio y Zamora. Todos en ese grupo, excepto Gremio, están bajo los 10 millones de euros, y dado que al menos uno de ellos debía clasificar, se transforma en una excepción de acuerdo a la conformación del grupo.&lt;/p&gt;
+&lt;p&gt;Otro conjunto de equipos es el que contiene a los de valor mayor a 40 o 45 millones de euros (6 equipos), de los cuáles 5 clasificaron, correspondiente al 83%. La única excepción fue la eliminación de Flamengo en la última fecha, con la clasificación de San Lorenzo y Atlético Paranaense. Dado que ese grupo (del otro equipo chileno Universidad Católica), llamado como uno de los “grupos de la muerte”, era seguro que uno de los equipos “caros” quedara fuera.&lt;/p&gt;
+&lt;p&gt;Y tenemos un conjunto de equipos con valores en el mercado intermedios (entre 15 y 40 millones de euros), donde los puntos y clasificados se distribuyen de manera menos predecible. De un total de 14 equipos, clasificaron 8: 57%.&lt;/p&gt;
+&lt;p&gt;La plata al parecer también influye en la clasificación, al menos para equipos que valen menos de 15 millones de euros o para los que valen más de 40 millones de euros.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;con-cuantos-puntos-se-clasifica&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;¿Con cuántos puntos se clasifica?&lt;/h4&gt;
+&lt;p&gt;Muchas veces se hace el ejercicio de arrojar un número de puntos necesarios para “asegurar” la clasificación, ya sea para clasificatorias mundialistas o para Copa Libertadores. Si bien se podrían tomar más datos históricos para robustecer los resultados, solo consideraremos esta edición de la copa para ver qué tenemos. A continuación dos histogramas con los puntos obtenidos tanto para equipos clasificados como para no clasificados:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/libertadores-valor-planteles-2017_files/figure-html/plot3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Para el caso de los equipos que no clasificaron, en el extremo superior tenemos un solo caso con 10 puntos (Deportes Iquique) y tres con 9 puntos (Independiente de Medellín, Estudiantes de la Plata y Flamengo). Por su parte, para los equipos clasificados, en el extremo inferior se tiene un caso con 8 puntos (Club Nacional), dos casos con 9 puntos (The Strongest y Wilstermann) y 5 equipos con 10 puntos.&lt;/p&gt;
+&lt;p&gt;Claramente el corte está entre los 9 y 10 puntos, dependiendo del grupo que le haya tocado a cada equipo. Para esta edición, podemos decir que de los 14 equipos que obtuvieron al menos 10 puntos, clasificaron 13 (93%), mientras que par el total de 18 equipos que obtuvieron 9 o menos puntos, no clasificaron 15 (83%).&lt;/p&gt;
+&lt;p&gt;Con esto toma fuerza la frase: debes ganar tus 3 partidos de local y sacar al menos un empate afuera para “asegurar” la clasificación.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;valores-de-ligas-principales-por-pais&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Valores de ligas principales por país&lt;/h4&gt;
+&lt;p&gt;Bien, nos desviamos un poco de la variable plata en el úlimo análisis, pero para finalizar el post retomaremos el tema incluyendo el valor en el mercado de las ligas completas, es decir considerando todos los planteles de la división principal de cada país. También los datos fueron descargados del sitio Transfermarkt.com. A continuación un boxplot con todas las ligas excepto Paraguay y Bolivia cuyos datos no están disponibles. Se agrega el promedio con puntos rojos.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/libertadores-valor-planteles-2017_files/figure-html/plot4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Queda claro cuáles son las ligas de mayor valor en el mercado, escapándose Brasil con un promedio de aproximadamnte 40 millones de euros, casi duplicando a su perseguidor más cercano (Argentina, que tiene dos outliers arriba que le hacen subir el promedio: River Plate y Boca Juniors).&lt;/p&gt;
+&lt;p&gt;Chile está en el grupo de los más bajos, menores a 10 millones de euros promedio, junto con Uruguay, Perú y Venezuela.&lt;/p&gt;
+&lt;p&gt;Entonces, ¿De qué país son los equipos clasificados a octavos de final?:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;6 de 8 participantes de Brasil (75%)&lt;/li&gt;
+&lt;li&gt;4 de 6 participantes de Argentina (67%)&lt;/li&gt;
+&lt;li&gt;2 de 2 participantes de Ecuador (100%)&lt;/li&gt;
+&lt;li&gt;2 de 3 participantes de Bolivia (67%)&lt;/li&gt;
+&lt;li&gt;1 de 2 participantes de Uruguay (50%)&lt;/li&gt;
+&lt;li&gt;1 de 2 participantes de Paraguay (50%)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Por supuesto que el número absoluto de clasificados está sesgado por la cantidad de equipos que participan por cada país, por lo que debemos considerar principalmente el % de clasificados del total de participantes, entre paréntesis arriba.&lt;/p&gt;
+&lt;p&gt;Entre los países que tuvieron rendimiento internacional (hasta ahora) mayor al 50%, se encuentran 3 de las ligas más caras: Brasil, Argentina y Ecuador. La excepción solo es Bolivia.&lt;/p&gt;
+&lt;p&gt;Desde el punto de vista del dinero, el fracaso mayor fue para los equipos colombianos, los que tienen la 3era liga más cara y sus representantes en la copa no están bajo los 20 millones de euros, pero ninguno clasificó a octavos de final.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;conclusiones&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Conclusiones&lt;/h4&gt;
+&lt;p&gt;En resumen, hemos incorporado la variable plata a la discusión, encontrando interesantes relaciones con el rendimiento internacional, al menos para esta edición de la Copa Libertadores. Cuando los comentaristas deportivos y los hinchas en general traten de buscar una causa respecto al “mal rendimiento internacional” de los equipos chilenos, en #DatoFútbol creemos que deberían darle un peso importante al valor económico de los planteles.&lt;/p&gt;
+&lt;p&gt;Deportes Iquique estuvo cerca, enfrentando a 2 equipos de su mismo nivel económico. Si hubiese clasificado habría sido solo una de las 3 excepciones, a costa de Guaraní que en su defecto no habría clasificado. Por su parte, Universidad Católica tenía pocas chances de pasar a octavos mirando la diferencia entre el valor de su plantilla y la de sus rivales (diferencia mayor a 20 millones de euros con Atlético Paranaense, su rival más cercano).&lt;/p&gt;
+&lt;p&gt;Por supuesto que el valor en el mercado es un reflejo de la calidad de los jugadores, así como de su trayectoria y nivel de competitividad, entre otros. Y probablemente está también directamente reflejado con lo que algunos llaman “jerarquía” y “experiencia”.&lt;/p&gt;
+&lt;p&gt;Así que en vez de darle tanta vuelta al asunto, si queremos más éxitos internacionales a nivel de clubes, a los equipos chilenos lo hacemos jugar de local en la altura, apostando a ser la excepción como los bolivianos, o empezamos a meter las manos en los bolsillos y contratamos jugadores de mayor valor en el mercado.&lt;/p&gt;
+&lt;p&gt;Nota: El código y los datos utilizados se pueden obtener en este enlace &lt;a href=&#34;https://github.com/Bustami/DatoFutbol/tree/master/Valores_Libertadores_2017&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LA TABLA de la Primera A Chile- Clausura 2017 Fecha 15</title>
+      <link>/la-tabla-1a-f15/</link>
+      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/la-tabla-1a-f15/</guid>
+      <description>&lt;p&gt;Y se acabó el Clausura 2017! &lt;a href=&#34;https://twitter.com/jufacomic%5D&#34;&gt;JUFA&lt;/a&gt; nos trae LA TABLA final luego de la Fecha 15:&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/images/fecha15_1A_22.05.2017.jpg&#34; /&gt;
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ranking de Campeones Primera División Fútbol Profesional Chile</title>
+      <link>/campeones-chile/</link>
+      <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/campeones-chile/</guid>
+      <description>&lt;p&gt;Universidad de Chile esta tarde de hoy sábado 20 de mayo de 2017 se coronó campeón de la versión número 100 del campeonato de primera división del fútbol profesional chileno, logrando su estrella N°18.&lt;/p&gt;
+&lt;p&gt;En #DatoFútbol, junto con felicitar a todos sus jugadores, cuerpo técnico-médico e hinchas por esta nueva alegría, a modo de resúmen de estos 100 torneos jugados en ya casi 85 años, desde la primera versión por allá en 1933 hasta esta primera mitad de 2017, quisimos actualizar el ranking de campeones de la Primera División con la siguiente gráfica, a partir de los datos publicados en &lt;a href=&#34;https://es.wikipedia.org/wiki/Primera_División_de_Chile#Campeones&#34;&gt;Wikipedia&lt;/a&gt; (considerar que en nuestra gráfica quienes tienen igual número de campeonatos solo están ordenados alfabéticamente, sin un criterio adicional):&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/campeones-chile_files/figure-html/plot1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Como ha sido la tónica desde hace años en este ranking, Colo-Colo tiene un claro liderato con sus 31 estrellas, con lo que casi (porque le faltan 5 torneos) le alcanza para duplicar y triplicar a sus más cercanos perseguidores (Universidad de Chile con 18 y Universidad Católica con 12). Cabe destacar que los 3 llamados “equipos grandes” de Chile juntos se han llevado el 61% de las copas jugadas.&lt;/p&gt;
+&lt;p&gt;Se observa que la mayoría de los campeones son de la Región Metropolitana (Colo-Colo, Universidad de Chile, Universidad Católica, Unión Española, Audax Italiano, Magallanes, Palestino, Santiago Morning y Green Cross), correspondiente al 56% de los 16 equipos que han campeonado al menos una vez, y al 80% de los 100 campeonatos jugados.&lt;/p&gt;
+&lt;p&gt;Los campeones de otras regiones son: Cobreloa de la Región de Antofagasta con 8 campeonatos; Everton, Santiago Wandereres y Unión San Felipe de la Región de Valparaíso con 4, 3 y 1 campeonato respectivamente; Huachipato de la Región del Bío-Bío con 2; y O’higgins de la Región de Bernardo O’higgins con 1 estrella.&lt;/p&gt;
+&lt;p&gt;El título obtenido por Green Cross en 1945 se le consideró para Deportes Temuco (Región de la Araucanía) dada su fusión en 1965.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Ahora bien, también podemos considerar un índice que represente la efectividad para ganar campeonatos en función de los torneos jugados. Así podemos ver cómo cambia el ranking con la razón “campeonatos ganados/jugados” en la siguiente visualización:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/campeones-chile_files/figure-html/plot2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Además de la razón campeonatos ganados/jugados que se muestra arriba de cada barra, abajo y entre paréntesis se presenta el número de torneos jugados por cada equipo en Primera División, lo que aporta a la interpretación, puesto que quienes avanzan en este ranking en comparación con al anterior lo hacen debido a que han aprovechado mejor sus participaciones en Primera División para campeonar. Cabe destacar que Colo-Colo es el único que ha jugado los 100 torneos dada su antigüedad en el fútbol criollo y porque no ha descendido nunca a Primera B o Segunda División.&lt;/p&gt;
+&lt;p&gt;Se puede apreciar que Colo-Colo y Universidad de Chile mantienen sus puestos, con índices de 0.31 y 0.19 respectivamente. Esto puede llevarse a otra palabras como por ejemplo que Colo-Colo tiende a ganar aproximadamente 1 de cada 3 torneos de los que juega, y la U. de Chile lo hace 1 vez cada 5.&lt;/p&gt;
+&lt;p&gt;Por otro lado, Cobreloa en este ranking supera a la Universidad Católica, quitándole el 3er lugar, así como lo hace Magallanes con Unión Española y Unión San Felipe con Palestino. Premio a la efectividad.&lt;/p&gt;
+&lt;p&gt;Sin embargo, si bien estos avances en el ranking se deben a mayor efectividad, no hay que dejar de tener presente los números absolutos de los torneos jugados en cada caso, ya que para estos casos justamente se tienen menos participaciones, lo que es debido principalmente a equipos “nuevos” y/o a varios torneos fuera de Primera División.&lt;/p&gt;
+&lt;p&gt;Lo anterior llevado a un caso extremo: si un equipo sube por primera vez a Primera División y sale campeón inmediatamente, pero al año siguiente desciende, tendría un índice de 0.5 (1 campeonato y 2 torneos jugados) y sería el primero del ranking. Por supuesto que no tendría mucho sentido premiar o alabar eso.&lt;/p&gt;
+&lt;p&gt;Esperamos mantener este ranking actualizado torneo a torneo e ir agregando estadísticas más detalladas al respecto.&lt;/p&gt;
+&lt;p&gt;El código y los datos utilizados los pueden revisar en este enlace &lt;a href=&#34;https://github.com/Bustami/DatoFutbol/tree/master/Campeones_Chile&#34;&gt;Github&lt;/a&gt;. Los escudos de los equipos fueron descargados del sitio oficial de la &lt;a href=&#34;http://anfp.cl&#34;&gt;ANFP&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Las edades de los planteles chilenos - Primera A Clausura 2017</title>
+      <link>/edades-planteles-chile/</link>
+      <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/edades-planteles-chile/</guid>
+      <description>&lt;p&gt;Para este post quisimos darle un vistazo a la base de datos del &lt;a href=&#34;http://www.sifup.cl/planteles/&#34;&gt;SIFUP&lt;/a&gt; asociada a los planteles de Primera A para el Clausura 2017 del fútbol chileno. Los atributos que se encuentran para cada jugador de cada equipo son: Número, Nombre, Apellido, Nacionalidad, Fecha y Lugar de nacimiento, además de Posición.&lt;/p&gt;
+&lt;p&gt;A continuación los distintos análisis realizados:&lt;/p&gt;
+&lt;div id=&#34;histograma-de-edades&#34; class=&#34;section level6&#34;&gt;
+&lt;h6&gt;1) Histograma de edades&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&#34;/post/edad-planteles-chile_files/figure-html/c6-1.png&#34; width=&#34;672&#34; /&gt; Se puede ver que la edades más frecuentes al considerar todos los planteles de la Primera A para el Clausura 2017 del fútbol chileno, son 18 y 19 años. Es muy probable que esto sea debido principalmente a la regla de minutos con juveniles en cancha que impone la &lt;a href=&#34;http://www.anfp.cl/documentos/1469568519-bases-primera-division.pdf&#34;&gt;ANFP&lt;/a&gt; (Artículo 34, punto 4). De otro modo, esperaríamos tener menos jugadores de dichas edades.&lt;/p&gt;
+&lt;p&gt;Por otro lado, era esperable ver que a medida que aumenta la edad, disminuye la frecuencia.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;edad-promedio-por-equipo&#34; class=&#34;section level6&#34;&gt;
+&lt;h6&gt;2) Edad promedio por equipo&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&#34;/post/edad-planteles-chile_files/figure-html/c7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Los promedios de edad fluctúan entre 22.0 (Huachipato) y 27.5 (Universidad Católica) años. En el caso de #LosAcereros su bajo promedio se debe a la presencia de 26 jugadores menores de 26 años, equivalente al 93% del total, mientras que para #LosCruzados el hecho de tener 8 jugadores mayores de 30 (un 31% de su plantel) lo hace ser el plantel más longevo.&lt;/p&gt;
+&lt;p&gt;En rojo se tiene la media de todos los jugadores de todos los equipos, igual a 24.6 años. Hay 7 equipos sobre esta media y 9 bajo la misma.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;caja-y-bigotes-de-edad-vs-equipo&#34; class=&#34;section level6&#34;&gt;
+&lt;h6&gt;3) Caja y bigotes de Edad v/s Equipo&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&#34;/post/edad-planteles-chile_files/figure-html/c8-1.png&#34; width=&#34;672&#34; /&gt; La imagen corresponde a un gráfico de cajas y bigotes para analizar la dispersión de las edades por equipo, incluyendo la media con un punto rojo (la línea horizontal azul es la mediana).&lt;/p&gt;
+&lt;p&gt;Se puede observar que Colo-Colo tiene la mayor dispersión, con edades entre 16 (Sebastián valencia) y 39 (Justo Villar) años. La menor dispersión la comparten Huachipato, con jugadores entre 18 (Antonio Ramírez + Ignacio tapia) y 30 (Carlos Lampe) años; y Unión Española, con jugadores entre 19 (Walter Limenza + José Luis Sierra Jr.) y 31 (Fernando Meneses) años.&lt;/p&gt;
+&lt;p&gt;El jugador más jóven del torneo es César Huanca de Deportes Iquique (15 años). El estandarte de jugador más longevo recae en dos nombres: Justo Villar de Colo-Colo y Cristián Muñóz de Universidad de Concepción, ambos arqueros de 39 años.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;edades-vs-posicion&#34; class=&#34;section level6&#34;&gt;
+&lt;h6&gt;4) Edades v/s Posición&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&#34;/post/edad-planteles-chile_files/figure-html/c9-1.png&#34; width=&#34;672&#34; /&gt; La visualización muestra un gráfico de cajas y bigotes para las edades v/s posición, considerando Arquero, Defensa (Laterales + Centrales), Mediocampista (Volantes + Enganche) y Delantero (Centro + Punteros). El punto blanco indica la media (línea horizontal negra: la mediana).&lt;/p&gt;
+&lt;p&gt;No se aprecian grandes diferencias en los indicadores de tendencia central y dispersión entre defensas, mediocampistas y delanteros. Los arqueros tienen un comportamiento algo diferente: mayor dispersión, con las edades más altas, y la mediana más alejada de la media.&lt;/p&gt;
+&lt;p&gt;De todas maneras, no hay mucho más que decir en este caso.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;chilenos-vs-extranjeros&#34; class=&#34;section level6&#34;&gt;
+&lt;h6&gt;5) Chilenos v/s Extranjeros&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&#34;/post/edad-planteles-chile_files/figure-html/c10-1.png&#34; width=&#34;672&#34; /&gt; Ahora vemos un gráfico de caja y bigotes que compara edades entre jugadores chilenos y jugadores extranjeros. Se observa que los extranjeros tienen mayor edad en promedio y sus mínimas edades son más altas, lo que era esperable dado que éstos llegan a Chile cuando sus carreras están “avanzadas”. Salvo algunas excepciones como en el caso del mediocampista argentino Valentín Castellanos de Universidad de Chile y el defensa mexicano Francisco Venegas de Everton (ambos de 18 años); y los arqueros Walter Limenza (Paraguay) de Unión Española y Gabriel Carabalí (Ecuador) de Colo-Colo, el mediocampista venezolano Yeferson Soteldo de Huachipato y el delantero mexicano Nahum Gómez de Everton, todos con 19 años.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;chilenos-vs-extranjeros-por-posicion&#34; class=&#34;section level6&#34;&gt;
+&lt;h6&gt;6) Chilenos v/s Extranjeros por posición&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&#34;/post/edad-planteles-chile_files/figure-html/c11-1.png&#34; width=&#34;672&#34; /&gt; Acá se pueden apreciar diferencias más claras al comparar edades de chilenos con edades de extranjeros por posición. Los arqueros extranjeros presentan la diferencia más notoria, con una mediana de 30 años frente a una de 22 de los arqueros chilenos. Siguen con una diferencia entre extranjeros y chilenos similar entre ellos los defensas, mediocampistas y delanteros.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Ahora para terminar, elige tu equipo favorito y revisa las edades de su plantel!!&lt;/p&gt;
+&lt;iframe src=&#34; https://bustami.shinyapps.io/planteles/?showcase=0&#34; width=&#34;672&#34; height=&#34;650px&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>La peligrosidad del 2-0. ¿Estamos frente a un mito?</title>
+      <link>/peligrosidad_del_2_0/</link>
+      <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/peligrosidad_del_2_0/</guid>
+      <description>&lt;p&gt;En este post invocaremos una creencia inmersa en el folclor futbolístico que seguramente quienes somos fanáticos de este deporte hemos escuchado más de alguna vez. Ya sea desde la boca de sus fieles adeptos o bien de sus detractores, esta ha sido protagonista de polémicas o discusiones acaloradas. Hablamos de “la peligrosidad del 2-0”.&lt;/p&gt;
+&lt;p&gt;En término generales, los adeptos a esta creencia afirman que “el 2-0 es el resultado más peligroso en el fútbol”, argumentando que un equipo que alcance tal ventaja pudiera ser tentado o correr el riesgo inconsciente de cambiar su forma y/o actidud de juego respecto a la que le permitió obtener dicha ventaja temporal, pudiendo “perder la concentración”, “caer en el relajo”, “bajar la intensidad”, “esperar al otro equipo”, entre otras, lo que se traduciría en que el equipo rival pueda empatar o dar vuelta el partido. ¿Le parece familiar la frase “si te hacen el descuento después viene el empate y luego el tercero”?.&lt;/p&gt;
+&lt;p&gt;Somos conscientes que esta afirmación tiene un trasfondo subjetivo, y que siempre existirán aquellos que aludan al romanticismo para no dar espacio a un análisis numérico “frío”. Pero bueno, en DATOFÚTBOL estamos para aportar con una visión objetiva sustentada en datos. Por eso, para tener una idea de qué tan peligroso puede ser el 2-0, o cuántas veces “se cumple o no se cumple la regla” intentaremos responder a los siguientes casos:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: upper-alpha&#34;&gt;
+&lt;li&gt;¿En qué % de oportunidades un partido que estuvo 2-0 en algún momento, fue empatado o dado vuelta?&lt;/li&gt;
+&lt;li&gt;¿En qué % de oportunidades un partido que estuvo 2-0 en el 1er tiempo, fue empatado o dado vuelta?&lt;/li&gt;
+&lt;li&gt;¿En qué % de oportunidades un partido que estuvo 1-0 en algún momento, fue empatado o dado vuelta?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Para ello utilizaremos la base de datos de partidos europeos de las principales ligas, la cual fue utilizada en el &lt;a href=&#34;http://datofutbol.cl/formaciones/&#34;&gt;post anterior&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A continuación la visualización que nos permitirá observar los resultados de los distintos casos:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/peligrosidad-del-2-0_files/figure-html/c3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Del total de 10755 partidos, en 4341 de ellos ocurrió el caso A, en 3468 el caso B y en 9920 el caso C.&lt;/p&gt;
+&lt;p&gt;Para el caso A se aprecia que en el 92% de los partidos (3990), el equipo que tomó la ventaja parcial de 2-0 terminó ganando el partido. Solo en un 6% hubo empate y en un 2% el otro equipo lo dio vuelta.&lt;/p&gt;
+&lt;p&gt;Para el caso B hay resultados similares al caso A. Los porcentajes cambian levemente, disminuyendo a 91% los partidos donde se mantuvo el ganador, aumentando a 7% los empates y manteniéndose en 2% los partidos remontados. Esta leve diferencia se debe únicamente a que el equipo rival tuvo más tiempo para mejorar, lo que no es relevante, al menos al hacer la distinción entre 1er y 2do tiempo. Probablemente la influencia del tiempo se observe de manera más clara si se analizan los minutos de juego disponibles para que el equipo rival mejore.&lt;/p&gt;
+&lt;p&gt;Por otro lado, tenemos el caso C como punto de comparación, y sus resultados tienen sentido. Era obviamente predecible que es más remontable un 1-0 que un 2-0: En un 69% de los partidos (6838) el mismo equipo que se puso en ventaja finalmente ganó, en un 19% (1859) terminó en empate y en un 18% (1223) fue remontado. Así, se aprecia que el empate y la remontada están más cerca entre sí en este caso, y que por supuesto hay menos cantidad de partidos en los que el mismo equipo que se puso en ventaja ganó.&lt;/p&gt;
+&lt;p&gt;Aquí podemos ver que nace una hipótesis interesante: “el equipo que hace el primer gol tiene 69% de probabilidades de ganar”. Digno de estudiar con test estadístico formal.&lt;/p&gt;
+&lt;p&gt;Vale decir que estos resultados son válidos para las ligas europeas estudiadas en los últimos 8 años. Sin embargo, otros análisis que consideran otras bases de datos tienen resultados muy similares:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://eldatofutbolero.blogspot.cl/2013/03/mitos-el-2-0-el-resultado-mas-peligroso.html&#34;&gt;Partidos de mundiales&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.latercera.com/noticia/el-mito-se-cae-el-2-0-no-es-el-resultado-mas-peligroso/&#34;&gt;Partidos de fútbol chileno&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://hablaelbalon.com/cazamitos-2-0-marcador-mas-peligroso/&#34;&gt;Otro análisis con partidos europeos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La &lt;a href=&#34;http://www.rae.es&#34;&gt;RAE&lt;/a&gt; en una de sus definiciones declara lo siguiente para la palabra mito: “Persona o cosa a la que se atribuyen cualidades o excelencias que no tiene”. Entonces, ¿estamos frente a un mito?. En DATOFÚTBOL creemos que sí.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

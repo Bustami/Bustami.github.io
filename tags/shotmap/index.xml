@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shotmap on DATO FUTBOL</title>
+    <link>/tags/shotmap/index.xml</link>
+    <description>Recent content in Shotmap on DATO FUTBOL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>Todos los derechos reservados 2017-2018</copyright>
+    <atom:link href="/tags/shotmap/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Mi primer shotmap va para Alexis Sánchez</title>
+      <link>/shotmap1-alexis/</link>
+      <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/shotmap1-alexis/</guid>
+      <description>&lt;p&gt;Jugando con los datos proporcionados por &lt;strong&gt;StrataBet&lt;/strong&gt; junto con la librería &lt;strong&gt;ggsoccer&lt;/strong&gt; de Ben &lt;a href=&#34;https://twitter.com/Torvaney&#34;&gt;&lt;strong&gt;Torvaney&lt;/strong&gt;&lt;/a&gt; para R, armé mi primer Shotmap (!!) dedicado a Alexis Sánchez&lt;/p&gt;
+&lt;div id=&#34;datos&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Datos&lt;/h3&gt;
+&lt;p&gt;En total consideré 24 partidos de Premier League con el fin de comparar los 12 que Alexis ha jugado a la fecha en Manchester United con los 12 últimos que jugó en Arsenal. Así es como se tienen cantidades de minutos jugados muy similares para cada caso.&lt;/p&gt;
+&lt;p&gt;En relación a los tiros, se consideraron todos los efectuados desde “juego abierto”, despreciando pelotas paradas.&lt;/p&gt;
+&lt;p&gt;Gracias a la librería ggsoccer es posible dibujar la cancha para ubicar los tiros, sin embargo es necesario hacer una conversión de las coordenadas re escalando los valores tanto para el eje X como Y ya que los datos no vienen en el mismo sistema que la herramienta utilizada.&lt;/p&gt;
+&lt;p&gt;Por otro lado, además de la ubicación de los tiros, el mapeo de datos para la visualización contempla el color para los equipos y la forma para el resultado del tiro: Gol o No gol (atajado, desviado, bloqueado).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/shotmap1_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;observaciones&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Observaciones&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;En Arsenal en general Alexis disparaba más: 25 de 43 chances: 58%&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;En Arsenal también resalta la cantidad de remates desde el sector izquierdo del ataque, incluso fuera del área, además de una mayor cantidad de goles (5).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;En Manchester United se observa un juego ofensivo más centralizado, con menos remates desde fuera del área y menos goles, hasta ahora.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;¿Esto es debido a la influencia del juego más defensivo de Mou? ¿El periodo de adaptación?&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;This article was written with the aid of StrataData, which is property of &lt;a href=&#34;http://www.stratagem.co/&#34;&gt;&lt;strong&gt;Stratagem Technologies&lt;/strong&gt;&lt;/a&gt;. StrataData powers the &lt;a href=&#34;http://www.stratabet.com/&#34;&gt;&lt;strong&gt;StrataBet&lt;/strong&gt;&lt;/a&gt; Sports Trading Platform, in addition to &lt;a href=&#34;https://stratatips.co/&#34;&gt;&lt;strong&gt;StrataBet Premium Recommendations&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

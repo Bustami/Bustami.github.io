@@ -1,0 +1,22 @@
+---
+noauthor: true
+comments: false
+date: "2017-03-25"
+lang: es
+draft: false
+image: false
+share: false
+title: "Acerca de"
+type: "about"
+---
+
+DATOFUTBOL nace como un proyecto que busca aportar al debate y conocimiento de todos los aspectos futbolísticos que puedan analizarse de manera objetiva utilizando datos.
+
+Para la construcción de nuestro sitio web usamos la librería [blogdown](https://github.com/rstudio/blogdown) de [R](https://www.r-project.org), la cual permite utilizar el generador de sitios estáticos [Hugo](https://gohugo.io) en conjunto con el lenguaje de marcado para documentos [RMarkdown](http://rmarkdown.rstudio.com).
+También, en algunos post incrustamos aplicaciones interactivas creadas con [Shiny](http://shiny.rstudio.com).
+
+Para algunos post (esperamos que para la mayoría), compartimos abiertamente en [Github](https://github.com/Bustami/DatoFutbol) la base de datos y los códigos utilizados, con el objetivo de que nuestros análisis sean reproducibles y para aportar a la consigna [Open Data](https://en.wikipedia.org/wiki/Open_data).
+
+Si tienes preguntas, comentarios o ganas de participar escríbenos a:
+  
+##### contacto@datofutbol.cl

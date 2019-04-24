@@ -1,0 +1,26 @@
+---
+author: "Ismael Gómez"
+comments: false
+lan: es
+date: 2017-05-22
+draft: false
+menu: false
+description: ' '
+share: true
+output:
+  html_document: default
+  pdf_document: default
+slug: la-tabla-1A-f15
+tags:
+- LaTabla
+- PrimeraA 
+- Fecha15
+- Clausura2017
+- Chile
+title: "LA TABLA de la Primera A Chile- Clausura 2017 Fecha 15"
+categories: ["Chile"]
+---
+
+Y se acabó el Clausura 2017! [JUFA](https://twitter.com/jufacomic]) nos trae LA TABLA final luego de la Fecha 15:
+
+![](/images/fecha15_1A_22.05.2017.jpg)

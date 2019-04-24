@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Primero División on DATO FUTBOL</title>
+    <link>/tags/primero-divisi%C3%B3n/index.xml</link>
+    <description>Recent content in Primero División on DATO FUTBOL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>Todos los derechos reservados - 2017</copyright>
+    <atom:link href="/tags/primero-divisi%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Campeones Primera División Fútbol Profesional Chile</title>
+      <link>/campeones_chile/</link>
+      <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/campeones_chile/</guid>
+      <description>&lt;p&gt;Universidad de Chile esta tarde de hoy sábado 20 de mayo de 2017 se coronó campeón de la versión número 100 del campeonato de primera división del fútbol profesional chileno, logrando su estrella N°18. El equipo #DatoFútbol felicita a todos sus jugadores, cuerpo técnico-médico e hinchas por esta nueva alegría.&lt;/p&gt;
+&lt;p&gt;A modo de resúmen de estos 100 torneos, los que se han jugado en ya casi 85 años, desde la primera versión por allá en 1933 hasta esta primera mitad de 2017, quisimos actualizar el ranking de campeones de la primera división con la siguiente gráfica, a partir de los datos publicados en &lt;a href=&#34;https://es.wikipedia.org/wiki/Primera_División_de_Chile#Campeones&#34;&gt;Wikipedia&lt;/a&gt; (considerar que en nuestra gráfica quienes tienen igual número de campeonatos solo están ordenados alfabéticamente, sin un criterio adicional):&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/campeones_chile_files/figure-html/plot1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Como ha sido la tónica desde hace años en este ranking, Colo-Colo tiene un claro liderato con sus 31 estrellas, con lo que casi (porque le faltan 5 torneos) duplica y triplica a sus más cercanos perseguidores (Universidad de Chile con 18 y Universidad Católica con 12). Cabe destacar que los 3 llamados “equipos grandes” de Chile juntos se han llevado el 61% de las copas jugadas.&lt;/p&gt;
+&lt;p&gt;Se observa que la mayoría de los campeones son de la Región Metropolitana (Colo-Colo, Universidad de Chile, Universidad Católica, Unión Española, Audax Italiano, Magallanes, Palestino y Santiago Morning), correspondiente al 50% de los 16 equipos que han campeonado al menos una vez, y al 79% de los 100 campeonatos jugados.&lt;/p&gt;
+&lt;p&gt;Los campeones de otras regiones son: Cobreloa de la Región de Antofagasta con 8 campeonatos; Everton, Santiago Wandereres y Unión San Felipe de la Región de Valparaíso con 4, 3 y 1 campeonato respectivamente; Huachipato de la Región del Bío-Bío con 2; y O’higgins de la Región de Bernardo O’higgins con 1 estrella. Consideramos también el título obtenido por Green Cross en 1945 para Deportes Temuco (ambos de la Región de la Araucanía) dada su fusión en 1965.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Ahora bien, también podemos considerar un índice que represente la efectividad para ganar campeonatos en función de los torneos jugados. Así podemos ver cómo cambia el ranking con la “razón campeonatos ganados/jugados” en la siguiente visualización:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/campeones_chile_files/figure-html/plot2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Se puede apreciar que Colo-Colo y Universidad de Chile mantienen sus puestos, con índices de 0.31 y 0.19 respectivamente. Esto puede llevarse a otra palabras como por ejemplo que Colo-Colo tiende a ganar aproximadamente 1 de cada 3 torneos de los que juega, y la U. de Chile lo hace 1 vez cada 5.&lt;/p&gt;
+&lt;p&gt;Además de la razón campeonatos ganados/jugados que se muestra arriba de cada barra, abajo y entre paréntesis se presenta el número de torneos jugados por cada equipo en primera división, lo que aporta a la interpretación, puesto que quienes avanzan en este ranking en comparación con al anterior lo hacen debido a que han aprovechado mejor sus participaciones en primera división para campeonar. Cabe destacar que Colo-Colo es el único que ha jugado los 100 torneos dada su antigüedad en el fútbol criollo y porque no ha descendido nunca a Primera B o segunda división.&lt;/p&gt;
+&lt;p&gt;Es por lo anterior que Cobreloa en este ranking supera a la Universidad Católica, quitándole el 3er lugar, así como lo hace Magallanes con Unión Española y Unión San Felipe con Palestino. Sin embargo, si bien estos avances en el ranking se deben a mayor efectividad, no hay que dejar de tener presente los números absolutos de torneos jugados, ya que en la mayoría de estos casos son menores, y eso es debido principalmente a varios torneos fuera de primera división. Esto sería aún más llamativo por ejemplo si un equipo sube por primera vez a Primera División y sale campeón inmediatamente, pero al año siguiente baja nuevamente, por lo que tendría un índice de 0.5 y sería el primero del ranking. Por supuesto que no tendría mucho sentido premiar o alabar eso.&lt;/p&gt;
+&lt;p&gt;Esperamos mantener este ranking actualizado torneo a torneo e ir agregando más estadísticas más detalladas al respecto.&lt;/p&gt;
+&lt;p&gt;El código y los datos utilizados los pueden revisar en este enlace &lt;a href=&#34;https://github.com/Bustami/DatoFutbol/tree/master/Campeones_Chile&#34;&gt;Github&lt;/a&gt;. Los escudos de los equipos fueron descargados del sitio oficial de la &lt;a href=&#34;http://anfp.cl&#34;&gt;ANFP&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

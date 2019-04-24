@@ -1,0 +1,235 @@
+---
+title: "Predicciones Copa Libertadores 2018"
+author: "Ismael Gómez"
+date: '2018-02-25'
+output:
+  html_document: default
+  pdf_document: default
+draft: no
+image: no
+lang: es
+menu: ''
+description: ''
+share: yes
+slug: clasificador-copa-libertadores
+tags:
+- CopaLibertadores
+- Clasificados
+- ValorPlanteles
+- Conmebol
+categories: Conmebol
+---
+
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.width=7, fig.height=5, echo=F, warning=FALSE, message=FALSE)
+```
+
+```{r library}
+library(stringdist)
+library(ggplot2)
+library(ggrepel)
+library(knitr)
+library(kableExtra)
+library(caret)
+library(dplyr)
+```
+
+```{r read_process}
+data <- read.csv("data_clas.csv", head=T, stringsAsFactors = F, encoding = 'latin')
+```
+
+El primer post #DatoFútbol del 2018 se lo dedicaré a la Copa Libertadores [La Copa], cuya fase de grupos comienza este martes 27 de febrero. Se trata de la continuación del trabajo de [**una publicación anterior**](http://datofutbol.cl/libertadores_valor_planteles_2017/) en la cual se analizó la correlación entre el valor monetario de los planteles en el mercado y su respectivo rendimiento en la fase de grupos de la edición 2017 de La Copa, además de la cantidad de puntos necesarios para clasificar.
+
+Esta vez aumentaré la cantidad de datos, incluyendo datos históricos de ediciones previas, con el objetivo de alimentar de mejor manera un modelo que permita predecir qué equipos pasarán la fase de grupos de la presente edición. 
+
+## Recolección y proceso de datos
+
+Aplicando scraping con la librería [**rvest**](https://cran.r-project.org/web/packages/rvest/rvest.pdf) de R descargué los datos de valores en el mercado, en millones de euros, y las tablas de posiciones disponibles en el sitio [Transfermarkt.com](https://www.transfermarkt.com/copa-libertadores/teilnehmer/pokalwettbewerb/CLI/) para todos los planteles que participaron en la fase de grupos de las ediciones desarrolladas entre los años 2011 y 2017. La información de tablas de posiciones fue validada contrastando con el contenido de los sitios web de [Conmebol](http://www.conmebol.com/es/copa-libertadores-2018/posiciones) y [Wikipedia](https://es.wikipedia.org/wiki/Copa_Libertadores_2011).
+
+Es así como se trabajó con 224 registros de algún equipo participante en fase de grupos de La Copa (32 equipos en 7 ediciones). De este modo inicialmente se contó con los siguientes atributos para cada registro: Año de edición, N° de Grupo, Nombre Club, País del Club, Puntos obtenidos en fase de grupos, Clasificación (SI/NO) y Valor en el mercado.
+
+En esta muestra de datos se tienen `r length(unique(data$Club))` equipos participantes diferentes, dentro de los cuales destacan Emelec de Ecuador con 7 participaciones, luego The Strongest de Bolivia, Peñarol y Nacional de Uruguay con 6 participaciones, además de Atlético Nacional e Independiente de Santa Fe de Colombia, Atlético Mineiro y Gremio de Brasil y Libertad de Paraguay con 5 participaciones. A continuación la tabla con el ranking de participaciones para casos con más de 3.
+
+```{r table1}
+tclub <- as.data.frame(table(data$Club))
+names(tclub) <- c('Club', 'Participaciones')
+tclub <- merge(tclub, data[, c('Club', 'Pais')], by='Club', all=F)
+tclub <- tclub[!duplicated(tclub), c(1,3,2)]
+tclub <- tclub[order(tclub$Participaciones, decreasing=T), ]
+row.names(tclub) <- NULL
+kable(tclub[tclub$Participaciones>3, ], align='c')
+```
+
+Por otro lado, cabe destacar que el valor en el mercado considerado para el análisis corresponde al valor de la fecha previa más cercana al inicio de cada edición de La Copa, de modo que se considera la valoración inicial del plantel como posible referencia de la inversión realizada para la misma y al mismo tiempo evitamos incluir el propio impacto que un equipo tendría en su valor debido a su rendimiento durante el desarrollo de los partidos.
+
+Otro aspecto relacionado con el valor en el mercado es la variación del valor del dinero con el tiempo. Si bien existe la opción de corregir todos los valores a algún punto temporal arbitrario para que sean comparable entre sí, opté por convertir los valores a métricas que, además de corregir lo anterior, incorporen información útil respecto a cómo se relacionan los valores de **los equipos de un mismo grupo**, puesto que finalmente éstos serán los rivales a evaluar y sus respectivas relaciones de valores monetarios en el mercado. 
+
+En este contexto, consideré la creación de nuevos atributos para cada registro: 
+
+* Valor centrado respecto a la media del grupo
+* Valor estandarizado respecto al grupo (el centrado dividido por la desviación estándar)
+* Valor numérico de 1 a 4 asociado al ranking del equipo dentro de un grupo según su Valor centrado.
+* Variable nominal según el ranking anterior. A: lugares 1 y 2, B: lugares 3 y 4
+
+Mi apuesta fue que alguno de estos dos últimos nuevos parámetros ayuden a corregir los casos en que 3 equipos con valores monetarios relativamente altos o bajos (para el conjunto total de datos) estén en un mismo grupo, lo cual según las reglas de clasificación (solo lo hacen 2 por grupo) fuerza a que al menos uno de los valores "altos" no haya clasificado o uno de los "bajos" sí lo haya hecho, lo que podría ensuciar el modelo.
+
+A modo descriptivo, en el siguiente gráfico se puede observar un gráfico de dispersión del Valor centrado v/s la Cantidad de puntos obtenidos en la fase de grupos, mapeando con colores el status de Clasificación SI/NO.
+
+```{r plot1}
+data$label <- ''
+mystr <- '^(palmeiras 2016)|(boca juniors 2015)|(ldu quito 2011)|(cruzeiro 2015)|(danubio fc 2015)|(flamengo 2012)|(flamengo 2017)|(guadalajara 2012)|(independiente de avellaneda 2011)|(wilstermann 2017)|(universitario de sucre 2015)|(cs emelec 2012)|(sao paulo 2013)|(river plate 2015)|(once caldas 2011)|(universidad de chile 2014)|(deportes iquique 2017)'
+data$label[grep(mystr, data$Key)] <- data$Key[grep(mystr, data$Key)]
+
+p <- ggplot(data, aes(x=Value_centered, y=PTS, colour=clas_factor)) +
+        geom_point(alpha = 4/10, size=2) +
+        labs(x = "Valor de plantel en el mercado [Millones de EUR] respecto al promedio de su grupo", y = "Puntos en Fase de Grupos Libertadores") +
+        scale_fill_brewer(palette="Set1") +
+        theme_bw() + theme(legend.position="top", legend.direction="horizontal") +
+        guides(colour=guide_legend(title='¿Clasificó?')) +
+        #coord_cartesian(xlim=c(-65, 65), ylim=c(0,18))
+        scale_y_continuous(breaks=seq(0, 18, 2)) +
+        scale_x_continuous(breaks=seq(-70, 70, 10)) +
+        geom_text_repel(aes(label=data$label), size=2.5, col='black', 
+                        min.segment.length = unit(0, "lines"), arrow = arrow(length = unit(0.01, "npc"), ends = "first", type = "closed"))
+        #geom_text(aes(label=data$Key), size=2, col='black')
+p
+
+lm1 <- lm(PTS ~ Value_centered, data)
+```
+
+Con esta visualización podemos comprobar que al incorporar datos históricos sigue existiendo la correlación encontrada para la edición 2017 entre valor monetario de planteles (en este caso centrado respecto al promedio de su grupo) y su rendimiento en fase de grupos (puntos obtenidos). Dicha correlación tiene un R^2 igual a `r round(as.numeric(summary(lm1)[9]), 1)`.
+
+También se vuelve a observar que con 10 puntos la gran mayoría ha clasificado (excepto U. de Chile el 2014 y Deportes Iquique el 2017), pero que con 9 puntos no se asegura la clasificación (se reparte más o menos homogéneamente entré SI y NO), aún cuando han habido algunos casos puntuales de clasificación con 8 e incluso 7 puntos (Once caldas 2011, Sao Paulo 2013 y River Plate 2015).
+
+Respecto al valor monetario, se puede apreciar que la gran mayoría de los planteles con un valor de 10 millones de EUR sobre el promedio de su grupo han clasificado. Los que no cumplen esta regla son 4 casos: Independiente de Avellaneda 2011, Guadalajara 2012 y Flamengo 2012 y 2017. 
+
+En contraste, la mayoría de planteles con 18 millones de EU menor al promedio de su grupo no lo han hecho. Las excepciones y "sorpresas" han sido: LDU de Quito 2011, Emelec 2012, U. de Sucre 2015 y Wilstermann 2017). ¿Factor común? Equipos Ecuatorianos y Bolivianos que juegan sus partidos de local en altura.
+
+Bien, a continuación la presentación del modelo de clasifcación que desarrollé a partir de esta base de datos junto con sus resultados de predicción para la edición 2018 de La Copa.
+
+*** 
+
+#### Modelo de regresión logística
+
+Como punto de partida ajusté un modelo de regresión para comprender, y eventualmente predecir, el status de clasificación SI/NO. Dado que esta variable tiene una [**distribución binomial o Bernoulli**](https://es.wikipedia.org/wiki/Distribución_binomial), con posibles salidas SI y NO, trabajé con un regresión logística, la cual a su vez también permite obtener las probabilidades asociadas a cada caso. 
+
+Luego de algunas pruebas con los distintos atributos, el predictor más útil fue el Valor centrado. Se descartó la influencia estadísticamente significativa de parámetros como el Nombre y el País del Club, el Año, el Valor estandarizado y el ranking numérico y nominal del valor centrado.
+
+En la siguiente gráfica se puede apreciar la típica Curva S de probabilidades que resultan del ajuste del modelo en función del Valor centrado. El color mapea el status de clasificación. 
+
+```{r plot2}
+data <- data[order(data$Year, data$Group, data$Value_centered), ]
+data$rank <- rep(4:1, 56)
+data$rank2 <- ifelse(data$rank<3, 'A', 'B')
+fit1 <- glm(factor(clas) ~ Value_centered, data, family='binomial')
+fit2 <- glm(factor(clas) ~ Value_centered + as.factor(rank2), data, family='binomial')
+data$fitted <- fit1$fitted.values
+data$fitted2 <- fit2$fitted.values
+
+# plot(data$Value_centered, fit$fitted, pch=19, col=ifelse(data$clas_factor=='SI', 'blue', 'red'), 
+#      xlab="Valor centrado respecto al grupo [Millones de EU]", ylab="Probabilidad de Clasificar")
+
+p2 <- ggplot(data, aes(x=Value_centered, y=fitted, colour=clas_factor)) +
+        geom_point(alpha = 8/10, size=2) +
+        labs(x = "Valor centrado [Millones de EUR] respecto al promedio de su grupo", y = "Probabilidad de clasificar") +
+        scale_fill_brewer(palette="Set1") +
+        theme_bw() + theme(legend.position="top", legend.direction="horizontal") +
+        guides(colour=guide_legend(title='¿Clasificó?')) +
+        scale_y_continuous(breaks=seq(0, 1, 0.1)) +
+        scale_x_continuous(breaks=seq(-50, 70, 10)) 
+p2
+
+# plot(data$Value_centered, fit2$fitted, pch=19, col=ifelse(data$clas_factor=='SI', 'blue', 'red'), 
+#      xlab="Valor centrado", ylab="Probabilidad de Clasificar")
+```
+
+Entonces, con este modelo podemos obtener la probabilidad de que un equipo pase la fase de grupos de La Copa conociendo su valor en el mercado y su diferencia respecto al promedio del grupo que le tocó. Sin embargo, estas son probabilidades "independientes" que deben ser ponderadas para cada caso para así obtener la probabilidad final de cada uno con tal de que la suma de los integrantes del grupo sumen 100%.
+
+Por otro lado, si establecemos como criterio que los 2 equipos con mayor probabilidad dentro de un grupo serán los que clasifiquen, el modelo es capaz de predecir con una precisión del 71.4% cualquiera de las dos salidas (SI o NO), es decir se clasificacn correctamente 80 de los 112 ejemplos de cada categoría.
+
+```{r table2}
+data1 <- data[order(data$Year, data$Group, data$fitted), ]
+data1$rank_f1 <- rep(4:1, 56)
+data1$out1 <- ifelse(data1$rank_f1<3, 'SI', 'NO')
+CM <- confusionMatrix(as.factor(data1$clas_factor), 
+                      as.factor(data1$out1), positive='SI')
+#table(data1$out1==data1$clas_factor)
+
+# data2 <- data[order(data$Year, data$Group, data$fitted2), ]
+# data2$rank_f2 <- rep(4:1, 56)
+# data2$out2 <- ifelse(data2$rank_f2<3, 'SI', 'NO')
+#table(data2$out2==data2$clas_factor)
+
+#sum(data1$rank_f1 - data2$rank_f2)
+
+#kable(CM[2], align='c')
+#kable(CM[3], align='c')
+```
+
+*** 
+
+#### Predicción 2018
+
+Finalmente, tomé la información de la versión 2018 de La Copa y la ingresé al modelo para obtener las probabilidades de clasificar para cada equipo y luego las ponderé para cada grupo. 
+
+En la siguiente tabla se pueden observar dichas probabilidades ponderadas de clasificación para cada equipo marcando con color azul los 2 más altos que clasificarían tomando a los mayores como criterio para clasificar:
+  
+```{r table3}
+
+liberta_2018 <- read.csv('liberta_2018.csv', header=T)
+liberta_2018 <- liberta_2018[order(liberta_2018$Grupo), ]
+names(liberta_2018)[3] <- c('Valor_Mill_EU')
+
+new_mean <- aggregate(Valor_Mill_EU ~ Grupo, liberta_2018, mean)
+liberta_2018 <- merge(liberta_2018, new_mean, by='Grupo', all=F)
+liberta_2018$Valor_centrado <- liberta_2018$Valor_Mill_EU.x - liberta_2018$Valor_Mill_EU.y
+names(liberta_2018)[3:4] <- c('Valor_Mill_EU', 'Promedio_grupo')
+
+new <- data.frame(Value_centered = liberta_2018$Valor_centrado)
+out <- predict.glm(fit1, newdata=new, type="response")
+liberta_2018$fitted1 <- out
+
+sump <- aggregate(fitted1 ~ Grupo, liberta_2018, sum)
+liberta_2018 <- merge(liberta_2018, sump, by='Grupo', all=F)
+liberta_2018$Prob <- liberta_2018$fitted1.x / liberta_2018$fitted1.y
+liberta_2018$Porcentaje <- round(liberta_2018$Prob*100, 1)
+liberta_2018 <- liberta_2018[order(liberta_2018$Grupo, liberta_2018$Prob), ]
+liberta_2018$clas <- rep(c('NO', 'NO', 'SI', 'SI'), 8)
+liberta_2018$Porcentaje_inv <- 1 - liberta_2018$Porcentaje
+
+liberta_2018 <- liberta_2018[order(liberta_2018$Grupo, liberta_2018$Porcentaje_inv), ]
+row.names(liberta_2018) <- NULL
+
+no <- which(liberta_2018$clas=='NO')
+gr <- which(liberta_2018$Grupo %% 2 == 0)
+gr2 <- which(liberta_2018$Grupo %% 2 == 1)
+
+tfinal <- liberta_2018[, c(1:5, 8:9)]
+kable(tfinal, "html", align='c') %>%
+  kable_styling(full_width=T, bootstrap_options = c("basic")) %>% 
+  row_spec(row=c(gr), background= '#f0f0f0') %>%
+  row_spec(row=c(gr2), background= 'white') %>%
+  column_spec(c(2,7), bold = T, color= 'darkblue') %>%
+  row_spec(row=c(no), bold = F, color= 'darkred') %>%
+  column_spec(c(1,3:6), bold = F, color= 'black') %>%
+  scroll_box(width = "900px", height = "500px")
+
+```
+
+
+Según los resultados hay 3 tipos de grupos:
+
+A) Grupos donde los 2 equipos de mayor probabilidad se escapan  sobre los demás: **Grupo 4** con Flamengo y River Plate, **Grupo 7** con Corinthians e Independiente de Avellaneda, y **Grupo 8** con Palmeiras y Boca Juniors.
+
+B) Grupos donde el 1ero del ranking de probabilidades se escapa y el 2do y 3ero están muy cerca: **Grupo 1** con Defensor Sporting y Cerro Porteño, y **Grupo 6** con Santos y Estudiantes de la Plata.
+
+C) Grupos donde los 4 equipos no se diferencia notablemente: **Grupos 2 y 3** donde el 1ero y el último se diferencian por aprox. solo 12%, 
+
+El **Grupo 5** es la excepción ya que los 3 primeros equipos están muy cerca (aprox. 10%), pero el 4to equipo está muy abajo. Este es justamente **el caso de la Universidad de Chile, que tiene solo un 7% de probabilidades de clasificar**!
+
+Por su parte **Colo-Colo**, el otro equipo chileno participante, según el modelo debería clasificar ya que **cuenta con un 27% de probabilidades, estando en el segundo lugar de su grupo**. 
+
+Al final de la fase de grupos veremos cómo nos va con la predicción y calcular una efectividad para la muestra nueva de datos. Es sabido que es posible refinar el modelo con variables como la edad y altura promedio de los planteles, rendimiento en ligas locales previas a La Copa, cantidad de extranjeros y sus nacionalidades, entre otras posibles, pero por ahora creo que un 70% de efectividad con los datos de entrenamiento es un muy buen punto de partida.
+
+Agradecemos la difusión, nos vemos!

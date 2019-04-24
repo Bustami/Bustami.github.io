@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Loscruzados on DATO FUTBOL</title>
+    <link>/tags/loscruzados/index.xml</link>
+    <description>Recent content in Loscruzados on DATO FUTBOL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>Todos los derechos reservados 2017-2018</copyright>
+    <atom:link href="/tags/loscruzados/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ranking de Campeones Primera División Fútbol Profesional Chile [actualizado Dic 2018]</title>
+      <link>/campeones-chile-3rd/</link>
+      <pubDate>Wed, 05 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/campeones-chile-3rd/</guid>
+      <description>&lt;p&gt;Felicitamos al Club Deportivo Universidad Católica y a todos #LosCruzados por ser los campeones de la versión N° 102 del torneo de primera división del fútbol profesional chileno, alcanzando su estrella número 13!&lt;/p&gt;
+&lt;p&gt;A continuación presentamos la actualización &lt;a href=&#34;http://datofutbol.cl/campeones-chile-2nd/&#34;&gt;&lt;strong&gt;de nuestro ranking publicado previamente&lt;/strong&gt;&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/campeones-chile3rd_files/figure-html/plot1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Colo-Colo tiene un claro liderato con sus 32 estrellas, con lo que casi le alcanza para duplicar y triplicar a sus más cercanos perseguidores (Universidad de Chile con 18 y Universidad Católica con 13), respectivamente. Cabe destacar que los 3 llamados “equipos grandes” de Chile juntos se han llevado el 62% de las copas jugadas.&lt;/p&gt;
+&lt;p&gt;Se observa que la mayoría de los campeones son equipos de la Región Metropolitana (Colo-Colo, Universidad de Chile, Universidad Católica, Unión Española, Audax Italiano, Magallanes, Palestino, Santiago Morning y Green Cross), correspondiente al 56% de los 16 equipos que han campeonado al menos una vez, y al 80% de los 102 campeonatos jugados.&lt;/p&gt;
+&lt;p&gt;Los campeones de otras regiones son:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cobreloa (Región de Antofagasta) con 8 campeonatos&lt;/li&gt;
+&lt;li&gt;Everton, Santiago Wandereres y Unión San Felipe (Región de Valparaíso) con 4, 3 y 1 campeonato respectivamente&lt;/li&gt;
+&lt;li&gt;Huachipato (Región del Bío-Bío) con 2&lt;/li&gt;
+&lt;li&gt;O’higgins (Región de Bernardo O’higgins) y Cobresal (Región de Atacama) con 1 estrella cada uno.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El título obtenido por Green Cross en 1945 se consideró para Deportes Temuco (Región de la Araucanía) dada su fusión en 1965.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Ahora bien, también podemos considerar un índice que represente la efectividad para ganar campeonatos en función de los torneos jugados. Así podemos ver cómo cambia el ranking con la razón “campeonatos ganados/jugados” en la siguiente visualización:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/campeones-chile3rd_files/figure-html/plot2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Además de la razón campeonatos ganados/jugados que se muestra arriba de cada barra, abajo y entre paréntesis se presenta el número de torneos jugados por cada equipo en Primera División, lo que aporta a la interpretación, puesto que quienes avanzan en este ranking en comparación con al anterior lo hacen debido a que han aprovechado mejor sus participaciones en Primera División para campeonar. Cabe destacar que Colo-Colo es el único que ha jugado los 102 torneos dada su antigüedad en el fútbol criollo y porque no ha descendido nunca a Primera B o Segunda División.&lt;/p&gt;
+&lt;p&gt;Se puede apreciar que Colo-Colo y Universidad de Chile mantienen sus puestos, con índices de 0.31 y 0.19 respectivamente. Esto puede llevarse a otra palabras como por ejemplo que Colo-Colo tiende a ganar aproximadamente 1 de cada 3 torneos de los que juega, y la U. de Chile lo hace 1 vez cada 5.&lt;/p&gt;
+&lt;p&gt;Por otro lado, Cobreloa en este ranking supera a la Universidad Católica, quitándole el 3er lugar, así como lo hace Magallanes con Unión Española y Unión San Felipe con Palestino. Premio a la efectividad.&lt;/p&gt;
+&lt;p&gt;Sin embargo, si bien estos avances en el ranking se deben a mayor efectividad, no hay que dejar de tener presente los números absolutos de los torneos jugados en cada caso, ya que para estos casos justamente se tienen menos participaciones, lo que es debido principalmente a equipos “nuevos” y/o a varios torneos fuera de Primera División.&lt;/p&gt;
+&lt;p&gt;Lo anterior llevado a un caso extremo: si un equipo sube por primera vez a Primera División y sale campeón inmediatamente, pero al año siguiente desciende, tendría un índice de 0.5 (1 campeonato y 2 torneos jugados) y sería el primero del ranking. Por supuesto que no tendría mucho sentido premiar o alabar eso.&lt;/p&gt;
+&lt;p&gt;Esperamos mantener este ranking actualizado torneo a torneo e ir agregando estadísticas más detalladas al respecto. Los escudos de los equipos fueron descargados del sitio oficial de la &lt;a href=&#34;http://anfp.cl&#34;&gt;ANFP&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

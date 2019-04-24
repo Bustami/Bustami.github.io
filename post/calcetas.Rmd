@@ -1,0 +1,79 @@
+---
+author: "Ismael Gómez"
+comments: false
+lan: es
+date: 2017-03-01
+draft: false
+menu: false
+description: ' '
+share: true
+output:
+  html_document: default
+  pdf_document: default
+slug: calcetas-antideslizantes
+tags:
+- CalcetasAntidelizantes
+- Fútbol
+- Publicidad
+title: "[Publicidad] Calcetas antideslizantes para fútbol"
+categories: ["Publicidad"]
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(echo=F, warning=FALSE, message=FALSE)
+
+```
+
+```{r c0, out.width = "250px"}
+knitr::include_graphics("/images/colores.jpg")
+#![](/images/colores.jpg)
+```
+
+Disfruta de las calcetas antideslizantes FOX tipo trusox diseñadas especialmente para los amantes del deporte rey. 
+
+La tecnología antideslizante te permite mayor adherencia, estabilizando tu pisada y maximizando tu potencia al saltar y/o cambiar de dirección. Además disminuye el riesgo de torceduras y reduce la aparición de ampollas por roce.
+
+Profesionaliza tus pichangas y únete a los grandes por tan solo **$5.000 cada par**. 
+
+```{r c00, out.width = "180px"}
+knitr::include_graphics("/images/van.jpg")
+#![](/images/van.jpg)
+```
+
+Talla estándar, aplicable entre 38 y 44 EUR.
+
+Colores disponibles:
+
+* Negro
+* Azul marino
+* Blanco
+* Rojo
+* Azul rey
+* Amarillo
+* Verde fosforescente
+* Celeste
+* Naranjo
+
+Stock disponible actualizado:
+
+<iframe width="590" height="100" src="https://datastudio.google.com/embed/reporting/0B_L2V3nugK7qN1FRQ1kxUWlpTVU/page/TL2H" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+Entregamos personalmente en Santiago: 
+
+* Metro Santa Isabel en cualquier horario 
+* Metro Manuel Montt horario de oficina
+
+También despachamos a regiones vía Turbus, Chilexpress o Correos de Chile.
+
+Pago en efectivo o vía transferencia electrónica.
+
+Haz tus encargos y consulta precios por mayor al celular/whatsapp: **+56 9 85134687**
+
+```{r c000, out.width = "500px"}
+knitr::include_graphics("/images/colores2.jpg")
+#![](/images/colores.jpg)
+```
+
+***  
+
+(Nota: Con el objetivo de solventar los costos del blog, tales como servidor, dominio, horas-hombre, entre otros, en Dato Fútbol abrimos el espacio a publicidad pagada. Si quieres difundir tu aviso contáctanos)

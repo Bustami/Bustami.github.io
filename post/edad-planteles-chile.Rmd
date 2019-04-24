@@ -1,0 +1,229 @@
+---
+title: "Las edades de los planteles chilenos - Primera A Clausura 2017"
+description: ''
+author: "Ismael Gómez"
+lang: es
+date: '2017-04-21'
+output:
+  html_document: default
+  pdf_document: default
+draft: false
+image: false
+menu: ''
+share: yes
+slug: edades-planteles-chile
+tags:
+- Edades
+- PrimeraA
+- Chile
+- Clausura2017
+categories: ["Chile"]
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.width=7, fig.height=5, echo=F, warning=FALSE, message=FALSE)
+```
+
+```{r library}
+library(knitr)
+library(cowplot)
+library(png)
+library(ggplot2)
+library(plyr)
+library(stringr)
+```
+
+```{r functions}
+add_image_strip <- function(plot, image_list, xmin = 0.074, xmax = 0.984, y = 0.03, height = 0.07)
+{
+        xstep = (xmax-xmin)/length(image_list)*1
+        for (img in image_list)
+        {
+                g <- grid::rasterGrob(img, interpolate=TRUE)
+                plot <- plot + annotation_custom(g, xmin, xmax = xmin + xstep, ymin = y, ymax = y + height)
+                xmin <- xmin + xstep
+        }
+        plot
+}
+
+age <- function(from, to) {
+        from_lt = as.POSIXlt(from)
+        to_lt = as.POSIXlt(to)
+        age = to_lt$year - from_lt$year
+        ifelse(to_lt$mon < from_lt$mon |
+                       (to_lt$mon == from_lt$mon & to_lt$mday < from_lt$mday), age - 1, age)
+}
+```
+
+```{r c4, cache=T}
+pics  <- vector(mode="list", length=16)
+image.file <- dir("escudos", full.names=TRUE)
+image.file <- image.file[order(as.integer(sub("_.*","",sub("escudos/","",image.file))))]
+for(i in 1:16) {
+        pics[[i]] <- readPNG(image.file[i])
+}
+names(pics) <- sub(".png","",sub("escudos[/]","",image.file))
+```
+
+```{r c5, cache=T}
+planteles <- read.csv("planteles_chile_sifupB.csv",encoding = "UTF-8")
+planteles <- planteles[,c(1,3:7)]
+planteles <- planteles[which(planteles$Nac.!=""),]
+colnames(planteles)[1] <- "Equipos"
+colnames(planteles)[5] <- "Fecha_Lugar_Nac"
+fecha <- substring(planteles$Fecha_Lugar_Nac,1,8)
+fecha <- as.Date(fecha, format="%d.%m.%y")
+x<-as.data.frame(fecha)
+Edad <- as.data.frame(age(fecha, '2017-04-21'))
+planteles <- cbind(planteles, x, Edad)
+colnames(planteles)[8] <- "Edad"
+#summary(planteles$Edad)
+#which(is.na(planteles$Edad))
+# revisar las edades de estos locos
+# 69) O’Higgins de Rancagua  - Matías MENESES Letelier  28-03-1999 18 años
+# 119) Universidad de Chile 31 Valentín CASTELLANOS  03-10-1998 18 años
+# 247) O’Higgins de Rancagua  - Hugo HERRERA Gaete  31-01-1998 19 años
+# 437) Universidad de Chile 13 Alonso RODRÍGUEZ Rojas 08-06-1998 18 años
+
+planteles$Edad[c(69,119,247,437)] <- c(18,18,19,18)
+#write.csv(planteles, "planteles_shiny.csv", row.names = F, fileEncoding = 'UTF-8')
+```
+  
+Para este post quisimos darle un vistazo a la base de datos del [SIFUP](http://www.sifup.cl/planteles/) asociada a los planteles de Primera A para el Clausura 2017 del fútbol chileno. Los atributos que se encuentran para cada jugador de cada equipo son: Número, Nombre, Apellido, Nacionalidad, Fecha y Lugar de nacimiento, además de Posición.
+
+A continuación los distintos análisis realizados:
+
+###### 1) Histograma de edades
+
+```{r c6, cache=T}
+hist(planteles$Edad, main="Histograma de Edades \n Planteles Clausura 2017 Primera A Chile", 
+     xlab="Edad", ylab="Frecuencia", breaks = seq(15,42,1), ylim = c(0,50))
+```
+Se puede ver que la edades más frecuentes al considerar todos los planteles de la Primera A para el Clausura 2017 del fútbol chileno, son 18 y 19 años. Es muy probable que esto sea debido principalmente a la regla de minutos con juveniles en cancha que impone la [ANFP](http://www.anfp.cl/documentos/1469568519-bases-primera-division.pdf) (Artículo 34, punto 4). De otro modo, esperaríamos tener menos jugadores de dichas edades.
+
+Por otro lado, era esperable ver que a medida que aumenta la edad, disminuye la frecuencia.
+
+*** 
+
+###### 2) Edad promedio por equipo
+
+```{r c7, cache=T}
+prom <- aggregate(Edad ~ Equipos, data=planteles, FUN=mean)
+b<-ggplot(prom, aes(x=Equipos, y=Edad)) + 
+        geom_bar(stat="identity", col="darkblue", fill="azure2", width=0.9)
+b = b + 
+    theme_bw() + 
+    theme(#axis.text.x = element_text(angle=90, vjust=0.5, size=10), 
+         axis.text.x= element_blank(),
+         axis.text.y = element_text(vjust=0.5, size=10), 
+         axis.title.x = element_blank(), 
+         axis.title.y = element_text(face="bold", size=12, margin=margin(0,15,0,0))) +
+    geom_text(aes(label = round(Edad,1)), vjust=1.2, colour="black", 
+                  position = position_dodge(0.9), size=3, fontface="bold") + 
+    geom_hline(yintercept=mean(planteles$Edad), color = "red") +
+    labs(x="Equipos", y="Edad Promedio") +
+    coord_cartesian(ylim=c(20,28)) +
+    ggtitle("Edades promedio por equipo \nPlanteles Clausura 2017 Primera A Chile ")
+plot_b <- ggdraw(b)
+add_image_strip(plot_b, image_list=pics, xmin = 0.094, xmax = 0.984)
+```
+
+Los promedios de edad fluctúan entre 22.0 (Huachipato) y 27.5 (Universidad Católica) años.
+En el caso de #LosAcereros su bajo promedio se debe a la presencia de `r nrow(planteles[which(planteles$Equipos=="Huachipato FC" & planteles$Edad<26),])` jugadores menores de 26 años, equivalente al 93% del total, mientras que para #LosCruzados el hecho de tener `r nrow(planteles[which(planteles$Equipos=="Universidad Católica" & planteles$Edad>30),])` jugadores mayores de 30 (un 31% de su plantel) lo hace ser el plantel más longevo.
+
+En rojo se tiene la media de todos los jugadores de todos los equipos, igual a `r round(mean(planteles$Edad),1)` años. Hay 7 equipos sobre esta media y 9 bajo la misma.
+
+*** 
+
+###### 3) Caja y bigotes de Edad v/s Equipo
+
+```{r c8, cache=T}
+bp <- ggplot(data = planteles, aes(x = Equipos, y = Edad)) + 
+        geom_boxplot(col="darkblue", width = 0.8) + theme_bw()
+bp = bp + theme(axis.text.x  = element_blank(), axis.title.x = element_blank()) +
+     scale_x_discrete() +
+     scale_y_continuous(limits=c(12,42), breaks=seq(12,42,2)) +
+     scale_fill_discrete(guide=FALSE) +
+     geom_point(data = prom, aes(x=prom[,1], y=prom[,2]), color = 'red') +
+     ggtitle("Boxplot de edades por equipo \nPlanteles Clausura 2017 Primera A Chile ")
+plot_bp <- ggdraw(bp)
+add_image_strip(plot_bp, image_list=pics)
+```
+La imagen corresponde a un gráfico de cajas y bigotes para analizar la dispersión de las edades por equipo, incluyendo la media con un punto rojo (la línea horizontal azul es la mediana).
+
+Se puede observar que Colo-Colo tiene la mayor dispersión, con edades entre 16 (Sebastián valencia) y 39 (Justo Villar) años. La menor dispersión la comparten Huachipato, con jugadores entre 18 (Antonio Ramírez + Ignacio tapia) y 30 (Carlos Lampe) años; y Unión Española, con jugadores entre 19 (Walter Limenza + José Luis Sierra Jr.) y 31 (Fernando Meneses) años.
+
+El jugador más jóven del torneo es César Huanca de Deportes Iquique (15 años). El estandarte de jugador más longevo recae en dos nombres: Justo Villar de Colo-Colo y Cristián Muñóz de Universidad de Concepción, ambos arqueros de 39 años.
+
+*** 
+
+###### 4) Edades v/s Posición
+
+```{r c9, cache=T}
+colnames(planteles)[6]="Posicion"
+planteles$Posicion = gsub("^Cen.*|^Lat.*|^Def.*", "Defensa", planteles$Posicion)
+planteles$Posicion = gsub("^Vol.*|^Eng.*", "Mediocampista", planteles$Posicion)
+planteles$Posicion = gsub("^Del.*|Mediapunta", "Delantero", planteles$Posicion)
+
+planteles$Posicion <- factor(planteles$Posicion,levels=c('Arquero','Defensa','Mediocampista','Delantero'))
+prom_f2 <- aggregate(Edad ~ Posicion, data=planteles, FUN=mean)
+
+bp_f2 <- ggplot(data = planteles, aes(x = Posicion, y = Edad)) + 
+        geom_boxplot(aes(fill=Posicion), width = 0.4) + theme_bw()
+bp_f2 + theme(legend.position="top",axis.text.x  = element_blank()) +
+        labs(x="Posición", y="Edad") +
+        geom_point(data = prom_f2, aes(x=prom_f2[,1], y=prom_f2[,2]), color = 'white') +
+        ggtitle("Boxplot Edades por Posición \nPlanteles Clausura 2017 Primera A Chile") +
+        guides(fill=guide_legend(title=NULL))
+```
+La visualización muestra un gráfico de cajas y bigotes para las edades v/s posición, considerando Arquero, Defensa (Laterales + Centrales), Mediocampista (Volantes + Enganche) y Delantero (Centro + Punteros). El punto blanco indica la media (línea horizontal negra: la mediana).
+
+No se aprecian grandes diferencias en los indicadores de tendencia central y dispersión entre defensas,  mediocampistas y delanteros. Los arqueros tienen un comportamiento algo diferente: mayor dispersión, con las edades más altas, y la mediana más alejada de la media.
+
+De todas maneras, no hay mucho más que decir en este caso.
+
+*** 
+
+###### 5) Chilenos v/s Extranjeros
+
+```{r c10, cache=T}
+f <- factor(planteles$Nac.!="CHI") ## factor dice TRUE para extranjeros y FALSE para chilenos
+f <- revalue(f, c("FALSE"="CHILENOS", "TRUE"="EXTRANJEROS"))
+planteles <- cbind(planteles, f)
+prom_f <- aggregate(Edad ~ f, data=planteles, FUN=mean)
+
+bp_f <- ggplot(data = planteles, aes(x = f, y = Edad)) + 
+        geom_boxplot(aes(fill=f), width = 0.4) + theme_bw()
+bp_f + theme(legend.position="top",axis.text.x  = element_blank()) +
+        labs(x="Nacionalidad", y="Edad") +
+        geom_point(data = prom_f, aes(x=prom_f[,1], y=prom_f[,2]), color = 'white') +
+        ggtitle("Boxplot Edades Chilenos/Extranjeros \nPlanteles Clausura 2017 Primera A Chile") +
+        guides(fill=guide_legend(title=NULL))
+```
+Ahora vemos un gráfico de caja y bigotes que compara edades entre jugadores chilenos y jugadores extranjeros. Se observa que los extranjeros tienen mayor edad en promedio y sus mínimas edades son más altas, lo que era esperable dado que éstos llegan a Chile cuando sus carreras están "avanzadas". Salvo algunas excepciones como en el caso del mediocampista argentino Valentín Castellanos de Universidad de Chile y el defensa mexicano Francisco Venegas de Everton (ambos de 18 años); y los arqueros Walter Limenza (Paraguay) de Unión Española y Gabriel Carabalí (Ecuador) de Colo-Colo, el mediocampista venezolano Yeferson Soteldo de Huachipato y el delantero mexicano Nahum Gómez de Everton, todos con 19 años.
+
+*** 
+
+###### 6) Chilenos v/s Extranjeros por posición
+
+```{r c11, cache=T}
+bp_f3 <- ggplot(data = planteles, aes(x = Posicion, y = Edad)) + 
+        geom_boxplot(aes(fill=Posicion), width = 0.4) + theme_bw()
+bp_f3 + facet_wrap(~ f, ncol=2) + 
+        theme(legend.position="top",axis.text.x  = element_blank(),
+              strip.background = element_rect(fill="ghostwhite")) +
+        labs(x="Posición", y="Edad") +
+        #geom_point(data = prom_f2, aes(x=prom_f2[,1], y=prom_f2[,2]), color = 'white') +
+        ggtitle("Boxplot Edades por Posición \nPlanteles Clausura 2017 Primera A Chile") +
+        guides(fill=guide_legend(title=NULL))
+```
+Acá se pueden apreciar diferencias más claras al comparar edades de chilenos con edades de extranjeros por posición.
+Los arqueros extranjeros presentan la diferencia más notoria, con una mediana de 30 años frente a una de 22 de los arqueros chilenos. Siguen con una diferencia entre extranjeros y chilenos similar entre ellos los defensas, mediocampistas y delanteros.
+
+*** 
+
+Ahora para terminar, elige tu equipo favorito y revisa las edades de su plantel!!
+
+```{r c12, cache=T}
+knitr::include_app(" https://bustami.shinyapps.io/planteles/", height = "650px")
+```
