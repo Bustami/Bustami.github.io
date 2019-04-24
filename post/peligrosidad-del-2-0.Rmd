@@ -1,7 +1,7 @@
 ---
 comments: true
 menu: ""
-slug: peligrosidad_del_2_0
+slug: peligrosidad-del-2-0
 title: "La peligrosidad del 2-0. ¿Estamos frente a un mito?"
 author: "Ismael Gómez"
 lang: es

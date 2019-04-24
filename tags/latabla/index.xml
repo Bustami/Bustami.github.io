@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Latabla on DATO FUTBOL</title>
-    <link>/tags/latabla/index.xml</link>
+    <link>/tags/latabla/</link>
     <description>Recent content in Latabla on DATO FUTBOL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
-    <copyright>Todos los derechos reservados 2017-2018</copyright>
-    <atom:link href="/tags/latabla/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Todos los derechos reservados 2017-2019</copyright>
+    <lastBuildDate>Mon, 22 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/latabla/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>LA TABLA de la Primera A Chile- Clausura 2017 Fecha 15</title>
@@ -15,12 +18,8 @@
       <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
       
       <guid>/la-tabla-1a-f15/</guid>
-      <description>&lt;p&gt;Y se acabó el Clausura 2017! &lt;a href=&#34;https://twitter.com/jufacomic%5D&#34;&gt;JUFA&lt;/a&gt; nos trae LA TABLA final luego de la Fecha 15:&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/images/fecha15_1A_22.05.2017.jpg&#34; /&gt;
-
-&lt;/div&gt;
-</description>
+      <description>Y se acabó el Clausura 2017! JUFA nos trae LA TABLA final luego de la Fecha 15:
+</description>
     </item>
     
   </channel>

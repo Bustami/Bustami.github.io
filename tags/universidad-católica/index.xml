@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Universidad Católica on DATO FUTBOL</title>
-    <link>/tags/universidad-cat%C3%B3lica/index.xml</link>
+    <link>/tags/universidad-cat%C3%B3lica/</link>
     <description>Recent content in Universidad Católica on DATO FUTBOL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
-    <copyright>Todos los derechos reservados 2017-2018</copyright>
-    <atom:link href="/tags/universidad-cat%C3%B3lica/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Todos los derechos reservados 2017-2019</copyright>
+    <lastBuildDate>Thu, 28 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/universidad-cat%C3%B3lica/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Los números de Mario Salas en la UC</title>
@@ -15,137 +18,8 @@
       <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>/mario-salas-uc/</guid>
-      <description>&lt;p&gt;La mala racha de la actual Católica de Mario Salas es innegable. Con casi la mitad de este Transición 2017 jugado se tiene un escenario que está dentro de &lt;a href=&#34;https://twitter.com/LokoJean_UC/status/912081421577211909&#34;&gt;&lt;strong&gt;los 7 peores inicios de campaña en la historia del cuadro cruzado&lt;/strong&gt;&lt;/a&gt;, igualando el pobre 33.3% de rendimiento alcanzado por el vilipendiado paso de Falcioni el año 2014. En ambos casos alcanzando solo 7 puntos de los 21 en disputa.&lt;/p&gt;
-&lt;p&gt;El comandante está en la cuerda floja ya no solo por sus detractores en la hinchada, sino que también corre la versión de negociar su salida por parte de la directiva si no tiene una buena presentación este domingo a las 12:00 horas contra Colo-Colo en San Carlos de Apoquindo por la 8va fecha (&lt;a href=&#34;https://www.publimetro.cl/cl/grafico-chile/2017/09/26/catolica-espera-renuncia-salas-pierde-colo-colo.html&#34;&gt;&lt;strong&gt;ver noticia&lt;/strong&gt;&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;El bajo rendimiento del actual torneo se suma este semestre a la eliminación de Copa Chile y la derrota en la Supercopa, además de la eliminación en fase de grupos de Libertadores (sin clasificar a Sudamericana como consuelo) y la no obtención del tricampeonato en el Clausura 2017, en el semestre anterior.&lt;/p&gt;
-&lt;p&gt;Las principales causas de la falta de resultados apuntan no solo al trabajo semanal de entrenamiento y a las cuestionadas decisiones técnicas y tácticas de Salas durante los partidos, sino que también a la planificación y conformación del plantel (responsabilizando también a la directiva), además de los bajos rendimientos individuales de varios jugadores.&lt;/p&gt;
-&lt;p&gt;Dentro de estos últimos argumentos destacan la mención a las partidas de elementos claves, como por ejemplo la partida del pájaro Gutiérrez a Palestino (goleador de la UC el torneo anterior con 4 tantos), dejando pocas opciones en delantera ante la lesión de Llanos y el bajo rendimiento de Silva. Otro ejemplo es el préstamo de Carreño a Everton, quien ha tenido un desempeño destacado siendo titular en el elenco de Vitamina Sánchez.&lt;/p&gt;
-&lt;p&gt;Por otro lado, los refuerzos en general “no han dado el ancho”. Al indesmentible fracaso de Silva como reemplazante de Castillo, se suma el bajo aporte de Vallejos (por Noir o Bravo) y Voboril (por Parot), además de Jeisson Vargas y Vidal quienes por lesiones prácticamente no han jugado. En este grupo solo son rescatables los aportes de Ampuero y Aued.&lt;/p&gt;
-&lt;p&gt;No podemos asegurar cuánto de cierto hay en esos argumentos o cuál es el peso de cada uno de ellos en los resultados. No obstante, en #DatoFútbol quisimos darle un vistazo a algunos datos disponibles en internet para repasar las campañas de Salas en la UC en el torneo nacional, aportando un contexto adicional en cuanto al rendimiento del DT y el comporatmiento de los goles a lo largo de los torneos.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;div id=&#34;analisis-y-visualizacion-de-datos&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Análisis y visualización de datos&lt;/h3&gt;
-&lt;p&gt;A continuación la tabla general con partidos jugados, ganados, empatados y perdidos, con su respectiva cantidad de goles a favor y en contra, además del rendimiento y puesto obtenido en la tabla para cada torneo de Salas en la UC en orden cronológico:&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr class=&#34;header&#34;&gt;
-&lt;th align=&#34;center&#34;&gt;Torneo&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;PJ&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;PG&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;PE&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;PP&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;GF&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;GC&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;Dif_G&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;Puntos&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;Rendimiento&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;Lugar&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;center&#34;&gt;2015- C&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;17&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;8&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;5&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;40&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;31&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;9&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;29&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;56.9&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;center&#34;&gt;2015-A&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;15&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;10&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;3&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;33&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;15&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;18&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;32&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;71.1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;center&#34;&gt;2016- C&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;15&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;9&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;33&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;25&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;8&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;29&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;64.4&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;center&#34;&gt;2016-A&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;15&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;9&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;37&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;18&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;19&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;31&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;68.9&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;center&#34;&gt;2017- C&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;15&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;7&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;6&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;25&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;23&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;23&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;51.1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;center&#34;&gt;2017-T&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;7&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;5&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;6&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;-1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;7&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;33.3&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;11&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Mario Salas está cumpliendo su tercer año al mando de la UC, disputando con este su sexto torneo nacional. Considerando el bicampenato obtenido el 2016 y asumiendo que este año ya no logró campeonar, su tasa de campeonatos ganados versus jugados es de 0.33 (solo torneo nacional, sin Copa Chile ni competencias internacionales), lo que es alto en relación al mismo índice histórico de la UC (0.13) que revisamos en un &lt;a href=&#34;http://datofutbol.cl/campeones_chile/&#34;&gt;&lt;strong&gt;post anterior&lt;/strong&gt;&lt;/a&gt; para todos los campeones de primera división del fútbol chileno. Desde esta perspectiva, Mario Salas ha tenido un paso muy exitoso por La Franja.&lt;/p&gt;
-&lt;p&gt;Revisando la tabla, se puede apreciar que en los 5 torneos previos su peor lugar fue 4to, con rendimientos que variaron entre 51.1% y 71.1%. Se destaca que el torneo que obtuvo mayor rendimiento no logró ser campeón. También que el rendimiento más bajo fue justamente el torneo anterior (Clausura 2017), con lo que sumado al actual torneo, este 2017 representa el peor año de Salas en la UC.&lt;/p&gt;
-&lt;p&gt;Desde la arista de los partidos ganados, empatados y perdidos, y por lo tanto de los puntos obtenidos, se observa cierta regularidad entre los torneos previos (Clausura 2017 con el peor registro en todos los indicadores). Sin embargo, con lo que se lleva de este Transición 2017 llama la atención la cantidad de empates (4) y falta de victorias (1). ¿La razón principal? &lt;strong&gt;Sequía goleadora&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Cuando nos pregunten “¿Qué hacemos para ganar?”, no podemos olvidar la frase para el bronce: “para ganar en el fútbol hay que hacer más goles que el rival”. Y esto cabe como anillo al dedo a la situación de la UC actual:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;En el Transcición 2017 la UC ha tenido un comportamiento muy diferente en cuanto a goles a favor: solo 5 goles en 7 partidos. Si se mantiene esta tendencia podrían alcanzarse únicamente 11 goles al final del torneo, lo que está muy por debajo de todos los torneos previos.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;En la siguiente visualización se puede observar la distribución de goles a favor y goles del equipo rival paara los partidos de cada torneo de Salas en la UC:&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;/post/mario-salas-uc_files/figure-html/dream_theater-1.png&#34; width=&#34;768&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Se puede observar que:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;La cantidad de goles a favor por partido ha disminuido sostenidamente en el tiempo (torneos 2015-2016 con varios partidos con 2 a 5 goles a favor; en contraste la mayoría del 2017 con 2 o menos que 2 goles a favor).&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Si bien la cantidad de goles en contra por partido también ha disminuido, los goles a favor lo han hecho en mayor medida, por lo tanto la distribución de goles por partido de los equipos rivales supera (“se come”) a la distribución de goles a favor en este Transición 2017.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;/div&gt;
-&lt;div id=&#34;que-siga-o-se-vaya&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;¿Que siga o se vaya?&lt;/h3&gt;
-&lt;p&gt;Por supuesto que la decisión la tomará la directiva cruzada, sin duda teniendo en cuenta el alto monto de la indemnización del comandante (cercano a los 600 millones de pesos chilenos), seguramente tratando de negociar su salida por un valor menor a fin de año gracias a una claúsula que lo permite.&lt;/p&gt;
-&lt;p&gt;En cuánto a si terminar el proceso de Salas es la decisión correcta o no dependerá de las expectativas con que se mire su desempeño en la UC, donde ya vimos que respecto a la misma historia del club a nivel local tiene un rendimiento muy exitoso (único bicampeonato y un buen índice de torneos ganados/jugados, incluso mejor que el que tiene el club).&lt;/p&gt;
-&lt;p&gt;En el caso de apostar alto, como por ejemplo un mejor rendimiento internacional sin dejar de lado el éxito local, podría tener sentido reemplazarlo, aunque se debe tener en cuenta quién lo reemplazaría, porque sin duda para que el cambio se justifique quien llegue deberá tener un igual o mejor rendimiento para estar a la altura del comandante, y eso también dependerá, como en todos lados en el fútbol, de los rendimientos individuales de los jugadores, lesiones, desempeño de los rivales, inversión de la directiva, etc.&lt;/p&gt;
-&lt;/div&gt;
-</description>
+      <description>La mala racha de la actual Católica de Mario Salas es innegable. Con casi la mitad de este Transición 2017 jugado se tiene un escenario que está dentro de los 7 peores inicios de campaña en la historia del cuadro cruzado, igualando el pobre 33.3% de rendimiento alcanzado por el vilipendiado paso de Falcioni el año 2014. En ambos casos alcanzando solo 7 puntos de los 21 en disputa.
+El comandante está en la cuerda floja ya no solo por sus detractores en la hinchada, sino que también corre la versión de negociar su salida por parte de la directiva si no tiene una buena presentación este domingo a las 12:00 horas contra Colo-Colo en San Carlos de Apoquindo por la 8va fecha (ver noticia).</description>
     </item>
     
   </channel>

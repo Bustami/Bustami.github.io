@@ -2,43 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Europa on DATO FUTBOL</title>
-    <link>/tags/europa/index.xml</link>
+    <link>/tags/europa/</link>
     <description>Recent content in Europa on DATO FUTBOL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
-    <copyright>Todos los derechos reservados 2017-2018</copyright>
-    <atom:link href="/tags/europa/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Todos los derechos reservados 2017-2019</copyright>
+    <lastBuildDate>Fri, 07 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/europa/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>La peligrosidad del 2-0. ¿Estamos frente a un mito?</title>
-      <link>/peligrosidad_del_2_0/</link>
+      <link>/peligrosidad-del-2-0/</link>
       <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>/peligrosidad_del_2_0/</guid>
-      <description>&lt;p&gt;En este post invocaremos una creencia inmersa en el folclor futbolístico que seguramente quienes somos fanáticos de este deporte hemos escuchado más de alguna vez. Ya sea desde la boca de sus fieles adeptos o bien de sus detractores, esta ha sido protagonista de polémicas o discusiones acaloradas. Hablamos de “la peligrosidad del 2-0”.&lt;/p&gt;
-&lt;p&gt;En término generales, los adeptos a esta creencia afirman que “el 2-0 es el resultado más peligroso en el fútbol”, argumentando que un equipo que alcance tal ventaja pudiera ser tentado o correr el riesgo inconsciente de cambiar su forma y/o actidud de juego respecto a la que le permitió obtener dicha ventaja temporal, pudiendo “perder la concentración”, “caer en el relajo”, “bajar la intensidad”, “esperar al otro equipo”, entre otras, lo que se traduciría en que el equipo rival pueda empatar o dar vuelta el partido. ¿Le parece familiar la frase “si te hacen el descuento después viene el empate y luego el tercero”?.&lt;/p&gt;
-&lt;p&gt;Somos conscientes que esta afirmación tiene un trasfondo subjetivo, y que siempre existirán aquellos que aludan al romanticismo para no dar espacio a un análisis numérico “frío”. Pero bueno, en DATOFÚTBOL estamos para aportar con una visión objetiva sustentada en datos. Por eso, para tener una idea de qué tan peligroso puede ser el 2-0, o cuántas veces “se cumple o no se cumple la regla” intentaremos responder a los siguientes casos:&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: upper-alpha&#34;&gt;
-&lt;li&gt;¿En qué % de oportunidades un partido que estuvo 2-0 en algún momento, fue empatado o dado vuelta?&lt;/li&gt;
-&lt;li&gt;¿En qué % de oportunidades un partido que estuvo 2-0 en el 1er tiempo, fue empatado o dado vuelta?&lt;/li&gt;
-&lt;li&gt;¿En qué % de oportunidades un partido que estuvo 1-0 en algún momento, fue empatado o dado vuelta?&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Para ello utilizaremos la base de datos de partidos europeos de las principales ligas, la cual fue utilizada en el &lt;a href=&#34;http://datofutbol.cl/formaciones/&#34;&gt;post anterior&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;A continuación la visualización que nos permitirá observar los resultados de los distintos casos:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/peligrosidad-del-2-0_files/figure-html/c3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Del total de 10755 partidos, en 4341 de ellos ocurrió el caso A, en 3468 el caso B y en 9920 el caso C.&lt;/p&gt;
-&lt;p&gt;Para el caso A se aprecia que en el 92% de los partidos (3990), el equipo que tomó la ventaja parcial de 2-0 terminó ganando el partido. Solo en un 6% hubo empate y en un 2% el otro equipo lo dio vuelta.&lt;/p&gt;
-&lt;p&gt;Para el caso B hay resultados similares al caso A. Los porcentajes cambian levemente, disminuyendo a 91% los partidos donde se mantuvo el ganador, aumentando a 7% los empates y manteniéndose en 2% los partidos remontados. Esta leve diferencia se debe únicamente a que el equipo rival tuvo más tiempo para mejorar, lo que no es relevante, al menos al hacer la distinción entre 1er y 2do tiempo. Probablemente la influencia del tiempo se observe de manera más clara si se analizan los minutos de juego disponibles para que el equipo rival mejore.&lt;/p&gt;
-&lt;p&gt;Por otro lado, tenemos el caso C como punto de comparación, y sus resultados tienen sentido. Era obviamente predecible que es más remontable un 1-0 que un 2-0: En un 69% de los partidos (6838) el mismo equipo que se puso en ventaja finalmente ganó, en un 19% (1859) terminó en empate y en un 18% (1223) fue remontado. Así, se aprecia que el empate y la remontada están más cerca entre sí en este caso, y que por supuesto hay menos cantidad de partidos en los que el mismo equipo que se puso en ventaja ganó.&lt;/p&gt;
-&lt;p&gt;Aquí podemos ver que nace una hipótesis interesante: “el equipo que hace el primer gol tiene 69% de probabilidades de ganar”. Digno de estudiar con test estadístico formal.&lt;/p&gt;
-&lt;p&gt;Vale decir que estos resultados son válidos para las ligas europeas estudiadas en los últimos 8 años. Sin embargo, otros análisis que consideran otras bases de datos tienen resultados muy similares:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://eldatofutbolero.blogspot.cl/2013/03/mitos-el-2-0-el-resultado-mas-peligroso.html&#34;&gt;Partidos de mundiales&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.latercera.com/noticia/el-mito-se-cae-el-2-0-no-es-el-resultado-mas-peligroso/&#34;&gt;Partidos de fútbol chileno&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://hablaelbalon.com/cazamitos-2-0-marcador-mas-peligroso/&#34;&gt;Otro análisis con partidos europeos&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;La &lt;a href=&#34;http://www.rae.es&#34;&gt;RAE&lt;/a&gt; en una de sus definiciones declara lo siguiente para la palabra mito: “Persona o cosa a la que se atribuyen cualidades o excelencias que no tiene”. Entonces, ¿estamos frente a un mito?. En DATOFÚTBOL creemos que sí.&lt;/p&gt;
-</description>
+      <guid>/peligrosidad-del-2-0/</guid>
+      <description>En este post invocaremos una creencia inmersa en el folclor futbolístico que seguramente quienes somos fanáticos de este deporte hemos escuchado más de alguna vez. Ya sea desde la boca de sus fieles adeptos o bien de sus detractores, esta ha sido protagonista de polémicas o discusiones acaloradas. Hablamos de “la peligrosidad del 2-0”.
+En término generales, los adeptos a esta creencia afirman que “el 2-0 es el resultado más peligroso en el fútbol”, argumentando que un equipo que alcance tal ventaja pudiera ser tentado o correr el riesgo inconsciente de cambiar su forma y/o actidud de juego respecto a la que le permitió obtener dicha ventaja temporal, pudiendo “perder la concentración”, “caer en el relajo”, “bajar la intensidad”, “esperar al otro equipo”, entre otras, lo que se traduciría en que el equipo rival pueda empatar o dar vuelta el partido.</description>
     </item>
     
   </channel>

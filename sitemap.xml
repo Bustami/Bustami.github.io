@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>/campeones-chile-3rd/</loc>
@@ -72,7 +73,7 @@
   </url>
   
   <url>
-    <loc>/peligrosidad_del_2_0/</loc>
+    <loc>/peligrosidad-del-2-0/</loc>
     <lastmod>2017-04-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -84,11 +85,6 @@
   <url>
     <loc>/about/</loc>
     <lastmod>2017-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/calcetas-antideslizantes/</loc>
-    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -106,12 +102,6 @@
   <url>
     <loc>/tags/bundesliga/</loc>
     <lastmod>2017-03-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/calcetasantidelizantes/</loc>
-    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -217,12 +207,6 @@
   </url>
   
   <url>
-    <loc>/tags/f%C3%BAtbol/</loc>
-    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/lafranja/</loc>
     <lastmod>2018-12-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -307,18 +291,6 @@
   </url>
   
   <url>
-    <loc>/tags/publicidad/</loc>
-    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/publicidad/</loc>
-    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/rankingfifa/</loc>
     <lastmod>2017-09-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -344,6 +316,7 @@
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

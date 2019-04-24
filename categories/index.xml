@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on DATO FUTBOL</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on DATO FUTBOL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>Todos los derechos reservados 2017-2019</copyright>
+    
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chile</title>
+      <link>/categories/chile/</link>
+      <pubDate>Wed, 05 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/chile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conmebol</title>
+      <link>/categories/conmebol/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/conmebol/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Europa</title>
+      <link>/categories/europa/</link>
+      <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/europa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Varios</title>
+      <link>/categories/varios/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/varios/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
