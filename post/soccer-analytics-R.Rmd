@@ -1,0 +1,52 @@
+---
+title: "Una mirada al Soccer Analytics usando R"
+#description: ''
+author: "Ismael Gómez"
+lan: es
+date: '2019-04-30'
+output:
+  html_document:
+    self_contained: yes
+draft: false
+#image: false
+menu: false
+share: true
+slug: soccer-analytics-R
+tags:
+- SoccerAnalytics
+- Rstats
+- DataScience
+- Medium
+categories: ["Varios"]
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(echo=F, warning=FALSE, message=FALSE)
+```
+
+Hola a todos. Durante algunas semanas el blog estuvo abajo debido a un problema con el servidor. Pero ya está arriba!
+
+En este post resumiré las novedades que no habían quedado registadas aquí hasta ahora:
+
+1) Participé como speaker en el <a href="https://santiago2018.satrdays.org" target="_blank">#satRday Stgo. 2018</a> con la charla "Una mirada al Soccer Analytics usando R". <a href="https://bustami.github.io/satRdaySCL2018-soccer-analytics-R/index.html" target="_blank">**Aquí los slides**</a> que usé en mi presentación.
+
+```{r c0, out.width = "500px"}
+knitr::include_graphics("/images/satrday.jpg")
+#![](/images/satrday.jpg)
+```
+
+
+2) Escribí unos post en Medium con más detalles sobre el mismo tema, incluyendo ejemplos con código en R:
+
+   - <a href="https://medium.com/datos-y-ciencia/una-mirada-al-soccer-analytics-usando-r-parte-i-ab6b704b4c7f" target="_blank">**Categoría N°1: Estadísticas históricas**</a>
+
+   - <a href="https://medium.com/datos-y-ciencia/una-mirada-al-soccer-analytics-usando-r-parte-ii-5aadb0ff6ab2" target="_blank">**Categoría N°2: Modelos de probabilidades**</a>
+
+
+```{r c2, out.width = "500px"}
+knitr::include_graphics("/images/parte1.png")
+knitr::include_graphics("/images/parte2.png")
+```
+
+En este último artículo incluí el ya clásico análisis de probabilidades de clasificación a segunda ronda de Copa Libertadores y los capos de Analítica Sport me invitaron a publicar el análisis en su sitio (quedó <a href="https://www.analiticasports.com/analitica-sports-lab-quien-tiene-mas-posibilidades-de-pasar-de-ronda-en-la-copa-libertadores/" target="_blank">**acá**</a>).
+

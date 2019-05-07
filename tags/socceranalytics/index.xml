@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Socceranalytics on DATO FUTBOL</title>
+    <link>/tags/socceranalytics/</link>
+    <description>Recent content in Socceranalytics on DATO FUTBOL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>2017-2019</copyright>
+    <lastBuildDate>Tue, 30 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/socceranalytics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Una mirada al Soccer Analytics usando R</title>
+      <link>/soccer-analytics-r/</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/soccer-analytics-r/</guid>
+      <description>Hola a todos. Durante algunas semanas el blog estuvo abajo debido a un problema con el servidor. Pero ya está arriba!
+En este post resumiré las novedades que no habían quedado registadas aquí hasta ahora:
+Participé como speaker en el #satRday Stgo. 2018 con la charla “Una mirada al Soccer Analytics usando R”. Aquí los slides que usé en mi presentación.Escribí unos post en Medium con más detalles sobre el mismo tema, incluyendo ejemplos con código en R:Categoría N°1: Estadísticas históricas</description>
+    </item>
+    
+  </channel>
+</rss>

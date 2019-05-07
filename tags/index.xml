@@ -6,7 +6,7 @@
     <description>Recent content in Tags on DATO FUTBOL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
-    <copyright>Todos los derechos reservados 2017-2019</copyright>
+    <copyright>2017-2019</copyright>
     <lastBuildDate>Mon, 28 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -112,6 +112,15 @@
     </item>
     
     <item>
+      <title>Datascience</title>
+      <link>/tags/datascience/</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/datascience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Edades</title>
       <link>/tags/edades/</link>
       <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
@@ -180,6 +189,15 @@
       <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/mariosalas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Medium</title>
+      <link>/tags/medium/</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/medium/</guid>
       <description></description>
     </item>
     
@@ -274,6 +292,15 @@
     </item>
     
     <item>
+      <title>Rstats</title>
+      <link>/tags/rstats/</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rstats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Rusia2018</title>
       <link>/tags/rusia2018/</link>
       <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
@@ -297,6 +324,15 @@
       <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/shotmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Socceranalytics</title>
+      <link>/tags/socceranalytics/</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/socceranalytics/</guid>
       <description></description>
     </item>
     

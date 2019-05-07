@@ -1,3 +1,5 @@
+
+
 /* ==========================================================================
    Table of Contents
    ========================================================================== */
@@ -104,14 +106,57 @@ table { border-collapse: collapse; border-spacing: 0; }
    1. Icons - Sets up the icon font and respective classes
    ========================================================================== */
 
+/* Import the font files */
+@font-face {
+  font-family: 'Open Sans';
+  src: local('Open Sans'), local('OpenSans'), url('../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal; font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url('../fonts/Open_Sans/OpenSans-Bold.ttf') format('truetype');
+  font-weight: bold; font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: local('Merriweather Light'), local('Merriweather-Light'), url('../fonts/Merriweather/Merriweather-Light.ttf') format('truetype');
+  font-weight: light; font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: local('Merriweather Light Italic'), local('Merriweather-LightItalic'), url('../fonts/Merriweather/Merriweather-LightItalic.ttf') format('truetype');
+  font-weight: light; font-style: italic;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: local('Merriweather Bold'), local('Merriweather-Bold'), url('../fonts/Merriweather/Merriweather-Bold.ttf') format('truetype');
+  font-weight: bold; font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: local('Merriweather Bold Italic'), local('Merriweather-BoldItalic'), url('../fonts/Merriweather/Merriweather-BoldItalic.ttf') format('truetype');
+  font-weight: bold; font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: local('Inconsolata Regular'), local('Inconsolata-Regular'), url('../fonts/Inconsolata/Inconsolata-Regular.ttf') format('truetype');
+  font-weight: normal; font-style: normal;
+}
+
 /* Import the font file with the icons in it */
 @font-face {
   font-family: 'genericons';
-  src: url('../fonts/Genericons.eot');
-  src: url('../fonts/Genericons.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/Genericons.woff') format('woff'),
-       url('../fonts/Genericons.ttf') format('truetype'),
-       url('../fonts/Genericons.svg#entypo') format('svg');
+  src: url('../fonts/Genericons/Genericons.eot');
+  src: url('../fonts/Genericons/Genericons.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Genericons/Genericons.woff') format('woff'),
+       url('../fonts/Genericons/Genericons.ttf') format('truetype'),
+       url('../fonts/Genericons/Genericons.svg#entypo') format('svg');
   font-weight: normal; font-style: normal;
 }
 
@@ -129,11 +174,21 @@ table { border-collapse: collapse; border-spacing: 0; }
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* In order to have correct background when using the monokai pygments style*/
+.highlight pre {
+  background-color: inherit;
+  color: #f8f8f2;
+}
+
 /* Each icon is created by inserting the correct character into the
    content of the :before pseudo element. Like a boss. */
 .icon-github:before {
     content: "\f200";
     color: #000000;
+}
+
+.icon-codepen:before {
+    content: "\f216";
 }
 
 .icon-hugo:before{
@@ -200,13 +255,11 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Arial Narrow", serif;
+    font-family: "Merriweather", serif;
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
     line-height: 1.75em;
     color: #3A4145;
-    /*font-style: normal;*/
-    text-align: justify;
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
@@ -520,7 +573,7 @@ body.nav-opened .site-wrapper {
     position: relative;
     display: table;
     width: 100%;
-    height: 100vh;
+    height: 65vh;
     margin-bottom: 5rem;
     text-align: center;
     background: #222 no-repeat center center;
@@ -537,15 +590,14 @@ body.nav-opened .site-wrapper {
 }
 
 .main-header a.bloglogo .icon-linkedin,
+.main-header a.bloglogo .icon-codepen,
 .main-header a.bloglogo .icon-github,
 .main-header a.bloglogo .icon-twitter,
 .main-header a.bloglogo .icon-facebook,
 .main-header a.bloglogo .icon-instagram,
 .main-header a.bloglogo .icon-pinterest,
 .main-header a.bloglogo .icon-google-plus {
-    /*color: #41b6c4;*/
-    /* color para icono de twitter */
-    /* color: #00aced; */
+    color: white;
     font-size: 2em;
 }
 
@@ -722,7 +774,7 @@ body.nav-opened .nav {
     color: #fff;
 }
 
-.subscribe-button {
+/*.subscribe-button {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -736,7 +788,7 @@ body.nav-opened .nav {
     color: #111 !important;
     text-align: center;
     font-size: 12px;
-    font-family: "Arial Narrow", sans-serif;
+    font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 35px;
@@ -894,32 +946,24 @@ body.nav-opened .menu-button .word {
     color: #555;
 }
 
-/* T?tulos!!
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
-    margin: 15px 0 10px 0;
-    font-size: 4rem;
+    margin: 10px 0 10px 0;
+    font-size: 5rem;
     letter-spacing: -1px;
     font-weight: 700;
-    font-family: "Arial Narrow", sans-serif;
-    font-style: bold;
-    color: #000000;
-    /*text-shadow: 3px 2px #fff;*/
-    /*background: #D6EDFF;*/
-    /*background: #1F7208;*/
-    background: #fff;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
 }
 
 .page-description {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 1.5em;
     font-weight: 400;
     font-family: "Merriweather", serif;
     letter-spacing: 0.01rem;
-    color: #000000;
-    background: #fff;
-    /*background: #568A02;*/
+    color: rgba(255,255,255,0.8);
 }
 
 .no-cover.main-header {
@@ -961,7 +1005,6 @@ body.nav-opened .menu-button .word {
     width: 80%;
     max-width: 710px;
     margin: 4rem auto;
-    text-style: normal;
     padding-bottom: 4rem;
     border-bottom: #EBF2F6 1px solid;
     word-wrap: break-word;
@@ -969,7 +1012,6 @@ body.nav-opened .menu-button .word {
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
-    font-family: "Arial Narrow", sans-serif;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
@@ -1052,7 +1094,7 @@ body:not(.post-template) .post-title {
 .user-image {
     position: absolute;
     top: 0;
-    left: 1000;
+    left: 0;
 }
 
 .user-name {

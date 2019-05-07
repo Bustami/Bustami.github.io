@@ -6,11 +6,22 @@
     <description>Recent content in Posts on DATO FUTBOL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
-    <copyright>Todos los derechos reservados 2017-2019</copyright>
-    <lastBuildDate>Wed, 05 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <copyright>2017-2019</copyright>
+    <lastBuildDate>Tue, 30 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Una mirada al Soccer Analytics usando R</title>
+      <link>/soccer-analytics-r/</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/soccer-analytics-r/</guid>
+      <description>Hola a todos. Durante algunas semanas el blog estuvo abajo debido a un problema con el servidor. Pero ya está arriba!
+En este post resumiré las novedades que no habían quedado registadas aquí hasta ahora:
+Participé como speaker en el #satRday Stgo. 2018 con la charla “Una mirada al Soccer Analytics usando R”. Aquí los slides que usé en mi presentación.Escribí unos post en Medium con más detalles sobre el mismo tema, incluyendo ejemplos con código en R:Categoría N°1: Estadísticas históricas</description>
+    </item>
     
     <item>
       <title>Ranking de Campeones Primera División Fútbol Profesional Chile [actualizado Dic 2018]</title>
