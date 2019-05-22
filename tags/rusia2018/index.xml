@@ -22,6 +22,16 @@
     </item>
     
     <item>
+      <title>Predictions for the Soccer World Cup Russia 2018 - EN</title>
+      <link>/pred-rusia2018-en/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/pred-rusia2018-en/</guid>
+      <description>I couldn’t resist doing some data analysis for this new Soccer World Cup in Russia 2018. After searching online for a while and collecting some data I decided to focus on creating a prediction model for “expected goals for each team and each game”, allowing the estimation of probability to win, lose or draw. This way we can predict all games of the tournament.
+Now all details about the considered data, model fitting and results are presented.</description>
+    </item>
+    
+    <item>
       <title>¿Cuál es la probabilidad de que Chile clasifique a Rusia 2018?</title>
       <link>/clasificatorias-conmebol/</link>
       <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>

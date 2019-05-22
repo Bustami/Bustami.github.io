@@ -1,27 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>English on DATO FUTBOL</title>
-    <link>/categories/english/</link>
-    <description>Recent content in English on DATO FUTBOL</description>
+    <title>Probabilitymodel on DATO FUTBOL</title>
+    <link>/tags/probabilitymodel/</link>
+    <description>Recent content in Probabilitymodel on DATO FUTBOL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>2017-2019</copyright>
-    <lastBuildDate>Tue, 21 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/english/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/probabilitymodel/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Historical Men FIFA Ranking [april 2019] - EN</title>
-      <link>/ranking-fifa-historico-last-en/</link>
-      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/ranking-fifa-historico-last-en/</guid>
-      <description>I just updated the Shiny app which allows you visualize the historical Men FIFA ranking, this time including last data officially published (april 2019). Enjoy it!
-Top 10 Men FIFA Ranking:
-RankTeam1Belgium2France3Brazil4England5Croatia6Uruguay7Portugal8Switzerland9Spain10DenmarkApp:</description>
-    </item>
     
     <item>
       <title>Predictions for the Soccer World Cup Russia 2018 - EN</title>

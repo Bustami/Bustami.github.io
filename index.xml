@@ -13,7 +13,7 @@
     
     
     <item>
-      <title>Historical Men FIFA Ranking [april 2019] - English</title>
+      <title>Historical Men FIFA Ranking [april 2019] - EN</title>
       <link>/ranking-fifa-historico-last-en/</link>
       <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
       
@@ -46,7 +46,7 @@ Participé como speaker en el #satRday Stgo. 2018 con la charla “Una mirada al
     </item>
     
     <item>
-      <title>Ranking de Campeones Primera División Fútbol Profesional Chile [actualizado Dic 2018]</title>
+      <title>Ranking de Campeones Primera División Fútbol Profesional Chile [Dic 2018]</title>
       <link>/campeones-chile-3rd/</link>
       <pubDate>Wed, 05 Dec 2018 00:00:00 +0000</pubDate>
       
@@ -63,6 +63,16 @@ Colo-Colo tiene un claro liderato con sus 32 estrellas, con lo que casi le alcan
       
       <guid>/pred-rusia2018/</guid>
       <description>No me aguanté las ganas de hacer algo con datos para esta nueva edición de la Copa del mundo, Rusia 2018. Luego de navegar por internet un rato y recolectar algunos datos decidí enfocarme en el ajuste de un modelo de predicción para “goles esperados por cada equipo en cada partido”, lo que permite estimar las probabilidades de ganar que tiene cada equipo o bien que haya un empate para cada partido.</description>
+    </item>
+    
+    <item>
+      <title>Predictions for the Soccer World Cup Russia 2018 - EN</title>
+      <link>/pred-rusia2018-en/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/pred-rusia2018-en/</guid>
+      <description>I couldn’t resist doing some data analysis for this new Soccer World Cup in Russia 2018. After searching online for a while and collecting some data I decided to focus on creating a prediction model for “expected goals for each team and each game”, allowing the estimation of probability to win, lose or draw. This way we can predict all games of the tournament.
+Now all details about the considered data, model fitting and results are presented.</description>
     </item>
     
     <item>

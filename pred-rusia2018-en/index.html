@@ -12,15 +12,15 @@
 
 
 
-<meta name="twitter:title" content="Predicciones Copa del mundo Rusia 2018"/>
+<meta name="twitter:title" content="Predictions for the Soccer World Cup Russia 2018 - EN"/>
 <meta name="twitter:description" content=""/>
 <meta name="twitter:site" content="@DatoFutbol_cl"/>
 
 
 
-  	<meta property="og:title" content="Predicciones Copa del mundo Rusia 2018 &middot; DATO FUTBOL" />
+  	<meta property="og:title" content="Predictions for the Soccer World Cup Russia 2018 - EN &middot; DATO FUTBOL" />
   	<meta property="og:site_name" content="DATO FUTBOL" />
-  	<meta property="og:url" content="/pred-rusia2018/" />
+  	<meta property="og:url" content="/pred-rusia2018-en/" />
 
     
         
@@ -34,22 +34,20 @@
     <meta property="article:published_time" content="2018-06-13T00:00:00Z" />
 
     
-    <meta property="article:tag" content="CopaDelMundo" />
+    <meta property="article:tag" content="WorldCup" />
     
     <meta property="article:tag" content="Rusia2018" />
     
-    <meta property="article:tag" content="Predicciones" />
+    <meta property="article:tag" content="Predictions" />
     
-    <meta property="article:tag" content="ModeloDeProbabilidades" />
-    
-    <meta property="article:tag" content="MundialDeFutbol" />
+    <meta property="article:tag" content="ProbabilityModel" />
     
     
 
-    <title>Predicciones Copa del mundo Rusia 2018 &middot; DATO FUTBOL</title>
+    <title>Predictions for the Soccer World Cup Russia 2018 - EN &middot; DATO FUTBOL</title>
 
     
-    <meta name="description" content="No me aguanté las ganas de hacer algo con datos para esta nueva edición de la Copa del mundo, Rusia 2018. Luego de navegar por internet un rato y recolectar alg" />
+    <meta name="description" content="I couldn’t resist doing some data analysis for this new Soccer World Cup in Russia 2018. After searching online for a while and collecting some data I decided t" />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -78,7 +76,7 @@
     
     <meta name="generator" content="Hugo 0.33" />
 
-    <link rel="canonical" href="/pred-rusia2018/" />
+    <link rel="canonical" href="/pred-rusia2018-en/" />
 
     
       
@@ -115,23 +113,23 @@
             
         ]
     },
-    "headline": Predicciones Copa del mundo Rusia 2018,
-    "name": Predicciones Copa del mundo Rusia 2018,
-    "wordCount": 936,
+    "headline": Predictions for the Soccer World Cup Russia 2018 - EN,
+    "name": Predictions for the Soccer World Cup Russia 2018 - EN,
+    "wordCount": 864,
     "timeRequired": "PT5M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": en
     },
-    "url": /pred-rusia2018/,
+    "url": /pred-rusia2018-en/,
     "datePublished": 2018-06-13T00:00Z,
     "dateModified": 2018-06-13T00:00Z,
     
-    "keywords": CopaDelMundo, Rusia2018, Predicciones, ModeloDeProbabilidades, MundialDeFutbol,
+    "keywords": WorldCup, Rusia2018, Predictions, ProbabilityModel,
     "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": /pred-rusia2018/
+        "@id": /pred-rusia2018-en/
     }
 }
     </script>
@@ -251,7 +249,7 @@
   <article class="post post">
 
     <header class="post-header">
-        <h1 class="post-title">Predicciones Copa del mundo Rusia 2018</h1>
+        <h1 class="post-title">Predictions for the Soccer World Cup Russia 2018 - EN</h1>
         <small></small>
 
         <section class="post-meta">
@@ -261,15 +259,13 @@
           </time>
         
          
-          <span class="post-tag small"><a href="//tags/copadelmundo/">#CopaDelMundo</a></span>
+          <span class="post-tag small"><a href="//tags/worldcup/">#WorldCup</a></span>
          
           <span class="post-tag small"><a href="//tags/rusia2018/">#Rusia2018</a></span>
          
-          <span class="post-tag small"><a href="//tags/predicciones/">#Predicciones</a></span>
+          <span class="post-tag small"><a href="//tags/predictions/">#Predictions</a></span>
          
-          <span class="post-tag small"><a href="//tags/modelodeprobabilidades/">#ModeloDeProbabilidades</a></span>
-         
-          <span class="post-tag small"><a href="//tags/mundialdefutbol/">#MundialDeFutbol</a></span>
+          <span class="post-tag small"><a href="//tags/probabilitymodel/">#ProbabilityModel</a></span>
          
         </section>
     </header>
@@ -278,39 +274,39 @@
       <script src="/rmarkdown-libs/kePrint/kePrint.js"></script>
 
 
-<p>No me aguanté las ganas de hacer algo con datos para esta nueva edición de la Copa del mundo, Rusia 2018. Luego de navegar por internet un rato y recolectar algunos datos decidí enfocarme en el ajuste de un modelo de predicción para “goles esperados por cada equipo en cada partido”, lo que permite estimar las probabilidades de ganar que tiene cada equipo o bien que haya un empate para cada partido. Así, podremos pronosticar todos los partidos del torneo.</p>
-<p>A continuación los detalles sobre los datos utilizados, el ajuste del modelo y los resultados.</p>
-<div id="datos-considerados" class="section level2">
-<h2>Datos considerados</h2>
+<p>I couldn’t resist doing some data analysis for this new Soccer World Cup in Russia 2018. After searching online for a while and collecting some data I decided to focus on creating a prediction model for “expected goals for each team and each game”, allowing the estimation of probability to win, lose or draw. This way we can predict all games of the tournament.</p>
+<p>Now all details about the considered data, model fitting and results are presented.</p>
+<div id="considered-data" class="section level2">
+<h2>Considered data</h2>
 <ul>
-<li><p>Resultados de todos los partidos en mundiales desde USA 1994 a Brasil 2014</p></li>
-<li><p>Último Ranking FIFA registrado para las selecciones al momento de jugar cada mundial</p></li>
-<li><p>Porcentaje de jugadores que juegan en las 5 principales ligas europeas (Inglaterra, España, Italia, Alemania y Francia) al momento de jugar cada mundial respecto al total de la plantilla.</p></li>
-<li><p>Promedio de edad de la plantilla al momento de jugar cada mundial</p></li>
-<li><p>Confederación de cada selección (UEFA, CONMEBOL, CONCACAF, etc.)</p></li>
+<li><p>Results of all world cup games between USA 1994 &amp; Brazil 2014</p></li>
+<li><p>Last FIFA ranking registered for teams at the moment of each world cup</p></li>
+<li><p>Percent of players who play in the main five European leagues (England, Spain, Italy, Germany and France) at the moment of each world cup compared to their respective complete squads.</p></li>
+<li><p>Age mean for each squad at the moment of each world cup</p></li>
+<li><p>Team confederation (UEFA, CONMEBOL, CONCACAF, etc.)</p></li>
 </ul>
 </div>
-<div id="exploracion-basica" class="section level2">
-<h2>Exploración básica</h2>
-<p>Es así como se consideraron 372 partidos, en cuyos resultados puede apreciarse que el Empate es uno de los menos frecuentes (24%):</p>
+<div id="basic-exploration" class="section level2">
+<h2>Basic exploration</h2>
+<p>372 games were considered, whose results indicate that Draw is the less frequent one (24%).:</p>
 <table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
 <th style="text-align:center;">
-Resultado
+Result
 </th>
 <th style="text-align:center;">
-Cantidad
+Amount
 </th>
 <th style="text-align:center;">
-Porcentaje
+Percent
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:center;">
-Equipo 1
+Team 1
 </td>
 <td style="text-align:center;">
 168
@@ -321,7 +317,7 @@ Equipo 1
 </tr>
 <tr>
 <td style="text-align:center;">
-Equipo 2
+Team 2
 </td>
 <td style="text-align:center;">
 114
@@ -332,7 +328,7 @@ Equipo 2
 </tr>
 <tr>
 <td style="text-align:center;">
-Empate
+Draw
 </td>
 <td style="text-align:center;">
 90
@@ -343,48 +339,42 @@ Empate
 </tr>
 </tbody>
 </table>
-<p>También es posible observar la distribución de goles de un equipo por partido, cuyo promedio es de 1.3. A continuación el histograma asociado a esa información.</p>
-<p><img src="/post/pred-rusia2018_files/figure-html/hist-1.png" width="672" /></p>
+<p>Also it is possible to observe the goal distribution of one team by game, with an average of 1.3 goals. Below the histogram of this information is shown:</p>
+<p><img src="/post/pred-rusia2018-en_files/figure-html/hist-1.png" width="672" /></p>
 <hr />
-<div id="modelo-de-prediccion-con-distribucion-de-poisson" class="section level4">
-<h4>Modelo de predicción con distribución de Poisson</h4>
-<p>Si bien se aplican diversos métodos para este tipo de predicciones, uno de los más utilizados es la de “goles esperados para un equipo por partido”, basado en un modelo de regresión con distribución de <a href="https://es.wikipedia.org/wiki/Distribución_de_Poisson"><strong>Poisson</strong></a>, dado que la cantidad de goles por partido se aproxima a esta distribución.</p>
-<p>Para esto utilicé la fución <code>glm</code> de R ingresando todos los datos mencionados anteriormente, usando específicamente la diferencia de cada atributo entre los dos equipos que se enfrentan en cada partido.</p>
-<p>El atributo más relevante que arrojó el modelo fue el porcentaje de jugadores en las grandes ligas de europa, así como una ventaja general para las selecciones de Conmebol. Los atributos Edad promedio y Ranking FIFA si bien tienen significancia estadística no tienen un gran impacto.</p>
-<p>Cabe meniconar que se descartó la influencia de atributos como la localía del equipo anfitrión del mundial, la dispersión de las edades de jugadores y el resto de las confederaciones aparte de Conmebol.</p>
-<p>Entonces, el modelo nos permite predecir la probabilidad que tiene cada equipo de hacer X goles en un determinado partido, por supuesto dependiendo del rival, y con eso estimar la matriz de probabilidades de resultados como se aprecia a modo de ejemplo en la siguiente visualización para el primer partido de Perú luego de 36 años sin asistir a un mundial:</p>
-<p><img src="/post/pred-rusia2018_files/figure-html/modelo-1.png" width="672" /></p>
-<p>Luego, considerando la suma de probabilidades según cada caso de resultado global podemos obtener las probabilidades para:</p>
-<ul>
-<li>Triunfo del Equipo 1</li>
-<li>Empate</li>
-<li>Triunfo del Equipo 2</li>
-</ul>
-<p>Paradójicamente, si bien el resultado exacto más probable es un 1-1 con 12% de probabilidad, representando Empate, si miramos las probabilidades de resultados globales lo más probable es que gane Dinamarca, con 50% de probabilidades, mientras que el empate o el triunfo de Perú arroja un 25% cada uno.</p>
-<p>En la siguiente visualización se aprecian dichas probabilidades en relación al Empate:</p>
-<p><img src="/post/pred-rusia2018_files/figure-html/prob-1.png" width="672" /></p>
-<p>Para tener una idea de la efectividad del modelo, particioné el conjunto de datos históricos para evaluarlo con datos aparte de los considerados en el ajuste, obteniendo un 54% de accuracy. De ese 46% de error, el 27% se explica por la presencia de empates que el modelo nunca predice, dado que como criterio básico nos quedamos con el resultado global más probable.</p>
+<div id="prediction-model-with-poisson-distribution" class="section level4">
+<h4>Prediction model with Poisson distribution</h4>
+<p>Even though different methods are used for this kind of prediction, one of most used is named “expected goals for one team at one game” which is based on a regression model with Poisson distribution, since that “how many goals are scored in a game” is similar to this distribution.</p>
+<p>To do this i used the function <code>glm</code> from R language (and IDE Rstudio) setting all data mentioned before, using the value difference between each feature from 2 teams in each game.</p>
+<p>The most relevant feature given by the model was the percent of players in main European leagues, in addition to a general advantage for Conmebol teams. Also the average age and the FIFA ranking have a statistical impact, but not so strong.</p>
+<p>It is valuable to mention that features like Local/Away distinction, Soccer world cup hosting, Standard deviation for age of players and Confederations (except Conmebol) were not finally considered.</p>
+<p>So, the model allows us to estimate probability for each team to score X goals in a specified game, of course depending on the rival. This way we can calculate the result probability matrix as shown in the next data visualization, considering the first Peruvian game, after 36 years absence from soccer world cups.</p>
+<p><img src="/post/pred-rusia2018-en_files/figure-html/modelo-1.png" width="672" /></p>
+<p>Then, considering the total probability for each complete score case (0-0, 0-1, 1-0, 1-1, 2-1, 1-2, 2-2 etc.) we can obtain the total probability for: a)Team 1 win, b) Draw, and c) Team 2 win.</p>
+<p>Contradictory, even though the most probable exactly result is 1-1 with 11.9%, if we see the global result the most probable is that Denmark wins (50%), while Draw or Peru wins have 25% probability each. In the next figure these probabilities could be observed:</p>
+<p><img src="/post/pred-rusia2018-en_files/figure-html/prob-1.png" width="672" /></p>
+<p>In order to have some knowledge about the accuracy of the model, i partitioned the data set, doing training and evaluation steps with different samples from the data set, obtaining 54% accuracy. So, 27% from 46% of total error is due to Draws which the model “never predicts“, since we consider that as basic criterion for the most probable global result prediction.</p>
 <hr />
 </div>
-<div id="prediccion-2018" class="section level4">
-<h4>Predicción 2018</h4>
-<p>Finalmente, utilizando el modelo y considerando como ganador al equipo con mayor probailidad de ganar cada partido, es posible estimar la tabla de posiciones del torneo, desde el campeón hasta el último lugar:</p>
-<div style="border: 1px solid #ddd; padding: 5px; overflow-y: scroll; height:600px; overflow-x: scroll; width:450px; ">
+<div id="prediction" class="section level4">
+<h4>2018 Prediction</h4>
+<p>Finally, using the model, considering as winner the team with the highest probability to win in each game, it is possible to estimate the final positions table of the tournament, from the champion to the last place:</p>
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:600px; overflow-x: scroll; width:450px; ">
 <table class="table" style="margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
-<th style="text-align:center;">
-Resultado
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+Stage
 </th>
-<th style="text-align:center;">
-Equipo
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+Team
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:center;">
-Campeón
+Champion
 </td>
 <td style="text-align:center;">
 FRANCIA
@@ -392,7 +382,7 @@ FRANCIA
 </tr>
 <tr>
 <td style="text-align:center;">
-Subcampeón
+Final
 </td>
 <td style="text-align:center;">
 ALEMANIA
@@ -400,7 +390,7 @@ ALEMANIA
 </tr>
 <tr>
 <td style="text-align:center;">
-3ero
+Semi Final
 </td>
 <td style="text-align:center;">
 BRASIL
@@ -408,7 +398,7 @@ BRASIL
 </tr>
 <tr>
 <td style="text-align:center;">
-4to
+Semi Final
 </td>
 <td style="text-align:center;">
 ESPAÑA
@@ -416,7 +406,7 @@ ESPAÑA
 </tr>
 <tr>
 <td style="text-align:center;">
-Cuartos de final
+Round of 8
 </td>
 <td style="text-align:center;">
 PORTUGAL
@@ -424,7 +414,7 @@ PORTUGAL
 </tr>
 <tr>
 <td style="text-align:center;">
-Cuartos de final
+Round of 8
 </td>
 <td style="text-align:center;">
 ARGENTINA
@@ -432,7 +422,7 @@ ARGENTINA
 </tr>
 <tr>
 <td style="text-align:center;">
-Cuartos de final
+Round of 8
 </td>
 <td style="text-align:center;">
 BÉLGICA
@@ -440,7 +430,7 @@ BÉLGICA
 </tr>
 <tr>
 <td style="text-align:center;">
-Cuartos de final
+Round of 8
 </td>
 <td style="text-align:center;">
 INGLATERRA
@@ -448,7 +438,7 @@ INGLATERRA
 </tr>
 <tr>
 <td style="text-align:center;">
-Octavos de final
+Round of 16
 </td>
 <td style="text-align:center;">
 POLONIA
@@ -456,7 +446,7 @@ POLONIA
 </tr>
 <tr>
 <td style="text-align:center;">
-Octavos de final
+Round of 16
 </td>
 <td style="text-align:center;">
 URUGUAY
@@ -464,7 +454,7 @@ URUGUAY
 </tr>
 <tr>
 <td style="text-align:center;">
-Octavos de final
+Round of 16
 </td>
 <td style="text-align:center;">
 SUECIA
@@ -472,7 +462,7 @@ SUECIA
 </tr>
 <tr>
 <td style="text-align:center;">
-Octavos de final
+Round of 16
 </td>
 <td style="text-align:center;">
 EGIPTO
@@ -480,7 +470,7 @@ EGIPTO
 </tr>
 <tr>
 <td style="text-align:center;">
-Octavos de final
+Round of 16
 </td>
 <td style="text-align:center;">
 DINAMARCA
@@ -488,7 +478,7 @@ DINAMARCA
 </tr>
 <tr>
 <td style="text-align:center;">
-Octavos de final
+Round of 16
 </td>
 <td style="text-align:center;">
 CROACIA
@@ -496,7 +486,7 @@ CROACIA
 </tr>
 <tr>
 <td style="text-align:center;">
-Octavos de final
+Round of 16
 </td>
 <td style="text-align:center;">
 SUIZA
@@ -504,7 +494,7 @@ SUIZA
 </tr>
 <tr>
 <td style="text-align:center;">
-Octavos de final
+Round of 16
 </td>
 <td style="text-align:center;">
 SENEGAL
@@ -512,7 +502,7 @@ SENEGAL
 </tr>
 <tr>
 <td style="text-align:center;">
-Fase de grupos
+Group stage
 </td>
 <td style="text-align:center;">
 MARRUECOS
@@ -520,7 +510,7 @@ MARRUECOS
 </tr>
 <tr>
 <td style="text-align:center;">
-Fase de grupos
+Group stage
 </td>
 <td style="text-align:center;">
 PERÚ
@@ -528,7 +518,7 @@ PERÚ
 </tr>
 <tr>
 <td style="text-align:center;">
-Fase de grupos
+Group stage
 </td>
 <td style="text-align:center;">
 ISLANDIA
@@ -536,7 +526,7 @@ ISLANDIA
 </tr>
 <tr>
 <td style="text-align:center;">
-Fase de grupos
+Group stage
 </td>
 <td style="text-align:center;">
 SERBIA
@@ -544,7 +534,7 @@ SERBIA
 </tr>
 <tr>
 <td style="text-align:center;">
-Fase de grupos
+Group stage
 </td>
 <td style="text-align:center;">
 MÉXICO
@@ -552,7 +542,7 @@ MÉXICO
 </tr>
 <tr>
 <td style="text-align:center;">
-Fase de grupos
+Group stage
 </td>
 <td style="text-align:center;">
 TÚNEZ
@@ -560,7 +550,7 @@ TÚNEZ
 </tr>
 <tr>
 <td style="text-align:center;">
-Fase de grupos
+Group stage
 </td>
 <td style="text-align:center;">
 COLOMBIA
@@ -568,7 +558,7 @@ COLOMBIA
 </tr>
 <tr>
 <td style="text-align:center;">
-Fase de grupos
+Group stage
 </td>
 <td style="text-align:center;">
 ARABIA SAUDI
@@ -576,7 +566,7 @@ ARABIA SAUDI
 </tr>
 <tr>
 <td style="text-align:center;">
-Fase de grupos
+Group stage
 </td>
 <td style="text-align:center;">
 NIGERIA
@@ -584,7 +574,7 @@ NIGERIA
 </tr>
 <tr>
 <td style="text-align:center;">
-Fase de grupos
+Group stage
 </td>
 <td style="text-align:center;">
 COSTA RICA
@@ -592,7 +582,7 @@ COSTA RICA
 </tr>
 <tr>
 <td style="text-align:center;">
-Fase de grupos
+Group stage
 </td>
 <td style="text-align:center;">
 JAPÓN
@@ -600,7 +590,7 @@ JAPÓN
 </tr>
 <tr>
 <td style="text-align:center;">
-Fase de grupos
+Group stage
 </td>
 <td style="text-align:center;">
 RUSIA
@@ -608,7 +598,7 @@ RUSIA
 </tr>
 <tr>
 <td style="text-align:center;">
-Fase de grupos
+Group stage
 </td>
 <td style="text-align:center;">
 IRÁN
@@ -616,7 +606,7 @@ IRÁN
 </tr>
 <tr>
 <td style="text-align:center;">
-Fase de grupos
+Group stage
 </td>
 <td style="text-align:center;">
 AUSTRALIA
@@ -624,7 +614,7 @@ AUSTRALIA
 </tr>
 <tr>
 <td style="text-align:center;">
-Fase de grupos
+Group stage
 </td>
 <td style="text-align:center;">
 COREA DEL SUR
@@ -632,7 +622,7 @@ COREA DEL SUR
 </tr>
 <tr>
 <td style="text-align:center;">
-Fase de grupos
+Group stage
 </td>
 <td style="text-align:center;">
 PANAMÁ
@@ -641,10 +631,9 @@ PANAMÁ
 </tbody>
 </table>
 </div>
-<p>En comparación a las diversas predicciones que están dando vueltas en estos últimos días previo al inicio del mundial (<a href="https://www.technologyreview.com/s/611397/machine-learning-predicts-world-cup-winner/amp/">MIT</a>, <a href="https://eightyfivepoints.blogspot.com/2018/05/what-can-we-expect-from-21st-fifa-world.html">EightyFivePoints</a>, <a href="https://www.ubs.com/content/dam/assets/wm/global/cio/doc/investing-in-emerging-markets-en.pdf">UBS</a>, <a href="https://eeecon.uibk.ac.at/~zeileis/news/fifa2018/">Achim Zeileis</a>), la novedad de nuestros resultados está principalmente en el hecho de dar a Francia como ganador, dado que Alemania, Brasil y España aparecen en los primeros lugares en la gran mayoría de dichas predicciones.</p>
-<p>Otras diferencias pueden estar en que este modelo arroja que Rusia, Perú, Colombia y México no pasan de la fase de grupos, lo que sí sucede en algunas otras predicciones.</p>
-<p>Veremos qué pasa. De todos modos se debe tener presente que siempre en las predicciones de resultados globales de fútbol se tienen márgenes de error relativamente altos dada la naturaleza del mismo juego, con componentes azarosos, circunstaciales, psicológicos, emotivos, etc. los cuales son muy complejos de incluir en un modelo de predicción.</p>
-<p>Durante el mundial estaremos publicando las estimaciones más detalladas de cada partido junto con otros datos históricos. Síguenos en <a href="https://twitter.com/DatoFutbol_cl"><strong>Twitter</strong></a> y/o <a href="https://www.facebook.com/pg/datofutbolCL/posts/?ref=page_internal"><strong>Facebook</strong></a>.</p>
+<p>By contrast with the different predictions from the last days before the world cup began (<a href="https://www.technologyreview.com/s/611397/machine-learning-predicts-world-cup-winner/amp/" target="_blank">MIT</a>, <a href="https://eightyfivepoints.blogspot.com/2018/05/what-can-we-expect-from-21st-fifa-world.html" target="_blank">EightyFivePoints</a>, <a href="https://www.ubs.com/content/dam/assets/wm/global/cio/doc/investing-in-emerging-markets-en.pdf" target="_blank">UBS</a>, <a href="https://eeecon.uibk.ac.at/~zeileis/news/fifa2018/" target="_blank">AchimZeileis</a>), our model says that France will be the new champion. On the other hand, Germany, Brazil and Spain, also were among the best 4 in most of them.</p>
+<p>Another difference in this model is that Russia, Peru, Colombia and Mexico wouldn’t overcome group stage, while other models said yes.</p>
+<p>We are going to see what will happen. Anyway, it is important to take into account that in global result prediction in soccer there is always a relatively high error margin, since the random nature of this sport, affected also by psychological and emotional components, which are very complex to include into analysis. While the soccer world cup is happening, we will be publishing specific and detailed estimates for each game in addition to historical data. Follow us on <a href="https://twitter.com/DatoFutbol_cl" target="_blank">Twitter</a> / <a href="https://www.facebook.com/pg/datofutbolCL/posts/?ref=page_internal" target="_blank">Facebook</a>.</p>
 </div>
 </div>
 
@@ -685,19 +674,19 @@ PANAMÁ
     
 <section class="share">
   <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Predicciones%20Copa%20del%20mundo%20Rusia%202018&nbsp;-&nbsp;DATO%20FUTBOL&amp;url=%2fpred-rusia2018%2f"
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Predictions%20for%20the%20Soccer%20World%20Cup%20Russia%202018%20-%20EN&nbsp;-&nbsp;DATO%20FUTBOL&amp;url=%2fpred-rusia2018-en%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>
   </a>
-  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=%2fpred-rusia2018%2f"
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=%2fpred-rusia2018-en%2f"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
   </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=%2fpred-rusia2018%2f&amp;description=Predicciones%20Copa%20del%20mundo%20Rusia%202018"
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=%2fpred-rusia2018-en%2f&amp;description=Predictions%20for%20the%20Soccer%20World%20Cup%20Russia%202018%20-%20EN"
       onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
       <span class="hidden">Pinterest</span>
   </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=%2fpred-rusia2018%2f"
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=%2fpred-rusia2018-en%2f"
      onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
       <span class="hidden">Google+</span>
   </a>
@@ -721,17 +710,17 @@ PANAMÁ
 
   <aside class="read-next">
   
-      <a class="read-next-story" style="no-cover" href="/campeones-chile-3rd/">
+      <a class="read-next-story" style="no-cover" href="/pred-rusia2018/">
           <section class="post">
-              <h2>Ranking de Campeones Primera División Fútbol Profesional Chile [Dic 2018]</h2>
+              <h2>Predicciones Copa del mundo Rusia 2018</h2>
               
           </section>
       </a>
   
   
-      <a class="read-next-story prev" style="no-cover" href="/pred-rusia2018-en/">
+      <a class="read-next-story prev" style="no-cover" href="/shotmap1-alexis/">
           <section class="post">
-              <h2>Predictions for the Soccer World Cup Russia 2018 - EN</h2>
+              <h2>Mi primer shotmap va para Alexis Sánchez</h2>
           </section>
       </a>
   
