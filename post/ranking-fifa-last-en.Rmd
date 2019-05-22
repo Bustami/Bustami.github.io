@@ -1,21 +1,19 @@
 ---
-title: "Ranking FIFA histórico [abril 2019]"
+title: "Historical Men FIFA Ranking [april 2019] - English"
 description: ''
 author: "Ismael Gómez"
 lang: es
 date: '2019-05-21'
 output:
   html_document: default
-  pdf_document: default
 draft: false
 image: false
 menu: ''
 share: yes
-slug: ranking-fifa-historico-last
+slug: ranking-fifa-historico-last-en
 tags:
-- Chile
 - RankingFIFA
-categories: ["Varios"]
+categories: ["English"]
 ---
 
 
@@ -26,10 +24,9 @@ library(dplyr)
 library(knitr)
 ```
 
-Actualicé la aplicación para visualizar el ranking FIFA histórico (<a href="http://datofutbol.cl/ranking-fifa-historico/" target="_blank">post inicial</a>), ahora incluyendo los datos hasta su última publicación oficial que data de abril de 2019.
+I just updated the Shiny app which allows you visualize the historical Men FIFA ranking, this time including last data officially published (april 2019). Enjoy it!
 
-
-Top 10 Ranking FIFA abril 2019:
+Top 10 Men FIFA Ranking:
 
 ```{r c1}
 data <- read.csv("ranking_shiny.csv") %>% 
@@ -41,6 +38,8 @@ kable(data, "html", align='c') %>%
 ```
 
 ***  
+
+App:
 
 <iframe width="900" height="750" scrolling="yes" frameborder="no"  src="https://bustami.shinyapps.io/ranking_fifa/"> </iframe>
 

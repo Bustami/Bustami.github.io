@@ -50,7 +50,8 @@ Son numerosos los records y las hazañas que esta generación ha logrado inmorta
 Para visualizar el ranking histórico de La Roja y de todas las selecciones asociadas a la FIFA, a continuación te dejamos esta aplicación interactiva con la que puedes observar el comportamiento histórico del ranking por mes y año. Puedes visualizar hasta 3 selecciones simultáneamente y elegir el año de inicio. Dejamos por defecto además de Chile a las selecciones de Paraguay y Ecuador, próximos rivales de La Roja en clasificatorias en calidad de local.
 
 
-(Última actualización: 14 septiembre 2017)
+(Última actualización: abril 2019)
+
 ```{r c2, cache=T}
 knitr::include_app("https://bustami.shinyapps.io/ranking_fifa/", height = "750px")
 ```

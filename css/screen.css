@@ -37,6 +37,7 @@ audio:not([controls]) { display: none; height: 0; }
 [hidden], template { display: none; }
 html {
    font-family: sans-serif;
+   /*font-family: roboto;*/
    -ms-text-size-adjust: 100%;
    -webkit-text-size-adjust: 100%;
 }
@@ -255,7 +256,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Merriweather", serif;
+    font-family: "Open Sans", sans-serif;
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
     line-height: 1.75em;
@@ -610,6 +611,7 @@ body.nav-opened .site-wrapper {
 .main-nav a {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Open Sans', roboto;*/
 }
 
 /* Navigation */
@@ -952,7 +954,7 @@ body.nav-opened .menu-button .word {
     font-size: 5rem;
     letter-spacing: -1px;
     font-weight: 700;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Merriweather";
     color: #fff;
 }
 
