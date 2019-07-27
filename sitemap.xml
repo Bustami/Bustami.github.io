@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/torneo-chile-1era-rueda-2019/</loc>
+    <lastmod>2019-07-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/chile-copa-america-2019/</loc>
     <lastmod>2019-06-15T00:00:00+00:00</lastmod>
   </url>
@@ -108,6 +113,12 @@
   </url>
   
   <url>
+    <loc>/tags/2019/</loc>
+    <lastmod>2019-07-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/alexissanchez/</loc>
     <lastmod>2018-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -138,13 +149,13 @@
   
   <url>
     <loc>/tags/chile/</loc>
-    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/chile/</loc>
-    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -198,7 +209,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -306,7 +317,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -384,13 +395,13 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/torneonacional/</loc>
-    <lastmod>2017-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
