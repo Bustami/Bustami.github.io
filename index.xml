@@ -227,14 +227,16 @@ Decidimos seleccionar solo las ligas y temporadas con los datos más completos, 
     </item>
     
     <item>
-      <title>Acerca de</title>
+      <title>About</title>
       <link>/about/</link>
       <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>DATOFUTBOL nace como un proyecto que busca aportar al debate y conocimiento de todos los aspectos futbolísticos que puedan analizarse de manera objetiva utilizando datos.
-Para la construcción del sitio web usamos la librería blogdown de R, la cual permite utilizar el generador de sitios estáticos Hugo en conjunto con el lenguaje de marcado para documentos RMarkdown. También, en algunos post incrusto aplicaciones interactivas creadas con Shiny.
-Cuando es posible, comparto abiertamente en Github la base de datos y los códigos utilizados, con el objetivo de que los análisis sean reproducibles y también para aportar a la consigna Open Data.</description>
+      <description>DATO FUTBOL is a personal project that started in 2017 and it is focus on get a deeper knowledge in the field of Soccer (Football) Analytics. This way i’ve been developing different resources related, like this blog, which was created using RStudio, the package blogdown and deploying Shiny apps for some posts.
+Another resources here:A Github repository.
+A Twitter account.
+Conferences :
+Una mirada al Soccer Analytics usando R</description>
     </item>
     
   </channel>
