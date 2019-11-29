@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/campeones-chile-2019/</loc>
+    <lastmod>2019-11-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/torneo-chile-1era-rueda-2019/</loc>
     <lastmod>2019-07-27T00:00:00+00:00</lastmod>
   </url>
@@ -138,7 +143,7 @@
   
   <url>
     <loc>/tags/campeones/</loc>
-    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -148,14 +153,14 @@
   </url>
   
   <url>
-    <loc>/tags/chile/</loc>
-    <lastmod>2019-07-27T00:00:00+00:00</lastmod>
+    <loc>/categories/chile/</loc>
+    <lastmod>2019-11-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/chile/</loc>
-    <lastmod>2019-07-27T00:00:00+00:00</lastmod>
+    <loc>/tags/chile/</loc>
+    <lastmod>2019-11-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -178,13 +183,13 @@
   </url>
   
   <url>
-    <loc>/tags/conmebol/</loc>
+    <loc>/categories/conmebol/</loc>
     <lastmod>2019-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/conmebol/</loc>
+    <loc>/tags/conmebol/</loc>
     <lastmod>2019-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -209,7 +214,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-07-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -232,14 +237,14 @@
   </url>
   
   <url>
-    <loc>/tags/europa/</loc>
-    <lastmod>2017-04-07T00:00:00+00:00</lastmod>
+    <loc>/categories/europa/</loc>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/europa/</loc>
-    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+    <loc>/tags/europa/</loc>
+    <lastmod>2017-04-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -257,7 +262,7 @@
   
   <url>
     <loc>/tags/lafranja/</loc>
-    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -269,7 +274,7 @@
   
   <url>
     <loc>/tags/loscruzados/</loc>
-    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -317,7 +322,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-07-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -347,7 +352,7 @@
   
   <url>
     <loc>/tags/primeradivision/</loc>
-    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
