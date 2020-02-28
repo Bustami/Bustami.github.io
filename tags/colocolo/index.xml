@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Colocolo on DATO FUTBOL</title>
+    <link>/tags/colocolo/</link>
+    <description>Recent content in Colocolo on DATO FUTBOL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>2017-2019</copyright>
+    <lastBuildDate>Fri, 28 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/colocolo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Probabilidades de pasar la fase de grupos en Copa Libertadores 2020</title>
+      <link>/libertadores-2020/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/libertadores-2020/</guid>
+      <description>Ya están definidos todos los clasificados a la fase de grupos de la edición 2020 de la Copa Libertadores!
+😍 ¡Así quedó la Fase de Grupos de la #Libertadores 2⃣0⃣2⃣0⃣, que comienza la semana próxima! pic.twitter.com/IhwdOb63Ce— CONMEBOL Libertadores (@Libertadores) February 28, 2020
+Como ya es costumbre, acá te dejo las probabilidades que tiene cada equipo de pasar la fase de grupos según un modelo predictivo que considera como variable de entrada únicamente la valorización económica de su plantel centrada respecto al promedio de esta misma variable en el grupo que le tocó.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -150,6 +150,18 @@ table { border-collapse: collapse; border-spacing: 0; }
   font-weight: normal; font-style: normal;
 }
 
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url(BebasNeueRegular.eot);
+    src: url(BebasNeueRegular.eot?#iefix) format('embedded-opentype'),
+         url(BebasNeueRegular.woff) format('woff'),
+         url(BebasNeueRegular.ttf) format('truetype'),
+         url(BebasNeueRegular.svg) format('svg');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Import the font file with the icons in it */
 @font-face {
   font-family: 'genericons';
@@ -470,7 +482,7 @@ table td {
     padding: 8px;
     line-height: 20px;
     text-align: left;
-    vertical-align: top;
+    vertical-align: middle;
     border-top: #EFEFEF 1px solid;
 }
 
@@ -954,7 +966,8 @@ body.nav-opened .menu-button .word {
     font-size: 5rem;
     letter-spacing: -1px;
     font-weight: 700;
-    font-family: "Merriweather";
+    font-family: 'Overpass Mono', monospace , sans-serif;
+    /*font-family: "Merriweather";*/
     color: #fff;
 }
 
@@ -963,7 +976,8 @@ body.nav-opened .menu-button .word {
     font-size: 2rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Merriweather", serif;
+    font-family: 'Overpass Mono', monospace , sans-serif;
+    /*font-family: "Merriweather", serif;*/
     letter-spacing: 0.01rem;
     color: rgba(255,255,255,0.8);
 }
