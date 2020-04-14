@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rankingfifa on DATO FUTBOL</title>
+    <title>RankingFIFA on DATO FUTBOL</title>
     <link>/tags/rankingfifa/</link>
-    <description>Recent content in Rankingfifa on DATO FUTBOL</description>
+    <description>Recent content in RankingFIFA on DATO FUTBOL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>2017-2019</copyright>
@@ -29,7 +29,7 @@ Top 10 Men FIFA Ranking:
       <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/ranking-fifa-historico-last/</guid>
-      <description>Actualicé la aplicación para visualizar el ranking FIFA histórico (post inicial), ahora incluyendo los datos hasta su última publicación oficial que data de abril de 2019.
+      <description>Actualicé la aplicación para visualizar el ranking FIFA histórico (post inicial), ahora incluyendo los datos hasta su última publicación oficial que data de abril de 2019.
 Top 10 Ranking FIFA abril 2019:
 RankTeam1Belgium2France3Brazil4England5Croatia6Uruguay7Portugal8Switzerland9Spain10Denmark</description>
     </item>

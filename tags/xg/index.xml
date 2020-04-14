@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>xG on DATO FUTBOL</title>
+    <link>/tags/xg/</link>
+    <description>Recent content in xG on DATO FUTBOL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>2017-2019</copyright>
+    <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/xg/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fitting your own football xG model</title>
+      <link>/xg-model/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/xg-model/</guid>
+      <description>Along this article I am going to share some detail which could be useful if you want to fit your own xG model, in addition to its respective performance evaluation and results analysis.
+What is xG?The xG (eXpected Goals) is the main metric used into the Football Analytics field nowadays. In simple words, it is the probability (from 0 to 1) that a shot has to become in a goal.</description>
+    </item>
+    
+  </channel>
+</rss>

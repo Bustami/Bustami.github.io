@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    
+        <meta name="twitter:card" content="summary"/>
+    
+
+
+
+<meta name="twitter:title" content="Fitting your own football xG model"/>
+<meta name="twitter:description" content=""/>
+<meta name="twitter:site" content="@DatoFutbol_cl"/>
+
+
+
+  	<meta property="og:title" content="Fitting your own football xG model &middot; DATO FUTBOL" />
+  	<meta property="og:site_name" content="DATO FUTBOL" />
+  	<meta property="og:url" content="/xg-model/" />
+
+    
+        
+            <meta property="og:image" content="/images/Rplot.png"/>
+        
+    
+
+    
+    <meta property="og:description" content="" />
+  	<meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2020-04-14T00:00:00Z" />
+
+    
+    <meta property="article:tag" content="xG" />
+    
+    <meta property="article:tag" content="SportAnalytics" />
+    
+    <meta property="article:tag" content="Football" />
+    
+    <meta property="article:tag" content="Soccer" />
+    
+    <meta property="article:tag" content="DataScience" />
+    
+    
+
+    <title>Fitting your own football xG model &middot; DATO FUTBOL</title>
+
+    
+    <meta name="description" content="Along this article I am going to share some detail which could be useful if you want to fit your own xG model, in addition to its respective performance evaluat" />
+    
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="../images/favicon.ico">
+	  <link rel="apple-touch-icon" href="../images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="../css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="../css/nav.css" />
+
+    
+
+    
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+        
+        <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+      
+          <link href="../index.xml" rel="alternate" type="application/rss+xml" title="DATO FUTBOL" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.69.0" />
+
+    <link rel="canonical" href="../xg-model/" />
+
+    
+      
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name":  null ,
+        "logo": "/images/pelota.png"
+    },
+    "author": {
+        "@type": "Person",
+        "name":  null ,
+        
+        "image": {
+            "@type": "ImageObject",
+            "url": "/images/pelota.png",
+            "width": 250,
+            "height": 250
+        }, 
+        
+        "url":  null ,
+        "sameAs": [
+            
+            
+             
+             
+             
+             
+             
+            
+        ]
+    },
+    "headline": "Fitting your own football xG model",
+    "name": "Fitting your own football xG model",
+    "wordCount":  1922 ,
+    "timeRequired": "PT10M",
+    "inLanguage": {
+      "@type": "Language",
+      "alternateName": "en"
+    },
+    "url": "/xg-model/",
+    "datePublished": "2020-04-14T00:00Z",
+    "dateModified": "2020-04-14T00:00Z",
+    
+    "keywords": "xG, SportAnalytics, Football, Soccer, DataScience",
+    "description": "",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/xg-model/"
+    }
+}
+    </script>
+    
+
+
+    
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-92157714-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="../post/">Inicio</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="../about/">About</a>
+            </li>
+        
+            <h3>CATEGORIES</h3>
+            <li class="nav-opened" role="presentation">
+            	<a href="../categories/chile/">Chile</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="../categories/conmebol/">Conmebol</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="../categories/europa/">Europa</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="../categories/varios/">Varios</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="../categories/english/">English</a>
+            </li>
+        
+            <h3>CONTACT</h3>
+            <li class="nav-opened" role="presentation">
+            	<a href="https://twitter.com/DatoFutbol_cl">Twitter</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="https://www.facebook.com/datofutbolCL">Facebook</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="https://github.com/Bustami/DatoFutbol">Github</a>
+            </li>
+        
+        
+    </ul>
+
+
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="../"><img src="../images/pelota.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Fitting your own football xG model</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2020-04-14T00:00:00Z">
+            Apr 14, 2020
+          </time>
+        
+         
+          <span class="post-tag small"><a href="//tags/xg/">#xG</a></span>
+         
+          <span class="post-tag small"><a href="//tags/sportanalytics/">#SportAnalytics</a></span>
+         
+          <span class="post-tag small"><a href="//tags/football/">#Football</a></span>
+         
+          <span class="post-tag small"><a href="//tags/soccer/">#Soccer</a></span>
+         
+          <span class="post-tag small"><a href="//tags/datascience/">#DataScience</a></span>
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      
+
+
+<p>Along this article I am going to share some detail which could be useful if you want to fit your own xG model, in addition to its respective performance evaluation and results analysis.</p>
+<div id="what-is-xg" class="section level3">
+<h3>What is xG?</h3>
+<p>The xG (eXpected Goals) is the main metric used into the Football Analytics field nowadays. In simple words, it is the probability (from 0 to 1) that a shot has to become in a goal. So probability equal 1 means Goal and probability equal 0 means No Goal.</p>
+<p>Those mentioned probabilities are obtained from a statistic model trained with the enough amount and variety of shot data with its respective spatial, temporal and context information.</p>
+<p>One of the most important features to fit a xG model is the shot position inside the field (e.g. X,Y coordinates), wherewith it is possible to obtain the shot distance to goal and the shot visible angle. The following viz shows the xG values from a basic model which considers only this two features. As it is expected, the closer the shots is made the higher the xG value:</p>
+<p><img src="../images/xg_model/events0.jpg" /><!-- --></p>
+<p>Anyway there are another useful features to consider for xG model improvements. In this article we are going to mention and/or to see details of some of them.</p>
+<p>If you want to review more details and using examples of xG, take a look on <a href="https://medium.com/datos-y-ciencia/una-mirada-al-soccer-analytics-usando-r-parte-iii-3bdff9cd3752"target="_blank"><strong>this previous article</strong></a> (sorry, just in Spanish).</p>
+<p><br/></p>
+</div>
+<div id="data" class="section level3">
+<h3>Data</h3>
+<p>I took advantage to use the football events public dataset by Wyscout with all games of top 5 european leagues along season 2017-2018. <a href="https://figshare.com/collections/Soccer_match_event_dataset/4415000/2"target="_blank"><strong>Here you can download</strong></a> the dataset and <a href="https://www.nature.com/articles/s41597-019-0247-7"target="_blank"><strong>here you can review details about</strong></a> its content and a descriptive analysis related.</p>
+<p>Only unblocked shots from Open Play are included. So, blocked shots and penalty kicks, free kicks, corners, etc. are not included. After to process the information i got a dataset with 30912 shots, of which 4270 were goals (~14%).</p>
+<p>Now a spatial visualization of those shots, splitting by result Goal (red) and No goal (blue). It is noticed that most of goals comes from shots inside the box.</p>
+<p><img src="../images/xg_model/shots_plot.png" /><!-- --></p>
+<p><br/></p>
+</div>
+<div id="tools" class="section level3">
+<h3>Tools</h3>
+<p>To do the complete data science workflow I used RStudio, applyng different packages depending each specific stage:</p>
+<ul>
+<li>Processing: jsonlite + dplyr + tidyr + purrr</li>
+<li>Visualization: ggplot2 + ggsoccer + DataExplorer + RColorBrewer</li>
+<li>Modelling: h2o + caret + pROC + ROCR + pdp + DALEX</li>
+</ul>
+<p>I also created <a href="https://github.com/Dato-Futbol/xg-model"target="_blank"><strong>this Github repository</strong></a> in order you can review the code and ideally reproduce all the thing shown in this article. There some comments and explanations for different parts are included (features edition/creation, model fitting and evaluation, visualizations, etc.), in addition to the “getshots” function which allows you to read/process/parse the raw data (JSON files) and get the dataframes with the columns that i considered as useful.</p>
+<p><br/></p>
+</div>
+<div id="features" class="section level3">
+<h3>Features</h3>
+<p>Here the list of all considered features. Some of them were used as they come (without processing) and another were created from data processing and joining with different tables.</p>
+<ul>
+<li><p><strong>Shot location coordinates</strong> (x_1, y_1): These are considered without processing. Both cases represent percentage of location (0% to 100%) related to longitude and width of the field, respectively.</p></li>
+<li><p><strong>Shot distance</strong> (distance_to_goal_line): Distance in meters between the shot location and the central point of the goal line. It was calculated from the coordinates x,y [%] and the mean dimensions for a football field (length: 105 meters, width: 68 meters).</p></li>
+<li><p><strong>Visible shot angle</strong> (angle_to_goal): It is the visible shot angle to goal that the shooter has from the shot location. It is obtained from shot location coordinates, the mean dimensions of the field and the length of a goal (7.32 meters). Here an example with different angles.</p></li>
+</ul>
+<p><img src="../images/xg_model/angles.jpg" /><!-- --></p>
+<ul>
+<li><strong>Body part</strong> (skilled_foot): Categorical feature created with 3 levels to classify the body part used to do the shot.</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li><p>Head/Body: Head or any body part besides foots</p></li>
+<li><p>Skilled foot = Yes: The shot was done with the skilled foot of the shooter</p></li>
+<li><p>Skilled foot = No: The shot was NOT done with the skilled foot of the shooter</p></li>
+</ol>
+<ul>
+<li><p><strong>Second of the event</strong> (EventSec): Seconds from the starting of first or second half until the shot time.</p></li>
+<li><p><strong>Match half</strong> (MatchPeriod): Categorical feature with 2 levels to represent if shot happened at 1st half (1H) or 2nd half (2H).</p></li>
+<li><p><strong>Time from previous shot</strong> (time_prev): Time in seconds from the last shot of the same team in the same half of the same game. The idea here is try to add some information about rebounds.</p></li>
+<li><p><strong>Is counter attack?</strong> (is_CA): Boolean feature to indicate if the shoot was part of a counter attack or not.</p></li>
+<li><p><strong>Shot result</strong> (is_goal): It is the feature that we want to predict. Goal = 1, No Goal = 0.</p></li>
+</ul>
+<p><br/></p>
+</div>
+<div id="brief-exploratory-analysis" class="section level3">
+<h3>Brief exploratory analysis</h3>
+<ul>
+<li><strong>Correlation matrix</strong></li>
+</ul>
+<p><img src="../images/xg_model/corr_plot.png" /><!-- --></p>
+<p>The features with the hightest absolute value of linear correlation for “is_goal = 1” are the shot distance (-0.26), the X coordinate (0.22) and the visible shot angle (0.16). A priori we could say that these features will be relevant for the model.</p>
+<p>It is noted the high linear correlation between the distance and the X coordinate (-0.95), as it is expected. This point could be considered in future analysis or improvements in order to avoid including high correlated predictors.</p>
+<ul>
+<li><strong>Categorical features</strong></li>
+</ul>
+<p><img src="../images/xg_model/bars_plot.png" /><!-- --></p>
+<p>Most of considered shots occur along not counter attacks plays (is_CA = 0), with the skilled foot of the player (skilled_foot = Yes) and at 2nd half.</p>
+<ul>
+<li><strong>Numerical features</strong></li>
+</ul>
+<p><img src="../images/xg_model/dens_plot.png" /><!-- --></p>
+<p>Most of considered shots occur roughly from less than 35 meters to goal and mainly from visible angles close to 20°. There are some cases of negatives values which could be reviewed in detail for future analysis or improvements.</p>
+<p><br/></p>
+</div>
+<div id="model-fitting-considerations" class="section level3">
+<h3>Model fitting considerations</h3>
+<ul>
+<li><p>It is important to keep in mind that this is a binary classification problem, owing the variable to predict (is_goal) has two possible results: Yes and No (1 and 0).</p></li>
+<li><p>For the fitting i used the Auto Machine Learning algorithm from the h2o package in order to get the algorithms which have a good performance for this problem. Besides the ensambled methods that proposes the tool h2o, in general the best ranked algorithm was Gradient Boosting Machine(GBM). I decided to use GBM despite xGBoost or a “simple” logistic regression may also have good performance.</p></li>
+<li><p>Even though this is a case with unbalanced classes (there only are roughly 14% of goals versus 86% of non goal shots), when we work with Boosting based technics that is not a problem due the nature of these kind of algorithms solves it by itself.</p></li>
+<li><p>I splitted the dataset considering 80% for training and 20% for testing purposes. For training i used cross validation.</p></li>
+<li><p>Finally I fitted 2 models:</p></li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>GBM model with only 2 features (distance + angle)</li>
+<li>GBM model with all the features described before (9)</li>
+</ol>
+<ul>
+<li>I didn’t try to optimize model hyperparameters. So, this could be an improvement option in future as well.</li>
+</ul>
+<p><br/></p>
+</div>
+<div id="results-analysis" class="section level3">
+<h3>Results analysis</h3>
+<ul>
+<li><strong>Models performance</strong></li>
+</ul>
+<p>For performance evaluation I considered the metrics F1 (F Score), Balanced Accuracy, AUC (Area Under Curve), Precission + Recall at hte same time and RMSE. If you are not familiarized with those metrics, take a look <a href="https://towardsdatascience.com/accuracy-recall-precision-f-score-specificity-which-to-optimize-on-867d3f11124?gi=cdcdf22e14c9"target="_blank"><strong>on this article</strong></a>.</p>
+<p>Here a table with the performance of the 2 models detailing their values for all mentioned metrics and then a ROC curve graph where it is possible to see the AUC gain when all features are included. Both cases consider an optimized threshold for Balanced Accuracy and using the testing dataset of course.</p>
+<p><img src="../images/xg_model/table.png" /><!-- --></p>
+<p><img src="../images/xg_model/AUC_plot.png" /><!-- --></p>
+<p>It is sure that model Nª2 (red line) represent the best option due its better performance for all metrics, expcet for Recall whose value drop down from 0.7293 to 0.6966, which is acceptable considering the improvements for the rest of metrics.</p>
+<p>If we compare this performance with another xG models, we get this model has to be improved, even definitively is not a bad case to start. For example, in terms of RMSE the ideal values <a href="https://www.fantasyfootballfix.com/blog-index/how-we-calculate-expected-goals-xg/"target="_blank"><strong>should be between 0.26 and 0.3</strong></a>; whereas for <a href="https://business-analytic.co.uk/blog/evaluating-expected-goals-models/"target="_blank"><strong>AUC between 0.79 and 0.81</strong></a>.</p>
+<p>It is important to remember that only Open Play shots, from one season (2017-2018) and 5 leagues are considered.</p>
+<ul>
+<li><strong>xG values</strong></li>
+</ul>
+<p>The obtained xG values have the expected distribution, despite there are some outliers (look at the half field right side shots).</p>
+<p><img src="../images/xg_model/density_xg_plot.png" /><!-- --></p>
+<p><img src="../images/xg_model/xG_plot2.png" /><!-- --></p>
+<ul>
+<li><strong>Feature importance</strong></li>
+</ul>
+<p>Now a feature importance ranking (scaled values) for the model Nº2:</p>
+<p><img src="../images/xg_model/varimp1_plot.png" /><!-- --> It is clear that the top 3 more relevant features are the distance to the goal, the visible shot angle and the body part. At other hand, the less relevant features are the game period and the boolean feature about the counter attack case.</p>
+<p>It is important to keep in mind that this ranking is based on the MSE metric, which is gotten by default from the tool h2o. So, it is possible to analyze the feature importance with another metrics.</p>
+<ul>
+<li><strong>Partial dependency plots</strong></li>
+</ul>
+<p>This kind of plots allow us to observe how the features affect the model predictions depending on the values that they have. Here the case for the 3 most important features.</p>
+<p><strong>Distance to goal</strong>:</p>
+<p><img src="../images/xg_model/distance_pdp_plot.png" /><!-- --> Both models consider in a similar way the shots from less than 25 meters. The lower the distance the higher the probability (even though the model Nº1 has weird peak close to 13 meters).</p>
+<p>For distance higher than 25 meters, the model Nº2 assign an almost fixed value of probaility near to 0.25. That is possibly compensated with the interaction to another feature. At another hand, the model Nº1 assign a probability close to 0 for these long distances, excepting another strange peak close to the 100 meters surely due to some outlier goal and/or having a small size samples for long shots.</p>
+<p><strong>Visible shot angle</strong>:</p>
+<p><img src="../images/xg_model/angle_pdp_plot.png" /><!-- --> Both models increase the probability as the visible shot angle also increase, from 15º in forward. The model Nº2 is the most conservative.</p>
+<p>For some negatives angles the model Nº1 has a different behaviour: it assigns high probability value, which is wrong in a simple inspection. In contrast, the model Nº2 practically keep its prediction in the same level as the lower angles than 15º. Anyway, the negative angles should to be a point for detailed future reviews.</p>
+<p><strong>Body part (skilled foot)</strong>:</p>
+<p><img src="../images/xg_model/skilled_foot_pdp_plot.png" /><!-- --> It is possible to observe that there is not a big predictions difference between shots with skilled foot or not, but there is a big one between foot shots and head/body shots. As expected, the foot shots has a higher probability.</p>
+<ul>
+<li><strong>Potential features to add</strong></li>
+</ul>
+<p>The following list contains some additional features potentially useful to the model performance:</p>
+<ul>
+<li><p>Location of another players at the time of shot: Goal keeper location, amount and location of opponents and partners.</p></li>
+<li><p>Assistance (previous pass) details: Beside pass positions, also the type of (long ball, crossout, through ball, back pass, etc.)</p></li>
+<li><p>Position where the shooter plays (forward, midfielder, defender, etc.)</p></li>
+<li><p>Some “arbitrary” codification for the danger of plays (e.g. Opta uses the metric “Big chance”)</p></li>
+<li><p>Ball high</p></li>
+<li><p>Distance and Angle of the previous shot</p></li>
+<li><p>Score difference</p></li>
+<li><p>Local / Away condition for the shooter team</p></li>
+<li><p>Tournament type</p></li>
+</ul>
+<p><br/></p>
+</div>
+<div id="application-example" class="section level3">
+<h3>Application example</h3>
+<p>I enjoyed to create a shotmap for “the king” Arturo Vidal in his last season playing for Bayern München, using the just fitted xG model.</p>
+<p>Specifically, we can see all the not blocked shots locations (33), results and their respective xG values mapped with the points size. At the same, it is possible to calculate the cummulated xG sum (3.7) to compare it with the converted goals (6), getting a positive difference of +2.3. So, Vidal had a great performance in terms of goal conversion, better as the expected.</p>
+<p><img src="../images/xg_model/AV_shotmap_plot.png" /><!-- --></p>
+<p>If you have any question feel free to reach me by Twitter <a href="https://twitter.com/DatoFutbol_cl"target="_blank"><strong>here</strong></a>.</p>
+</div>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+
+
+
+
+
+
+
+
+<figure class="author-image">
+    <a class="img" href="../" style="background-image: url(/images/pelota.png)"><span class="hidden">Ismael Gómez's Picture</span></a>
+</figure>
+
+
+<section class="author">
+  <h4><a href="../">Ismael Gómez</a></h4>
+  
+  <p>Read <a href="../">more posts</a> by this author.</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Santiago, Chile</span>
+    
+  </div>
+</section>
+
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Fitting%20your%20own%20football%20xG%20model&nbsp;-&nbsp;DATO%20FUTBOL&amp;url=%2fxg-model%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=%2fxg-model%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=%2fxg-model%2f&amp;description=Fitting%20your%20own%20football%20xG%20model"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=%2fxg-model%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+
+
+
+
+
+
+  </footer>
+</article>
+
+</main>
+
+
+  <aside class="read-next">
+  
+  
+      <a class="read-next-story prev" style="no-cover" href="../libertadores-2020/">
+          <section class="post">
+              <h2>Probabilidades de pasar la fase de grupos en Copa Libertadores 2020</h2>
+          </section>
+      </a>
+  
+</aside>
+
+
+
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">DATO FUTBOL</a> 2017-2019</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
+    <script type="text/javascript" src="../js/ga.js"></script>
+    
+</body>
+</html>
+

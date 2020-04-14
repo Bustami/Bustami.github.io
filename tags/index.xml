@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on DATO FUTBOL</title>
@@ -7,44 +7,98 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>2017-2019</copyright>
-    <lastBuildDate>Sat, 27 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>2019</title>
-      <link>/tags/2019/</link>
-      <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
+      <title>DataScience</title>
+      <link>/tags/datascience/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/2019/</guid>
+      <guid>/tags/datascience/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Alexissanchez</title>
-      <link>/tags/alexissanchez/</link>
-      <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
+      <title>Football</title>
+      <link>/tags/football/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/alexissanchez/</guid>
+      <guid>/tags/football/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bbva</title>
-      <link>/tags/bbva/</link>
-      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
+      <title>Soccer</title>
+      <link>/tags/soccer/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/bbva/</guid>
+      <guid>/tags/soccer/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bundesliga</title>
-      <link>/tags/bundesliga/</link>
-      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
+      <title>SportAnalytics</title>
+      <link>/tags/sportanalytics/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/bundesliga/</guid>
+      <guid>/tags/sportanalytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xG</title>
+      <link>/tags/xg/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/xg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ColoColo</title>
+      <link>/tags/colocolo/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/colocolo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conmebol</title>
+      <link>/tags/conmebol/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/conmebol/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CopaLibertadores</title>
+      <link>/tags/copalibertadores/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/copalibertadores/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Libertadores2020</title>
+      <link>/tags/libertadores2020/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/libertadores2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LosCruzados</title>
+      <link>/tags/loscruzados/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/loscruzados/</guid>
       <description></description>
     </item>
     
@@ -67,124 +121,7 @@
     </item>
     
     <item>
-      <title>Clasificados</title>
-      <link>/tags/clasificados/</link>
-      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/clasificados/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Clasificatorias</title>
-      <link>/tags/clasificatorias/</link>
-      <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/clasificatorias/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Clausura2017</title>
-      <link>/tags/clausura2017/</link>
-      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/clausura2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Colocolo</title>
-      <link>/tags/colocolo/</link>
-      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/colocolo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Conmebol</title>
-      <link>/tags/conmebol/</link>
-      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/conmebol/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Copaamerica</title>
-      <link>/tags/copaamerica/</link>
-      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/copaamerica/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Copadelmundo</title>
-      <link>/tags/copadelmundo/</link>
-      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/copadelmundo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Copalibertadores</title>
-      <link>/tags/copalibertadores/</link>
-      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/copalibertadores/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Datascience</title>
-      <link>/tags/datascience/</link>
-      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/datascience/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Edades</title>
-      <link>/tags/edades/</link>
-      <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/edades/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Europa</title>
-      <link>/tags/europa/</link>
-      <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/europa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fecha15</title>
-      <link>/tags/fecha15/</link>
-      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/fecha15/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Formaciones</title>
-      <link>/tags/formaciones/</link>
-      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/formaciones/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lafranja</title>
+      <title>LaFranja</title>
       <link>/tags/lafranja/</link>
       <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
       
@@ -193,38 +130,47 @@
     </item>
     
     <item>
-      <title>Latabla</title>
-      <link>/tags/latabla/</link>
-      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
+      <title>PrimeraDivision</title>
+      <link>/tags/primeradivision/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/latabla/</guid>
+      <guid>/tags/primeradivision/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Libertadores2020</title>
-      <link>/tags/libertadores2020/</link>
-      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      <title>2019</title>
+      <link>/tags/2019/</link>
+      <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/libertadores2020/</guid>
+      <guid>/tags/2019/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Loscruzados</title>
-      <link>/tags/loscruzados/</link>
-      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      <title>TorneoNacional</title>
+      <link>/tags/torneonacional/</link>
+      <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/loscruzados/</guid>
+      <guid>/tags/torneonacional/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Mariosalas</title>
-      <link>/tags/mariosalas/</link>
-      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
+      <title>CopaAmerica</title>
+      <link>/tags/copaamerica/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/mariosalas/</guid>
+      <guid>/tags/copaamerica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RankingFIFA</title>
+      <link>/tags/rankingfifa/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rankingfifa/</guid>
       <description></description>
     </item>
     
@@ -238,25 +184,34 @@
     </item>
     
     <item>
-      <title>Mercadodepases</title>
-      <link>/tags/mercadodepases/</link>
-      <pubDate>Tue, 15 Aug 2017 00:00:00 +0000</pubDate>
+      <title>Rstats</title>
+      <link>/tags/rstats/</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/mercadodepases/</guid>
+      <guid>/tags/rstats/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Mito</title>
-      <link>/tags/mito/</link>
-      <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
+      <title>SoccerAnalytics</title>
+      <link>/tags/socceranalytics/</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/mito/</guid>
+      <guid>/tags/socceranalytics/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Modelodeprobabilidades</title>
+      <title>CopaDelMundo</title>
+      <link>/tags/copadelmundo/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/copadelmundo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ModeloDeProbabilidades</title>
       <link>/tags/modelodeprobabilidades/</link>
       <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
       
@@ -265,20 +220,11 @@
     </item>
     
     <item>
-      <title>Mundialdefutbol</title>
+      <title>MundialDeFutbol</title>
       <link>/tags/mundialdefutbol/</link>
       <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/mundialdefutbol/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Peligrosidaddel2 0</title>
-      <link>/tags/peligrosidaddel2-0/</link>
-      <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/peligrosidaddel2-0/</guid>
       <description></description>
     </item>
     
@@ -301,56 +247,11 @@
     </item>
     
     <item>
-      <title>Premier</title>
-      <link>/tags/premier/</link>
-      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/premier/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Primeraa</title>
-      <link>/tags/primeraa/</link>
-      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/primeraa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Primeradivision</title>
-      <link>/tags/primeradivision/</link>
-      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/primeradivision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Probabilitymodel</title>
+      <title>ProbabilityModel</title>
       <link>/tags/probabilitymodel/</link>
       <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/probabilitymodel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rankingfifa</title>
-      <link>/tags/rankingfifa/</link>
-      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/rankingfifa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rstats</title>
-      <link>/tags/rstats/</link>
-      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/rstats/</guid>
       <description></description>
     </item>
     
@@ -364,11 +265,20 @@
     </item>
     
     <item>
-      <title>Seriea</title>
-      <link>/tags/seriea/</link>
-      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
+      <title>WorldCup</title>
+      <link>/tags/worldcup/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/seriea/</guid>
+      <guid>/tags/worldcup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AlexisSanchez</title>
+      <link>/tags/alexissanchez/</link>
+      <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/alexissanchez/</guid>
       <description></description>
     </item>
     
@@ -382,29 +292,29 @@
     </item>
     
     <item>
-      <title>Socceranalytics</title>
-      <link>/tags/socceranalytics/</link>
-      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      <title>Clasificados</title>
+      <link>/tags/clasificados/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/socceranalytics/</guid>
+      <guid>/tags/clasificados/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Torneonacional</title>
-      <link>/tags/torneonacional/</link>
-      <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
+      <title>ValorPlanteles</title>
+      <link>/tags/valorplanteles/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/torneonacional/</guid>
+      <guid>/tags/valorplanteles/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Transferencias</title>
-      <link>/tags/transferencias/</link>
-      <pubDate>Tue, 15 Aug 2017 00:00:00 +0000</pubDate>
+      <title>MarioSalas</title>
+      <link>/tags/mariosalas/</link>
+      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/transferencias/</guid>
+      <guid>/tags/mariosalas/</guid>
       <description></description>
     </item>
     
@@ -418,7 +328,7 @@
     </item>
     
     <item>
-      <title>Uc</title>
+      <title>UC</title>
       <link>/tags/uc/</link>
       <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
       
@@ -436,20 +346,146 @@
     </item>
     
     <item>
-      <title>Valorplanteles</title>
-      <link>/tags/valorplanteles/</link>
-      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      <title>Clasificatorias</title>
+      <link>/tags/clasificatorias/</link>
+      <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/valorplanteles/</guid>
+      <guid>/tags/clasificatorias/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Worldcup</title>
-      <link>/tags/worldcup/</link>
-      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
+      <title>MercadoDePases</title>
+      <link>/tags/mercadodepases/</link>
+      <pubDate>Tue, 15 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/worldcup/</guid>
+      <guid>/tags/mercadodepases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transferencias</title>
+      <link>/tags/transferencias/</link>
+      <pubDate>Tue, 15 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/transferencias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clausura2017</title>
+      <link>/tags/clausura2017/</link>
+      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/clausura2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fecha15</title>
+      <link>/tags/fecha15/</link>
+      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fecha15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LaTabla</title>
+      <link>/tags/latabla/</link>
+      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/latabla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PrimeraA</title>
+      <link>/tags/primeraa/</link>
+      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/primeraa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Edades</title>
+      <link>/tags/edades/</link>
+      <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/edades/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Europa</title>
+      <link>/tags/europa/</link>
+      <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/europa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mito</title>
+      <link>/tags/mito/</link>
+      <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mito/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PeligrosidadDel2-0</title>
+      <link>/tags/peligrosidaddel2-0/</link>
+      <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/peligrosidaddel2-0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BBVA</title>
+      <link>/tags/bbva/</link>
+      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bbva/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bundesliga</title>
+      <link>/tags/bundesliga/</link>
+      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bundesliga/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formaciones</title>
+      <link>/tags/formaciones/</link>
+      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/formaciones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Premier</title>
+      <link>/tags/premier/</link>
+      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/premier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SerieA</title>
+      <link>/tags/seriea/</link>
+      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/seriea/</guid>
       <description></description>
     </item>
     
