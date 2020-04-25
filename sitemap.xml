@@ -4,16 +4,36 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/datascience/</loc>
-    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/english/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ranking-fifa-historico-last-en/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/rankingfifa/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/datascience/</loc>
     <lastmod>2020-04-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,22 +48,12 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/soccer/</loc>
     <lastmod>2020-04-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/sportanalytics/</loc>
-    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-04-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -143,17 +153,7 @@
   </url>
   
   <url>
-    <loc>/ranking-fifa-historico-last-en/</loc>
-    <lastmod>2019-05-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/ranking-fifa-historico-last/</loc>
-    <lastmod>2019-05-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/rankingfifa/</loc>
     <lastmod>2019-05-21T00:00:00+00:00</lastmod>
   </url>
   

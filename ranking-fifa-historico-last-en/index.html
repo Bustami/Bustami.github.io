@@ -12,13 +12,13 @@
 
 
 
-<meta name="twitter:title" content="Historical Men FIFA Ranking [april 2019] - EN"/>
+<meta name="twitter:title" content="Historical Men FIFA Ranking [Apr-2020]"/>
 <meta name="twitter:description" content=""/>
 <meta name="twitter:site" content="@DatoFutbol_cl"/>
 
 
 
-  	<meta property="og:title" content="Historical Men FIFA Ranking [april 2019] - EN &middot; DATO FUTBOL" />
+  	<meta property="og:title" content="Historical Men FIFA Ranking [Apr-2020] &middot; DATO FUTBOL" />
   	<meta property="og:site_name" content="DATO FUTBOL" />
   	<meta property="og:url" content="/ranking-fifa-historico-last-en/" />
 
@@ -31,17 +31,18 @@
     
     <meta property="og:description" content="" />
   	<meta property="og:type" content="article" />
-    <meta property="article:published_time" content="2019-05-21T00:00:00Z" />
+    <meta property="article:published_time" content="2020-04-25T00:00:00Z" />
 
     
     <meta property="article:tag" content="RankingFIFA" />
     
     
 
-    <title>Historical Men FIFA Ranking [april 2019] - EN &middot; DATO FUTBOL</title>
+    <title>Historical Men FIFA Ranking [Apr-2020] &middot; DATO FUTBOL</title>
 
     
-    <meta name="description" content="I just updated the Shiny app which allows you visualize the historical Men FIFA ranking, this time including last data officially published (april 2019). Enjoy " />
+    <meta name="description" content="I just updated the R Shiny app which allows you to visualize the historical Men FIFA ranking interactively.
+Data (from August 1993 to April 2020) scraped from " />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -107,17 +108,17 @@
             
         ]
     },
-    "headline": "Historical Men FIFA Ranking [april 2019] - EN",
-    "name": "Historical Men FIFA Ranking [april 2019] - EN",
-    "wordCount":  54 ,
+    "headline": "Historical Men FIFA Ranking [Apr-2020]",
+    "name": "Historical Men FIFA Ranking [Apr-2020]",
+    "wordCount":  86 ,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": "en"
     },
     "url": "/ranking-fifa-historico-last-en/",
-    "datePublished": "2019-05-21T00:00Z",
-    "dateModified": "2019-05-21T00:00Z",
+    "datePublished": "2020-04-25T00:00Z",
+    "dateModified": "2020-04-25T00:00Z",
     
     "keywords": "RankingFIFA",
     "description": "",
@@ -205,7 +206,7 @@
         
             
             <li class="nav-opened" role="presentation">
-            	<a href="https://github.com/Bustami/DatoFutbol">Github</a>
+            	<a href="https://github.com/Dato-Futbol">Github</a>
             </li>
         
         
@@ -243,13 +244,13 @@
   <article class="post post">
 
     <header class="post-header">
-        <h1 class="post-title">Historical Men FIFA Ranking [april 2019] - EN</h1>
+        <h1 class="post-title">Historical Men FIFA Ranking [Apr-2020]</h1>
         <small></small>
 
         <section class="post-meta">
         
-          <time class="post-date" datetime="2019-05-21T00:00:00Z">
-            May 21, 2019
+          <time class="post-date" datetime="2020-04-25T00:00:00Z">
+            Apr 25, 2020
           </time>
         
          
@@ -260,109 +261,23 @@
 
     <section class="post-content">
       
-<script src="../rmarkdown-libs/kePrint/kePrint.js"></script>
 
 
-<p>I just updated the Shiny app which allows you visualize the historical Men FIFA ranking, this time including last data officially published (april 2019). Enjoy it!</p>
-<p>Top 10 Men FIFA Ranking:</p>
-<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:center;">
-Rank
-</th>
-<th style="text-align:center;">
-Team
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center;">
-1
-</td>
-<td style="text-align:center;">
-Belgium
-</td>
-</tr>
-<tr>
-<td style="text-align:center;">
-2
-</td>
-<td style="text-align:center;">
-France
-</td>
-</tr>
-<tr>
-<td style="text-align:center;">
-3
-</td>
-<td style="text-align:center;">
-Brazil
-</td>
-</tr>
-<tr>
-<td style="text-align:center;">
-4
-</td>
-<td style="text-align:center;">
-England
-</td>
-</tr>
-<tr>
-<td style="text-align:center;">
-5
-</td>
-<td style="text-align:center;">
-Croatia
-</td>
-</tr>
-<tr>
-<td style="text-align:center;">
-6
-</td>
-<td style="text-align:center;">
-Uruguay
-</td>
-</tr>
-<tr>
-<td style="text-align:center;">
-7
-</td>
-<td style="text-align:center;">
-Portugal
-</td>
-</tr>
-<tr>
-<td style="text-align:center;">
-8
-</td>
-<td style="text-align:center;">
-Switzerland
-</td>
-</tr>
-<tr>
-<td style="text-align:center;">
-9
-</td>
-<td style="text-align:center;">
-Spain
-</td>
-</tr>
-<tr>
-<td style="text-align:center;">
-10
-</td>
-<td style="text-align:center;">
-Denmark
-</td>
-</tr>
-</tbody>
-</table>
+<p>I just updated the R Shiny app which allows you to visualize the historical Men FIFA ranking interactively.</p>
+<ul>
+<li><p>Data (from August 1993 to April 2020) scraped from the FIFA official website.</p></li>
+<li><p>The app has a date range and country selectors. It is possible to visualize from 1 to 3 nations at the same time.</p></li>
+<li><p>Option to image download as PNG file.</p></li>
+<li><p>Link to the <a href="https://bustami.shinyapps.io/ranking_fifa/"><strong>Github repo</strong></a> if you want to review the code and/or use the data by yourself.</p></li>
+</ul>
 <hr />
-<p>App:</p>
-<iframe width="900" height="750" scrolling="yes" frameborder="no" src="https://bustami.shinyapps.io/ranking_fifa/">
+<div align="center">
+<iframe width="1200" height="750" scrolling="yes" frameborder="no" src="https://bustami.shinyapps.io/ranking_fifa/">
 </iframe>
+</div>
+<ul>
+<li><a href="https://bustami.shinyapps.io/ranking_fifa/"><strong>Here the direct link</strong></a> to the app.</li>
+</ul>
 
     </section>
 
@@ -401,7 +316,7 @@ Denmark
     
 <section class="share">
   <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Historical%20Men%20FIFA%20Ranking%20%5bapril%202019%5d%20-%20EN&nbsp;-&nbsp;DATO%20FUTBOL&amp;url=%2franking-fifa-historico-last-en%2f"
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Historical%20Men%20FIFA%20Ranking%20%5bApr-2020%5d&nbsp;-&nbsp;DATO%20FUTBOL&amp;url=%2franking-fifa-historico-last-en%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>
   </a>
@@ -409,7 +324,7 @@ Denmark
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
   </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=%2franking-fifa-historico-last-en%2f&amp;description=Historical%20Men%20FIFA%20Ranking%20%5bapril%202019%5d%20-%20EN"
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=%2franking-fifa-historico-last-en%2f&amp;description=Historical%20Men%20FIFA%20Ranking%20%5bApr-2020%5d"
       onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
       <span class="hidden">Pinterest</span>
   </a>
@@ -437,17 +352,10 @@ Denmark
 
   <aside class="read-next">
   
-      <a class="read-next-story" style="no-cover" href="../chile-copa-america-2019/">
-          <section class="post">
-              <h2>¿Cómo llega Chile a la Copa América 2019?</h2>
-              
-          </section>
-      </a>
   
-  
-      <a class="read-next-story prev" style="no-cover" href="../ranking-fifa-historico-last/">
+      <a class="read-next-story prev" style="no-cover" href="../xg-model/">
           <section class="post">
-              <h2>Ranking FIFA histórico [abril 2019]</h2>
+              <h2>Fitting your own football xG model</h2>
           </section>
       </a>
   

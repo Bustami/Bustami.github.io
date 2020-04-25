@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>2017-2019</copyright>
-    <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/english/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Historical Men FIFA Ranking [Apr-2020]</title>
+      <link>/ranking-fifa-historico-last-en/</link>
+      <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/ranking-fifa-historico-last-en/</guid>
+      <description>I just updated the R Shiny app which allows you to visualize the historical Men FIFA ranking interactively.
+Data (from August 1993 to April 2020) scraped from the FIFA official website.
+The app has a date range and country selectors. It is possible to visualize from 1 to 3 nations at the same time.
+Option to image download as PNG file.
+Link to the Github repo if you want to review the code and/or use the data by yourself.</description>
+    </item>
     
     <item>
       <title>Fitting your own football xG model</title>
@@ -20,17 +33,6 @@
       <guid>/xg-model/</guid>
       <description>Along this article I am going to share some detail which could be useful if you want to fit your own xG model, in addition to its respective performance evaluation and results analysis.
 What is xG?The xG (eXpected Goals) is the main metric used into the Football Analytics field nowadays. In simple words, it is the probability (from 0 to 1) that a shot has to become in a goal.</description>
-    </item>
-    
-    <item>
-      <title>Historical Men FIFA Ranking [april 2019] - EN</title>
-      <link>/ranking-fifa-historico-last-en/</link>
-      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/ranking-fifa-historico-last-en/</guid>
-      <description>I just updated the Shiny app which allows you visualize the historical Men FIFA ranking, this time including last data officially published (april 2019). Enjoy it!
-Top 10 Men FIFA Ranking:
-RankTeam1Belgium2France3Brazil4England5Croatia6Uruguay7Portugal8Switzerland9Spain10DenmarkApp:</description>
     </item>
     
     <item>

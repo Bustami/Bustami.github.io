@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>2017-2019</copyright>
-    <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RankingFIFA</title>
+      <link>/tags/rankingfifa/</link>
+      <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rankingfifa/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DataScience</title>
@@ -162,15 +171,6 @@
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/copaamerica/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RankingFIFA</title>
-      <link>/tags/rankingfifa/</link>
-      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/rankingfifa/</guid>
       <description></description>
     </item>
     
