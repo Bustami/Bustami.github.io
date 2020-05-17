@@ -7,53 +7,80 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>2017-2019</copyright>
-    <lastBuildDate>Sat, 25 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>RankingFIFA</title>
-      <link>/tags/rankingfifa/</link>
-      <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
+      <title>data-science</title>
+      <link>/tags/data-science/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/rankingfifa/</guid>
+      <guid>/tags/data-science/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>DataScience</title>
-      <link>/tags/datascience/</link>
-      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/datascience/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Football</title>
+      <title>football</title>
       <link>/tags/football/</link>
-      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/football/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Soccer</title>
+      <title>passing-networks</title>
+      <link>/tags/passing-networks/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/passing-networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rstats</title>
+      <link>/tags/rstats/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rstats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>soccer</title>
       <link>/tags/soccer/</link>
-      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/soccer/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>SportAnalytics</title>
-      <link>/tags/sportanalytics/</link>
-      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      <title>sport-analytics</title>
+      <link>/tags/sport-analytics/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/sportanalytics/</guid>
+      <guid>/tags/sport-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fifa-ranking</title>
+      <link>/tags/fifa-ranking/</link>
+      <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fifa-ranking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shiny</title>
+      <link>/tags/shiny/</link>
+      <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/shiny/</guid>
       <description></description>
     </item>
     
@@ -175,20 +202,29 @@
     </item>
     
     <item>
+      <title>RankingFIFA</title>
+      <link>/tags/rankingfifa/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rankingfifa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DataScience</title>
+      <link>/tags/datascience/</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/datascience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Medium</title>
       <link>/tags/medium/</link>
       <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/medium/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rstats</title>
-      <link>/tags/rstats/</link>
-      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/rstats/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    
+        <meta name="twitter:card" content="summary"/>
+    
+
+
+
+<meta name="twitter:title" content="Football passing networks using R"/>
+<meta name="twitter:description" content=""/>
+<meta name="twitter:site" content="@DatoFutbol_cl"/>
+
+
+
+  	<meta property="og:title" content="Football passing networks using R &middot; DATO FUTBOL" />
+  	<meta property="og:site_name" content="DATO FUTBOL" />
+  	<meta property="og:url" content="/passing-networks-r/" />
+
+    
+        
+            <meta property="og:image" content="/images/Rplot.png"/>
+        
+    
+
+    
+    <meta property="og:description" content="" />
+  	<meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2020-05-17T00:00:00Z" />
+
+    
+    <meta property="article:tag" content="passing-networks" />
+    
+    <meta property="article:tag" content="sport-analytics" />
+    
+    <meta property="article:tag" content="football" />
+    
+    <meta property="article:tag" content="soccer" />
+    
+    <meta property="article:tag" content="data-science" />
+    
+    <meta property="article:tag" content="rstats" />
+    
+    
+
+    <title>Football passing networks using R &middot; DATO FUTBOL</title>
+
+    
+    <meta name="description" content="In this article I am going to tell you what the passing networks are and how to create them, in addition to share with you some R codes that I prepared for that" />
+    
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="../images/favicon.ico">
+	  <link rel="apple-touch-icon" href="../images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="../css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="../css/nav.css" />
+
+    
+
+    
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+        
+        <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+      
+          <link href="../index.xml" rel="alternate" type="application/rss+xml" title="DATO FUTBOL" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.69.0" />
+
+    <link rel="canonical" href="../passing-networks-r/" />
+
+    
+      
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name":  null ,
+        "logo": "/images/pelota.png"
+    },
+    "author": {
+        "@type": "Person",
+        "name":  null ,
+        
+        "image": {
+            "@type": "ImageObject",
+            "url": "/images/pelota.png",
+            "width": 250,
+            "height": 250
+        }, 
+        
+        "url":  null ,
+        "sameAs": [
+            
+            
+             
+             
+             
+             
+             
+            
+        ]
+    },
+    "headline": "Football passing networks using R",
+    "name": "Football passing networks using R",
+    "wordCount":  1993 ,
+    "timeRequired": "PT10M",
+    "inLanguage": {
+      "@type": "Language",
+      "alternateName": "en"
+    },
+    "url": "/passing-networks-r/",
+    "datePublished": "2020-05-17T00:00Z",
+    "dateModified": "2020-05-17T00:00Z",
+    
+    "keywords": "passing-networks, sport-analytics, football, soccer, data-science, rstats",
+    "description": "",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/passing-networks-r/"
+    }
+}
+    </script>
+    
+
+
+    
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-92157714-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="../post/">Inicio</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="../about/">About</a>
+            </li>
+        
+            <h3>CATEGORIES</h3>
+            <li class="nav-opened" role="presentation">
+            	<a href="../categories/chile/">Chile</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="../categories/conmebol/">Conmebol</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="../categories/europa/">Europa</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="../categories/varios/">Varios</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="../categories/english/">English</a>
+            </li>
+        
+            <h3>CONTACT</h3>
+            <li class="nav-opened" role="presentation">
+            	<a href="https://twitter.com/DatoFutbol_cl">Twitter</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="https://www.facebook.com/datofutbolCL">Facebook</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="https://github.com/Dato-Futbol">Github</a>
+            </li>
+        
+        
+    </ul>
+
+
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="../"><img src="../images/pelota.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Football passing networks using R</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2020-05-17T00:00:00Z">
+            May 17, 2020
+          </time>
+        
+         
+          <span class="post-tag small"><a href="//tags/passing-networks/">#passing-networks</a></span>
+         
+          <span class="post-tag small"><a href="//tags/sport-analytics/">#sport-analytics</a></span>
+         
+          <span class="post-tag small"><a href="//tags/football/">#football</a></span>
+         
+          <span class="post-tag small"><a href="//tags/soccer/">#soccer</a></span>
+         
+          <span class="post-tag small"><a href="//tags/data-science/">#data-science</a></span>
+         
+          <span class="post-tag small"><a href="//tags/rstats/">#rstats</a></span>
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      
+
+
+<p>In this article I am going to tell you what the passing networks are and how to create them, in addition to share with you some R codes that I prepared for that and some examples cases.</p>
+<p>If you don’t consider yourself a football analytics nerd and you have not seen yet the slides from the presentations <a href="http://datofutbol.cl/satRdaySCL2018-soccer-analytics-R/index.html"target="_blank"><strong>“A look into Soccer Analytics using R”</strong></a> and <a href="http://datofutbol.cl/revolucion-datos-soccer-analytics-seminario-UAI-2019/"target="_blank"><strong>“Soccer Analytics: A data revolution”</strong></a> I would suggest to check them in order to be familiar with the data types and terminology mentioned here.</p>
+<div id="what-the-passing-networks-are" class="section level2">
+<h2>What the passing networks are?</h2>
+<p>The passing networks are one example more of the bunch of new method, metrics and visualizations which have arisen in the last years trying to analyze what happens inside the pitch along a football game.</p>
+<p>The passing networks are based on a (generally basic) approach to the graphs theory or analysis, where it is considered the existence of: 1) individual entities (nodes or vertices) which belong to a population or specific group, and 2) the connections between them (edges) in terms an interaction to measure. All this in a spatial and temporal frame.</p>
+<p><img src="../images/passing-networks/grafo.png" /><!-- --></p>
+<p>So, if we translate this to football, the nodes are the players of a same team and the edges are the passes between them, considering the pitch as the spatial frame and the duration of one game (generally) the temporal frame.</p>
+<p>Here an example of the France passing network in the game with Belgium of the Rusia 2018 World Cup’s semifinal:</p>
+<p><img src="../images/passing-networks/France-Belgium.png" /><!-- --></p>
+<p><br/></p>
+</div>
+<div id="how-the-passing-networks-are-created" class="section level2">
+<h2>How the passing networks are created?</h2>
+<p>In the following I mention some key considerations to keep in mind when you create a passing netwrok and then I present details about the R code that I prepared for sharing.</p>
+<p>First, of course the main part is to have the necessary data. For that, to have the following evetn data is enough:</p>
+<ul>
+<li>All the acurate passes (completed, not failed) done by a team along the game, with these details: player who do the pass and player who receive the pass (name, jersey number or some ID), [x, y] coordinates of origin and end of passes, and the moment when the passes occur (seconds elapsed).</li>
+</ul>
+<p>In general the event data providers bring this data (Statsbomb, Opta, Wyscout, etc.)</p>
+<div id="data-processing-considerations" class="section level3">
+<h3>Data processing considerations</h3>
+<ul>
+<li>To verify if the coordinates were correctly registered and to apply transformations if it is necessary, depending on:</li>
+</ul>
+<p>Spatial orientation of the field and the stated coordinates values codification by the data provider. What specfic part of the field is represented by the 0,0 point?</p>
+<p><img src="../images/passing-networks/providers_dif.jpg" /><!-- --></p>
+<p>The real dimensions of the field to calculate distance metrics. Generally standard dimensions are used: 105x68 meters.</p>
+<p>For the same team along all the game it should be only one attacking direction, even though in football there is a side change in half time.</p>
+<ul>
+<li><p>To limit the temporal window to consider from the game starting to the minimal minute between the first substitution or the first red card, if there is one. It pretends to only consider the time when the same 11 team players who were on the field at the beginning keep on it, owing one of the limitations of this kind of method is just to struggle easly with the metric calculations when players go out.</p></li>
+<li><p>Additional calculations in case you have the data (see the section about variation types)</p></li>
+</ul>
+<p><br/></p>
+</div>
+<div id="visual-considerations" class="section level3">
+<h3>Visual considerations</h3>
+<p>Whwn you define the data visualization mapping these are the most frequent considerations:</p>
+<ul>
+<li><p><strong>Nodes position</strong>: Mean or median player location when they do and/or receive a pass</p></li>
+<li><p><strong>Nodes size</strong>: Fixed size or variable size depending on amount of passes, weighted by partners passes</p></li>
+<li><p><strong>Edges width</strong>: Amount of passes between specific two nodes, weighted by the comparison to the amount of passes between another node pairs</p></li>
+<li><p><strong>Edges direction</strong>: Even though some time this detail is ommited, in some cases it is shown with arrows depending on de direction of the passes</p></li>
+<li><p><strong>Player ID</strong>: Label or text (name, jersey numerb, etc.) on the nodes or close to them</p></li>
+</ul>
+<p><br/></p>
+</div>
+<div id="variation-types" class="section level3">
+<h3>Variation types</h3>
+<p>The variation depends on the goal and the available data. Here a list of common variation:</p>
+<p>1.- Having tracking data it is possible to get interesting variations in terms of nodes position in different game situations:</p>
+<ul>
+<li><p>Mean or median players location when their team had the ball possesion (attacking) or when hadn’t it (defending)</p></li>
+<li><p>Mean or median players location when the ball was inside the own half or inside the opponent half</p></li>
+</ul>
+<p>2.- For some cases of advanced analytics, instead of use the amount of passes, metrics which allow to quantify the value of passes are considered, in terms of their contribution (positive or negative) to the score or keep ball possesion probability, like these models: <a href="https://people.cs.kuleuven.be/~tom.decroos/reports/kdd19_tomd.pdf"target="_blank"><strong>VAEP</strong></a> (Valuing Actions by Estimating Probabilities), <a href="https://karun.in/blog/expected-threat.html"target="_blank"><strong>xT</strong></a> (Expected Threat), <a href="http://www.sloansportsconference.com/wp-content/uploads/2019/02/Decomposing-the-Immeasurable-Sport.pdf"target="_blank"><strong>EPV</strong></a> (Expected Possession value), <a href="https://www.optasportspro.com/news-analysis/blog-introducing-a-possession-value-framework/"target="_blank"><strong>PV</strong></a> (Possession value), <a href="https://www.americansocceranalysis.com/home/2020/4/22/37ucr0d5urxxtryn2cfhzormdziphq"target="_blank"><strong>g+</strong></a> (Goals Added). It is just for this kind of cases when the color using (scales of color and/or transparency) comes relevant to map the nodes and/or the edges.</p>
+<p>If you are interested, the VAEP model implementation and the context variation with tracking data are available (Python) in <a href="https://github.com/Friends-of-Tracking-Data-FoTD/passing-networks-in-python"target="_blank"><strong>the passing networks Github repository of the Friends of Tracking</strong></a>. Here an example:</p>
+<p><img src="../images/passing-networks/statsbomb_match7576_Spain_pass_value.png" /><!-- --></p>
+<p>3.- In addition to quantify the passes value some application are alsofocused on to enlight specific pass types, like “long passes”, “backward passes”, “sideways passes”, etc. Take a look into this work for more details: <a href="https://karun.in/blog/interactive-passing-networks.html"target="_blank"><strong>Interactive Passing Networks. Uncovering the hidden potential of passing networks through interactive visualizations</strong></a>.</p>
+<p>4.- To include extra information like the amount, accuracy and median length of passes, in addition to ball possession data with metrics like effective possession time and its percent, amount of passes per each possesion or per minute od possession.</p>
+<p>5.- To add spatial (2d geometry) visualization and metrics, like the Convex Hull which represent the smallest shape set that contains all connection between nodes (without the goalkeeper). With this it is possible to calculate the distance from the centroid to the both goals, besides the area, amplitude and depth.</p>
+<p>6.- To incorporate metrics related to network analysis, like density, centrality, heterogeneity, conectivity, triangulation, etc. Here a project with this focus <a href="https://grafos-da-bola.netlify.app"target="_blank"><strong>Football Passing Networks</strong></a> and some interesting publications to go deeper in the topic: <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2018.01900/full"target="_blank"><strong>[1]</strong></a>, <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0171156"target="_blank"><strong>[2]</strong></a> &amp; <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2019.01738/full"target="_blank"><strong>[3]</strong></a>.</p>
+<p><br/></p>
+</div>
+</div>
+<div id="create-your-own-passing-networks" class="section level2">
+<h2>Create your own passing networks</h2>
+<p>Now is your turn. I prepared some of R code for you can create your own passing networks using public data, both <a href="https://github.com/statsbomb/open-data"target="_blank"><strong>Statsbomb event data</strong></a> and <a href="https://github.com/metrica-sports/sample-data"target="_blank"><strong>Metrica Sport tracking data</strong></a>.</p>
+<p>Here <a href="https://github.com/Dato-Futbol/passing-networks"target="_blank"><strong>the link to the Github repository</strong></a> where you will find the codes, necessary files and instructions to dive into.</p>
+<p>This work is in some way a mix of these things:</p>
+<ul>
+<li><p>A complement to the soccerPassmap function from <a href="https://github.com/JoGall/soccermatics"target="_blank"><strong>the {soccermatics} package</strong></a> by Joe Gallagher</p></li>
+<li><p>An adaptation to R from the Python code contained in <a href="https://github.com/Friends-of-Tracking-Data-FoTD/passing-networks-in-python"target="_blank"><strong>the passing networks Github repository of the Friends of Tracking</strong></a></p></li>
+<li><p>An implementation of different ideas from the football analytics community and myself</p></li>
+</ul>
+<p>The functions <strong>soccerPassNetEventing</strong> y <strong>soccerPassNetTracking</strong> will allow you to create and customize each one of your graphs, applying the variations that you prefer. The input parameters to set are the following.</p>
+<p>Arguments for both functions (event &amp; tracking):</p>
+<ul>
+<li><p>Boolean feature to set edges with or without directions (arrows), so it can be a directed or not directed passing network [<em>pass_dir</em>]</p></li>
+<li><p>Node position only depending on origin pass location (“origin”) or considering both origin and end locations (“both”) [<em>node_pos</em>]</p></li>
+<li><p>Numeric value to set the minimal amount of edges passes to show [<em>minPass</em>]</p></li>
+<li><p>Boolean feature to set if to include or not the visualization ans stats related to the Convex Hull [<em>convex</em>]</p></li>
+<li><p>Boolean feature to set if to include or not the ball possession stats [<em>poss</em>]</p></li>
+<li><p>Boolean feature to set if to flip or not the attacking direction [<em>Flipx</em>]</p></li>
+<li><p>Boolean feature to set if to show or not the player labels [<em>label</em>] and a numeric value about its size [<em>labelSize</em>]</p></li>
+<li><p>Boolean feature to set if to short or not the names of players [<em>shortNames</em>]</p></li>
+<li><p>Visual node aspects: color to fill [<em>nodeFill</em>] and maximum size [<em>maxNodeSize</em>]</p></li>
+<li><p>Visual edge aspects: color to fill [<em>edgeFill</em>], color transparency [<em>edgeAlpha</em>] and maximum size [<em>maxEdgeSize</em>]</p></li>
+<li><p>Background image [<em>field</em>]: “1” is light blue, “2” is green (grass) and “3” is “white”.</p></li>
+</ul>
+<p>Exclusive arguments for tracking data:</p>
+<ul>
+<li><p>Data reference to calculate the node positions: “event” or “track” [<em>pos_source</em>]</p></li>
+<li><p>In case of to select “track”for node positions, it is possible to get that for special contexts: 1) ball possession context “attacking” (on the ball), “defending” (off the ball) or “all” (all cases) [<em>context</em>]; and 2) ball position context “own” (own half), “opp” (opponent half) and “all” (all field) [<em>half</em>].</p></li>
+</ul>
+<p><br/></p>
+</div>
+<div id="using-examples" class="section level2">
+<h2>Using examples</h2>
+<p><strong>1.- World Cup Russia 2018 event data (Statsbomb)</strong></p>
+<p>The game Japan (2) vs Belgium (3) in 16th round:</p>
+<p><img src="../images/passing-networks/Japan-Belgium-ver2.png" /><!-- --></p>
+<p>Japan did its first sbstitution at minute 80, 6 minutes after to be tied 2-2 after to be winning (sorpresively) 2-0.</p>
+<p>The network reflects a short (depth = 25 meters) and wide team (amplitude = 61 meters), with a general players positions centralized in average. The passes participation of most of its players was homogeneous, being more notorious for Haseb and Shibasaki at the center, Kagawa as the creator midfielder and also Nagatomo and Yoshida in their respective positions. Even though Osako went a little bit to back at mid positions, he didn’t participe too much compared to his partners. In the most common interactions the left interior midfielder Inui participed, as receptor of pases from Kagawa and Nagatomo.</p>
+<p>The ball possession until minute 80 was 40% compared to the effective possession time and the pass accuracy was 79%. In both cases the values are lower than Belgium (60% and 84% respectively). The median pass lenght reachs 15 meters (2 meters lower than its opponent), representing a closer interaction.</p>
+<p><img src="../images/passing-networks/Belgium-Japan-ver2.png" /><!-- --></p>
+<p>An another hand, Belgium did its first substitution at minute 64, when it still was 0-2 losing. Until that moent, the passing networks shows a long (depth = 52 meters) and wide team (amplitude = 60 meters). In contrast to Japan, in addition to the high difference in the depth value, its players participation was not homogeneus, in fact it was mainly biased to its defense line of 3 defenders, whose connections also represent the most frequent interactions. Even though Belgium had higher ball possession (60%), an important part of its passes occur across own half.</p>
+<p>It would be interesting to see how the networks changed after the 2 substitutions done at minute 64.</p>
+<p>Finally, I think that is not possible to get too many more meaningfull insights from this graphs. It would be useful to include some metric to value passes like the mentioned above or to have the tracking data related to add more context analysis. In addition to that, we have to always be careful with the interpretations here specially because this is “just an average picture” of what happened along the considered temporal window.</p>
+<p><strong>2.- Tracking data (Metrica Sport)</strong></p>
+<p>In the following part a couple of examples using the context variations:</p>
+<ul>
+<li>With this tool we can see the difference between passing networks of a same team when it has the ball possession and when it hasn’t it [Game 1, Home Team]</li>
+</ul>
+<p><img src="../images/passing-networks/1-Home-attack-own-ver2.png" /><!-- --><img src="../images/passing-networks/1-Home-attack-opp-ver2.png" /><!-- --></p>
+<ul>
+<li>In addition to above, even paradoxly not considering the passes, we can to observe the mean positions along defensive states (off ball possessions) across the own half and the opponent half [Game 1, Away Team, right to left play direction.</li>
+</ul>
+<p>3.- Using both event data or tracking data, another application is to increase the temporal window in order to include a lot of games (e.g. a whole league season). This way the passing networks can show general long time position and/or interaction patterns, allowing teams comparison.</p>
+<p>Here a recent example of the season 2019-2020 of Premier League (click <a href="https://twitter.com/abhisheksh_98/status/1260967272639639553?s=20"target="_blank"><strong>here</strong></a> to see the source):</p>
+<p><img src="../images/passing-networks/premier.png" /><!-- --></p>
+<p>Here a study focused on to get the representative passing networks for the mythical Guardiola’s Barcelona (click <a href="https://www.nature.com/articles/s41598-019-49969-2"target="_blank"><strong>here</strong></a> to see the source):</p>
+<p><img src="../images/passing-networks/barcelona.png" /><!-- --></p>
+<p>If you have any question or feedback please feel free to reach me by Twitter <a href="https://twitter.com/DatoFutbol_cl"target="_blank"><strong><span class="citation">@DatoFutbol_cl</span></strong></a> or to my email account: <strong><a href="mailto:ismaelgomezs@gmail.com">ismaelgomezs@gmail.com</a></strong>.</p>
+</div>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+
+
+
+
+
+
+
+
+<figure class="author-image">
+    <a class="img" href="../" style="background-image: url(/images/pelota.png)"><span class="hidden">Ismael Gómez's Picture</span></a>
+</figure>
+
+
+<section class="author">
+  <h4><a href="../">Ismael Gómez</a></h4>
+  
+  <p>Read <a href="../">more posts</a> by this author.</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Santiago, Chile</span>
+    
+  </div>
+</section>
+
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Football%20passing%20networks%20using%20R&nbsp;-&nbsp;DATO%20FUTBOL&amp;url=%2fpassing-networks-r%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=%2fpassing-networks-r%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=%2fpassing-networks-r%2f&amp;description=Football%20passing%20networks%20using%20R"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=%2fpassing-networks-r%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+
+
+
+
+
+
+  </footer>
+</article>
+
+</main>
+
+
+  <aside class="read-next">
+  
+  
+      <a class="read-next-story prev" style="no-cover" href="../ranking-fifa-historico-last-en/">
+          <section class="post">
+              <h2>Historical Men FIFA Ranking [Apr-2020]</h2>
+          </section>
+      </a>
+  
+</aside>
+
+
+
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">DATO FUTBOL</a> 2017-2019</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
+    <script type="text/javascript" src="../js/ga.js"></script>
+    
+</body>
+</html>
+

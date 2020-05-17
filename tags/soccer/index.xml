@@ -1,16 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Soccer on DATO FUTBOL</title>
+    <title>soccer on DATO FUTBOL</title>
     <link>/tags/soccer/</link>
-    <description>Recent content in Soccer on DATO FUTBOL</description>
+    <description>Recent content in soccer on DATO FUTBOL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>2017-2019</copyright>
-    <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/soccer/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Football passing networks using R</title>
+      <link>/passing-networks-r/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/passing-networks-r/</guid>
+      <description>In this article I am going to tell you what the passing networks are and how to create them, in addition to share with you some R codes that I prepared for that and some examples cases.
+If you don’t consider yourself a football analytics nerd and you have not seen yet the slides from the presentations “A look into Soccer Analytics using R” and “Soccer Analytics: A data revolution” I would suggest to check them in order to be familiar with the data types and terminology mentioned here.</description>
+    </item>
+    
+    <item>
+      <title>Historical Men FIFA Ranking [Apr-2020]</title>
+      <link>/ranking-fifa-historico-last-en/</link>
+      <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/ranking-fifa-historico-last-en/</guid>
+      <description>I just updated the R Shiny app which allows you to visualize the historical Men FIFA ranking interactively.
+Data (from August 1993 to April 2020) scraped from the FIFA official website.
+The app has a date range and country selectors. It is possible to visualize from 1 to 3 nations at the same time.
+Option to image download as PNG file.
+Link to the Github repo if you want to review the code and/or use the data by yourself.</description>
+    </item>
     
     <item>
       <title>Fitting your own football xG model</title>

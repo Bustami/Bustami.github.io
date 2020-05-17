@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>2017-2019</copyright>
-    <lastBuildDate>Sat, 25 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/english/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Football passing networks using R</title>
+      <link>/passing-networks-r/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/passing-networks-r/</guid>
+      <description>In this article I am going to tell you what the passing networks are and how to create them, in addition to share with you some R codes that I prepared for that and some examples cases.
+If you don’t consider yourself a football analytics nerd and you have not seen yet the slides from the presentations “A look into Soccer Analytics using R” and “Soccer Analytics: A data revolution” I would suggest to check them in order to be familiar with the data types and terminology mentioned here.</description>
+    </item>
     
     <item>
       <title>Historical Men FIFA Ranking [Apr-2020]</title>
