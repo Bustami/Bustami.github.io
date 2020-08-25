@@ -4,22 +4,62 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/data-science/</loc>
-    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/english/</loc>
-    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/football/</loc>
-    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/rstats/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/soccer/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/soccer-animate/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/sport-analytics/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/tracking-data/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/soccer-animate-r-package/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -29,31 +69,6 @@
   
   <url>
     <loc>/tags/passing-networks/</loc>
-    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/rstats/</loc>
-    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/soccer/</loc>
-    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/sport-analytics/</loc>
-    <lastmod>2020-05-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-05-17T00:00:00+00:00</lastmod>
   </url>
   

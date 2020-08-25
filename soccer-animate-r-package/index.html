@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    
+        <meta name="twitter:card" content="summary"/>
+    
+
+
+
+<meta name="twitter:title" content="{soccerAnimate} an R package to create 2D soccer animations"/>
+<meta name="twitter:description" content=""/>
+<meta name="twitter:site" content="@DatoFutbol_cl"/>
+
+
+
+  	<meta property="og:title" content="{soccerAnimate} an R package to create 2D soccer animations &middot; DATO FUTBOL" />
+  	<meta property="og:site_name" content="DATO FUTBOL" />
+  	<meta property="og:url" content="/soccer-animate-r-package/" />
+
+    
+        
+            <meta property="og:image" content="/images/Rplot.png"/>
+        
+    
+
+    
+    <meta property="og:description" content="" />
+  	<meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2020-08-25T00:00:00Z" />
+
+    
+    <meta property="article:tag" content="soccer-animate" />
+    
+    <meta property="article:tag" content="sport-analytics" />
+    
+    <meta property="article:tag" content="football" />
+    
+    <meta property="article:tag" content="soccer" />
+    
+    <meta property="article:tag" content="data-science" />
+    
+    <meta property="article:tag" content="rstats" />
+    
+    <meta property="article:tag" content="tracking-data" />
+    
+    
+
+    <title>{soccerAnimate} an R package to create 2D soccer animations &middot; DATO FUTBOL</title>
+
+    
+    <meta name="description" content="I just published my first R package: {soccerAnimate}, which allows you to create 2D soccer animations using tracking data. Here I’m going to tell you some detai" />
+    
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="../images/favicon.ico">
+	  <link rel="apple-touch-icon" href="../images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="../css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="../css/nav.css" />
+
+    
+
+    
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+        
+        <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+        <link href="http://feeds.feedburner.com/datofutbol/lUDA" rel="alternate" type="application/rss+xml" title="DATO FUTBOL" />
+    
+    <meta name="generator" content="Hugo 0.69.0" />
+
+    <link rel="canonical" href="../soccer-animate-r-package/" />
+
+    
+      
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name":  null ,
+        "logo": "/images/pelota.png"
+    },
+    "author": {
+        "@type": "Person",
+        "name":  null ,
+        
+        "image": {
+            "@type": "ImageObject",
+            "url": "/images/pelota.png",
+            "width": 250,
+            "height": 250
+        }, 
+        
+        "url":  null ,
+        "sameAs": [
+            
+            
+             
+             
+             
+             
+             
+            
+        ]
+    },
+    "headline": "{soccerAnimate} an R package to create 2D soccer animations",
+    "name": "{soccerAnimate} an R package to create 2D soccer animations",
+    "wordCount":  888 ,
+    "timeRequired": "PT5M",
+    "inLanguage": {
+      "@type": "Language",
+      "alternateName": "en"
+    },
+    "url": "/soccer-animate-r-package/",
+    "datePublished": "2020-08-25T00:00Z",
+    "dateModified": "2020-08-25T00:00Z",
+    
+    "keywords": "soccer-animate, sport-analytics, football, soccer, data-science, rstats, tracking-data",
+    "description": "",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/soccer-animate-r-package/"
+    }
+}
+    </script>
+    
+
+
+    
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-92157714-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="../post/">Inicio</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="../about/">About</a>
+            </li>
+        
+            <h3>CATEGORIES</h3>
+            <li class="nav-opened" role="presentation">
+            	<a href="../categories/chile/">Chile</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="../categories/conmebol/">Conmebol</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="../categories/europa/">Europa</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="../categories/varios/">Varios</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="../categories/english/">English</a>
+            </li>
+        
+            <h3>CONTACT</h3>
+            <li class="nav-opened" role="presentation">
+            	<a href="https://twitter.com/DatoFutbol_cl">Twitter</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="https://www.facebook.com/datofutbolCL">Facebook</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="https://github.com/Dato-Futbol">Github</a>
+            </li>
+        
+        
+    </ul>
+
+
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="../"><img src="../images/pelota.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">{soccerAnimate} an R package to create 2D soccer animations</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2020-08-25T00:00:00Z">
+            Aug 25, 2020
+          </time>
+        
+         
+          <span class="post-tag small"><a href="//tags/soccer-animate/">#soccer-animate</a></span>
+         
+          <span class="post-tag small"><a href="//tags/sport-analytics/">#sport-analytics</a></span>
+         
+          <span class="post-tag small"><a href="//tags/football/">#football</a></span>
+         
+          <span class="post-tag small"><a href="//tags/soccer/">#soccer</a></span>
+         
+          <span class="post-tag small"><a href="//tags/data-science/">#data-science</a></span>
+         
+          <span class="post-tag small"><a href="//tags/rstats/">#rstats</a></span>
+         
+          <span class="post-tag small"><a href="//tags/tracking-data/">#tracking-data</a></span>
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      
+
+
+<p>I just published my first R package: {soccerAnimate}, which allows you to create 2D soccer animations using tracking data. Here I’m going to tell you some details about its functionalities and future additions.</p>
+<p><img src="../images/soccer-animate/example_B.gif" /><!-- --></p>
+<p><br/></p>
+<div id="main-functionalities" class="section level2">
+<h2>Main functionalities</h2>
+<p>Currently all functions of the package are prepared to work only with the data format of the data provider Metrica Sports, due they made public a tracking dataset as example (<a href="https://github.com/metrica-sports/sample-data"target="_blank"><strong>here</strong></a>).</p>
+<p>Details about each available functions of soccerAnimate package is presented in the following paragraphs:</p>
+<div id="to-prepare-the-data-before-to-visualizate-it" class="section level4">
+<h4>1) To prepare the data before to visualizate it</h4>
+<p>The <strong>get_tidy_data()</strong> function allows you to import data to RStudio and to process it in order to have the optimal structure to later do the visualizations.</p>
+<p>In addition to the above, along the process also another task are executed: characters cleansing to get the shirt number of players, data joining between both the home and away team, goal keeper identification, etc. Here an example of the output data format:</p>
+<pre><code>## # A tibble: 6 x 9
+##   Period Frame  Time Player       x     y Team  is_gk Second
+##    &lt;int&gt; &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt; &lt;lgl&gt;  &lt;dbl&gt;
+## 1      1     1  0.04 11      0.0861  35.2 Home  TRUE       0
+## 2      1     1  0.04 1      34.3     23.6 Home  FALSE      0
+## 3      1     1  0.04 2      35.4     34.8 Home  FALSE      0
+## 4      1     1  0.04 3      32.5     43.8 Home  FALSE      0
+## 5      1     1  0.04 4      33.7     53.5 Home  FALSE      0
+## 6      1     1  0.04 5      43.1     18.6 Home  FALSE      0</code></pre>
+<p>As it is possible to observe, most of columns are auto explained by their names, excepting “is_gk” which is a boolean variable that says if the player is or not is the goal keeper. Data from Metrica Sports has 25 frames per seconds, so the sample rate is 0.04 seconds.</p>
+</div>
+<div id="to-get-information-about-specific-events" class="section level4">
+<h4>2) To get information about specific events</h4>
+<p>The function <strong>events_info()</strong> gets events information from the event dataset. You could get info about either shots, goals, free kicks or corner kicks. Here an example for the goals of the Game 1 of the dataset:</p>
+<pre><code>## # A tibble: 3 x 9
+##   Team  Type  Subtype         Period StartTime EndTime StartFrame EndFrame Event
+##   &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;            &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt;      &lt;dbl&gt;    &lt;dbl&gt; &lt;chr&gt;
+## 1 Home  SHOT  HEAD-ON TARGET~      1      91.6    92.4       2289     2309 GOAL 
+## 2 Home  SHOT  ON TARGET-GOAL       2    3600.   3601.       90005    90026 GOAL 
+## 3 Home  SHOT  ON TARGET-GOAL       2    3961.   3962.       99032    99046 GOAL</code></pre>
+<p>One of the current main usefulness of this, besides to count the number of the events, is to know at which times/frames those specific events occurs (StartTime &amp; EndTime + StartFrame &amp; EndFrame). Then you could create both static plots and animations for those times/frames.</p>
+</div>
+<div id="to-visualize-an-unique-specific-frame" class="section level4">
+<h4>3) To visualize an unique specific frame</h4>
+<p>The function <strong>soccer_plot()</strong> creates a static plot of one specific and unique frame. It is useful to explore and pre visualize your data and your aesthetic and geometrical method setting, before to create the animation (whose creation time will be longer). You are able to export this plots as PNG files.</p>
+<p>Here an example of the frame 99040 of the game 1. This frame is part of the frames range related to the 3rd goal of the home team, considering the info got it previously.</p>
+<p><img src="../images/soccer-animate/plot.png" /><!-- --></p>
+</div>
+<div id="to-create-2d-animations" class="section level4">
+<h4>4) To create 2D animations</h4>
+<p>At this point you will be able to create the 2D animations. For that you have to use the function <strong>soccer_animate()</strong>. Here the arguments of the function and their explanations:</p>
+<p><img src="../images/soccer-animate/soccer_animate_arguments.png" /><!-- --></p>
+<ul>
+<li><p><strong>tidy_data</strong>: ordered and processed data got it from the function get_tidy_data()</p></li>
+<li><p><strong>ini_time</strong> &amp; <strong>end_time</strong>: initial and end time, in seconds, to consider for the animation. This info could be get it looking at columns StartTime y EndTime of the events information dataframe got it with the function events_info()</p></li>
+<li><p><strong>method</strong>: geometrical method to use for the 2D spatial visualization and analysis 2D. Teh enabled options are: “base” (without any specific method), “convexhull”, “voronoi” or “dealunay”.</p></li>
+<li><p><strong>pitch_fill</strong>, <strong>pitch_lines_col</strong>, <strong>home_team_col</strong> &amp; <strong>away_team_col</strong>: all of these variables are related to the filling colour of (in the same order): the pitch area, the pitch lines, the home team players and the away team players.</p></li>
+<li><p><strong>provider</strong>: Data provider. For the moment only “Metrica” is supported.</p></li>
+<li><p><strong>show_anim</strong>: boolean variable (T/F) to set if the RStudio Viewer shows or not the animation.</p></li>
+<li><p><strong>export_gif</strong>: boolean variable (T/F) to set if the animation should to be or not exported as GIF file.</p></li>
+<li><p><strong>gif_name</strong>: filename of the GIF file to export.</p></li>
+</ul>
+<p>Now a couple of additional examples of animation outputs:</p>
+<p><img src="../images/soccer-animate/example_A.gif" /><!-- --></p>
+<p><img src="../images/soccer-animate/example_C.gif" /><!-- --></p>
+<p><a href="https://github.com/Dato-Futbol/soccerAnimate"target="_blank"><strong>In this link</strong></a> you will find the github repository with the instructions to install and to use the package, in addition to some code examples.</p>
+<p><br/></p>
+</div>
+</div>
+<div id="future-additions" class="section level2">
+<h2>Future additions</h2>
+<p>Currently I’m thinking to add this new features:</p>
+<ul>
+<li><p>Stats report at both player and team level, including minutes played, distance walking/jogging/sprinting, velocity, etc.</p></li>
+<li><p>Heatmaps for individual players along different time intervals.</p></li>
+<li><p>To add events information along the animations</p></li>
+<li><p>More aesthetics customization options (themes, fonts, etc.)</p></li>
+<li><p>Better documentation</p></li>
+<li><p>To implement some of the soccer analytics developments, e.g. a <a href="https://www.youtube.com/watch?v=5X1cSehLg6s"target="_blank"><strong>soccer pith control model</strong></a>.</p></li>
+</ul>
+<p>Finally, I want to say that I’m open to suggestion of improvements and new implementations. There is also a space for anyone who want to contribute to the pacakge development.</p>
+<p>If you have any question or feedback please feel free to reach me by Twitter <a href="https://twitter.com/DatoFutbol_cl"target="_blank"><strong><span class="citation">@DatoFutbol_cl</span></strong></a> or to my email account: <strong><a href="mailto:ismaelgomezs@gmail.com">ismaelgomezs@gmail.com</a></strong>.</p>
+</div>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+
+
+
+
+
+
+
+
+<figure class="author-image">
+    <a class="img" href="../" style="background-image: url(/images/pelota.png)"><span class="hidden">Ismael Gómez's Picture</span></a>
+</figure>
+
+
+<section class="author">
+  <h4><a href="../">Ismael Gómez</a></h4>
+  
+  <p>Read <a href="../">more posts</a> by this author.</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Santiago, Chile</span>
+    
+  </div>
+</section>
+
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=%7bsoccerAnimate%7d%20an%20R%20package%20to%20create%202D%20soccer%20animations&nbsp;-&nbsp;DATO%20FUTBOL&amp;url=%2fsoccer-animate-r-package%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=%2fsoccer-animate-r-package%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=%2fsoccer-animate-r-package%2f&amp;description=%7bsoccerAnimate%7d%20an%20R%20package%20to%20create%202D%20soccer%20animations"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=%2fsoccer-animate-r-package%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+
+
+
+
+
+
+  </footer>
+</article>
+
+</main>
+
+
+  <aside class="read-next">
+  
+  
+      <a class="read-next-story prev" style="no-cover" href="../passing-networks-r/">
+          <section class="post">
+              <h2>Football passing networks using R</h2>
+          </section>
+      </a>
+  
+</aside>
+
+
+
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">DATO FUTBOL</a> 2017-2019</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
+    <script type="text/javascript" src="../js/ga.js"></script>
+    
+</body>
+</html>
+

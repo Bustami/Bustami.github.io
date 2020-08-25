@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>2017-2019</copyright>
-    <lastBuildDate>Sun, 17 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/soccer/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>{soccerAnimate} an R package to create 2D soccer animations</title>
+      <link>/soccer-animate-r-package/</link>
+      <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/soccer-animate-r-package/</guid>
+      <description>I just published my first R package: {soccerAnimate}, which allows you to create 2D soccer animations using tracking data. Here I’m going to tell you some details about its functionalities and future additions.
+
+Main functionalitiesCurrently all functions of the package are prepared to work only with the data format of the data provider Metrica Sports, due they made public a tracking dataset as example (here).
+Details about each available functions of soccerAnimate package is presented in the following paragraphs:</description>
+    </item>
     
     <item>
       <title>Football passing networks using R</title>

@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>2017-2019</copyright>
-    <lastBuildDate>Sun, 17 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>data-science</title>
       <link>/tags/data-science/</link>
-      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/data-science/</guid>
       <description></description>
@@ -24,9 +24,54 @@
     <item>
       <title>football</title>
       <link>/tags/football/</link>
-      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/football/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rstats</title>
+      <link>/tags/rstats/</link>
+      <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rstats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>soccer</title>
+      <link>/tags/soccer/</link>
+      <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/soccer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>soccer-animate</title>
+      <link>/tags/soccer-animate/</link>
+      <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/soccer-animate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sport-analytics</title>
+      <link>/tags/sport-analytics/</link>
+      <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sport-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tracking-data</title>
+      <link>/tags/tracking-data/</link>
+      <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tracking-data/</guid>
       <description></description>
     </item>
     
@@ -36,33 +81,6 @@
       <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/passing-networks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rstats</title>
-      <link>/tags/rstats/</link>
-      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/rstats/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>soccer</title>
-      <link>/tags/soccer/</link>
-      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/soccer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sport-analytics</title>
-      <link>/tags/sport-analytics/</link>
-      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/sport-analytics/</guid>
       <description></description>
     </item>
     
