@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>R para visualizar datos deportivos espaciales</title>
+  <meta charset="utf-8">
+  <meta name="description" content="R para visualizar datos deportivos espaciales">
+  <meta name="author" content="Ismael Gómez Schmidt">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+    
+  <slide class="nobackground">
+    <article class="flexbox vcenter">
+      <span>
+        <img width='100%' src="assets/img/fondo.jpg">
+      </span>
+    </article>
+  </slide>
+    <slide class="title-slide segue nobackground">
+  
+  <aside class="gdbar">
+    <img src="assets/img/png_icons/field.png">
+  </aside>
+  
+  <hgroup class="auto-fadein">
+    <h1>R para visualizar datos deportivos espaciales</h1>
+    <h2></h2>
+    <p>Ismael Gómez Schmidt<br/>Data Scientist 49ing.ch / Co-Founder futbolytics.cl / Frontman datofutbol.cl</p>
+  </hgroup>
+  
+  <article></article>  
+  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  
+  <article data-timings="">
+    <style>
+.title-slide {
+  background-color: white; 
+}
+
+.title-slide hgroup > h1{
+ font-family: 'Oswald', 'Helvetica', sanserif;
+ color: gray;
+ font-size:52px;
+}
+
+.title-slide hgroup > h2 {
+  color: #3182bd;
+}
+
+.title-slide hgroup > p {
+  color: black;
+}
+
+strong {
+  font-weight: bold;
+}
+
+code.r{
+  font-size: 12px;
+}
+
+
+</style>
+
+<h2>Agenda</h2>
+
+<ul class = "build incremental">
+<li><strong>Analítica deportiva</strong>:<br/ >
+
+<ul>
+<li>Definición<br/ ></li>
+<li>Contexto histórico-tecnológico<br/ ></li>
+<li>Áreas de aplicación
+<br/ >
+<br/ ></li>
+</ul></li>
+<li><strong>Datos deportivos espaciales</strong>:<br/ >
+    - Alcance<br/ >
+    - Tipos de datos
+<br/ >
+<br/ ></li>
+<li><strong>Flujo de trabajo y herramientas</strong>:<br/ >
+    - Pasos a seguir<br/ >
+    - RStudio + paquetes
+<br/ >
+<br/ ></li>
+<li><strong>Ejemplos</strong></li>
+</ul>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="segue" id="slide-2" style="background:#0C7BB9;">
+  
+  <hgroup>
+    <h2>Analítica deportiva</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  
+  <hgroup>
+    <h2>Analítica deportiva</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <p><center><img src="assets/img/inicio2.png" height="55%" width="55%"></center>
+<br/ ></p>
+
+<ul class = "build incremental">
+<li><strong>Definición general de analítica</strong>: La aplicación de métodos estadísticos y/o matemáticos a un conjunto de datos, principalmente mediante herramientas informáticas, de manera tal que se recoja información útil que permita obtener ventajas competitivas, optimizar un proceso, reducir un margen de error, entre otros.
+<br/ >
+<br/ ></li>
+<li>La Analítica deportiva es aplicar lo anterior en algún deporte!</li>
+</ul>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-4" style="background:black;">
+  
+  <hgroup>
+    <h2>Contexto histórico-tecnológico</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><center><img src="assets/img/examples/data_nfl.jpg" height="85%" width="85%"></center>
+<br/ >
+<center><img src="assets/img/examples/data_tennis.jpg" height="90%" width="90%"></center></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><center><img src="assets/img/examples/data_baseball.jpg" height="60%" width="60%"></center>
+<br/ >
+<center><img src="assets/img/examples/data_nba.jpg" height="55%" width="55%"></center></p>
+
+</div>
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-5" style="background:black;">
+  
+  <hgroup>
+    <h2>Contexto histórico-tecnológico</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <p><center><img src="assets/img/sportAnalytics.png" height="85%" width="85%"></center></p>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-6" style="background:black;">
+  
+  <hgroup>
+    <h2>Áreas de aplicación</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <p><center><img src="assets/img/areas.png" height="80%" width="80%"></center></p>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="segue" id="slide-7" style="background:#0C7BB9;">
+  
+  <hgroup>
+    <h2>Datos deportivos espaciales</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-8" style="background:;">
+  
+  <hgroup>
+    <h2>Alcance del webinar</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <ul class = "build incremental">
+<li>Datos de Fútbol
+<br/ ></li>
+<li>Eventos: tiros libres
+<br/ ></li>
+<li>Aplicable a todos los deportes que se juegan dentro de una cancha, otros tipos de eventos y a data de tracking:<br/ >
+<center><img src="assets/img/fields/sports_fields.png" height="45%" width="45%"></center></li>
+</ul>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-9" style="background:;">
+  
+  <hgroup>
+    <h2>Tipos de datos</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <h3>1) Datos de eventos: estructura y contenido</h3>
+
+<ul class = "build incremental">
+<li><p>Registro de distintos eventos relevantes con sus detalles respectivos<center><img src="assets/img/examples/messi_events.png" height="100%" width="100%"></center></a></p></li>
+<li><p><center><img src="assets/img/examples/messi_events2.png" height="100%" width="100%"></center></p></li>
+</ul>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-10" style="background:;">
+  
+  <hgroup>
+    <h2>Datos de eventos: estructura y contenido</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <p><center><img src="assets/img/examples/events.png" height="85%" width="85%"></center></p>
+
+<p><a href="https://www.nature.com/articles/s41597-019-0247-7">Fuente</a></p>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-11" style="background:;">
+  
+  <hgroup>
+    <h2>Datos de eventos: Proveedores</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><br/ >
+<br/ >
+<center><img src="assets/img/providers/statsbomb.jpg" height="50%" width="40%"></center>
+<br/ >
+<br/ >
+<br/ >
+<center><img src="assets/img/providers/stats.png" height="40%" width="40%"></center></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><center><img src="assets/img/providers/wyscout.png" height="30%" width="40%"></center>
+<br/ >
+<br/ >
+<center><img src="assets/img/providers/instat.png" height="30%" width="40%"></center></p>
+
+</div>
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-12" style="background:;">
+  
+  <hgroup>
+    <h2>Datos de tracking: estructura y contenido</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <p>Registro de <strong>coordenadas para los 22 jugadores y el balón</strong><center><img src="assets/img/examples/tracking.png" height="55%" width="55%"></center></p>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-13" style="background:;">
+  
+  <hgroup>
+    <h2>Datos de tracking: Proveedores</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><br/ >
+<br/ >
+<center><img src="assets/img/providers/metrica.png" height="50%" width="40%"></center>
+<br/ >
+<br/ >
+<br/ >
+<br/ >
+<center><img src="assets/img/providers/skillcorner.png" height="40%" width="40%"></center></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><br/ >
+<br/ >
+<center><img src="assets/img/providers/chyron_hego.png" height="30%" width="40%"></center>
+<br/ >
+<br/ >
+<br/ >
+<br/ >
+<center><img src="assets/img/providers/sport_logiq.png" height="30%" width="40%"></center></p>
+
+</div>
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="segue" id="slide-14" style="background:#0C7BB9;">
+  
+  <hgroup>
+    <h2>Flujo de trabajo y herramientas</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-15" style="background:;">
+  
+  <hgroup>
+    <h2>Flujo de trabajo: Pasos a seguir (0-2)</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <p><br/ ></p>
+
+<ul class = "build incremental">
+<li><strong>Paso 0: Preguntas</strong><br/ >
+¿Qué voy a visualizar?, ¿Por qué?, ¿Para qué?
+<br/ >
+<br/ ></li>
+<li><strong>Paso 1: Obtener datos</strong><br/ >
+Tipo de datos, proveedores, formatos, disponibilidad, ¿Están actualizados?, ¿Son precisos?, acuerdo de uso
+<br/ >
+<br/ ></li>
+<li><strong>Paso 2: Procesar y explorar datos</strong><br/ >
+Adecuar estructura, limpiar, convertir (ej: coordenadas)<br/ >
+Conocer atributos, distribuciones, categorías, detalles específicos, etc.
+<br/ >
+<br/ ></li>
+<li><strong>Revisitamos el paso 0</strong>: ¿Los datos que tengo me sirven para lo que busco?
+<br/ >
+<br/ ></li>
+</ul>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-16" style="background:;">
+  
+  <hgroup>
+    <h2>Flujo de trabajo: Pasos a seguir (3-5)</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <p><br/ ></p>
+
+<ul class = "build incremental">
+<li><strong>Paso 3: Visualización de cancha</strong><br/ >
+Distintos enfoques: a) imagen de fondo (PNG, JPG) o b) &quot;dibujar&quot; en R
+<br/ >
+<br/ ></li>
+<li><strong>Paso 4: Mapeo de datos</strong><br/ >
+geom, color, fill, size, label, alpha + <br/ >paletas de colores, rangos de tamaños
+<br/ >
+<br/ ></li>
+<li><strong>Revisitamos el paso 0</strong>: ¿El resultado responde a mi(s) pregunta(s) inicial(es)? Acotamos el alcance. Volvemos a pasos previos.
+<br/ >
+<br/ ></li>
+<li><strong>Paso 5: Detalles finales</strong><br/ >
+Facetas, leyenda, títulos, anotaciones + <br/ >difusión (formato de exportación, plataforma comunicación, código para reproducibilidad)</li>
+</ul>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-17" style="background:;">
+  
+  <hgroup>
+    <h2>Herramientas: RStudio + paquetes</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <p><center><img src="assets/img/data-science-workflow2b.fw_new.fw.png" height="100%" width="100%"></center></p>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="segue" id="slide-18" style="background:#0C7BB9;">
+  
+  <hgroup>
+    <h2>Ejemplos</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-19" style="background:;">
+  
+  <hgroup>
+    <h2>Ejemplo 1</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <ul class = "build incremental">
+<li><strong>Paso 0</strong>: &quot;Ubicación de los tiros de Messi&quot;
+<br/ ></li>
+<li><strong>Paso 1</strong>: Datos abiertos de <strong>Statsbomb</strong>:<br/ >
+<a href="https://github.com/statsbomb/open-data">- Github</a><br/ >
+<a href="https://www.statsbomb.com/resource-centre">- Sitio web (detalles + user agreement)</a><br/ ><br/ ><center><img src="assets/img/user_agreement2.png" height="80%" width="80%"></center></li>
+</ul>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-20" style="background:;">
+  
+  <hgroup>
+    <h2>Paquete <a href="https://github.com/statsbomb/StatsBombR">{<strong>StatsBombR</strong>}</a></h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:50%;'>
+  <pre><code class="r">devtools::install_github(&quot;statsbomb/StatsBombR&quot;)
+library(StatsBombR)
+
+competitions &lt;- FreeCompetitions() 
+liga_spain &lt;- competitions %&gt;% filter(competition_id == 11)
+range(liga_spain$season_name)
+
+games &lt;- FreeMatches(liga_spain)
+glimpse(games)
+unique(paste0(games$home_team.home_team_name, &quot;-&quot;, 
+              games$away_team.away_team_name))
+barcelona_games &lt;- games %&gt;% 
+                   filter(&quot;Barcelona&quot; %in% c(home_team.home_team_name, 
+                                             away_team.away_team_name))
+
+barcelona_events &lt;- StatsBombFreeEvents(MatchesDF = barcelona_games)
+library(readr)
+#write_rds(barcelona_events, &quot;barcelona_events.rds&quot;)
+#barcelona_events &lt;- read_rds(&quot;barcelona_events.rds&quot;)
+messi_events &lt;- barcelona_events %&gt;% 
+                filter(str_detect(player.name, &quot;Messi&quot;))
+
+glimpse(messi_events)
+table(messi_events$type.name)
+
+messi_shots &lt;- messi_events %&gt;% 
+               filter(type.name == &quot;Shot&quot;)
+
+messi_shots_cleaned &lt;- allclean(messi_shots)
+</code></pre>
+
+</div>
+<div style='float:right;width:50%;'>
+  <ul class = "build incremental">
+<li><center><img src="assets/img/examples/competitions.png" height="105%" width="105%"></center>
+<br/ ></li>
+<li><center><img src="assets/img/examples/games.png" height="105%" width="105%"></center></li>
+</ul>
+
+</div>
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-21" style="background:;">
+  
+  <hgroup>
+    <h2>Paso 2: Exploración</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:60%;'>
+  <pre><code class="r">data &lt;- messi_shots_cleaned %&gt;% 
+        left_join(liga_spain %&gt;% select(season_id, season_name)) %&gt;%
+        select(match_id, period, timestamp, type.name, possession_team.name, play_pattern.name,
+               player.name, position.name, shot.type.name, location.x, location.y,
+               shot.body_part.name, shot.technique.name, shot.statsbomb_xg, 
+               shot.outcome.name, shot.end_location.x, shot.end_location.y, season_name)
+
+devtools::install_github(&quot;boxuancui/DataExplorer&quot;)
+library(DataExplorer)
+plot_bar(data %&gt;% select(shot.type.name, shot.outcome.name), ncol = 2)
+plot_density(data %&gt;% select(location.x, location.y), ncol = 1)
+</code></pre>
+
+<ul class = "build incremental">
+<li><center><img src="assets/img/examples/shots_explore1.png" height="90%" width="90%"></center></li>
+</ul>
+
+</div>
+<div style='float:right;width:40%;'>
+  <p>Paquetes: {dplyr}{tidyr}{lubridate}{forcats}{ggplot2}{<a href="http://boxuancui.github.io/DataExplorer/"><strong>DataExplorer</strong></a>}
+<br/ ></p>
+
+<ul class = "build incremental">
+<li><center><img src="assets/img/examples/shots_explore2.png" height="90%" width="90%"></center></li>
+</ul>
+
+</div>
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-22" style="background:;">
+  
+  <hgroup>
+    <h2>Paso 2: Procesar</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:50%;'>
+  <p>Coordenadas según proveedor<br/ ><center><img src="assets/img/examples/coordinates_difs.jpg" height="85%" width="85%"></center></p>
+
+</div>
+<div style='float:right;width:50%;'>
+  <pre><code class="r">data &lt;- data %&gt;%
+        mutate_at(vars(contains(&#39;.x&#39;)), funs( . / 120 * 110)) %&gt;% 
+        mutate_at(vars(contains(&#39;.y&#39;)), funs( (80 - .) / 80 * 73))
+
+data_free_kick &lt;- data %&gt;%
+        filter(shot.type.name == &quot;Free Kick&quot;)
+</code></pre>
+
+<ul class = "build incremental">
+<li><strong>Sugerencias</strong>:<br/ ></li>
+<li>Invertir coordenadas Y</li>
+<li>Transformar de yardas a metros: queda en 110x73 [m]. Otra opción es cancha estándar promedio 105x68 [m]</li>
+<li>No hay que invertir las coordenadas X según Period (siempre considera la misma dirección de ataque)</li>
+<li>Trabajar con grupos de tiros separados según &quot;type.name&quot;</li>
+</ul>
+
+</div>
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-23" style="background:;">
+  
+  <hgroup>
+    <h2>Paso 3: A) Cancha como imagen de fondo</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:50%;'>
+  <pre><code class="r">library(jpeg)
+img &lt;- jpeg::readJPEG(&quot;image_path&quot;)
+
+library(grid)
+p &lt;- rasterGrob(img, width = unit(1, &quot;npc&quot;), height = unit(1, &quot;npc&quot;))
+
+library(ggplot2)
+g &lt;- ggplot() +
+        annotation_custom(p, xmin = -0.5, xmax = 110.5, 
+                             ymin = -0.5, ymax = 73.5) +
+        scale_x_continuous(limits = c(-0.5, 110.5), expand = c(0,0)) +
+        scale_y_continuous(limits = c(-0.5, 73.5), expand = c(0,0))
+
+g + geom_point(data = data_free_kick, 
+               mapping = aes(x = location.x, y = location.y), 
+               pch = 21, alpha = 0.2, fill = &quot;red&quot;, size = 2)
+</code></pre>
+
+<pre><code class="r">library(png)
+img2 &lt;- png::readPNG(&quot;image2_path&quot;)
+p2 &lt;- rasterGrob(img2, width = unit(1, &quot;npc&quot;), height = unit(1, &quot;npc&quot;))
+g2 &lt;- ggplot() +
+      annotation_custom(p2, xmin = - Inf, xmax = Inf, ymin = - Inf, ymax = Inf) +
+      scale_x_continuous(limits = c(-15, 15), expand = c(0,0)) +
+      scale_y_continuous(limits = c(7, 30.2), expand = c(0,0))
+g2
+</code></pre>
+
+</div>
+<div style='float:right;width:50%;'>
+  <p><center><img src="assets/img/examples/messi_free_kicks.png" height="100%" width="100%"></center></p>
+
+<p><center><img src="assets/img/examples/hockey_rink.png" height="60%" width="60%"></center></p>
+
+</div>
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-24" style="background:;">
+  
+  <hgroup>
+    <h2>Paso 3: B) Dibujar la cancha con ggplot2 y ggforce</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:50%;'>
+  <pre><code class="r">library(ggforce)
+# función para dibujar la mitad ofensiva de la cancha invertida
+get_pitch &lt;- function(gp, pitch_fill = &quot;white&quot;, pitch_col = &quot;lightgrey&quot;){
+        contorno_df &lt;- data.frame(x = c(55, 55, 110, 110), 
+                                  xend = c(55, 110, 110, 55),
+                                  y = c(0, 73, 73, 0),
+                                  yend = c(73, 73, 0, 0))
+
+        areas_df &lt;- data.frame(x = c(110, 93, 93, 110, 104, 104), 
+                               xend = c(93, 93, 110, 104, 104, 110), 
+                               y = c(16, 16, 57, 27, 27, 46),
+                               yend = c(16, 57, 57, 27, 46, 46))
+        gp +
+                theme_void() +
+                theme(panel.background = element_rect(fill = pitch_fill),
+                      plot.margin = unit(c(0.3, 0.3, 0.3, 0.3), &quot;cm&quot;)) +
+                # rectángulos
+                geom_segment(data = contorno_df,
+                             aes(x = x, xend = xend, y = y, yend = yend), 
+                             col = pitch_col) +
+                geom_segment(data = areas_df,
+                             aes(x = x, xend = xend, y = y, yend = yend), 
+                             col = pitch_col) +
+                geom_rect(aes(xmin = 110, xmax = 111.5, ymin = 33, ymax = 40), 
+                          fill = &quot;transparent&quot;, col = pitch_col) +
+                # puntos
+                geom_point(aes(x = 110/2, y = 73/2), col = pitch_col) +
+                geom_point(aes(x = 98, y = 73/2), col = pitch_col) +
+                # semi círculos
+                geom_arc(aes(x0 = 98, y0 = 73/2, r = 9.15, start = -34*pi/180, 
+                             end = -146*pi/180), col = pitch_col) + #sigue...
+}
+</code></pre>
+
+</div>
+<div style='float:right;width:50%;'>
+  <pre><code class="r">                geom_arc(aes(x0 = 110/2, y0 = 73/2, r = 9.15, start = 0, 
+                             end = 180*pi/180), col = pitch_col) +
+                geom_arc(aes(x0 = 110, y0 = 73, r = 1, start = 270*pi/180, 
+                             end = 360*pi/180), col = pitch_col) +
+                geom_arc(aes(x0 = 110, y0 = 0, r = 1, start = 180*pi/180, 
+                             end = 270*pi/180), col = pitch_col) +
+                coord_flip() +
+                scale_y_reverse()
+}
+get_pitch(gp = ggplot(), 
+          pitch_fill = &quot;white&quot;, pitch_col = &quot;black&quot;) +
+geom_point(data = data_free_kick, 
+           mapping = aes(x = location.x, y = location.y), 
+           alpha = 0.3, col = &quot;darkblue&quot;, size = 2)
+</code></pre>
+
+<p><center><img src="assets/img/examples/messi_free_kicks2.png" height="80%" width="80%"></center></p>
+
+</div>
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-25" style="background:;">
+  
+  <hgroup>
+    <h2>Paso 4: Mapeo de datos</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <ul class = "build incremental">
+<li><strong>geom</strong>: tiros -&gt; geom_point(); pases -&gt; geom_segment(); mapas de calor -&gt; density_2d()
+<br/ ><br/ ></li>
+<li><strong>color</strong> y/o <strong>fill</strong>: resultado del tiro -&gt; categórico; valor xG -&gt; secuencial
+<br/ ><br/ ></li>
+<li><strong>size</strong>: valor xG
+<br/ ><br/ ></li>
+<li>Usar <strong>alpha</strong> para resolver en parte el overlapping
+<br/ ><br/ ></li>
+<li><strong>label</strong> o <strong>text</strong> para anotaciones
+<br/ ><br/ ></li>
+<li>Ajustar <a href="https://colorbrewer2.org/">paletas de colores</a> y rangos de tamaños según que se decidió y los resultados</li>
+</ul>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-26" style="background:;">
+  
+  <hgroup>
+    <h2>Output temporal</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <pre><code class="r">data_free_kick &lt;- data_free_kick %&gt;%
+        mutate(is_goal = ifelse(shot.outcome.name == &quot;Goal&quot;, &quot;GOAL&quot;, &quot;NO GOAL&quot;))
+get_pitch(gp = ggplot(data_free_kick), pitch_fill = &quot;white&quot;, pitch_col = &quot;black&quot;) + 
+        geom_point(mapping = aes(x = location.x, y = location.y, size = shot.statsbomb_xg, fill = is_goal), pch = 21, alpha = 0.3, col = &quot;black&quot;, stroke = 1.05) +
+        scale_fill_brewer(palette = &quot;Set1&quot;) +
+        theme(legend.position = &quot;top&quot;)
+</code></pre>
+
+<p><center><img src="assets/img/examples/messi_temporal.png" height="60%" width="60%"></center></p>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-27" style="background:;">
+  
+  <hgroup>
+    <h2>Paso 5: Detalles finales</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <pre><code class="r">n_games &lt;- data %&gt;% distinct(match_id) %&gt;% nrow()
+messi_stats &lt;- data_free_kick %&gt;%
+            summarise(Games = n_games, Shots = n(), xG_Sum = round(sum(shot.statsbomb_xg), 2),
+                      Goals = sum(ifelse(is_goal == &quot;GOAL&quot;, 1, 0)),
+                      xG_dif = paste(ifelse(Goals &gt; xG_Sum, &quot;+&quot;, &quot;&quot;), round(Goals - xG_Sum, 2)),
+                      xG_per_shot = round(xG_Sum / Shots, 2), Shots_per_goal = round(Shots/Goals, 2)) %&gt;% 
+            t() %&gt;% as.data.frame()
+library(gridExtra)
+tt &lt;- ttheme_minimal(base_size = 8, core = list(bg_params = list(fill = NA, col = NA), 
+                                                fg_params = list(fontface = 3L, col = &quot;white&quot;)),
+                     rowhead = list(fg_params = list(col = &quot;white&quot;, fontface = 3L)))
+library(ggtext)
+g &lt;-  ggplot(data_free_kick) + 
+        geom_density2d_filled(mapping = aes(x = location.x, y = location.y, fill = ..level..),
+                               contour_var = &quot;ndensity&quot;, breaks = seq(0.1, 1.0, length.out = 10)) +
+        scale_fill_brewer(palette = &quot;YlOrRd&quot;, direction = -1) +
+        geom_point(data = data_free_kick %&gt;% filter(shot.outcome.name == &quot;Goal&quot;),
+                   mapping = aes(x = location.x, y = location.y, size = shot.statsbomb_xg), fill = &quot;blue&quot;,
+                   pch = 21, alpha = 0.5, col = &quot;white&quot;, stroke = 1)
+get_pitch(gp = g, pitch_fill = &quot;black&quot;) +
+        guides(fill = &quot;none&quot;, size = guide_legend(title = &quot;xG&quot;)) +
+        theme(legend.position = &quot;top&quot;,
+              plot.title = element_text(size = 16, hjust = 0.5),
+              plot.subtitle = element_markdown(size = 12, hjust = 0.5)) +
+        annotation_custom(tableGrob(messi_stats, cols = NULL, theme = tt,
+                                    rows = c(&quot;Partidos&quot;, &quot;Tiros libres&quot;, &quot;suma xG&quot;, &quot;Goles&quot;, 
+                                             &quot;xG dif.&quot;, &quot;xG por shot&quot;, &quot;Tiros por gol&quot;)), 
+                                    xmin = 65, xmax = 70, ymin = -8, ymax = -8) +
+        labs(title = &quot;Tiros libres de Messi en La Liga 2006/2007 - 2019/2020&quot;,
+             subtitle = &quot;Mapa de calor indica densidad de tiros. Puntos indican &lt;span style=&#39;color:blue&#39;&gt;**Goles**&lt;/span&gt;.&lt;br/ &gt;&quot;,
+             caption = &quot;Autor: @DatoFutbol_cl | Data: Statsbomb&quot;)
+</code></pre>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-28" style="background:;">
+  
+  <article data-timings="">
+    <p><center><img src="assets/img/examples/messi_free_kicks3B.png" height="70%" width="70%"></center></p>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-29" style="background:;">
+  
+  <hgroup>
+    <h2>Ejemplo 2): Datos de tracking</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:65%;'>
+  <p><center><img src="assets/img/examples/example_B.gif" height="95%" width="95%"></center></p>
+
+</div>
+<div style='float:right;width:35%;'>
+  <p><center><img src="assets/img/soccerAnimate.png" height="60%" width="60%"></center><br/ ><center><img src="assets/img/fila_packages.png" height="55%" width="55%"></center></p>
+
+<pre><code class="r">library(remotes)
+install_github(&quot;Dato-Futbol/soccerAnimate&quot;)
+</code></pre>
+
+<ul class = "build incremental">
+<li><a href="https://github.com/Dato-Futbol/soccerAnimate">Repositorio con tutorial</a></li>
+</ul>
+
+</div>
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="thank-you-slide segue nobackground" id="slide-30">
+  <aside class="gdbar right"><img src="assets/img/png_icons/field.png"></aside>
+  <article class="flexbox vleft auto-fadein">
+    <h2>Gracias!</h2>
+    
+  </article>
+  <p class="auto-fadein" data-config-contact="">
+    
+    <!-- <span>Futbolytics</span><a href="https://futbolytics.cl">https://futbolytics.cl</a><br> -->
+    <a href="https://futbolytics.cl">Futbolytics</a><br>
+    
+    <!-- <span>Twitter Dato Fútbol</span><a href="https://twitter.com/DatoFutbol_cl">https://twitter.com/DatoFutbol_cl</a><br> -->
+    <a href="https://twitter.com/DatoFutbol_cl">Twitter Dato Fútbol</a><br>
+    
+    <!-- <span>Blog Dato Fútbol</span><a href="https://datofutbol.cl">https://datofutbol.cl</a><br> -->
+    <a href="https://datofutbol.cl">Blog Dato Fútbol</a><br>
+    
+  </p>
+</slide>
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='NA'>
+         1
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Analítica deportiva'>
+         2
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Analítica deportiva'>
+         3
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Contexto histórico-tecnológico'>
+         4
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Contexto histórico-tecnológico'>
+         5
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='Áreas de aplicación'>
+         6
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='Datos deportivos espaciales'>
+         7
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=8 title='Alcance del webinar'>
+         8
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=9 title='Tipos de datos'>
+         9
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=10 title='Datos de eventos: estructura y contenido'>
+         10
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=11 title='Datos de eventos: Proveedores'>
+         11
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=12 title='Datos de tracking: estructura y contenido'>
+         12
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=13 title='Datos de tracking: Proveedores'>
+         13
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=14 title='Flujo de trabajo y herramientas'>
+         14
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=15 title='Flujo de trabajo: Pasos a seguir (0-2)'>
+         15
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=16 title='Flujo de trabajo: Pasos a seguir (3-5)'>
+         16
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=17 title='Herramientas: RStudio + paquetes'>
+         17
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=18 title='Ejemplos'>
+         18
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=19 title='Ejemplo 1'>
+         19
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=20 title='Paquete <a href="https://github.com/statsbomb/StatsBombR">{<strong>StatsBombR</strong>}</a>'>
+         20
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=21 title='Paso 2: Exploración'>
+         21
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=22 title='Paso 2: Procesar'>
+         22
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=23 title='Paso 3: A) Cancha como imagen de fondo'>
+         23
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=24 title='Paso 3: B) Dibujar la cancha con ggplot2 y ggforce'>
+         24
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=25 title='Paso 4: Mapeo de datos'>
+         25
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=26 title='Output temporal'>
+         26
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=27 title='Paso 5: Detalles finales'>
+         27
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=28 title='NA'>
+         28
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=29 title='Ejemplo 2): Datos de tracking'>
+         29
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=30 title='Gracias!'>
+         30
+      </a>
+    </li>
+    
+    </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

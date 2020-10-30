@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplos de uso de datos en fútbol y hockey sobre hielo</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Ejemplos de uso de datos en fútbol y hockey sobre hielo">
+  <meta name="author" content="Ismael Gómez Schmidt">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+    
+  <slide class="nobackground">
+    <article class="flexbox vcenter">
+      <span>
+        <img width='100%' src="assets/img/fondo.png">
+      </span>
+    </article>
+  </slide>
+    <slide class="title-slide segue nobackground">
+  
+  <aside class="gdbar">
+    <img src="assets/img/png_icons/puck.ball.fw.png">
+  </aside>
+  
+  <hgroup class="auto-fadein">
+    <h1>Ejemplos de uso de datos en fútbol y hockey sobre hielo</h1>
+    <h2>Meetup Usuarios de R en Chile - Sept. 2020</h2>
+    <p>Ismael Gómez Schmidt<br/>Data Scientist 49ing / Co-Founder Futbolytics / Frontman datofutbol.cl</p>
+  </hgroup>
+  
+  <article></article>  
+  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  
+  <article data-timings="">
+    <style>
+.title-slide {
+  background-color: white; 
+}
+
+.title-slide hgroup > h1{
+ font-family: 'Oswald', 'Helvetica', sanserif;
+ color: gray;
+ font-size:52px;
+}
+
+.title-slide hgroup > h2 {
+  color: #3182bd;
+}
+
+.title-slide hgroup > p {
+  color: black;
+}
+</style>
+
+<h2>Agenda</h2>
+
+<p><br/ >
+<br/ ></p>
+
+<ul class = "build incremental">
+<li>Analítica deportiva
+<br/ >
+<br/ ></li>
+<li>Datos y herramientas
+<br/ >
+<br/ ></li>
+<li>Ejemplos de uso de datos en <strong>fútbol</strong> y <strong>hockey sobre hielo</strong>
+<br/ >
+<br/ ></li>
+</ul>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="segue" id="slide-2" style="background:#0C7BB9;">
+  
+  <hgroup>
+    <h2>Analítica deportiva</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-3" style="background:black;">
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><br/ >
+<center><img src="assets/img/examples/data_nfl.jpg" height="85%" width="85%"></center>
+<br/ >
+<center><img src="assets/img/examples/data_tennis.jpg" height="90%" width="90%"></center></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><br/ >
+<center><img src="assets/img/examples/data_baseball.jpg" height="60%" width="60%"></center>
+<br/ >
+<center><img src="assets/img/examples/data_nba.jpg" height="60%" width="60%"></center></p>
+
+</div>
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-4" style="background:black;">
+  
+  <article data-timings="">
+    <p><center><img src="assets/img/areas.png" height="85%" width="85%"></center></a></p>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="segue" id="slide-5" style="background:#0C7BB9;">
+  
+  <hgroup>
+    <h2>Datos y herramientas</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-6" style="background:;">
+  
+  <hgroup>
+    <h2>Datos de eventos</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <ul class = "build incremental">
+<li><p>Registro de distintos eventos relevantes con sus detalles respectivos<center><img src="assets/img/events.png" height="100%" width="100%"></center></a></p></li>
+<li><p><center><img src="assets/img/events_hockey.png" height="50%" width="50%"></center></a></p></li>
+</ul>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-7" style="background:;">
+  
+  <hgroup>
+    <h2>Proveedores</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><br/ >
+<br/ >
+<center><img src="assets/img/providers/statsbomb.jpg" height="50%" width="40%"></center>
+<br/ >
+<br/ >
+<br/ >
+<center><img src="assets/img/providers/stats.png" height="40%" width="40%"></center></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><center><img src="assets/img/providers/wyscout.png" height="30%" width="40%"></center>
+<br/ >
+<br/ >
+<center><img src="assets/img/providers/metrica.png" height="30%" width="40%"></center></p>
+
+</div>
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-8" style="background:;">
+  
+  <hgroup>
+    <h2>Herramientas</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <p><center><img src="assets/img/data-science-workflow2b.fw_new.fw.png" height="100%" width="100%"></center></p>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="segue" id="slide-9" style="background:#0C7BB9;">
+  
+  <hgroup>
+    <h2>Ejemplos en fútbol y hockey sobre hielo</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-10" style="background:;">
+  
+  <hgroup>
+    <h2>1) Modelos xG</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <p><br/ ></p>
+
+<ul class = "build incremental">
+<li><p>xG: eXpected Goals (Goles esperados)</p></li>
+<li><p>Se busca estimar la probabilidad de gol que tienen los tiros antes de ejecutarse</p></li>
+<li><p>Es un problema de clasificación con dos salidas: &quot;GOL&quot; y &quot;NO GOL&quot;</p></li>
+<li><p>Clases muy desbalanceadas: En fútbol aprox. el 11% de los tiros son goles (y en hockey el 6%)</p></li>
+</ul>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-11" style="background:;">
+  
+  <hgroup>
+    <h2>Características modelos xG</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <ul class = "build incremental">
+<li><p>Variables más relevantes: distancia al arco y ángulo de tiro</p></li>
+<li><p><a href="https://www.thesignificantgame.com/portfolio/expected-goals-model-with-tidymodels/">Modelo básico con regresión logística</a><center><img src="assets/img/examples/xg1.png" height="50%" width="50%"></center></p></li>
+<li><p>Otras variables: parte del cuerpo, posición del arquero, altura del balón, cantidad y posición de defensas, etc. <a href="https://www.datofutbol.cl/xg-model/">Acá un ejemplo con más variables y usando GBM</a></p></li>
+</ul>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-12" style="background:;">
+  
+  <hgroup>
+    <h2>Características modelos xG</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <p>Influencia de la cantidad de oponentes en la trayectoria del tiro:
+<center><img src="assets/img/examples/xg1B.png" height="70%" width="70%"></center></p>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-13" style="background:;">
+  
+  <hgroup>
+    <h2>Características modelos xG</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <ul class = "build incremental">
+<li><strong>AUC</strong><center><img src="assets/img/examples/xg3.png" height="100%" width="100%"></center> </li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <ul class = "build incremental">
+<li><a href="https://dtai.cs.kuleuven.be/sports/blog/how-data-availability-affects-the-ability-to-learn-good-xg-models">Calibración</a><center><img src="assets/img/examples/xg4.png" height="100%" width="100%"></center></li>
+</ul>
+
+</div>
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-14" style="background:;">
+  
+  <hgroup>
+    <h2>Aplicaciones modelos xG: Contexto + Scouting</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <ul class = "build incremental">
+<li><a href="https://twitter.com/R_by_Ryo/status/1304854594950815744?s=20">Timeline + Shotmap</a><center><img src="assets/img/examples/xg5.png" height="100%" width="100%"></center></li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <ul class = "build incremental">
+<li><a href="https://twitter.com/StatifiedF/status/1250759002088144899">Shotmap de una temporada</a><center><img src="assets/img/examples/halaand.jpg" height="85%" width="85%"></center></li>
+</ul>
+
+</div>
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-15" style="background:;">
+  
+  <hgroup>
+    <h2>Aplicaciones xG: Optimización de line-up</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <p><center><img src="assets/img/examples/hockey_rink.png" height="45%" width="45%"></center></p>
+
+<ul class = "build incremental">
+<li><p>Pregunta: ¿Qué tipo de jugadores maximimizan la producción ofensiva?</p></li>
+<li><p>Enfoque: Usar el xGF% (proporción de xG a favor respecto al xG total) como predictor de la
+prob. de ganar -&gt; con xGF 55% tienes 60% prob. de ganar<br/ ><center><img src="assets/img/examples/win_prob.png" height="20%" width="20%"></center></p></li>
+</ul>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-16" style="background:;">
+  
+  <hgroup>
+    <h2>Aplicaciones modelos xG: Optimización de line-up</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <ul class = "build incremental">
+<li>Método:<br/ > - Clustering de jugadores según estilo de juego y performance ofensiva<br/ >-Calcular xGF% para todos los tiros en Estados 5-5 de una temporada asociados a cada combinación de 3 delanteros (Forwards)</li>
+</ul>
+
+<div style='float:left;width:48%;' class='centered'>
+  <ul class = "build incremental">
+<li>Ranking de combinaciones de 3 delanteros según XGF%: mejores line-ups!<br/ ><br/ ><center><img src="assets/img/examples/xg7.png" height="110%" width="110%"></center> </li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <ul class = "build incremental">
+<li>Conformación de plantel<br/ ><center><img src="assets/img/examples/xg6.png" height="100%" width="100%"></center></li>
+</ul>
+
+</div>
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-17" style="background:;">
+  
+  <hgroup>
+    <h2>Aplicaciones modelos xG</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <p>El xG es el proxy de generar/conceder peligro de gol. Es la base para otras métricas que buscan valorar pases y posesión: xA, xGchain, xGBuild, xT, VAEP, g+, etc.</p>
+
+<p><center><blockquote class="twitter-tweet" data-theme="dark"><p lang="es" dir="ltr">Lukaku convertía el 3-3 con una gran asistencia de Hakimi. Pero vean la genialidad de <a href="https://twitter.com/Alexis_Sanchez?ref_src=twsrc%5Etfw">@Alexis_Sanchez</a> 😍<a href="https://t.co/NIMiD1llQf">pic.twitter.com/NIMiD1llQf</a></p>&mdash; Inter Club México (@InterClubMX) <a href="https://twitter.com/InterClubMX/status/1309955924103172098?ref_src=twsrc%5Etfw">September 26, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><center></p>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-18" style="background:;">
+  
+  <hgroup>
+    <h2>2) Clustering de pases</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <ul class = "build incremental">
+<li><p>Idea: observar patrones de ubicación, longitud, y dirección de pases, en específico asistencias en la zona ofensiva, tanto a nivel de jugadores como de equipo en situaciones particulares de un partido.</p></li>
+<li><p>Problema: son muchos pases!<br/ ><center><img src="assets/img/examples/hpass1.png" height="40%" width="40%"></center></p></li>
+<li><p>Enfoque: aplicar clustering para facilitar la visualización</p></li>
+</ul>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-19" style="background:;">
+  
+  <hgroup>
+    <h2>Resultados del clustering</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <p>Luego de algunas iteraciones optamos por 39 clusters, aceptando errores en favor de mantener la simetría y la ubicación de tiros</p>
+
+<div style='float:left;width:48%;' class='centered'>
+  <p><center><img src="assets/img/examples/hpass2.png" height="100%" width="100%"></center></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <ul class = "build incremental">
+<li><center><img src="assets/img/examples/hpass3.png" height="60%" width="60%"></center><br/ ><center><img src="assets/img/examples/hpass4.png" height="60%" width="60%"></center></li>
+</ul>
+
+</div>
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-20" style="background:;">
+  
+  <hgroup>
+    <h2>Aplicación del clustering: nivel equipo</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><center><img src="assets/img/examples/happHCD2.png" height="100%" width="100%"></center></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><center><img src="assets/img/examples/happSCB2.png" height="96%" width="96%"></center></p>
+
+</div>
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-21" style="background:;">
+  
+  <hgroup>
+    <h2>Aplicación del clustering: nivel jugador</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <p><center><img src="assets/img/examples/happTedenby.Mattias.png" height="65%" width="65%"></center></p>
+
+<p><center><img src="assets/img/examples/happHofmann.Gregory.png" height="65%" width="65%"></center></p>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-22" style="background:;">
+  
+  <hgroup>
+    <h2>3) Similitud de jugadores</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <p><br/ ></p>
+
+<ul class = "build incremental">
+<li>Idea: Un caso recurrente en scouting es buscar un reemplazo a un jugador que se va/fue o bien querer a alguien que tenga un perfil similar a un jugador específico.
+<br/ >
+<br/ ></li>
+<li>Problema: Pueden ser decenas o cientos de candidatos + puede haber buenos candidatos que no están en mi radar + se requieren muchos recursos para analisar y evaluar a cada uno.
+<br/ >
+<br/ ></li>
+<li>Enfoque: Crear un perfil cuantitativo del jugador de referencia en cuanto a performance (percentiles en atributos relevantes dentro de un universo objetivo) + aplicar un algoritmo/función de similitud + aplicar filtros según condiciones de borde para acotar la cantidad de candidatos</li>
+</ul>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-23" style="background:;">
+  
+  <article data-timings="">
+    <p><img src="assets/img/futbolytics2.png" height="20%" width="20%">
+<img src="assets/img/examples/demo_similitud.png" height="100%" width="100%"></p>
+
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-24" style="background:;">
+  
+  <hgroup>
+    <h2>4) Análisis espacio-temporal con tracking data</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    <p><br/ ></p>
+
+<div style='float:left;width:48%;' class='centered'>
+  <p>1° versión del <a href="https://github.com/Dato-Futbol/soccerAnimate">paquete {SoccerAnimate}</a><br/ ><center><img src="assets/img/soccerAnimate.png" height="40%" width="40%"></center></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><center><img src="assets/img/examples/example_B.gif" height="105%" width="105%"></center></a></p>
+
+</div>
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-25" style="background:;">
+  
+  <hgroup>
+    <h2>Otras aplicaciones</h2> 
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <ul class = "build incremental">
+<li><a href="https://twitter.com/TonyElHabr/status/1304766718468857857">Pitch control model + VAEP</a><br/ ><center><img src="assets/img/examples/ucl_2020_psg_mun.gif" height="95%" width="95%"></center></a></li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <ul class = "build incremental">
+<li><a href="https://twitter.com/EightyFivePoint/status/1301193951978848256">Corners auto-tagging</a><br/ ><blockquote class="twitter-tweet"><p lang="en" dir="ltr">The paper that <a href="https://twitter.com/suds_g?ref_src=twsrc%5Etfw">@suds_g</a> and I have written on corner routine analysis using tracking data is now available for download on the Machine Learning in Sports Analytics workshop website<a href="https://t.co/nnRBKsOH2U"><a href="https://t.co/nnRBKsOH2U">https://t.co/nnRBKsOH2U</a></a><br><br>Here&#39;s an example of our <em>automated tagging</em> of defensive roles at corners <a href="https://t.co/AnmyVz2NK3">pic.twitter.com/AnmyVz2NK3</a></p>&mdash; Laurie Shaw (@EightyFivePoint) <a href="https://twitter.com/EightyFivePoint/status/1301193951978848256?ref_src=twsrc%5Etfw">September 2, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+</ul>
+
+</div>
+  </article>
+
+<!--<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/puck.ball.fw_pie.fw.png" height="30" width="30">
+</div>
+</footer>
+-->
+
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="thank-you-slide segue nobackground" id="slide-26">
+  <aside class="gdbar right"><img src="assets/img/png_icons/puck.ball.fw.png"></aside>
+  <article class="flexbox vleft auto-fadein">
+    <h2>Gracias!</h2>
+    
+  </article>
+  <p class="auto-fadein" data-config-contact="">
+    
+    <span></span><a href="https://futbolytics.cl">https://futbolytics.cl</a><br>
+    
+    <span>Twitter</span><a href="https://twitter.com/DatoFutbol_cl">https://twitter.com/DatoFutbol_cl</a><br>
+    
+    <span>Blog</span><a href="https://datofutbol.cl">https://datofutbol.cl</a><br>
+    
+  </p>
+</slide>
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='NA'>
+         1
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Analítica deportiva'>
+         2
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='NA'>
+         3
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='NA'>
+         4
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Datos y herramientas'>
+         5
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='Datos de eventos'>
+         6
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='Proveedores'>
+         7
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=8 title='Herramientas'>
+         8
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=9 title='Ejemplos en fútbol y hockey sobre hielo'>
+         9
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=10 title='1) Modelos xG'>
+         10
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=11 title='Características modelos xG'>
+         11
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=12 title='Características modelos xG'>
+         12
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=13 title='Características modelos xG'>
+         13
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=14 title='Aplicaciones modelos xG: Contexto + Scouting'>
+         14
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=15 title='Aplicaciones xG: Optimización de line-up'>
+         15
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=16 title='Aplicaciones modelos xG: Optimización de line-up'>
+         16
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=17 title='Aplicaciones modelos xG'>
+         17
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=18 title='2) Clustering de pases'>
+         18
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=19 title='Resultados del clustering'>
+         19
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=20 title='Aplicación del clustering: nivel equipo'>
+         20
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=21 title='Aplicación del clustering: nivel jugador'>
+         21
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=22 title='3) Similitud de jugadores'>
+         22
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=23 title='NA'>
+         23
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=24 title='4) Análisis espacio-temporal con tracking data'>
+         24
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=25 title='Otras aplicaciones'>
+         25
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=26 title='Gracias!'>
+         26
+      </a>
+    </li>
+    
+    </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

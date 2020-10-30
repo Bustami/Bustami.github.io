@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>La revolución de los datos en Soccer Analytics</title>
+  <meta charset="utf-8">
+  <meta name="description" content="La revolución de los datos en Soccer Analytics">
+  <meta name="author" content="Ismael Gómez Schmidt">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+      <slide class="nobackground">
+    <article class="flexbox vcenter">
+      <span>
+        <img width='100%' src="assets/img/fondo.png">
+      </span>
+    </article>
+  </slide>
+    <slide class="title-slide segue nobackground">
+  <aside class="gdbar">
+    <img src="assets/img/png_icons/field.png">
+  </aside>
+  <hgroup class="auto-fadein">
+    <h1>La revolución de los datos en Soccer Analytics</h1>
+    <h2>Seminario Fútbol Analytics UAI 2019</h2>
+    <p>Ismael Gómez Schmidt<br/>Frontman datofutbol.cl</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <article data-timings="">
+    <style>
+.title-slide {
+  background-color: white; 
+}
+
+.title-slide hgroup > h1{
+ font-family: 'Oswald', 'Helvetica', sanserif;
+ color: gray;
+ font-size:52px;
+}
+
+.title-slide hgroup > h2 {
+  color: #3182bd;
+}
+
+.title-slide hgroup > p {
+  color: black;
+}
+
+</style>
+
+<h2>¿Qué veremos?</h2>
+
+<p><br/ ></p>
+
+<ul class = "build incremental">
+<li>Breve contexto histórico
+<br/ >
+<br/ ></li>
+<li>Categorías según tipos de datos:
+<br/ >
+<br/ >
+
+<ul>
+<li>Información que contienen
+<br/ >
+<br/ ></li>
+<li>¿Cómo conseguir los datos?
+<br/ >
+<br/ ></li>
+<li>Objetivo o uso típico (ejemplos de aplicaciones)
+<br/ >
+<br/ ></li>
+</ul></li>
+<li>Desafíos
+<br/ >
+<br/ ></li>
+<li>¿Cómo llega Chile a la Copa América?</li>
+</ul>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h3>Charles Reep: Pionero en recolección de datos de fútbol</h3> 
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/img/reep.jpg" height="40%" width="40%">
+<br/ ></p>
+
+<ul class = "build incremental">
+<li>En la década del 50 inició un conteo riguroso de tiros, goles, pases, quites, etc. de partidos de la liga inglesa.
+<br/ >
+<br/ ></li>
+<li>Algunos insights de su paper &quot;Skill and Chance in Association Football&quot; (Journal of the Royal Statistical Society, 1968) con 15 años de datos:<br/ ><br/ >
+    - 1 gol cada 9 tiros<br/ >
+    - Casi la mitad de los goles ocurrían cerca del área luego de una recuperación<br/ ></li>
+</ul>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <article data-timings="">
+    <ul class = "build incremental">
+<li>Pocos pases consecutivos<br/ ><br/ >
+<center><img src="assets/img/passes.png" height="55%" width="55%"><figcaption> &quot;The Numbers Game - Anderson &amp; Sally&quot;       Note: Horizontal axis shows the number of successful passing moves, where 0 means that a pass attempt was immediately intercepted; 1 means one successful pass before possession lost and so on. Numbers atop bars indicate the percentage of moves in a match. Reep and Benjamin found only 8.5 per cent of passing movements contained more than three passes.</figcaption></center></a>
+<br/ ></li>
+<li>A partir de estos resultados reafirmó su visión de juego que solo buscaba la efectividad.</li>
+</ul>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:black;">
+  <article data-timings="">
+    <p><center><img src="assets/img/tablet.jpg" height="100%" width="100%"><figcaption></figcaption></center></a></p>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:black;">
+  <article data-timings="">
+    <p><br/ >
+<br/ >
+<br/ >
+<center><img src="assets/img/historical.png" height="70%" width="70%"></center></a></p>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-6" style="background:black;">
+  <article data-timings="">
+    <p><br/ >
+<center><img src="assets/img/SoccerAnalytics_UAI.png" height="80%" width="80%" ></center></p>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-7" style="background:black;">
+  <article data-timings="">
+    <p><center><img src="assets/img/cat_datos.png" height="90%" width="90%"></center></a></p>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-8" style="background:;">
+  <article data-timings="">
+    <p><left><img src="assets/img/cat_1.fw.png" height="90%" width="90%"></left></a></p>
+
+<h3>Contiene:</h3>
+
+<ul class = "build incremental">
+<li>Información general de partidos (Fecha, Estadio, Árbitro, Torneo, Equipos, Alineación, etc.)
+<br/ >
+<br/ ></li>
+<li>Resultados (1T, 2T)
+<br/ >
+<br/ ></li>
+<li>Cantidad y momento de incidencias (Goles, Tiros, Tarjetas, Corners, Penales, Off-sides, etc.)
+<br/ >
+<br/ ></li>
+<li>Tablas de posiciones (Copas, PJ, PG, PE, PP, GF, GC, %R, etc.) y Rankings
+<br/ >
+<br/ ></li>
+<li>Información de jugadores (Edad, Altura, Nacionalidad, Valor $ en el mercado, Minutos jugados, etc.)
+<br/ >
+<br/ ></li>
+<li>Otros (Ej: Factores de pago de casas de apuestas, Habilidades de jugadores)</li>
+</ul>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-9" style="background:;">
+  <hgroup>
+    <h2>¿Dónde se consiguen?</h2> 
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><br/ >
+<center><img src="assets/img/providers/books.png" height="40%" width="40%"></center>
+<br/ >
+<br/ >
+<br/ >
+<center><img src="assets/img/providers/excel.png" height="20%" width="20%"></center>
+<br/ >
+<br/ >
+<br/ >
+<center><img src="assets/img/providers/transfermarkt.png" height="20%" width="40%"></center>
+<br/ >
+<br/ >
+<br/ ></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><center><img STYLE="position:absolute; TOP:50px; LEFT:770px; WIDTH:80px; HEIGHT:80px" src="assets/img/providers/internet.png" height="20%" width="20%"></center>
+<br/ >
+<br/ >
+<br/ >
+<center><img src="assets/img/providers/wikipedia.png" height="20%" width="30%"></center>
+<br/ >
+<br/ >
+<br/ >
+<center><img src="assets/img/providers/kaggle.png" height="20%" width="40%"></center>
+<br/ >
+<br/ >
+<br/ >
+<center><img src="assets/img/providers/github.png" height="20%" width="20%"></center></p>
+
+</div>
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-10" style="background:;">
+  <hgroup>
+    <h2>Objetivo y/o Aplicaciones</h2> 
+  </hgroup>
+  <article data-timings="">
+    <p><br/ ></p>
+
+<ul class = "build incremental">
+<li>Estadística descriptiva
+<br/ >
+<br/ ></li>
+<li>Dar un contexto previo o descripción posterior a un partido o torneo
+<br/ >
+<br/ ></li>
+<li>Infografías, comparaciones, rankings, récords, etc.
+<br/ >
+<br/ ></li>
+<li>Modelos de probabilidades</li>
+</ul>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="segue" id="slide-11" style="background:#0C7BB9;">
+  <hgroup>
+    <h2>Ejemplos</h2> 
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-12" style="background:;">
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <ul class = "build incremental">
+<li><center><img src="assets/img/examples/luchoreyes.png" height="100%" width="100%"></center></a></li>
+<li><center><img src="assets/img/examples/golynumeros.png" height="100%" width="100%"></center></a></li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <ul class = "build incremental">
+<li><center><img src="assets/img/examples/campeones.png" height="100%" width="100%"></center></a></li>
+<li><center><img src="assets/img/examples/mrchip.png" height="50%" width="50%"></center></a></li>
+</ul>
+
+</div>
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-13" style="background:;">
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <ul class = "build incremental">
+<li><center><img src="assets/img/examples/liberta1.png" height="90%" width="90%"></center></a></li>
+<li><center><img src="assets/img/examples/liberta2.png" height="100%" width="100%"></center></a></li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <ul class = "build incremental">
+<li><center><img src="assets/img/examples/mundial1.png" height="90%" width="90%"></center></a></li>
+<li><center><img src="assets/img/examples/mundial2.png" height="90%" width="90%"></center></a></li>
+</ul>
+
+</div>
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-14" style="background:;">
+  <article data-timings="">
+    <p><center><img src="assets/img/examples/ages.png" height="75%" width="75%"></center></a></p>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-15" style="background:;">
+  <article data-timings="">
+    <p><left><img src="assets/img/cat_2.fw2.fw.png" height="85%" width="85%"></left></a></p>
+
+<h3>Contiene:</h3>
+
+<ul class = "build incremental">
+<li>Momento y <code>Ubicación</code> (x, y) de eventos (tiros, pases, quites, dribleos, presión defensiva, etc.)
+<br/ >
+<br/ ></li>
+<li>Jugadores involucrados en los eventos
+<br/ >
+<br/ ></li>
+<li>Detalles adicionales asociados (parte del cuerpo, N° de posesión, resultado del evento, altura, dimensiones de la cancha, etc.)
+<br/ >
+<br/ ></li>
+<li>Métricas especializadas
+<br/ >
+<br/ ></li>
+</ul>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-16" style="background:;">
+  <hgroup>
+    <h2>¿Dónde se consiguen?</h2> 
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><br/ >
+<center><img src="assets/img/providers/opta.png" height="60%" width="40%"></center>
+<br/ >
+<br/ >
+<br/ >
+<center><img src="assets/img/providers/statsbomb.jpg" height="70%" width="40%"></center>
+<br/ >
+<br/ >
+<br/ >
+<center><img src="assets/img/providers/stats.jpg" height="40%" width="40%"></center>
+<br/ >
+<center><img src="assets/img/providers/wyscout.png" height="30%" width="40%"></center>
+<br/ ></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><br/ >
+<center><img src="assets/img/providers/datafactory.jpg" height="20%" width="40%"></center>
+<br/ >
+<br/ >
+<br/ >
+<center><img src="assets/img/providers/statscore.png" height="30%" width="30%"></center>
+<br/ >
+<br/ >
+<br/ >
+<center><img src="assets/img/providers/stratabet.png" height="70%" width="40%"></center></p>
+
+</div>
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-17" style="background:;">
+  <hgroup>
+    <h2>Objetivo y/o Aplicaciones</h2> 
+  </hgroup>
+  <article data-timings="">
+    <p><br/ ></p>
+
+<ul class = "build incremental">
+<li>Análisis espacial y direccional de eventos (Shotmaps, Passing Networks, Heatmaps y Comparaciones espaciales de distintos eventos, etc.)
+<br/ >
+<br/ ></li>
+<li>Performance grupal e individual (por partido y/o temporada, por posiciones, ponderado por minutos de juego, Radar plots, etc.)
+<br/ >
+<br/ ></li>
+<li>Creación de métricas específicas (xG, xA, xChain, xBuildUp, xThreat, Pases por minuto de posesión, Longitud media de pases, Velocidad media de secuencias de pases, etc.)
+<br/ >
+<br/ ></li>
+<li>Otros (Ej: Contextualizar temporal y espacialmente series de eventos, Descripción más profunda de partidos y estilos de juego)</li>
+</ul>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="segue" id="slide-18" style="background:#d7301f;">
+  <hgroup>
+    <h2>Ejemplos</h2> 
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-19" style="background:;">
+  <hgroup>
+    <h2>Expected Goals (xG)</h2> 
+  </hgroup>
+  <article data-timings="">
+    <p><br/ >
+<center><img src="assets/img/examples/events0.jpg" height="100%" width="100%"></center></a></p>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-20" style="background:;">
+  <hgroup>
+    <h2>Shotmap</h2> 
+  </hgroup>
+  <article data-timings="">
+    <p><center><img src="assets/img/examples/events1B.png" height="95%" width="95%" ></center></a></p>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-21" style="background:;">
+  <hgroup>
+    <h2>xG Timeline</h2> 
+  </hgroup>
+  <article data-timings="">
+    <p><center><img src="assets/img/examples/events2.png" height="100%" width="100%" ></center></a></p>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-22" style="background:;">
+  <hgroup>
+    <h2>Passing networks</h2> 
+  </hgroup>
+  <article data-timings="">
+    <p><center><img src="assets/img/examples/events3B.png" height="80%" width="80%" ></center></a></p>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-23" style="background:;">
+  <article data-timings="">
+    <p><br/ >
+<center><img src="assets/img/examples/events4B.png" height="85%" width="85%" ></center></a></p>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-24" style="background:;">
+  <hgroup>
+    <h1>Event heatmaps &amp; position maps</h1> 
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <ul class = "build incremental">
+<li><center><img src="assets/img/examples/events5B.png" height="90%" width="90%"></center></a></li>
+<li><center><img src="assets/img/examples/events6B.png" height="90%" width="90%"></center></a></li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <ul class = "build incremental">
+<li><center><img src="assets/img/examples/events7B.png" height="85%" width="85%"></center></a></li>
+<li><center><img src="assets/img/examples/events8.png" height="82%" width="82%"></center></a></li>
+</ul>
+
+</div>
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-25" style="background:;">
+  <hgroup>
+    <h2>Defensive coverage</h2> 
+  </hgroup>
+  <article data-timings="">
+    <p><center><img src="assets/img/examples/def-coverage.png" height="90%" width="90%"></center></a></p>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-26" style="background:;">
+  <hgroup>
+    <h1>Positional analysis &amp; comparison</h1> 
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <ul class = "build incremental">
+<li><center><img src="assets/img/examples/possession_framework.png" height="85%" width="85%" ></center></a></li>
+<li><center><img src="assets/img/examples/position_framework.png" height="85%" width="85%" ></center></a></li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <ul class = "build incremental">
+<li><center><img src="assets/img/examples/opta_positions.jpg" height="85%" width="85%" ></center></a></li>
+<li><center><img src="assets/img/examples/opta_positions2.jpg" height="85%" width="85%" ></center></a></li>
+</ul>
+
+</div>
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-27" style="background:;">
+  <hgroup>
+    <h1>Individual performance: xG + xA</h1> 
+  </hgroup>
+  <article data-timings="">
+    <p><center><img src="assets/img/examples/individual2.png" height="90%" width="90%"></center></a></p>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-28" style="background:;">
+  <hgroup>
+    <h1>Individual performance: comparison + xGChain</h1> 
+  </hgroup>
+  <article data-timings="">
+    <p><center><img src="assets/img/examples/individual1.png" height="50%" width="50%"></center></a></p>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-29" style="background:;">
+  <hgroup>
+    <h1>Individual performance: p90 + radar plots</h1> 
+  </hgroup>
+  <article data-timings="">
+    <p><br/ >
+<center><img src="assets/img/examples/individual3.png" height="55%" width="55%"></center></a></p>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-30" style="background:;">
+  <hgroup>
+    <h2>xT</h2> 
+  </hgroup>
+  <article data-timings="">
+    <iframe src="https://karun.in/blog/expected-threat.html" height="95%" width="95%" frameborder="0" allowfullscreen=""></iframe>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-31" style="background:;">
+  <article data-timings="">
+    <p><left><img src="assets/img/cat_3.fw2.fw.png" height="90%" width="90%"></left></a></p>
+
+<h3>Contiene:</h3>
+
+<ul class = "build incremental">
+<li>Ubicación (x, y) de cada jugador y el balón a cierta frecuencia (Ej: 10 Hz)
+<br/ >
+<br/ ></li>
+<li>Información complementaria (nombre y número de camiseta de jugadores, dimensiones de la cancha, equipos, tiempo de juego, etc.)</li>
+</ul>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-32" style="background:;">
+  <hgroup>
+    <h2>¿Dónde se consiguen?</h2> 
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><center><img src="assets/img/providers/chyron_hego.png" height="60%" width="40%"></center>
+<br/ >
+<center><img src="assets/img/providers/catapult.png" height="60%" width="40%"></center>
+<br/ >
+<br/ >
+<center><img src="assets/img/providers/tromso.png" height="70%" width="40%"></center>
+<br/ >
+<br/ >
+<br/ >
+<center><img src="assets/img/providers/stats.jpg" height="40%" width="40%"></center></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><center><img STYLE="position:absolute; TOP:50px; LEFT:700px; WIDTH:200px; HEIGHT:80px" src="assets/img/providers/gpexe.jpg" height="20%" width="20%"></center>
+<br/ >
+<br/ >
+<center><img src="assets/img/providers/wimu.png" height="30%" width="40%"></center>
+<br/ >
+<center><img src="assets/img/providers/playertek.jpg" height="20%" width="40%"></center>
+<br/ >
+<center><img src="assets/img/providers/k-sport.png" height="30%" width="30%"></center></p>
+
+</div>
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-33" style="background:;">
+  <hgroup>
+    <h2>Objetivo y/o Aplicaciones</h2> 
+  </hgroup>
+  <article data-timings="">
+    <p><br/ ></p>
+
+<ul class = "build incremental">
+<li>Recrear jugadas (Revisión de jugadas claves y/o errores, dar indicaciones a jugadores, etc.)
+<br/ >
+<br/ ></li>
+<li>Análisis espacio-temporal de ambos equipos (Convex-Hull, Voronoi, etc., Dominio espacial de un equipo sobre otro, Ganancia de área relevante)
+<br/ >
+<br/ ></li>
+<li>Métricas de desempeño (Distancia recorrida, Velocidad, Heatmaps, etc.)
+<br/ >
+<br/ ></li>
+<li>Uso en competencia y en entrenamiento (Cruce con datos fisiológicos: prevención de lesiones)
+<br/ >
+<br/ ></li>
+<li>Otros (Ej: Análisis y valoración de juego sin balón)</li>
+</ul>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="segue" id="slide-34" style="background:#79B647;">
+  <hgroup>
+    <h2>Ejemplos</h2> 
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-35" style="background:;">
+  <article data-timings="">
+    <p><br/ >
+<br/ ></p>
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6537417704251420673?compact=1" height="100%" width="100%" frameborder="0" allowfullscreen=""></iframe>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-36" style="background:;">
+  <article data-timings="">
+    <p><br/ >
+<center><img src="assets/img/examples/tracking_metrics.jpg" height="90%" width="90%"></center></p>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-37">
+<hgroup>
+  
+</hgroup>
+<article class = 'flexbox vcenter'>
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="es"><p lang="en" dir="ltr">New update of soccerAnimate function:<br>+ voronoi diagrams<br>+ method setting [convexhull, voronoi, clean]<br><br>Next step: calculate/show metrics each sample &amp; globally (areas+lenghts+%s)<br><br>Thanks to <a href="https://twitter.com/thomasp85?ref_src=twsrc%5Etfw">@thomasp85</a> for such a great packages <a href="https://twitter.com/hashtag/gganimate?src=hash&amp;ref_src=twsrc%5Etfw">#gganimate</a> <a href="https://twitter.com/hashtag/ggforce?src=hash&amp;ref_src=twsrc%5Etfw">#ggforce</a><br><br>Code:<a href="https://t.co/xqah1jhZ82">https://t.co/xqah1jhZ82</a> <a href="https://t.co/jQW0LbxZuH">pic.twitter.com/jQW0LbxZuH</a></p>&mdash; Dato Fútbol (@DatoFutbol_cl) <a href="https://twitter.com/DatoFutbol_cl/status/1136334821712699392?ref_src=twsrc%5Etfw">5 de junio de 2019</a></blockquote>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</article>
+<!-- Presenter Notes -->
+</slide>
+<slide class="" id="slide-38">
+<hgroup>
+  
+</hgroup>
+<article class = 'flexbox vcenter'>
+<blockquote class="twitter-tweet" data-lang="es"><p lang="en" dir="ltr">Experimenting with new metrics using Voronoi diagrams: the number near the goal is the % of the relevant area &quot;owned&quot; by the attacking team. The number goes up from 15% to 30% with the key pass of the play. Useful to calculate goal contribution? <a href="https://t.co/3bbaNBG4bP">pic.twitter.com/3bbaNBG4bP</a></p>&mdash; Last Row (@lastrowview) <a href="https://twitter.com/lastrowview/status/1068846306980970497?ref_src=twsrc%5Etfw">1 de diciembre de 2018</a></blockquote>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</article>
+<!-- Presenter Notes -->
+</slide>
+<slide class="" id="slide-39" style="background:white;">
+  <hgroup>
+    <h2>Flujo de trabajo típico</h2> 
+  </hgroup>
+  <article data-timings="">
+    <p><center><img src="assets/img/data-science-workflow1b_.png" height="100%" width="100%"></center></a></p>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-40" style="background:white;">
+  <hgroup>
+    <h2>Flujo de trabajo típico</h2> 
+  </hgroup>
+  <article data-timings="">
+    <p><center><img src="assets/img/data-science-workflow2b.fw_new.fw.png" height="100%" width="100%"></center></a></p>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-41" style="background:;">
+  <hgroup>
+    <h2>Desafíos</h2> 
+  </hgroup>
+  <article data-timings="">
+    <ul class = "build incremental">
+<li>1) Que todo el medio se actualice en el tema: Cuerpos técnicos + Dirigentes + Periodismo deportivo + Analistas + Academia + Hinchas. Equipos y Selección, a nivel formativo y adulto, masculino y femenino.
+<br/ >
+<br/ ></li>
+<li><p>2) Acceso a los datos: </p>
+
+<ul>
+<li>Conocimiento + Difusión -&gt; Interés + Confianza -&gt; Financiamiento. </li>
+<li>Proyectos de democratización (Ej: Superliga Argentina, La Liga España, Statsbomb)
+<br/ >
+<br/ ></li>
+</ul></li>
+<li><p>3) Estandarización en el registro (<a href="http://www.analiticasports.com/por-que-la-fifa-hizo-una-alianza-con-barcelona-para-unificar-la-captura-y-procesamiento-de-datos-del-futbol/">Fifa validation</a>) y en el cálculo de métricas.
+<br/ >
+<br/ ></p></li>
+<li><p>4) Trabajo interdisciplinario entre Cuerpo Técnico, Equipo Médico y Analistas.</p></li>
+</ul>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-42" style="background:;">
+  <hgroup>
+    <h2>¿Cómo llega Chile a la Copa América?</h2> 
+  </hgroup>
+  <article data-timings="">
+    <p><br/ ></p>
+
+<ul class = "build incremental">
+<li>Análisis exploratorio y comparativo del desempeño de las selecciones que jugarán la Copa
+<br/ >
+<br/ ></li>
+<li>Considerando datos de los partidos amistosos del último año (posterior al mundial de Rusia)
+<br/ >
+<br/ ></li>
+<li>Datos de Wyscout (prueba gratuita de 14 días) [Categorías 1 y 2]. </li>
+</ul>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-43" style="background:;">
+  <article data-timings="">
+    <p><br/ ></p>
+
+<iframe src="https://bustami.shinyapps.io/copa-america-2019/" height="100%" scrolling="yes" frameBorder="0"></iframe>
+
+<p><span class="footnote" style="font-size:12px;">Data source: Wyscout; Data viz: Dato Fútbol</span></p>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-44" style="background:;">
+  <hgroup>
+    <h1>Análisis ofensivo</h1> 
+  </hgroup>
+  <article data-timings="">
+    <p>En comparación a sus rivales de la Copa, Chile en sus últimos partidos:</p>
+
+<ul class = "build incremental">
+<li>Ha generado hartas ocasiones de gol (tiene el 2do <code>xG_p90 más alto</code>), pero no concreta (tiene el peor valor de la razón <code>Goals_p90 / xG_p90</code>).
+<br/ ></li>
+<li><p>Ha realizado varios tiros (<code>shot_p90</code> mayor al promedio y con el más alto <code>xG_per_shot</code>) pero con una <code>on target accuracy</code> de las más bajas (35%). Es decir, no le achunta al arco.</p></li>
+<li><p><center><img src="assets/img/examples/chile4.png" height="65%" width="65%"></center></a></p></li>
+</ul>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-45" style="background:;">
+  <article data-timings="">
+    <p>Incluso considerando que patea desde cerca.
+<br/ >
+<center><img src="assets/img/examples/chile5.png" height="70%" width="70%"></center></a></p>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-46" style="background:;">
+  <hgroup>
+    <h1>Análisis defensivo</h1> 
+  </hgroup>
+  <article data-timings="">
+    <p>En comparación a sus rivales de la Copa, Chile en sus últimos partidos:
+<br/ ></p>
+
+<ul class = "build incremental">
+<li>Su <code>posesión</code> está sobre el promedio, pero es el segundo equipo que <code>recibe más goles</code> por cada 90 minutos.
+<br/ >
+<br/ ></li>
+<li>Sus rivales tienen una cantidad mayor al promedio de <code>contraataques que terminan con tiros al arco</code>.
+<br/ >
+<br/ ></li>
+<li>Está dentro de los 7 equipos que realiza mayor <code>pressing</code>, pero de esos es el 2do al cual más le generan <code>tiros</code> y goles. A pesar de que &quot;está bien&quot; en cuanto a recuperaciones, intercepciones, duelos defensivos, cruces, duelos aéreos, pérdidas de balón, etc. Se podría mejorar en <code>recuperaciones en el mediocampo</code>.</li>
+</ul>
+
+  </article>
+
+<footer class = 'logo'>
+<div style="position: absolute; left: 1007px; bottom: 40px; z-index:100">
+<img src = "assets/img/png_icons/ball.png" height="30" width="30">
+</div>
+</footer>
+
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="thank-you-slide segue nobackground" id="slide-47">
+  <aside class="gdbar right"><img src="assets/img/png_icons/field.png"></aside>
+  <article class="flexbox vleft auto-fadein">
+    <h2>Gracias!</h2>
+    
+  </article>
+  <p class="auto-fadein" data-config-contact="">
+    <span></span><a href="https://twitter.com/DatoFutbol_cl">https://twitter.com/DatoFutbol_cl</a><br>
+  </p>
+</slide>
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='NA'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Charles Reep: Pionero en recolección de datos de fútbol'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='NA'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='NA'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='NA'>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='NA'>
+         6
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='NA'>
+         7
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=8 title='NA'>
+         8
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=9 title='¿Dónde se consiguen?'>
+         9
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=10 title='Objetivo y/o Aplicaciones'>
+         10
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=11 title='Ejemplos'>
+         11
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=12 title='NA'>
+         12
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=13 title='NA'>
+         13
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=14 title='NA'>
+         14
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=15 title='NA'>
+         15
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=16 title='¿Dónde se consiguen?'>
+         16
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=17 title='Objetivo y/o Aplicaciones'>
+         17
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=18 title='Ejemplos'>
+         18
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=19 title='Expected Goals (xG)'>
+         19
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=20 title='Shotmap'>
+         20
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=21 title='xG Timeline'>
+         21
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=22 title='Passing networks'>
+         22
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=23 title='NA'>
+         23
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=24 title='Event heatmaps &amp; position maps'>
+         24
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=25 title='Defensive coverage'>
+         25
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=26 title='Positional analysis &amp; comparison'>
+         26
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=27 title='Individual performance: xG + xA'>
+         27
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=28 title='Individual performance: comparison + xGChain'>
+         28
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=29 title='Individual performance: p90 + radar plots'>
+         29
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=30 title='xT'>
+         30
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=31 title='NA'>
+         31
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=32 title='¿Dónde se consiguen?'>
+         32
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=33 title='Objetivo y/o Aplicaciones'>
+         33
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=34 title='Ejemplos'>
+         34
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=35 title='NA'>
+         35
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=36 title='NA'>
+         36
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=37 title='NA'>
+         37
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=38 title='NA'>
+         38
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=39 title='Flujo de trabajo típico'>
+         39
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=40 title='Flujo de trabajo típico'>
+         40
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=41 title='Desafíos'>
+         41
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=42 title='¿Cómo llega Chile a la Copa América?'>
+         42
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=43 title='NA'>
+         43
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=44 title='Análisis ofensivo'>
+         44
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=45 title='NA'>
+         45
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=46 title='Análisis defensivo'>
+         46
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=47 title='Gracias!'>
+         47
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
