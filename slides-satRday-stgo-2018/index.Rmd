@@ -80,7 +80,7 @@ knit        : slidify::knit2slides
 <center><img src="assets/img/stats.jpg" height="30%" width="40%"></center>
 
 
---- 
+--- bg:white
 <center><img src="assets/img/SoccerAnalytics.jpg" height="100%" width="100%"></center></a>
 
 

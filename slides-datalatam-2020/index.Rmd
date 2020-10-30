@@ -19,12 +19,13 @@ knit        : slidify::knit2slides
 }
 
 .title-slide hgroup > h1{
- font-family: 'Oswald', 'Helvetica', sanserif;
+ font-family: 'Open Sans Condensed', sans-serif;
  color: gray;
  font-size:52px;
 }
 
 .title-slide hgroup > h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
   color: #3182bd;
 }
 
@@ -67,7 +68,7 @@ code.r{
 --- .segue bg:#0C7BB9
 ## Analítica deportiva
 
---- 
+--- bg: white
 ## Analítica deportiva
 <center><img src="assets/img/inicio2.png" height="55%" width="55%"></center>
 <br/ >
@@ -102,7 +103,7 @@ code.r{
 --- .segue bg:#0C7BB9
 ## Datos deportivos espaciales
 
---- 
+--- bg: white
 ## Alcance del webinar
 
 > - Datos de Fútbol
@@ -112,7 +113,7 @@ code.r{
 > - Aplicable a todos los deportes que se juegan dentro de una cancha, otros tipos de eventos y a data de tracking:<br/ >
 <center><img src="assets/img/fields/sports_fields.png" height="45%" width="45%"></center>
 
---- 
+--- bg: white
 ## Tipos de datos
 
 ### 1) Datos de eventos: estructura y contenido
@@ -147,7 +148,7 @@ code.r{
 <br/ >
 <center><img src="assets/img/providers/instat.png" height="30%" width="40%"></center>
 
---- 
+--- bg: white
 ## Datos de tracking: estructura y contenido
 
 Registro de **coordenadas para los 22 jugadores y el balón**<center><img src="assets/img/examples/tracking.png" height="55%" width="55%"></center>
@@ -179,7 +180,7 @@ Registro de **coordenadas para los 22 jugadores y el balón**<center><img src="a
 --- .segue bg:#0C7BB9
 ## Flujo de trabajo y herramientas
 
---- 
+--- bg: white 
 ## Flujo de trabajo: Pasos a seguir (0-2)
 <br/ >
 > - **Paso 0: Preguntas**<br/ >
@@ -199,7 +200,7 @@ Conocer atributos, distribuciones, categorías, detalles específicos, etc.
 <br/ >
 <br/ >
 
---- 
+--- bg: white
 ## Flujo de trabajo: Pasos a seguir (3-5)
 <br/ >
 > - **Paso 3: Visualización de cancha**<br/ >
@@ -216,7 +217,7 @@ geom, color, fill, size, label, alpha + <br/ >paletas de colores, rangos de tama
 > - **Paso 5: Detalles finales**<br/ >
 Facetas, leyenda, títulos, anotaciones + <br/ >difusión (formato de exportación, plataforma comunicación, código para reproducibilidad)
 
---- 
+--- bg: white
 ## Herramientas: RStudio + paquetes
 <center><img src="assets/img/data-science-workflow2b.fw_new.fw.png" height="100%" width="100%"></center>
 
@@ -224,7 +225,7 @@ Facetas, leyenda, títulos, anotaciones + <br/ >difusión (formato de exportaci�
 --- .segue bg:#0C7BB9
 ## Ejemplos 
 
---- 
+--- bg: white
 ## Ejemplo 1
 > - **Paso 0**: "Ubicación de los tiros de Messi"
 <br/ >
@@ -425,7 +426,7 @@ geom_point(data = data_free_kick,
 
 <center><img src="assets/img/examples/messi_free_kicks2.png" height="80%" width="80%"></center>
 
----
+--- bg: white
 ## Paso 4: Mapeo de datos
 
 > - **geom**: tiros -> geom_point(); pases -> geom_segment(); mapas de calor -> density_2d()
@@ -440,7 +441,7 @@ geom_point(data = data_free_kick,
 <br/ ><br/ >
 > - Ajustar [paletas de colores](https://colorbrewer2.org/) y rangos de tamaños según que se decidió y los resultados
 
----
+--- bg: white
 ## Output temporal
 ```{r eval = FALSE}    
 data_free_kick <- data_free_kick %>%
@@ -453,7 +454,7 @@ get_pitch(gp = ggplot(data_free_kick), pitch_fill = "white", pitch_col = "black"
 <center><img src="assets/img/examples/messi_temporal.png" height="60%" width="60%"></center>
 
 
----
+--- bg: white
 ## Paso 5: Detalles finales
 
 ```{r eval = FALSE}   
@@ -491,7 +492,7 @@ get_pitch(gp = g, pitch_fill = "black") +
 
 ```
 
----
+--- bg: white
 <center><img src="assets/img/examples/messi_free_kicks3B.png" height="70%" width="70%"></center>
 
 

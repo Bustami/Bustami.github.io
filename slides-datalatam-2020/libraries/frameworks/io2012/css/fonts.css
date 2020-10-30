@@ -2,35 +2,47 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('myfont.woff2') format('woff2'),
-       url('myfont.woff') format('woff'),
-       url('myfont.ttf') format('truetype');
+ src: url('open-sans.eot');
+    src: local('icomoonregular'),
+         url('open-sans.eot?#iefix') format('embedded-opentype'),
+         url('open-sans.woff') format('woff'),
+         url('open-sans.ttf') format('truetype'),
+         url('open-sans.svg#open-sans') format('svg');
   /*src: local('Open Sans'), local('OpenSans'), url(../fonts/OpenSans.woff) format('woff');*/
 }
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  src: url('myfont.woff2') format('woff2'),
-       url('myfont.woff') format('woff'),
-       url('myfont.ttf') format('truetype');
+  src: url('open-sans.eot');
+    src: local('icomoonregular'),
+         url('open-sans.eot?#iefix') format('embedded-opentype'),
+         url('open-sans.woff') format('woff'),
+         url('open-sans.ttf') format('truetype'),
+         url('open-sans.svg#open-sans') format('svg');
   /*src: local('Open Sans Bold'), local('OpenSans-Bold'), url(../fonts/OpenSans-Bold.woff) format('woff');*/
 }
 @font-face {
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 700;
-  src: url('myfont.woff2') format('woff2'),
-       url('myfont.woff') format('woff'),
-       url('myfont.ttf') format('truetype');
+  src: url('open-sans.eot');
+  src: local('icomoonregular'),
+         url('open-sans.eot?#iefix') format('embedded-opentype'),
+         url('open-sans.woff') format('woff'),
+         url('open-sans.ttf') format('truetype'),
+         url('open-sans.svg#open-sans') format('svg');
   /*src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(../fonts/OpenSans-BoldItalic.woff) format('woff');*/
 }
 @font-face {
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 400;
-  src: url('myfont.woff2') format('woff2'),
-       url('myfont.woff') format('woff'),
-       url('myfont.ttf') format('truetype');
+  src: url('open-sans.eot');
+    src: local('icomoonregular'),
+         url('open-sans.eot?#iefix') format('embedded-opentype'),
+         url('open-sans.woff') format('woff'),
+         url('open-sans.ttf') format('truetype'),
+         url('open-sans.svg#open-sans') format('svg');
   /*src: local('Open Sans Italic'), local('OpenSans-Italic'), url(../fonts/OpenSans-Italic.woff) format('woff');*/
 }

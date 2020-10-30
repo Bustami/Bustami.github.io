@@ -1,4 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Source+Code+Pro:500|Open+Sans|Oswald);
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Source+Code+Pro:500|Open+Sans|Oswald);*/
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap);
 
 /* Styles for Table of Contents */
 #io2012-toc {
@@ -199,6 +200,12 @@ ol {
 ol li {
   margin-bottom: 0.5em;
   font-family: "Open Sans";
+  src: url('open-sans.eot');
+    src: local('icomoonregular'),
+         url('open-sans.eot?#iefix') format('embedded-opentype'),
+         url('open-sans.woff') format('woff'),
+         url('open-sans.ttf') format('truetype'),
+         url('open-sans.svg#open-sans') format('svg');
 }
 
 ol li ol {
@@ -290,7 +297,13 @@ div.modal-body pre{
 }
 
 body {
-  font-family: "Open Sans";  
+  font-family: "Open Sans";
+  src: url('open-sans.eot');
+    src: local('icomoonregular'),
+         url('open-sans.eot?#iefix') format('embedded-opentype'),
+         url('open-sans.woff') format('woff'),
+         url('open-sans.ttf') format('truetype'),
+         url('open-sans.svg#open-sans') format('svg');  
 
 }
 
@@ -359,7 +372,7 @@ pre code {
 }
 
 .title-slide hgroup > h1{
- font-family: 'Oswald', 'Helvetica', sanserif; 
+ font-family: 'Oswald', 'Helvetica', sanserif;  
 }
 
 .title-slide hgroup > h1, 
