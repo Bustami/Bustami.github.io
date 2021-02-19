@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cursos/Charlas on DATO FUTBOL</title>
+    <link>/categories/cursos/charlas/</link>
+    <description>Recent content in Cursos/Charlas on DATO FUTBOL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>2017-2019</copyright>
+    
+	<atom:link href="/categories/cursos/charlas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Capacitación en estadística y programación para fútbol</title>
+      <link>/capacitacion-estadistica-programacion-futbol-pizarra-dt/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/capacitacion-estadistica-programacion-futbol-pizarra-dt/</guid>
+      <description>Hola!
+Te cuento que hace unos días lanzamos el curso online &amp;quot;Capacitación en estadística y programación para fútbol&amp;quot; junto con los muchachos de La Pizarra del DT.
+Se trata de un curso ideal para profesionales que no tienen una formación en matemáticas o informática, como por ejemplo profesionales del fútbol o periodistas que quieran empezar su camino en el área de analítica deportiva.
+Si tienes ganas de empezar pero no sabes cómo ni dónde, esta opción puede ser para ti.</description>
+    </item>
+    
+    <item>
+      <title>Una mirada al Soccer Analytics usando R</title>
+      <link>/soccer-analytics-r/</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/soccer-analytics-r/</guid>
+      <description>Hola a todos. Durante algunas semanas el blog estuvo abajo debido a un problema con el servidor. Pero ya está arriba!
+En este post resumiré las novedades que no habían quedado registadas aquí hasta ahora:
+Participé como speaker en el #satRday Stgo. 2018 con la charla &amp;quot;Una mirada al Soccer Analytics usando R&amp;quot;. Aquí los slides que usé en mi presentación.Escribí unos post en Medium con más detalles sobre el mismo tema, incluyendo ejemplos con código en R:Categoría N°1: Estadísticas históricas (haz click)Categoría N°2: Modelos de probabilidades (haz click) En este último artículo incluí el ya clásico análisis de probabilidades de clasificación a segunda ronda de Copa Libertadores y los capos de Analítica Sport me invitaron a publicar el análisis en su sitio (quedó acá).</description>
+    </item>
+    
+  </channel>
+</rss>
