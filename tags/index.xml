@@ -7,10 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>2017-2019</copyright>
-    <lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Campeones</title>
+      <link>/tags/campeones/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/campeones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chile</title>
+      <link>/tags/chile/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/chile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LaFranja</title>
+      <link>/tags/lafranja/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/lafranja/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LosCruzados</title>
+      <link>/tags/loscruzados/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/loscruzados/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PrimeraDivision</title>
+      <link>/tags/primeradivision/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/primeradivision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rstats</title>
+      <link>/tags/rstats/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rstats/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>data</title>
@@ -45,15 +99,6 @@
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>/tags/programacion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rstats</title>
-      <link>/tags/rstats/</link>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/rstats/</guid>
       <description></description>
     </item>
     
@@ -189,51 +234,6 @@
       <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/libertadores2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LosCruzados</title>
-      <link>/tags/loscruzados/</link>
-      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/loscruzados/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Campeones</title>
-      <link>/tags/campeones/</link>
-      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/campeones/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Chile</title>
-      <link>/tags/chile/</link>
-      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/chile/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LaFranja</title>
-      <link>/tags/lafranja/</link>
-      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/lafranja/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PrimeraDivision</title>
-      <link>/tags/primeradivision/</link>
-      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/primeradivision/</guid>
       <description></description>
     </item>
     
