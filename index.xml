@@ -304,18 +304,5 @@ En término generales, los adeptos a esta creencia afirman que “el 2-0 es el r
 Decidimos seleccionar solo las ligas y temporadas con los datos más completos, por lo que se tomaron en cuenta 10755 partidos equivalentes a 8 temporadas (2008/2009 a 2015/2016) de Premier League, La Liga BBVA, Serie A y Bundesliga.</description>
     </item>
     
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>DATO FUTBOL is a personal project that started in 2017 and it is focus on get a deeper knowledge in the field of Soccer (Football) Analytics. This way i’ve been developing different resources related, like this blog, which was created using RStudio, the package blogdown and deploying Shiny apps for some posts.
-Another resources here:A Github repository.
-A Twitter account.
-Conferences :
-Una mirada al Soccer Analytics usando R</description>
-    </item>
-    
   </channel>
 </rss>
