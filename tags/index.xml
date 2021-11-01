@@ -7,7 +7,61 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>2017-2021</copyright>
-    <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2d</title>
+      <link>/tags/2d/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/2d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data</title>
+      <link>/tags/data/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>futbol</title>
+      <link>/tags/futbol/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/futbol/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rstats</title>
+      <link>/tags/rstats/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rstats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sports-analytics</title>
+      <link>/tags/sports-analytics/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sports-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visualizacion</title>
+      <link>/tags/visualizacion/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/visualizacion/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Campeones</title>
       <link>/tags/campeones/</link>
@@ -54,24 +108,6 @@
     </item>
     
     <item>
-      <title>Rstats</title>
-      <link>/tags/rstats/</link>
-      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/rstats/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>data</title>
-      <link>/tags/data/</link>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>estadistica</title>
       <link>/tags/estadistica/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
@@ -81,29 +117,11 @@
     </item>
     
     <item>
-      <title>futbol</title>
-      <link>/tags/futbol/</link>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/futbol/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>programacion</title>
       <link>/tags/programacion/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>/tags/programacion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sports-analytics</title>
-      <link>/tags/sports-analytics/</link>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/sports-analytics/</guid>
       <description></description>
     </item>
     

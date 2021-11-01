@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cursos Online on DATO FUTBOL</title>
+    <link>/categories/cursos-online/</link>
+    <description>Recent content in Cursos Online on DATO FUTBOL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>2017-2021</copyright>
+    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/cursos-online/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Capacitación de visualización 2d en fútbol analytics</title>
+      <link>/capacitacion-visualizacion-2d-futbol-analytics-pizarra-dt/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/capacitacion-visualizacion-2d-futbol-analytics-pizarra-dt/</guid>
+      <description>Hola!
+Ya está disponible el 2do curso online que hemos creado junto a La Pizarra del DT llamado “Capacitación de visualización 2d en fútbol analytics”.
+Conoce y aprende a procesar los datos de eventing utilizados en el fútbol además de realizar visualizaciones 2D con ellas.
+El curso cuenta con 6 módulos donde se presentan los datos de eventos, permitiendo su acceso y procesamiento, la sintaxis y ejemplos de visualización de datos con el paquete {ggplot2} considerando los principales tipos de visualización del área: mapas de tiros (shotmaps), redes de pases (passing networks), mapas de calor (heatmaps) y mapas de pases (passmaps).</description>
+    </item>
+    
+  </channel>
+</rss>
