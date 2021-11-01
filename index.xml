@@ -316,16 +316,5 @@ En término generales, los adeptos a esta creencia afirman que “el 2-0 es el r
 Decidimos seleccionar solo las ligas y temporadas con los datos más completos, por lo que se tomaron en cuenta 10755 partidos equivalentes a 8 temporadas (2008/2009 a 2015/2016) de Premier League, La Liga BBVA, Serie A y Bundesliga.</description>
     </item>
     
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Sat, 25 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Hello there!
-I’m Ismael Gómez Schmidt (Bustami) from Chile and this is my project DATO FUTBOL, which is focused on to develop and to share different content related to the field of Football (Soccer) Analytics and at the same time works as my portfolio.
-The following list contains the multiple services that I could provide for you based on my programming, statistical, data visualization and general data science skills.</description>
-    </item>
-    
   </channel>
 </rss>
