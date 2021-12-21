@@ -2,13 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tags/2018/</loc>
+    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/2021/</loc>
+    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/catolica/</loc>
+    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/chile/</loc>
+    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/chile/</loc>
+    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/primera/</loc>
+    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/tetracampeon/</loc>
+    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/ucatolica-tetracampeon-chile-2018-2021/</loc>
+    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/posiciones/</loc>
+    <lastmod>2021-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/tabla/</loc>
+    <lastmod>2021-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tabla-posiciones-xg-xpts-chile-2021/</loc>
+    <lastmod>2021-12-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/2d/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/capacitacion-visualizacion-2d-futbol-analytics-pizarra-dt/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/cursos-online/</loc>
@@ -17,13 +59,7 @@
     <loc>/tags/data/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/futbol/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/post/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/rstats/</loc>
@@ -32,19 +68,10 @@
     <loc>/tags/sports-analytics/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/visualizacion/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/campeones/</loc>
-    <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/chile/</loc>
-    <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/chile/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/lafranja/</loc>
@@ -60,9 +87,6 @@
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/capacitacion-estadistica-programacion-futbol-pizarra-dt/</loc>
-    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/cursos-charlas/</loc>
     <lastmod>2021-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/estadistica/</loc>
@@ -160,6 +184,9 @@
   </url><url>
     <loc>/categories/varios/</loc>
     <lastmod>2019-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/cursos-charlas/</loc>
+    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/datascience/</loc>
     <lastmod>2019-04-30T00:00:00+00:00</lastmod>
@@ -319,5 +346,8 @@
   </url><url>
     <loc>/tags/seriea/</loc>
     <lastmod>2017-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/about/</loc>
+    <lastmod>2017-03-25T00:00:00+00:00</lastmod>
   </url>
 </urlset>

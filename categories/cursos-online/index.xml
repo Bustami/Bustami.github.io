@@ -20,5 +20,17 @@ Conoce y aprende a procesar los datos de eventing utilizados en el fútbol adem�
 El curso cuenta con 6 módulos donde se presentan los datos de eventos, permitiendo su acceso y procesamiento, la sintaxis y ejemplos de visualización de datos con el paquete {ggplot2} considerando los principales tipos de visualización del área: mapas de tiros (shotmaps), redes de pases (passing networks), mapas de calor (heatmaps) y mapas de pases (passmaps).</description>
     </item>
     
+    <item>
+      <title>Capacitación en estadística y programación para fútbol</title>
+      <link>/capacitacion-estadistica-programacion-futbol-pizarra-dt/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/capacitacion-estadistica-programacion-futbol-pizarra-dt/</guid>
+      <description>Hola!
+Te cuento que hace unos días lanzamos el curso online “Capacitación en estadística y programación para fútbol” junto con los muchachos de La Pizarra del DT.
+Se trata de un curso ideal para profesionales que no tienen una formación en matemáticas o informática, como por ejemplo profesionales del fútbol o periodistas que quieran empezar su camino en el área de analítica deportiva.
+Si tienes ganas de empezar pero no sabes cómo ni dónde, esta opción puede ser para ti.</description>
+    </item>
+    
   </channel>
 </rss>
