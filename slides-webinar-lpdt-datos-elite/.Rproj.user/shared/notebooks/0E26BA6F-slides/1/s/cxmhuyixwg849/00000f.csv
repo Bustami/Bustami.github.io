@@ -1,0 +1,81 @@
+"0","library(StatsBombR)
+"
+"2","Loading required package: dplyr
+"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"2","Loading required package: stringi
+"
+"2","Loading required package: stringr
+"
+"2","Loading required package: tibble
+"
+"2","Warning: package ‘tibble’ was built under R version 4.1.3"
+"2","Loading required package: rvest
+"
+"2","Loading required package: RCurl
+"
+"2","Loading required package: doParallel
+"
+"2","Loading required package: foreach
+"
+"2","Warning: package ‘foreach’ was built under R version 4.1.3"
+"2","Loading required package: iterators
+"
+"2","Warning: package ‘iterators’ was built under R version 4.1.3"
+"2","Loading required package: parallel
+"
+"2","Loading required package: httr
+"
+"2","Loading required package: jsonlite
+"
+"2","Loading required package: purrr
+"
+"2","
+Attaching package: ‘purrr’
+
+"
+"2","The following object is masked from ‘package:jsonlite’:
+
+    flatten
+
+"
+"2","The following objects are masked from ‘package:foreach’:
+
+    accumulate, when
+
+"
+"2","Loading required package: sp
+"
+"2","Loading required package: tidyr
+"
+"2","Warning: package ‘tidyr’ was built under R version 4.1.3"
+"2","
+Attaching package: ‘tidyr’
+
+"
+"2","The following object is masked from ‘package:RCurl’:
+
+    complete
+
+"
+"2","Warning: replacing previous import ‘foreach::when’ by ‘purrr::when’ when loading ‘StatsBombR’"
+"2","Warning: replacing previous import ‘jsonlite::flatten’ by ‘purrr::flatten’ when loading ‘StatsBombR’"
+"2","Warning: replacing previous import ‘foreach::accumulate’ by ‘purrr::accumulate’ when loading ‘StatsBombR’"
+"0","competitions <- FreeCompetitions()"
+"1","[1]"
+"1"," ""Whilst we are keen to share data and facilitate research, we also urge you to be responsible with the data. Please register your details on https://www.statsbomb.com/resource-centre and read our User Agreement carefully."""
+"1","
+"

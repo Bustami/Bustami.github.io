@@ -1,0 +1,4 @@
+"0","players_url = fb_player_urls(teams_url[1])
+"
+"2","Error in xml2::read_html(team_url) : object 'teams_url' not found
+"

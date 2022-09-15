@@ -1,0 +1,150 @@
+Player,Versus,StatGroup,Statistic,Per90,Percentile,BasedOnMinutes,scouting_period
+João Cancelo,Fullbacks,Standard,Goals,0.03,49,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Standard,Assists,0.2,88,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Standard,Non-Penalty Goals,0.03,49,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Standard,Penalty Kicks Made,0,50,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Standard,Penalty Kicks Attempted,0,50,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Standard,Yellow Cards,0.2,36,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Standard,Red Cards,0,55,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Standard,xG,0.11,89,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Standard,Non-Penalty xG,0.11,89,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Standard,xG Assisted,0.14,85,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Standard,npxG + xA,0.26,88,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Shooting,Goals,0.03,49,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Shooting,Shots Total,2.26,99,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Shooting,Shots on target,0.64,98,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Shooting,Shots on target %,28.4,65,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Shooting,Goals/Shot,0.01,49,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Shooting,Goals/Shot on target,0.04,45,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Shooting,Average Shot Distance,21.5,21,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Shooting,Shots from free kicks,0.03,83,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Shooting,Penalty Kicks Made,0,50,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Shooting,Penalty Kicks Attempted,0,50,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Shooting,xG,0.11,89,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Shooting,Non-Penalty xG,0.11,89,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Shooting,npxG/Sh,0.05,35,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Shooting,Goals - xG,-0.09,2,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Shooting,Non-Penalty Goals - npxG,-0.09,2,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Passing,Passes Completed,76.75,98,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Passing,Passes Attempted,91.53,99,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Passing,Pass Completion %,83.9,92,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Passing,Total Passing Distance,1377.19,96,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Passing,Progressive Passing Distance,402.45,92,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Passing,Passes Completed (Short),36.37,98,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Passing,Passes Attempted (Short),39.38,98,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Passing,Pass Completion % (Short),92.4,94,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Passing,Passes Completed (Medium),31.57,97,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Passing,Passes Attempted (Medium),36.42,98,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Passing,Pass Completion % (Medium),86.7,89,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Passing,Passes Completed (Long),8.28,96,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Passing,Passes Attempted (Long),13.44,94,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Passing,Pass Completion % (Long),61.6,88,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Passing,Assists,0.2,88,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Passing,xG Assisted,0.14,85,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Passing,Key Passes,1.09,70,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Passing,Passes into Final Third,7.42,97,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Passing,Passes into Penalty Area,2.65,98,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Passing,Crosses into Penalty Area,0.36,47,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Passing,Progressive Passes,7.64,97,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Passes Attempted,91.53,99,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Live-ball passes,82.11,98,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Dead-ball passes,9.43,53,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Passes from Free Kicks,1.42,85,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Through Balls,0.17,92,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Passes Under Pressure,8.23,91,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Switches,2.76,94,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Crosses,2.87,82,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Corner Kicks,0.03,47,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Inswinging Corner Kicks,0.03,58,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Outswinging Corner Kicks,0,30,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Straight Corner Kicks,0,41,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Ground passes,63.56,97,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Low Passes,13.72,93,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,High Passes,14.25,75,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Passes Attempted (Left),10.51,55,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Passes Attempted (Right),69.14,98,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Passes Attempted (Head),2.71,80,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Throw-Ins taken,7.98,50,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Passes Attempted (Other),0.2,75,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Passes Completed,76.75,98,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Passes Offside,0.25,25,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Passes Out of Bounds,1.51,6,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Passes Intercepted,2.98,2,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Pass Types,Passes Blocked,1.95,31,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Goal and Shot Creation,Shot-Creating Actions,2.87,87,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Goal and Shot Creation,SCA (PassLive),2.29,91,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Goal and Shot Creation,SCA (PassDead),0,13,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Goal and Shot Creation,SCA (Drib),0.2,91,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Goal and Shot Creation,SCA (Sh),0.33,99,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Goal and Shot Creation,SCA (Fld),0.03,32,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Goal and Shot Creation,SCA (Def),0.03,53,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Goal and Shot Creation,Goal-Creating Actions,0.45,93,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Goal and Shot Creation,GCA (PassLive),0.31,91,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Goal and Shot Creation,GCA (PassDead),0,34,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Goal and Shot Creation,GCA (Drib),0.03,91,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Goal and Shot Creation,GCA (Sh),0.08,94,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Goal and Shot Creation,GCA (Fld),0,42,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Goal and Shot Creation,GCA (Def),0.03,89,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,Tackles,2.48,68,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,Tackles Won,1.51,74,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,Tackles (Def 3rd),0.86,18,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,Tackles (Mid 3rd),1,87,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,Tackles (Att 3rd),0.61,98,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,Dribblers Tackled,0.98,51,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,Dribbles Contested,2.31,74,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,% of dribblers tackled,42.2,21,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,Dribbled Past,1.34,18,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,Pressures,9.68,15,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,Successful Pressures,3.32,30,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,Successful Pressure %,34.3,86,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,Pressures (Def 3rd),2.96,4,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,Pressures (Mid 3rd),3.85,22,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,Pressures (Att 3rd),2.87,78,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,Blocks,1.26,6,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,Shots Blocked,0.11,2,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,Shots Saved,0.03,79,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,Passes Blocked,1.14,15,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,Interceptions,2.09,58,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,Tkl+Int,4.57,65,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,Clearances,1.56,18,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Defense,Errors,0,67,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Touches,103.58,99,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Touches (Def Pen),2.06,6,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Touches (Def 3rd),16.96,28,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Touches (Mid 3rd),55.58,97,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Touches (Att 3rd),38.29,98,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Touches (Att Pen),3.32,89,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Touches (Live-Ball),94.46,99,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Dribbles Completed,1.48,91,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Dribbles Attempted,2.93,94,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Successful Dribble %,50.5,40,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Players Dribbled Past,1.65,92,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Nutmegs,0.33,97,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Carries,75.44,99,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Total Carrying Distance,329.68,99,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Progressive Carrying Distance,180.11,99,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Progressive Carries,10.15,98,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Carries into Final Third,3.85,98,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Carries into Penalty Area,0.98,94,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Miscontrols,0.78,44,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Dispossessed,0.81,47,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Pass Targets,78.96,99,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Passes Received,75.83,99,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Passes Received %,96,94,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Possession,Progressive Passes Rec,3.54,82,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Miscellaneous Stats,Yellow Cards,0.2,36,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Miscellaneous Stats,Red Cards,0,55,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Miscellaneous Stats,Second Yellow Card,0,53,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Miscellaneous Stats,Fouls Committed,1.03,53,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Miscellaneous Stats,Fouls Drawn,1.03,59,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Miscellaneous Stats,Offsides,0.06,46,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Miscellaneous Stats,Crosses,2.87,82,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Miscellaneous Stats,Interceptions,2.09,58,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Miscellaneous Stats,Tackles Won,1.51,74,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Miscellaneous Stats,Penalty Kicks Won,0,46,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Miscellaneous Stats,Penalty Kicks Conceded,0,66,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Miscellaneous Stats,Own Goals,0,56,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Miscellaneous Stats,Ball Recoveries,9.73,87,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Miscellaneous Stats,Aerials won,1.37,56,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Miscellaneous Stats,Aerials lost,1.26,56,3227,2021-2022 Premier League
+João Cancelo,Fullbacks,Miscellaneous Stats,% of Aerials Won,52.1,56,3227,2021-2022 Premier League

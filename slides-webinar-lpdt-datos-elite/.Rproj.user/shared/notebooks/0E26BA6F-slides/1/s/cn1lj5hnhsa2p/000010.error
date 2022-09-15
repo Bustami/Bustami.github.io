@@ -1,0 +1,1 @@
+{"frames":[{"func":"fb_player_urls(teams_url[1])","file":"","line_number":0,"end_line_number":0,"character_number":0,"end_character_number":0},{"func":"xml2::read_html(team_url)","file":"","line_number":0,"end_line_number":0,"character_number":0,"end_character_number":0}],"message":"Error in xml2::read_html(team_url) : object 'teams_url' not found\n"}
